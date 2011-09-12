@@ -1,0 +1,8 @@
+--- 
+wordpress_id: 52207330
+layout: post
+wordpress_url: http://joshkerr.com/post/52207330
+title: I love Shiner Black beer
+category: cool
+---
+<p>Shiner Black is my new little friend.</p>

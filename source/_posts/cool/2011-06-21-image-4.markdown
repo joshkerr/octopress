@@ -1,0 +1,20 @@
+--- 
+layout: post
+title: If I only needed a phone
+category: cool
+tags: 
+- Image
+status: publish
+type: post
+published: true
+meta: 
+  image: http://30.media.tumblr.com/tumblr_ln5ryaHXEy1qz9lkro1_500.jpg
+  soy_show_title: "Yes"
+  soy_box_size: Default (310px)
+  _edit_last: "1"
+  soy_show_desc: "Yes"
+  soy_post_style: Normal
+---
+<img src="http://30.media.tumblr.com/tumblr_ln5ryaHXEy1qz9lkro1_500.jpg">
+
+<p>I only use my mobile phone these days, but if I did need a handset, this would be the one I'd want.</p>

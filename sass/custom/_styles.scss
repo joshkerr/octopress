@@ -1,2 +1,22 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+
+#josh-frame{
+	height: 164px;
+	width: 200px;
+	background-color: #fff;
+	padding: 5px;
+	border: 1px solid #aaa;
+	margin-bottom: 10px;
+}
+
+#josh-headshot{
+	background-image: url(http://joshkerr.s3.amazonaws.com/images/cameragreysm.png);
+	height: 164px;
+	width: 200px;
+	background-repeat: no-repeat;
+
+	margin-left: auto;
+	margin-right: auto;
+}

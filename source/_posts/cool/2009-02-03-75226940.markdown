@@ -1,0 +1,8 @@
+--- 
+wordpress_id: 75226940
+layout: post
+wordpress_url: http://joshkerr.com/post/75226940
+category: cool
+title: Bad photo of me
+---
+<img src="http://27.media.tumblr.com/riusqHSdhjhne9txgxKQV3nHo1_500.png" alt=""/><br/><br/>

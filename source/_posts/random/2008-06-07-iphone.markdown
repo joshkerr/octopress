@@ -1,0 +1,9 @@
+--- 
+wordpress_id: 37542787
+layout: post
+title: iPhone.
+wordpress_url: http://joshkerr.com/post/37542787
+category: random
+---
+<p>I did get around to jailbreaking my iPhone.  I did it about six months ago but quickly restored my phone to the non-jailbreak status because there weren't any decent apps available.</p>
+<p>A week ago I jailbroke it again and now there are great apps for it.  There has certainly been a lot of development for the iPhone over the last six months.  My iPhone will stay jailbroken until the official apps appear.</p>

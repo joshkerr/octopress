@@ -1,0 +1,9 @@
+--- 
+layout: post
+title: Sick car, great photo
+category: cool
+status: publish
+type: post
+published: true
+---
+<img src="http://26.media.tumblr.com/tumblr_ln7q24dJ6Y1qz9lkro1_500.jpg"/><br/><br/>

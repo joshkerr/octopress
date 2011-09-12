@@ -1,0 +1,8 @@
+--- 
+wordpress_id: 571351116
+layout: post
+title: Mars Edit 3.0
+wordpress_url: http://joshkerr.com/post/571351116
+category: cool
+---
+<p>The new <a href="http://www.red-sweater.com/marsedit/">Mars Edit </a> blog software for the Mac is really cool.  I'm loving the rich text editor.  This was my official blog software for the Mac, mainly because Windows Live Writer doesn't come in a Mac version and I used it reluctantly because it was missing some features that WLW had.  Now version 3.0 of Mars Edit has those features and I'm happily using it now.  Thanks!</p>

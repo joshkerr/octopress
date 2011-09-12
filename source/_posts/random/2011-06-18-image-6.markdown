@@ -1,0 +1,14 @@
+--- 
+layout: post
+title: More tilt-shift photography
+category:  random
+tags: 
+- Photos
+- Image
+status: publish
+type: post
+published: true
+---
+{% embedly http://30.media.tumblr.com/tumblr_ln0vhaqm9W1qz9lkro1_500.jpg %}
+
+<p>I really dig the effects of tilt-shift photography.</p>

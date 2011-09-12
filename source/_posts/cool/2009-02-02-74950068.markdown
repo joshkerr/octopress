@@ -1,0 +1,8 @@
+--- 
+wordpress_id: 74950068
+layout: post
+wordpress_url: http://joshkerr.com/post/74950068
+title: Giants win the superbowl!
+category: cool
+---
+<p>Just finished the Superbowl.  It was an exciting game but not nearly as good as last years.  I'm a Giants fan so call my biased.</p>

@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: My girl digs squirrels
+category: random
+tags: 
+- Photos
+- Image
+status: publish
+type: post
+published: true
+---
+{% embedly http://25.media.tumblr.com/tumblr_ln12giWd0v1qz9lkro1_500.jpg %}
