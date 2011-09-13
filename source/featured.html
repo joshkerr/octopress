@@ -1,0 +1,32 @@
+---
+layout: page
+title: Category featured
+category: featured
+permalink: /featured/
+---
+
+<p>Posts which seem to get a higher volume of traffic.  I'm not sure why, maybe because they are more useful, or maybe I got a lucky trackback.  If I worked hard on a post (ie: it took me longer to write it,) I might stick it here for the extra visibility.</p>
+
+ <p>Total featured posts: {{ site.categories.featured.size }}</p>
+
+
+<ul class="archive">
+	
+  {% for post in site.categories[page.category] %}
+
+    {% unless post.next %}
+      <h3>{{ post.date | date: '%Y' }}</h3>
+    {% else %}	
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        <h3>{{ post.date | date: '%Y' }}</h3>
+      {% endif %}
+    {% endunless %}
+
+    <li>
+        <div class="archive-date">{{ post.date | date: "%b %d, %Y"  }}</div> 
+        <div class="archive-link"><a href="{{ post.url }}">{{ post.title }}</a></div>
+    </li>
+  {% endfor %}
+</ul>
