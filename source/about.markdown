@@ -71,11 +71,13 @@ I've only recently started working with these technologies, so the blog could be
 
 ### Update
 
-I'm still using Jekyll to power the blog, but the site is now totally static.  I'm grabbing my Delicious feeds and Embedly links at compile time to generate what appears to be dynamic content, but is actually just generated static content.
+I'm still using [Jekyll] to power the blog, but the site is now totally static.  I'm grabbing my Delicious feeds and Embedly links at compile time to generate what appears to be dynamic content, but is actually just generated static content.
 
 I've been able to accelerate my site using [Cloud Flare][] a really cool service that sits between my site and the Internet.  In addition to security, [Cloud Flare] also adds features and performance.  For example, if you highlight any word on the site, you get a special lookup that tells you more about that word.
 
+Powered by [Octopress] a static blogging package built around [Jekyll]
 
+[Octopress]: http://www.octopress.org
 [Cloud Flare]:http://www.cloudflare.com
 [Stefania]:http://www.stefaniagentile.com
 [PhotoOfJosh]:http://joshkerr.s3.amazonaws.com/images/joshincarwithjack.png
@@ -87,4 +89,4 @@ I've been able to accelerate my site using [Cloud Flare][] a really cool service
 [Ohm]:http://github.com/soveran/ohm
 [Feedzirra]:http://github.com/pauldix/feedzirra
 [Capital Factory]:http://www.capitalfactory.com
-[Tech Crunch: Inside Capital Factory Demo Day]:http://techcrunch.com/2011/09/09/austin%E2%80%99s-capital-factory-2011-demo-day/
+[Tech Crunch Inside Capital Factory Demo Day]:http://techcrunch.com/2011/09/09/austin%E2%80%99s-capital-factory-2011-demo-day/

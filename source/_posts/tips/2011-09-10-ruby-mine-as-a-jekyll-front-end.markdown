@@ -8,6 +8,8 @@ category: tips
 
 Ruby Mine is a powerful editor from the folks at [Jet Brains] that is designed for full on Ruby on Rails development, but actually makes a nice front end for managing your Jekyll site.
 
+<!-- more -->
+
 <img src="http://i.imgur.com/mUEwQ.png">
 
 Ruby Mine does a nice job of executing your Rake tasks so I use it to deploy my Jekyll site via a toolbar button.  True, you can achieve this same functionality with other code editors, but Ruby Mine parses your Rake file and makes these functions available to you with little to no effort on your part.

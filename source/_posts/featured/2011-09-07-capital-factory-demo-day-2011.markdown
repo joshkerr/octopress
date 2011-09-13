@@ -13,7 +13,11 @@ Today was Demo Day at [Capital Factory] where 5 mentored companies showed their 
 
 This was my first year as a Capital Factory mentor and I was lead mentor on a startup called [HelpJuice].  Emil, an 18 year old Bosnian founded [HelpJuice] and joined Capital Factory shortly before launching a beta of this product.  Today was the culimnation of 3 months of hard work and a coming out for Emil as he demoed his product in front of many enthusiastic members of the press and investors who would likely invest in his company.
 
-To say it was a successful day is an understatement.  Emil and the other [Capital Factory] companies shined in what was no only a great success for the early stage startup incubator, but for Austin proper as out of state money flowed in to what is becoming a bigger challenge to Silicon Valley for more of the startup investment cash.  
+<!-- more -->
+
+{% pullquote %}
+{" To say it was a successful day is an understatement. "}  Emil and the other [Capital Factory] companies shined in what was no only a great success for the early stage startup incubator, but for Austin proper as out of state money flowed in to what is becoming a bigger challenge to Silicon Valley for more of the startup investment cash.
+{% endpullquote %}
 
 At the Angel level (which all [Capital Factory] companies were looking to raise) Austin is a breeding ground for great ideas as the community fosters innovation and does away with petty competition instead providing a solid foundation for growth and easy access to adult supervision, the experienced mentors who help guide your path.
 

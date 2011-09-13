@@ -10,6 +10,8 @@ category: featured
 
 The money stolen wasn't actual US currency, but the value is about 150 million ISK to 15 USD.  So the total amount stolen is about $7K USD, but in the game, the 1 Trillion is actually a lot of cash.
 
+<!-- more -->
+
 So how did these two guys do it?  Well, they setup an investment company.  Users registered for an account and then deposited game currency.  Depositers were promised a return on their investement and for a time, were actually paid interest and were allowed to withdraw their money.  At the peak there was over 1.8 trillion invested.  
 
 At some point in time, the [Phaser, Inc.] guys decide to steal the invested cash.  So they took 1 trillion ISK and shutdown the system.  

@@ -12,6 +12,8 @@ I'm also using [Jekyll][] which is a static blogging app to pre-generate my site
 
 First, you'll want to make sure you've got both Jekyll and IA Writer installed.  With that done, just add the following to your rake file:
 
+<!-- more -->
+
 {% highlight ruby %}
 
 desc 'Begin a new post'

@@ -15,6 +15,8 @@ export CLICOLOR=1;
 PS1='\[\033[01;32m\]\u\[\033[01;34m\]::\[\033[01;31m\]\h \[\033[00;34m\]{ \[\033[01;34m\]\w \[\033[00;34m\]}\[\033[01;3$\[\033[00m\]'
 {% endhighlight %}
 
+<!-- more -->
+
 When you are done, you will need to logout.  When you log back on, your Terminal should look something like this:
 
 ![BashPrompt][]

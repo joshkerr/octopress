@@ -10,6 +10,8 @@ Leave it to the folks at Google to create a very ajaxy way to add search that in
 
 First, you need a Google code API key which you can get [here].
 
+<!-- more -->
+
 Second, you need to add this code before your html head tag:
 
 {% highlight html %}

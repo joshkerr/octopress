@@ -6,6 +6,9 @@ category: tips
 ---
 > I came across these outstanding command prompt shortcuts on [Skorks] and had to post them.  I originally bookmarked them via Delicious, but they are so good that I had to create a post out of them.
 
+
+<!-- more -->
+
 {% highlight bash %}
 
 Command Editing Shortcuts
