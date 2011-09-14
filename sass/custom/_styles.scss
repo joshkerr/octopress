@@ -23,3 +23,30 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+body > header h1{display:inline-block;margin:0}
+body > header h1{text-shadow:rgba(0,0,0,0.8) 0 0 8px;font-size:5em;line-height:.8em;position:relative;margin:0;letter-spacing: -16px;font-weight: bold;}
+
+body > header hgroup{text-align:center;position:relative;padding:.5em 0;margin:0 auto}
+body > header hgroup{padding:0 0 1em}
+body > header hgroup{left:-3.7em;}
+body > header h1:after{content:"";position:absolute;left:0;right:0;top:.1em;height:227px;text-indent:-119988px;overflow:hidden;text-align:left;background-image:url('http://i.imgur.com/YgTjX.png');background-repeat:no-repeat;background-position:50% 50%}
+
+body > header h1:after{width:227px;height:227px}
+body > header h1:after{position:absolute;top:-0.15em;right:-0.8em;left:auto;width:1.6em;height:1.6em;-moz-background-size:100%;-webkit-background-size:100%;-o-background-size:100%;background-size:100%}
+
+.heading,body > header h1,h1,h2,h3,h4,h5,h6{font-family:"PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif}
+
+.sans,body > header h2,body > nav form .search,body > nav a,article header p.meta,article > footer,#content .blog-index footer,html .gist .gist-file .gist-meta,#blog-archives a.category,#blog-archives time,aside[role=sidebar] section,body > footer{font-family:"PT Sans", "Helvetica Neue", Arial, sans-serif}
+
+body > header h2{margin:.2em 0 0;font-size:1em;color:#bac7da;font-weight:normal}
+body > header h2{font-size:1.6em;position:relative;top:.4em}
+body > header h2{margin:0 0 .3em;font-size:1.2em;color:#bac7da;position:relative;left:-1.6em;top:0;text-shadow:#263347 0 1px 1px}
+
+body > header h2{top:.4em}
+h2,section h1{font-size:1.5em}
+
+body > header h1 {
+font-family:"PT Sans", "Helvetica Neue", Arial, sans-serif;
+text-transform: uppercase;
+}
