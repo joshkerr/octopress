@@ -75,7 +75,7 @@ I'm still using [Jekyll] to power the blog, but the site is now totally static. 
 
 I've been able to accelerate my site using [Cloud Flare][] a really cool service that sits between my site and the Internet.  In addition to security, [Cloud Flare] also adds features and performance.  For example, if you highlight any word on the site, you get a special lookup that tells you more about that word.
 
-Powered by [Octopress] a static blogging package built around [Jekyll]
+Powered by [Octopress] a static blogging package built around [Jekyll] and running on Heroku.
 
 [Octopress]: http://www.octopress.org
 [Cloud Flare]:http://www.cloudflare.com
