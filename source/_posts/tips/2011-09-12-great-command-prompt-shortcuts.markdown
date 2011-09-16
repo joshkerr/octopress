@@ -9,7 +9,7 @@ category: tips
 
 <!-- more -->
 
-{% highlight bash %}
+{% codeblock Convert script into app  %}
 
 Command Editing Shortcuts
 
@@ -58,7 +58,7 @@ Bash also has some handy features that use the ! (bang) to allow you to do some 
 !* – the previous command except for the last word (e.g. if you type ‘find some_file.txt /‘, then !* would give you ‘find some_file.txt‘)
 !*:p – print out what !* would substitute
 
-{% endhighlight %}
+{% endcodeblock %}
 
 Courtesy of [Skorks].
 

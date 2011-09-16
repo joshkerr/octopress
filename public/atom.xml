@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Josh Kerr</title>
+  <link href="http://joshkerr.com/atom.xml" rel="self"/>
+  <link href="http://joshkerr.com/"/>
+  <updated>2011-09-16T11:32:45-05:00</updated>
+  <id>http://joshkerr.com/</id>
+  <author>
+    <name>Josh Kerr</name>
+    
+  </author>
+
+  
+  <entry>
+    <title>Sick Downhill Ride From Danny Hart</title>
+    <link href="http://joshkerr.com/blog/2011/09/sick-downhill-ride-from-danny-hart/"/>
+    <updated>2011-09-16T11:04:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/sick-downhill-ride-from-danny-hart</id>
+    <content type="html">&lt;blockquote&gt;&lt;p&gt;Danny Hart does a sick downhill ride to beat the other competitors by over 11 seconds.  Listening to the announcers call it, you&amp;#8217;d think he became the world champion.  Wait..   He did.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;object width=&quot;640&quot; height=&quot;360&quot; classid=&quot;clsid:D27CDB6E-AE6D-11cf-96B8-444553540000&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://player.freecaster.com/FCPlayer.swf?id=dj0xMDE3NjE4JmM9MTAwMDAwNg&quot;/&gt;&lt;param name=&quot;allowfullscreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://player.freecaster.com/FCPlayer.swf?id=dj0xMDE3NjE4JmM9MTAwMDAwNg&quot; width=&quot;640&quot; height=&quot;360&quot; type=&quot;application/x-shockwave-flash&quot; allowfullscreen=&quot;true&quot; allowscriptaccess=&quot;always&quot; /&gt;&lt;/object&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Create Mac App From Shell Script</title>
+    <link href="http://joshkerr.com/blog/2011/09/create-mac-app-from-shell-script/"/>
+    <updated>2011-09-16T10:13:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/create-mac-app-from-shell-script</id>
+    <content type="html">&lt;blockquote&gt;&lt;p&gt;Great article showing how to convert a shell script into a Mac app.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;figure role=code&gt;&lt;figcaption&gt;&lt;span&gt;Convert script into app &lt;/span&gt;&lt;a href=&#8217;http://mathiasbynens.be/notes/shell-script-mac-apps&#8217;&gt;Matias Bynens Website &lt;/a&gt;&lt;/figcaption&gt; &lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;2&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;3&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;4&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;5&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;6&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;7&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;8&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;9&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;10&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;11&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;12&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;13&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;14&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;15&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217; width=&#8217;100%&#8217;&gt;&lt;pre&gt;&lt;code class=&#8217;bash&#8217;&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;nv&quot;&gt;APPNAME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:-$(&lt;/span&gt;basename &lt;span class=&quot;s2&quot;&gt;&amp;quot;$1&amp;quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;.sh&amp;quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)}&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;nv&quot;&gt;DIR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;$APPNAME.app/Contents/MacOS&amp;quot;&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[[&lt;/span&gt; -a &lt;span class=&quot;s2&quot;&gt;&amp;quot;$APPNAME.app&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;k&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$PWD/$APPNAME.app already exists :(&amp;quot;&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;  &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;1
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;mkdir -p &lt;span class=&quot;s2&quot;&gt;&amp;quot;$DIR&amp;quot;&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;cp &lt;span class=&quot;s2&quot;&gt;&amp;quot;$1&amp;quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$DIR/$APPNAME&amp;quot;&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;chmod +x &lt;span class=&quot;s2&quot;&gt;&amp;quot;$DIR/$APPNAME&amp;quot;&lt;/span&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$PWD/$APPNAME.app&amp;quot;&lt;/span&gt;
+&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://mathiasbynens.be/notes/shell-script-mac-apps&quot;&gt;Mathias Bynens on converting script into App&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Watch Out for Chuck Testa</title>
+    <link href="http://joshkerr.com/blog/2011/09/watch-out-for-chuck-testa/"/>
+    <updated>2011-09-15T07:12:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/watch-out-for-chuck-testa</id>
+    <content type="html">&lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;640&quot; height=&quot;360&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/LJP1DphOWPs?version=3&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/LJP1DphOWPs?version=3&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;640&quot; height=&quot;360&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
+
+
+&lt;blockquote&gt;&lt;p&gt;Funniest low cost commercial I&amp;#8217;ve ever seen.  At the end &amp;#8220;Chuck Testa does not taxidermize pets!&amp;#8221;&lt;/p&gt;&lt;/blockquote&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>This? on NY Times Fashion Blog?</title>
+    <link href="http://joshkerr.com/blog/2011/09/this-on-nytimes-fashion-blog/"/>
+    <updated>2011-09-14T14:49:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/this-on-nytimes-fashion-blog</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/SBave.png&quot; alt=&quot;Is this for real?&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;I saw this on the New York Times fashion blog and I thought&amp;#8230;  really?&lt;/p&gt;&lt;/blockquote&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Windows 8 Is Looking Good</title>
+    <link href="http://joshkerr.com/blog/2011/09/windows-8-is-looking-good/"/>
+    <updated>2011-09-14T00:29:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/windows-8-is-looking-good</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/JGokf.jpg&quot; alt=&quot;Windows 8 Metro Interface&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Microsoft kicked off its build conference today (this is their developer conference) and demoed the much anticipated Windows 8.&lt;/p&gt;
+
+&lt;p&gt;Windows 8 is supposed to be Microsoft&amp;#8217;s answer to Apple&amp;#8217;s Lion/iOS combo.  It is going to be their Tablet and PC OS allowing you to use a touch interface or a full app interface.  This is where I think Microsoft nailed it.  Anything you can do in the full Windows OS interface you can do with their new Metro touch interface.&lt;/p&gt;
+
+&lt;p&gt;Microsoft also showed off their new runtime libraries which allow you to write apps in web technologies.  Javascript, CSS, HTML5, etc..  This is an amazing feat and one that should level the field between Apple and all the other tablet competitors.&lt;/p&gt;
+
+&lt;p&gt;I think they hit it out of the park today.  What they announced is pretty fantastic and if they can deliver on it and quickly, they might give PC makers the shot they&amp;#8217;ve been looking for in going after Apple.  I just don&amp;#8217;t see how Android will be able to compete a year from now.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>I Was Looking for a Delicious App for Mac</title>
+    <link href="http://joshkerr.com/blog/2011/09/i-was-looking-for-a-delicious-app-for-mac/"/>
+    <updated>2011-09-13T15:31:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/i-was-looking-for-a-delicious-app-for-mac</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/lgmd6.png&quot; alt=&quot;Is that Zosh in the screenshot?&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So I&amp;#8217;m browsing the net looking for a &lt;a href=&quot;http://www.delicious.com/&quot;&gt;Delicious&lt;/a&gt; client for the Mac and I find this page which has a lovely screenshot with &lt;a href=&quot;http://www.zosh.com&quot;&gt;Zosh&lt;/a&gt; in it!  For those of you that don&amp;#8217;t know, Zosh is my former startup that I co-founded and eventually sold to YouSendIt.&lt;/p&gt;
+
+&lt;p&gt;What are the odds that someone has a screenshot of my startup&amp;#8217;s homepage on their product website?  Awesome!&lt;/p&gt;
+
+&lt;p&gt;See their website: &lt;a href=&quot;http://pinepointsoftware.com/delish/site/&quot;&gt;Delish&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>The Best Music Discovery Service</title>
+    <link href="http://joshkerr.com/blog/2011/09/the-best-music-discover-service-you-cant-use/"/>
+    <updated>2011-09-13T13:34:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/the-best-music-discover-service-you-cant-use</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/hZSPe.png&quot; alt=&quot;DJ&#8217;s mixing some tunes on Turntable.fm&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m a big fan of &lt;a href=&quot;http://www.turntable.fm&quot;&gt;Turntable.fm&lt;/a&gt; the music discovery service that lets you and your friends DJ rooms.  You can up or downvote the DJ and or the current song playing.  You can create rooms with certain music genres and decide whether to be a DJ or fan.  DJ&amp;#8217;s stand in line waiting for their turn.  You continue to spin records as long as the listeners in the room like your music.&lt;/p&gt;
+
+&lt;p&gt;The big neato factor for me is that it allows me to build playlists from currently playing songs. I can replay those songs and or link to them in iTunes, Spotify, or Amazon.&lt;/p&gt;
+
+&lt;p&gt;Its a great service, but its invite only.  I don&amp;#8217;t remember how I got invited, but I love it.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Do You Want to Blow Up the Earth SciFi Style?</title>
+    <link href="http://joshkerr.com/blog/2011/09/do-you-want-to-blow-up-the-earth-scifi-style/"/>
+    <updated>2011-09-13T07:58:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/do-you-want-to-blow-up-the-earth-scifi-style</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/ow39r.jpg&quot; alt=&quot;Deathstar blowing up in Starwars&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So you want to blow up the earth SciFi style?  Think again.  Astronomer Phil Plait from the Discovery Channel gives us reasons why it can&amp;#8217;t be done.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Math is easy, energy&amp;#8230; not so much&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;The amount of energy it would take to destroy the earth is so massive, over  200,000,000,000,000,000,000,000,000,000,000 joules of it, that you would need to harness all of the output of the sun for over a week.  That&amp;#8217;s quite a bit.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blastr.com/2011/09/astronomer-explains-why-w.php?utm_campaign=Feed%3A+http%3A%2F%2Fservices.digg.com%2F2.0%2Fstory.getTopNews%3Ftype%3Drss&amp;amp;utm_medium=feed&amp;amp;utm_source=diggapi&quot;&gt;3 Reasons why we can&amp;#8217;t blow up the earth SciFi style&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Octopress Is a Great Jekyll Blogging System</title>
+    <link href="http://joshkerr.com/blog/2011/09/octopress-is-a-great-jekyll-blogging-system/"/>
+    <updated>2011-09-12T16:47:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/octopress-is-a-great-jekyll-blogging-system</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/0HT9J.png&quot; alt=&quot;Octopress is the shizz&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I don&amp;#8217;t know how I missed this, but it appears that someone has taken &lt;a href=&quot;http://www.jekyllrb.org&quot;&gt;Jekyll&lt;/a&gt; and packaged it with a great theme and a whole slew of plugins.  This package called &lt;a href=&quot;http://www.octopress.org&quot;&gt;Octopress&lt;/a&gt; is a fantastic static blogging package that in my opinion matches what you&amp;#8217;d get with &lt;a href=&quot;http://www.wordpress.org&quot;&gt;Wordpress&lt;/a&gt; straight out of the box.&lt;/p&gt;
+
+&lt;p&gt;I actually prefer the Octopress default theme to &lt;a href=&quot;http://www.wordpress.org&quot;&gt;Wordpress&lt;/a&gt;&amp;#8217;s.  A great side benefit to using &lt;a href=&quot;http://www.octopress.org&quot;&gt;Octopress&lt;/a&gt; is that it takes advantage of some of the newer more cutting edge technologies like &lt;a href=&quot;http://sass-lang.com/&quot;&gt;SASS&lt;/a&gt; and &lt;a href=&quot;http://compass-style.org/&quot;&gt;Compass&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It took me all of 10 minutes to migrate to Octopress.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>The details of the greatest online game scam</title>
+    <link href="http://joshkerr.com/blog/2011/09/the-details-of-the-greatest-online-game-scam/"/>
+    <updated>2011-09-12T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/the-details-of-the-greatest-online-game-scam</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/Rhoye.jpg&quot; alt=&quot;Eve Online&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.eveonline.com&quot;&gt;Eve&lt;/a&gt; is a fantastic space MMORPG that has a very sophisticated monetary system very much like the US, but without the regulation.  So, two guys decide to create a financial institution called &lt;a href=&quot;http://www.phaserinc.com/index1.html&quot;&gt;Phaser, Inc.&lt;/a&gt; and go on to scam gamers out of a Trillion dollars of online money.&lt;/p&gt;
+
+&lt;p&gt;The money stolen wasn&amp;#8217;t actual US currency, but the value is about 150 million ISK to 15 USD.  So the total amount stolen is about $7K USD, but in the game, the 1 Trillion is actually a lot of cash.&lt;/p&gt;
+
+&lt;!&#8211; more &#8211;&gt;
+
+
+&lt;p&gt;So how did these two guys do it?  Well, they setup an investment company.  Users registered for an account and then deposited game currency.  Depositers were promised a return on their investement and for a time, were actually paid interest and were allowed to withdraw their money.  At the peak there was over 1.8 trillion invested.&lt;/p&gt;
+
+&lt;p&gt;At some point in time, the &lt;a href=&quot;http://www.phaserinc.com/index1.html&quot;&gt;Phaser, Inc.&lt;/a&gt; guys decide to steal the invested cash.  So they took 1 trillion ISK and shutdown the system.&lt;/p&gt;
+
+&lt;p&gt;An amazing online heist that shows you that even gamers can be suckers.  Who can you trust these days?&lt;/p&gt;
+
+&lt;p&gt;More on the scam written by the scammers themselves: &lt;a href=&quot;http://www.phaserinc.com/index1.html&quot;&gt;Phaser, Inc.&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Great command prompt shortcuts</title>
+    <link href="http://joshkerr.com/blog/2011/09/great-command-prompt-shortcuts/"/>
+    <updated>2011-09-12T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/great-command-prompt-shortcuts</id>
+    <content type="html">&lt;blockquote&gt;&lt;p&gt;I came across these outstanding command prompt shortcuts on &lt;a href=&quot;http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/&quot;&gt;Skorks&lt;/a&gt; and had to post them.  I originally bookmarked them via Delicious, but they are so good that I had to create a post out of them.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;!&#8211; more &#8211;&gt;
+
+
+
+
+&lt;figure role=code&gt;&lt;figcaption&gt;&lt;span&gt;Convert script into app  &lt;/span&gt;&lt;/figcaption&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;2&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;3&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;4&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;5&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;6&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;7&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;8&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;9&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;10&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;11&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;12&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;13&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;14&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;15&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;16&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;17&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;18&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;19&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;20&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;21&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;22&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;23&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;24&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;25&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;26&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;27&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;28&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;29&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;30&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;31&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;32&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;33&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;34&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;35&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;36&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;37&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;38&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;39&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;40&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;41&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;42&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;43&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;44&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;45&lt;/span&gt;
+&lt;span class=&#8217;line&#8217;&gt;46&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217; width=&#8217;100%&#8217;&gt;&lt;pre&gt;&lt;code class=&#8221;&gt;&lt;div class=&#8217;line&#8217;&gt;Command Editing Shortcuts
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + a – go to the start of the command line
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + e – go to the end of the command line
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + k – delete from cursor to the end of the command line
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + u – delete from cursor to the start of the command line
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + w – delete from cursor to start of word (i.e. delete backwards one word)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + y – paste word or text that was cut using one of the deletion shortcuts (such as the one above) after the cursor
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + xx – move between start of command line and current cursor position (and back again)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + b – move backward one word (or go to start of word the cursor is currently on)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + f – move forward one word (or go to end of word the cursor is currently on)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + d – delete to end of word starting at cursor (whole word if cursor is at the beginning of word)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + c – capitalize to end of word starting at cursor (whole word if cursor is at the beginning of word)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + u – make uppercase from cursor to end of word
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + l – make lowercase from cursor to end of word
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + t – swap current word with previous
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + f – move forward one character
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + b – move backward one character
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + d – delete character under the cursor
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + h – delete character before the cursor
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + t – swap character under cursor with the previous one
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Command Recall Shortcuts
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + r – search the history backwards
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + g – escape from history searching mode
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + p – previous command in history (i.e. walk back through the command history)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + n – next command in history (i.e. walk forward through the command history)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + . – use the last word of the previous command
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Command Control Shortcuts
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + l – clear the screen
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + s – stops the output to the screen (for long running verbose command)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + q – allow output to the screen (if previously stopped using command above)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + c – terminate the command
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + z – suspend/stop the command
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Bash Bang (!) Commands
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Bash also has some handy features that use the ! (bang) to allow you to do some funky stuff with bash commands.
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!! - run last command
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!blah – run the most recent command that starts with ‘blah’ (e.g. !ls)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!blah:p – print out the command that !blah would run (also adds it as the latest command in the command history)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!$ – the last word of the previous command (same as Alt + .)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!$:p – print out the word that !$ would substitute
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!* – the previous command except for the last word (e.g. if you type ‘find some_file.txt /‘, then !* would give you ‘find some_file.txt‘)
+&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!*:p – print out what !* would substitute&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
+
+&lt;p&gt;Courtesy of &lt;a href=&quot;http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/&quot;&gt;Skorks&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>A great video showing how small we are</title>
+    <link href="http://joshkerr.com/blog/2011/09/a-great-video-showing-how-small-we-are/"/>
+    <updated>2011-09-11T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/a-great-video-showing-how-small-we-are</id>
+    <content type="html">&lt;iframe width=&quot;640&quot; height=&quot;510&quot; src=&quot;http://www.youtube.com/embed/17jymDn0W6U&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;blockquote&gt;&lt;p&gt;A friend of mine posted this video and wow, are we small in comparison to the rest of our known universe.  It sort of makes our lives seem to irrelevant.  Video is from the American Museaum of Natural History.&lt;/p&gt;&lt;/blockquote&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Ruby Mine as a Jekyll front end</title>
+    <link href="http://joshkerr.com/blog/2011/09/ruby-mine-as-a-jekyll-front-end/"/>
+    <updated>2011-09-10T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/ruby-mine-as-a-jekyll-front-end</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/smVdS.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Ruby Mine is a powerful editor from the folks at &lt;a href=&quot;http://www.jetbrains.com&quot;&gt;Jet Brains&lt;/a&gt; that is designed for full on Ruby on Rails development, but actually makes a nice front end for managing your Jekyll site.&lt;/p&gt;
+
+&lt;!&#8211; more &#8211;&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/mUEwQ.png&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Ruby Mine does a nice job of executing your Rake tasks so I use it to deploy my Jekyll site via a toolbar button.  True, you can achieve this same functionality with other code editors, but Ruby Mine parses your Rake file and makes these functions available to you with little to no effort on your part.&lt;/p&gt;
+
+&lt;p&gt;Ruby Mine also has an extensive collection of plugins making things like Markdown work nicely. It even has a built in preview function.  I still prefer to use iA Writer for most editing so I let Ruby Mine launch it when creating and editing markdown documents.&lt;/p&gt;
+
+&lt;p&gt;Ruby Mine&amp;#8217;s only downside is that it isn&amp;#8217;t cheap.  A personal license is $69 and a professional license is $150.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Easily add search to a static blog</title>
+    <link href="http://joshkerr.com/blog/2011/09/easily-add-search-to-static-blog/"/>
+    <updated>2011-09-10T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/easily-add-search-to-static-blog</id>
+    <content type="html">&lt;p&gt;Static blog sites like those powered by &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; use a locally running generator to create static content which is uploaded to your web host.  So with a static site, how are you going to power a search engine?&lt;/p&gt;
+
+&lt;p&gt;Leave it to the folks at Google to create a very ajaxy way to add search that integrates quite well with a static site.  Here is a quick tutorial:&lt;/p&gt;
+
+&lt;p&gt;First, you need a Google code API key which you can get &lt;a href=&quot;http://code.google.com/apis/loader/signup.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!&#8211; more &#8211;&gt;
+
+
+&lt;p&gt;Second, you need to add this code before your html head tag:&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;pre&gt;
+    &lt;code class=&#8217;html&#8217;&gt;&amp;lt;script src=&amp;quot;http://www.google.com/jsapi?key=your_api_key&amp;quot; 
+type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script language=&amp;quot;Javascript&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+  
+  google.load(&amp;quot;search&amp;quot;, &amp;quot;1&amp;quot;);
+  
+  function OnLoad() {
+    // Create a search control
+    var searchControl = new google.search.SearchControl();
+    
+    // Add in a WebSearch
+    var webSearch = new google.search.WebSearch();
+    
+    // Restrict our search to pages from this site
+    webSearch.setSiteRestriction(&#8216;your site url&#8217;);
+    
+    // Add the searcher to the SearchControl
+    searchControl.addSearcher(webSearch);
+    
+    // tell the searcher to draw itself and tell it where to attach
+    searchControl.draw(document.getElementById(&amp;quot;search&amp;quot;));
+  }
+  google.setOnLoadCallback(OnLoad);
+  
+&amp;lt;/script&amp;gt;&lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Just replace the API key and the site URL.  Lastly add a simple div tag with the ID = search.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;pre&gt;
+    &lt;code class=&#8217;html&#8217;&gt;&amp;lt;div id=&amp;quot;search&amp;quot;&amp;gt;loading…&amp;lt;/div&amp;gt;&lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;When you are done you&amp;#8217;ll get the search box similar to what you see to the left on this site.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;http://jrmiii.com/2009/03/03/super-easy-sidebar-search-for-jekyll-powered-sites.html&quot;&gt;Joe Martinez&lt;/a&gt; for the tip.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Off duty Storm Troopers</title>
+    <link href="http://joshkerr.com/blog/2011/09/off-duty-storm-troopers/"/>
+    <updated>2011-09-09T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/off-duty-storm-troopers</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/LtGEK.jpg&quot; alt=&quot;StormOff&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hilariously funny photos of Storm Troopers while they are off duty.  Of course they leave their uniforms on while enjoying their leisure time.  Who has time to create this sort of thing?  And why am I so amused by it?&lt;/p&gt;
+
+&lt;!&#8211; more &#8211;&gt;
+
+
+
+
+&lt;div class=&quot;embed rich flickr&quot;&gt;&lt;embed width=&quot;800&quot; height=&quot;450&quot; flashvars=&quot;v=107931&amp;offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2Fkalexanderson%2Fsets%2F72157626416953560%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2Fkalexanderson%2Fsets%2F72157626416953560%2F&amp;set_id=72157626416953560&amp;jump_to=&quot; allowfullscreen=&quot;true&quot; bgcolor=&quot;#000000&quot; src=&quot;http://www.flickr.com/apps/slideshow/show.swf?v=107931&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/div&gt;
+
+
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>I would kill for some Nike Mags</title>
+    <link href="http://joshkerr.com/blog/2011/09/i-would-kill-for-thes-nike-mags/"/>
+    <updated>2011-09-09T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/i-would-kill-for-thes-nike-mags</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/99Y4C.jpg&quot;&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Nike plans to create the Back to the Future II sneakers: Nike Mags and auction them off on eBay starting tonight.  I would kill for these sneakers.  (Don&amp;#8217;t get between me and my auction tonight.)  As a kid, these were pretty much my dream sneakers and for some odd reason, Nike never made them.  Until now.&lt;/p&gt;
+
+&lt;p&gt; Update: I bid on a pair on eBay.&lt;/p&gt;
+
+&lt;p&gt;Tip from &lt;a href=&quot;http://uncrate.com/stuff/nike-mag-sneakers/&quot;&gt;Uncrate&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Capital Factory Demo Day 2011</title>
+    <link href="http://joshkerr.com/blog/2011/09/capital-factory-demo-day-2011/"/>
+    <updated>2011-09-07T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/capital-factory-demo-day-2011</id>
+    <content type="html">&lt;h2&gt;Demo Day&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/1n7nl.jpg&quot; alt=&quot;CapitalShot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Today was Demo Day at &lt;a href=&quot;http://www.capitalfactory.com/&quot;&gt;Capital Factory&lt;/a&gt; where 5 mentored companies showed their wares and 19 other companies pitched to raise money from the 200 or so investors in attendance.&lt;/p&gt;
+
+&lt;p&gt;This was my first year as a Capital Factory mentor and I was lead mentor on a startup called &lt;a href=&quot;http://www.helpjuice.com&quot;&gt;HelpJuice&lt;/a&gt;.  Emil, an 18 year old Bosnian founded &lt;a href=&quot;http://www.helpjuice.com&quot;&gt;HelpJuice&lt;/a&gt; and joined Capital Factory shortly before launching a beta of this product.  Today was the culimnation of 3 months of hard work and a coming out for Emil as he demoed his product in front of many enthusiastic members of the press and investors who would likely invest in his company.&lt;/p&gt;
+
+&lt;!&#8211; more &#8211;&gt;
+
+
+&lt;p&gt;&lt;span class=&#8217;has-pullquote&#8217; data-pullquote=&#8217;To say it was a successful day is an understatement. &#8216;&gt;
+To say it was a successful day is an understatement.  Emil and the other &lt;a href=&quot;http://www.capitalfactory.com/&quot;&gt;Capital Factory&lt;/a&gt; companies shined in what was no only a great success for the early stage startup incubator, but for Austin proper as out of state money flowed in to what is becoming a bigger challenge to Silicon Valley for more of the startup investment cash.
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;At the Angel level (which all &lt;a href=&quot;http://www.capitalfactory.com/&quot;&gt;Capital Factory&lt;/a&gt; companies were looking to raise) Austin is a breeding ground for great ideas as the community fosters innovation and does away with petty competition instead providing a solid foundation for growth and easy access to adult supervision, the experienced mentors who help guide your path.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/oa9nj.jpg&quot; alt=&quot;BobMet&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Bob Metcalfe&lt;/h3&gt;
+
+&lt;p&gt;The keynote speaker was Bob Metcalfe the bloke who invented Ethernet and later founded 3Com and had me grabbing my gut in pain as I rolled in laughter from his dry sarcastic humor.  His experience made more lavish by weaving in personal stories about Steve Jobs provided lots of lessons for not only the novice CEO, but also for those with experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/Hgbd1.jpg&quot; alt=&quot;BrianSharp&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Brian Sharples&lt;/h3&gt;
+
+&lt;p&gt;The other speakers included Brian Sharples the CEO of HomeAway and Auren Hoffman the CEO of RapLeaf.  Both speakers brought a lot of value sharing their own personal experiences and doing post talk question and answer sessions.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/fjuSh.jpg&quot; alt=&quot;AurenHoff&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Auren Hoffman&lt;/h3&gt;
+
+&lt;p&gt;All in all it was a fantastic day for the Austin startup community.  &lt;a href=&quot;http://www.capitalfactory.com/&quot;&gt;Capital Factory&lt;/a&gt; put on a wonderful show and the hard work of the 5 companies who transformed into Cinderella will certainly go on to grow into great success.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>TablSkin 2 overlay helps with tablet typing</title>
+    <link href="http://joshkerr.com/blog/2011/09/tablskin-2-overlay-helps-with-tablet-typing/"/>
+    <updated>2011-09-06T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/tablskin-2-overlay-helps-with-tablet-typing</id>
+    <content type="html">&lt;p&gt;I did this product which helps you type faster on an iPad by giving you tactile keyboard feedback.  Not sure if it helps because I haven&amp;#8217;t tried it, but I like the idea:&lt;/p&gt;
+
+&lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;640&quot; height=&quot;360&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/7Dvrz3Yx6Cw?version=3&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/7Dvrz3Yx6Cw?version=3&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;640&quot; height=&quot;360&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
+
+
+
+
+&lt;p&gt;You can find more here: [TablSkin][]&lt;/p&gt;
+
+
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>How do win a DEMOgod Award at DEMO</title>
+    <link href="http://joshkerr.com/blog/2011/09/how-do-win-a-demogod-award-at-demo/"/>
+    <updated>2011-09-06T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/how-do-win-a-demogod-award-at-demo</id>
+    <content type="html">&lt;p&gt;You have six minutes to summarize the product you&amp;#8217;ve been working on for the past three years. There are 500 journalists and venture capitalists in the audience that you need to impress in order for your business to have a fighting chance. The spot lights are glaring, the room is silent and the red LED clock on a television monitor in front of you is slowly ticking away the valuable seconds that you need in order to build your argument.&lt;/p&gt;
+
+
+&lt;p&gt;This is the stage at the DEMO Spring 2010 conference where I launched &lt;a href=&quot;http://www.zosh.com&quot;&gt;Zosh&lt;/a&gt;, the mobile document execution platform that lets you fill out, sign and return documents from your mobile device. Twice a year, companies from all over the world apply to launch their products at DEMO and 60 companies with the most compelling products and services are selected and allowed to pitch their product to the creme of the crop technology journalists and VC&amp;#8217;s. &amp;nbsp;Today starts the Fall 2010 DEMO conference.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a rel=&quot;attachment wp-att-330&quot; href=&quot;http://joshkerr.com/?attachment_id=330&quot;&gt;&lt;img class=&quot;posterous_download_image&quot; title=&quot;4455247533_7656757fc5_o&quot; src=&quot;http://joshkerr.s3.amazonaws.com/wp-content/uploads/4455247533_7656757fc5_o2-e1277724546756-700x351.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;!&#8211; more &#8211;&gt;
+
+
+
+
+&lt;p&gt;You spend countless hours rehearsing and practicing and then when you are finally on the stage, there is a moment of panic and you completely loose track of what you were saying. &amp;nbsp;&amp;nbsp;For me it was as soon as I made eye contact with Walt Mossberg, a journalist from the Wall Street Journal that I&amp;#8217;ve admired for many years. I was making the case to the audience about needing to be un-tied from the ball and chain which is the fax machine an argument I had memorized and practiced a hundred times, but in that moment I forgot my next line.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;embed src=&quot;http://c.brightcove.com/services/viewer/federated_f8/980795693&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;486&quot; height=&quot;412&quot; flashvars=&quot;videoId=73201840001&amp;amp;playerId=980795693&amp;amp;viewerSecureGatewayURL=https://console.brightcove.com/services/amfgateway&amp;amp;servicesURL=http://services.brightcove.com/services&amp;amp;cdnURL=http://admin.brightcove.com&amp;amp;domain=embed&amp;amp;autoStart=false&amp;amp;&quot;&gt;&lt;/embed&gt;&lt;br /&gt; &lt;em&gt;My Zosh presentation at DEMO Spring 2010&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;At DEMO, there are a lot of things that can go wrong. A good presentation can only happen if you are well prepared and have the luck of the DEMO gods. In fact, they named their award for most promising company who delivers the best presentation at a given DEMO conference the DEMOgod award. When a company falters and delivers a bad presentation which happens way too much, they say that it must have been the work of the DEMO gods. &amp;nbsp;Failures can include technical malfunctions,&amp;nbsp;nervous&amp;nbsp;breakdowns, and pretty much anything that interrupts or prevents you from doing a good demonstration of your product.&lt;/p&gt;
+
+
+&lt;p&gt;When a DEMO goes bad, it is an uncomfortable experience for the audience who squirms in their seats knowing that the presentation, hard work and possibly the company is going down in flames. &amp;nbsp;For the presenter, it is a complete nightmare.&lt;/p&gt;
+
+
+&lt;p&gt;I was the first to present at DEMO this year, a lucky spot that I received by having a product in a hot space and by adding some very appropriate imagery to my presentation. Being first means you set the tone for the entire event. If you put on a good presentation, you will be remembered for it. It allows you to watch all of the other presentations without worrying about preparing for your own. Selecting the order of presentations is entirely up to the producers of DEMO, so you really have to get lucky. &amp;nbsp;Or do you?&lt;/p&gt;
+
+
+&lt;p&gt;I met Matt Marshall the CEO of DEMO at a cocktail party in Austin, TX a few months before the conference. &amp;nbsp; He came to town to meet some of the companies that were interested in applying for a spot at the conference. This was the first year that Matt was head of the conference and I wanted to get to know him a bit so that I could find the best way to pitch my company and get into the conference. Matt was young, well dressed and had a ton of charisma. He charmed everyone that he spoke to and had a natural sort of showmanship. Watching him work the room set a clear strategy for me. I should to appeal to his desire to put on a good show.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a title=&quot;View &#8216;MattMarshallVentureBeatDiscoveryBeat2009&#8217; on Flickr.com&quot; href=&quot;http://www.flickr.com/photos/95219360@N00/4986915656&quot;&gt;&lt;img class=&quot;posterous_download_image&quot; style=&quot;float: right;&quot; src=&quot;http://farm5.static.flickr.com/4153/4986915656_5158654ea9.jpg&quot; border=&quot;0&quot; alt=&quot;MattMarshallVentureBeatDiscoveryBeat2009&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;p&gt;My product is an easy sell. People understand that it replaces the whole print -&amp;gt; sign -&amp;gt; fax routine and allows you to sign documents from anywhere all on your phone. I knew that I could get into DEMO, but I wanted a higher placement and more publicity, so I needed something else. Given that I believed that Matt wanted to put on a good show, I decided to come up with a great hook to not only sell Matt on a great presentation, but to maximize the mark I leave behind by making people feel good about my product. I was going to appeal to their feelings.&lt;/p&gt;
+
+
+&lt;p&gt;The one key feeling that people had about my product is that it removed their need for the fax machine which they hated. Hated. That reminded me of the scene from the movie &amp;#8220;Office Space&amp;#8221; where they smash the fax machine in the middle of a field with baseball bats. That&amp;#8217;s it! I&amp;#8217;ll smash a fax machine on the stage with a baseball bat. Its perfect. It will shock the audience and provide for a great show.&lt;/p&gt;
+
+
+&lt;p&gt;When it came time to apply for DEMO, I sent in my application and soon after received a call from Matt to discuss more about my company. In that discussion I told him about wanting to smash a fax machine on the stage. As I described swinging the baseball bat and seeing little pieces of plastic fly all over the stage, I knew I was winning him over. &amp;nbsp;He told me he loved the idea and spent some time discussing how it could work so that it would maximize its effect on the audience. The next day I received my acceptance letter for DEMO and a few weeks later I was notified that I&amp;#8217;d be presenting first.&lt;/p&gt;
+
+
+&lt;p&gt;So there I was, standing on stage and after delivering 2 minutes of my presentation, I forgot my next line. I knew this was going to happen and taking the advice of my partner Alexander, I simply thought back to the story. If you make your entire presentation fit a story line, it is easy to find your way back when you become rattled. &amp;nbsp;I&amp;#8217;ve seen enough share of DEMO presentations where the presenter forgot his or her line and stopped. Unable to remember what to say, there was a very uncomfortable silence as they started to melt down on stage.&lt;/p&gt;
+
+
+&lt;p&gt;My story was simple. I&amp;#8217;m a real estate agent who was missing his kid&amp;#8217;s little league baseball game because I forgot to initial page 14 in a long contract so I had to come back to the office to sign it. I simply glanced over at the fax machine and thought about the story. A few seconds later and I was back on track remembering every line.&lt;/p&gt;
+
+
+&lt;p&gt;I had never hit a fax machine with a baseball bat, so I wasn&amp;#8217;t sure if it would actually break. I know that they did it in a movie, but that was Hollywood and maybe they removed all the screws or used some kind of trick photography to make it look like it was breaking. The entire first part of my speech up until I took the first swing, I nervously wondered if it would break. If I was smart, I would&amp;#8217;ve bought two fax machines and practiced on one. But I had too many other more important things to worry about, so as I picked up the bat to take a swing, I prayed that it would break. My first swing and the fax did not break. It just bounced and rebounded with no apparent damage. They really design these things to take a hit from a baseball bat. I guess I&amp;#8217;m not the first to hit one so I probably shouldn&amp;#8217;t have chosen the junior sized wooden baseball bat from Amazon. &amp;nbsp;I put a little more power behind the bad and the fax gives way and starts to fall apart. I take one more swing and then decide to pick it up and throw it on the floor for added effect. I didn&amp;#8217;t want to spend too much of my valuable 6 minutes hitting it. The audience loved it and applauded. My confidence was back.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;There were a few other things that could&amp;#8217;ve derailed my presentation. For one, at my rehearsal the day before, the Wifi Internet connection that the conference producers provided for us wasn&amp;#8217;t working too well. This was a special dedicated connection used only for the DEMO presenters and it was flaky. So I decided last minute to just use the AT&amp;amp;T 3G connection in my iPhone. The day AT&amp;amp;T is more reliable than a dedicated Wifi circuit, you know you are in trouble. The gamble paid off for me as my connection worked flawlessly and demonstrated one of the great features in my product, the ability to work with large documents from a 3G connection.&lt;/p&gt;
+
+
+&lt;p&gt;I was using a beta version of Zosh for the demonstration portion that was not fully tested. This was another gamble because any crash or bug would be obvious on the two 40 foot projection screens. My heart raced during this portion of my presentation as my nervous fingers were projected on two gigantic screens on either side of the stage. I also needed to be sure that I could speak during moments when the app was loading or rendering. Given the unpredictability of the network, I basically needed filler. I had prepared several pieces that I could use at any point. There is nothing worse than the uncomfortable silence during a presentation.&lt;/p&gt;
+
+
+&lt;p&gt;Practice is the most important aspect of putting on a good presentation. I used the webcam on my laptop to record my sessions and I&amp;#8217;d go back and watch while taking notes. Was my timing correct, did I show enough enthusiasm, etc.. Once felt good enough, I&amp;#8217;d go pitch in front of friends, colleagues or family. Pitching to a friend or colleague is actually a lot harder than I thought. My first pitch was to Josh Baer another Austin&amp;nbsp;entrepreneur&amp;nbsp;and a friend. I got real nervous as I started my pitch, forgot my lines and had to restart at the beginning. &amp;nbsp;This happened four or five times and was embarrassing. &amp;nbsp; I needed to feel more confident about what I was saying, a big lesson learned. I also needed a story that I could fall back on if I lost my way. I re-wrote the script so that the entire format was in the form of a story.&lt;/p&gt;
+
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;iframe width=&quot;400&quot; height=&quot;300&quot; frameborder=&quot;0&quot; src=&quot;http://player.vimeo.com/video/10273465?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=0&quot;&gt;&lt;/iframe&gt;&lt;br /&gt; &lt;em&gt;One of my early practice sessions.  Needs work.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;iframe width=&quot;400&quot; height=&quot;296&quot; frameborder=&quot;0&quot; src=&quot;http://player.vimeo.com/video/14929815?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=0&quot;&gt;&lt;/iframe&gt;&lt;br /&gt; &lt;em&gt;My final performance at DEMO.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Another great piece of advice is how you end your presentation. &amp;nbsp;You need to leave a strong message when you leave the stage so that the audience will be interested in learning more about you and your company. &amp;nbsp;This is the real key to success at DEMO because it is the conversations that you have during the convention portion of DEMO that brings significant value. &amp;nbsp;Your 6 minutes presentation is the hook, but the sell happens when you talk to the press and VC members over the course of the next two days.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a rel=&quot;attachment wp-att-333&quot; href=&quot;http://joshkerr.com/?attachment_id=333&quot;&gt;&lt;img class=&quot;posterous_download_image&quot; title=&quot;4458092539_cabfa2bce7_o&quot; src=&quot;http://joshkerr.s3.amazonaws.com/wp-content/uploads/4458092539_cabfa2bce7_o-e1277724647864-700x412.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;p&gt;At the end the conference, there is an award ceremony where the coveted DEMOgod award is given to the company who had the best presentation, most innovative product, best chance of success and pizzaz. &amp;nbsp;I won the award for the mobile category which had the most emphasis at this years conference given the explosion of the iPhone, Android and the massive growth in the industry.&lt;/p&gt;
+
+
+&lt;p&gt;For Zosh, the conference was all about buzz.  We generated a significant amount, much more than we had anticipated.  We were hoping for 1 or 2 good hits, but ended up receiving 12.  We received converage from  websites like Gizmodo, Engadget, Lifehacker, USA Today, CNET, and Mashable as well as in the print edition of USA Today.  Our users doubled in the first 48 hours and its been nothing but great since then.&lt;/p&gt;
+
+
+&lt;p&gt;Presenting at DEMO is not an easy task.  It is expensive in terms of time and money, but if you are well prepared and you have the right product and the DMEO gods are with you, there is no better stage to launch a product.&lt;/p&gt;
+
+
+&lt;p&gt;Summarizing some of the tips you should&amp;#8217;ve gleaned from the article:&lt;/p&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Make sure your company goals align with your reasons for wanting to attend a conference. &amp;nbsp;You also want to make sure that you are delivering to the right audience. &lt;/li&gt;
+&lt;li&gt;A 6 minute pitch is a ton of work. &amp;nbsp;Think of it like producing a 6 minute film. &amp;nbsp;Everything needs to be planned in advance, scripted, and carefully choreographed.&lt;/li&gt;
+&lt;li&gt;When delivering, make sure to get into the problem as soon as possible. &amp;nbsp;You need to give people a reason to watch the rest of your presentation, so pull them in right away.&lt;/li&gt;
+&lt;li&gt;It is helpful if your pitch follows a story. &amp;nbsp;If you loose your spot, just remember the story. &lt;/li&gt;
+&lt;li&gt;Practice. &amp;nbsp;I can&amp;#8217;t stress this enough. &amp;nbsp;I used my notebook webcam for my initial takes. &amp;nbsp;Watching it gave me a lot of helpful tips that I would&amp;#8217;ve missed. &lt;/li&gt;
+&lt;li&gt;Practice in front of friends and family. &amp;nbsp;This doesn&amp;#8217;t seem like that big of a deal, but you&amp;#8217;ll be surprised at how nervous you get. &amp;nbsp;This will be 1/100th of the anxiety that you&amp;#8217;ll get on stage. &amp;nbsp;Might as well get used to it now.&lt;/li&gt;
+&lt;li&gt;Have filler material that you can use to eliminate uncomfortable silences during unpredictable delays.&lt;/li&gt;
+&lt;li&gt;Pray for help from the DEMOgods.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Using iA Writer with Jekyll</title>
+    <link href="http://joshkerr.com/blog/2011/09/using-ia-writer-with-jekyll/"/>
+    <updated>2011-09-05T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/using-ia-writer-with-jekyll</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/vs4EW.jpg&quot; alt=&quot;iAWriterScreen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m a big fan of &lt;a href=&quot;http://www.iawriter.com/&quot;&gt;iA Writer&lt;/a&gt;, a Mac app that allows you to write in Markdown free of distractions by focusing on the content and removing pretty much everything else.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m also using &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; which is a static blogging app to pre-generate my site before deploying it and with a simple rake script, I&amp;#8217;m able to use both together.&lt;/p&gt;
+
+&lt;p&gt;First, you&amp;#8217;ll want to make sure you&amp;#8217;ve got both Jekyll and IA Writer installed.  With that done, just add the following to your rake file:&lt;/p&gt;
+
+&lt;!&#8211; more &#8211;&gt;
+
+
+
+
+&lt;div&gt;
+  &lt;pre&gt;
+    &lt;code class=&#8217;ruby&#8217;&gt;desc &#8216;Begin a new post&#8217;
+task :post do
+  ROOT_DIR = File.dirname(__FILE__)
+
+  title = ARGV[1]
+  tags = ARGV[2 ]
+
+  unless title
+    puts %{Usage: rake post &amp;quot;The Post Title&amp;quot;}
+    exit(-1)
+  end
+
+  datetime = Time.now.strftime(&#8216;%Y-%m-%d&#8217;)  # 30 minutes from now.
+  slug = title.strip.downcase.gsub(/ /, &#8216;-&#8216;)
+
+  # E.g. 2006-07-16_11-41-batch-open-urls-from-clipboard.markdown
+  path = &amp;quot;#{ROOT_DIR}/_posts/#{datetime}-#{slug}.markdown&amp;quot;
+
+  header = &amp;lt;&amp;lt;-END
+&#8212;
+layout: post
+title: #{title}
+excerpt:
+category:
+&#8212;
+
+
+END
+
+  File.open(path, &#8216;w&#8217;) {|f| f &amp;lt;&amp;lt; header }
+  #system(&amp;quot;bbedit&amp;quot;, path)
+  open_iAWriter(path)
+end
+
+def open_iAWriter(path)
+    sh &#8216;open $1 -a /Applications/iA\ Writer.app &#8217; + path
+end&lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;This will create a new post and open it in IA Writer.  Just make sure to pass in a subject for the post.  (The file name will be your subject too.)  So for example:&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;pre&gt;
+    &lt;code class=&#8217;bash&#8217;&gt;rake post &amp;quot;This is a test post&amp;quot;&lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Although I do not have it as part of this script, you could also open your new Markdown document in &lt;a href=&quot;http://markedapp.com/&quot;&gt;Marked&lt;/a&gt; too.  This would display a Markdown preview while you were editing the document in IA Writer.&lt;/p&gt;
+</content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,624 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Josh Kerr</title>
+  <meta name="author" content="Josh Kerr">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+  <link rel="canonical" href="http://joshkerr.com/blog/page/23/index.html"/>
+  <link href="/favicon.png" rel="shortcut icon" />
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="http://s3.amazonaws.com/ender-js/jeesh.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Josh Kerr" type="application/atom+xml"/>
+  <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
+<link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body  >
+  <header><hgroup>
+  <h1><a href="/">Josh Kerr</a></h1>
+  
+    <h2>Startups + Gadgets + Geekery</h2>
+  
+</hgroup>
+
+</header>
+  <nav role=navigation><ul role=subscription data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+<form action="http://google.com/search" method="get">
+  <fieldset role="site-search">
+    <input type="hidden" name="q" value="site:joshkerr.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+<ul role=main-navigation>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/about/">About</a></li>
+ <li><a href="/currentlyusing/">Stuff I like</a></li>
+   <li><a href="/featured">Featured</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/10/mailgun-email-interface-for-your-app/">@mailgun: Email Interface for Your App</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-10-29T00:00:00-05:00" pubdate  data-updated="true" >Oct 29<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://mailgun.net/">Mailgun</a> is a service that provides a web-server API for fully managed, scalable email servers.  This is something that I think would work great with a service like <a href="http://www.zosh.com">Zosh</a>.</p>
+
+
+<p>If you run a web application that needs to process email, the best way to get that email into your app server would be to have it posted.  You provide some sort of secure page and emails are posted via an HTTP POST.  Sendmail will let you do this, but there aren&#8217;t a lot of other email servers that have this kind of capability.  This is where Mailgun comes in.  They will post a UTF-8 format email to the URL that you specify.  You get all parts of the email including the attachments and you can process it as if it was ordinary data.  You can even apply pattern matching before the email reaches your app server.</p>
+
+
+<p>This is very powerful as it can be used to setup routes for certain emails.  For example lets say that we want to assign each user on our system their own @joshkerr.com email address.  Using this system we can easily route all shipping@joshkerr.com emails to a different location than the invoicing@joshkerr.com emails.</p>
+
+
+
+
+<p>Mailgun provides a host of libraries to get you started including Ruby, PHP, Python, Java and C#.  <a href="http://mailgun.net/pricing">Pricing</a> is reasonable and I&#8217;m really tempted to use their service for one of my projects.  If anyone has any experience with them, please post to the comments.</p>
+
+
+
+
+<p>Here is some sample code showing an HTTP POST:</p>
+
+
+
+
+<div>
+  <pre>
+    <code class='ruby'>def upload(request):
+     if request.method == 'POST':
+         sender    = request.POST.get('sender')
+         recipient = request.POST.get('recipient')
+         subject   = request.POST.get('subject', '')
+
+         body_html  = request.POST.get('body-html', '')
+         body_plain = request.POST.get('body-plain', '')
+
+         for key in request.FILES:
+             file = request.FILES[key]
+             # do_something_cool_with(file)
+
+     # Returned text is ignored but HTTP status code matters:
+     # Mailgun wants to see 200, otherwise it will make another attempt
+     return HttpResponse('OK')</code>
+  </pre>
+</div>
+
+
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/10/pagelines-platformpro-wordpress-cms-perfection/">PageLines PlatformPro: Wordpress CMS Perfection</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-10-28T00:00:00-05:00" pubdate  data-updated="true" >Oct 28<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>PageLines is a premium Wordpress theme maker and they just recently released their <a href="http://www.pagelines.com/demos/platformpro/">PlatformPro</a> theme which is more like a drag and drop content management system for Wordpress than it is a theme.  I&#8217;m using it now on joshkerr.com and the more I dig into it, the more impressed I am with its capabilities to produce a stunning website.  What separates PlatformPro from other standard wordpress themes is the amount of customization that you can perform from the Wordpress admin section.</p>
+
+
+
+
+<p>The theme itself isn&#8217;t so much a theme, but a whole layer of user interface controls which can be easily manipulated via a very simple control panel.  This powerful functionality allows you to take a simple Wordpress blog and add features like: </p>
+
+
+
+
+<p>Universal sidebars, carousels, <a href="http://www.pagelines.com/demos/platformpro/features">feature boxes</a> and much more.  I can&#8217;t stress how easy it is to put together and manage a very powerful and professional looking website with PlatformPro.  Now while all of this sounds great, the PlatformPro product is fairly new and there are a few bugs here and there.  The people at PageLines have been quick to fix them with new releases and upgrading your installation is pretty easy using the built in theme upgrade functionality within Wordpress 3.  I&#8217;m using PlatformPro on several websites now and I&#8217;m pretty happy with it.  For more information check out the <a href="http://www.pagelines.com/">PageLines web site</a>.  It costs $95 and requires Wordpress 3.0 and above with PHP version 5 and above.</p>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/10/separation-between-church-and-mac/">Separation Between Church and Mac?</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-10-27T00:00:00-05:00" pubdate  data-updated="true" >Oct 27<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I looked at my dock today and noticed a cross sitting where the download folder should reside.  It appears as though my Mac thinks I&#8217;m Christian.  I&#8217;m actually not, I&#8217;m Jewish, but how did I cross get into my dock?  Is it a virus?</p>
+
+<p>It turns out that I had several images both horizontal and vertical sitting in that folder and OSX uses some kind of formula to generate an icon showing you the contents of the folder.  In my case it just ended up being a cross.</p>
+
+<p>And I thought Steve Jobs was trying to convert me</p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/10/the-most-important-startup-discussion-roles-goals/">The Most Important Startup Discussion: Roles and Goals</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-10-26T00:00:00-05:00" pubdate  data-updated="true" >Oct 26<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Many startups begin with two or more co-founders.  Each co-founder brings a different set of skills to the table and it is critical that each co-founder’s role is clearly defined and that you set agreeable goals otherwise your startup is doom to fail. </p>
+
+
+
+
+<p>Right from the beginning, each co-founder will wear different hats.  Some will be responsible for development, some for marketing, some for business development and others for investor relations.  These areas of responsibility should be placed into clearly defined roles with attached goals. <br/><br/></p>
+
+
+
+
+<h2>What role will you play in your new startup?</h2>
+
+
+
+
+<p><br/><br/>For example let’s say we define the role of marketing to include public relations and social network out reach.  The goal for the first three months could be to establish a social marketing presence and attain 600 twitter followers and 1000 views to the company’s website.  This marketing role now has a goal and can be assigned to one of the co-founders. <br/><br/>Each role should be assigned to the person with the best chance for success.  At the end of the first month the group should review the performance of each person and decide on whether the roles need to be changed, goals need to be adjusted or if that person needs to be removed all together from their assigned role. <br/><br/>Consider this comment by Bob, a co-founder who was assigned with the aforementioned marking role:</p>
+
+
+
+
+<blockquote>Hey it wasn&#8217;t my fault that we only got 230 twitter followers even though our goal was 600.  John didn&#8217;t do enough Tweeting.</blockquote>
+
+
+
+
+<p><br/>Actually, it was your fault that you only received 230 twitter followers.  You own the marketing role.  You should&#8217;ve done everything in your power to make sure that you hit your numbers.  If John isn&#8217;t helping, find someone else who will or do it yourself. <br/><br/>The other key element to roles is delineating clear authority with regard to decision making.   The co-founders should decide the extent to which each persons role can make decisions without needing the permission from the group.  This is paramount as it will facilitate much faster iteration.  Every time the co-founders need to meet to make a decision, they waste time so allowing Bob the authority to run a promotion to acquire more twitter users could&#8217;ve allowed him to hit his goal. <br/><br/>With this formula in place, the company will have its best chance for success.  It will also place clear responsibility, ownership, and authority with each of the co-founders and provide a good way to reward future success or punish failure.</p>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/10/readwriteweb-gives-me-a-shout-out/">ReadWriteWeb Gives Me a Shout-out</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-10-26T00:00:00-05:00" pubdate  data-updated="true" >Oct 26<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I wrote an article about TestFlight a new service that makes it easier to conduct IOS beta&#8217;s and got some nice coverage from ReadWriteWeb.  Thanks guys.</p>
+
+
+<p><a href="http://www.readwriteweb.com/mobile/2010/10/testflight-improves-ios-beta-testing-process.php">ReadWriteWeb Article</a></p>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/10/goldman-sachs-is-paying-warren-buffet-15-a-second/">Goldman Sachs Is Paying Warren Buffet $15 a Second.</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-10-22T00:00:00-05:00" pubdate  data-updated="true" >Oct 22<span>nd</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://digg.com/news/worldnews/goldman_sachs_reportedly_paying_warren_buffett_1_3_million_per_day_may_repay_investment">Goldman Sachs is paying Warren Buffet $15 a second.</a><br/><p>Wow, that is a great investment.</p></p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/10/christina-symanski-a-paralyzed-woman/">Paralyzed Woman Does a Video Review of My App</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-10-19T00:00:00-05:00" pubdate  data-updated="true" >Oct 19<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Christina Symanski, a paralyzed woman who cannot use her hands, posted a video demonstration of my iPhone app Zosh using a specialized stylus that she controls with her mouth. She runs through the demonstration with such ease that I don&#8217;t know if I could&#8217;ve done a better job.</p>
+
+<p>Zosh lets you fill in and sign documents from your mobile phone. I started the company with my co-founder and good friend Alexander Bibighaus a few years back as a side project. In March of this year we released the product and it became an instant hit.
+ I&#8217;ve always considered my target audience people that could benefit from not having to be tied down to a fax machine to fill in a form or document and sign it. Christina fits that mold, but to see her benefit from Zosh without using her hands really made me feel proud of what we built.</p>
+
+<object width="400" height="336"><param name="movie" value="http://www.youtube.com/v/nBuFTH_CQm0&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1"></param><param name="wmode" value="transparent"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/nBuFTH_CQm0&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1" type="application/x-shockwave-flash" width="400" height="336" allowFullScreen="true" wmode="transparent"></embed></object>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/10/sneakily-snap-pictures-with-the-camera-camouflage-iphone-app/">Sneakily Snap Pictures With the Camera Camouflage iPhone App</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-10-15T00:00:00-05:00" pubdate  data-updated="true" >Oct 15<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>An iPhone app that lets you take sneaky photos of people?  Creepy.   Reminds me of this strange Flickr <a href="http://www.flickr.com/photos/53955993@N04/">page</a> I saw on <a href="http://www.reddit.com/r/WTF/duplicates/drf5r/found_this_guys_flickr_account_accidentlykinda/">Reddit</a>.  That guy would probably love this app.</p>
+
+
+<blockquote>From Gizmodo:  <a href="http://feeds.gawker.com/~r/gizmodo/full/~3/RzkutEAEJdI/sneakily-snap-pictures-with-the-camera-camouflage-iphone-app">Sneakily Snap Pictures with the Camera Camouflage iPhone App</a>.</blockquote>
+
+</div>
+  
+  
+
+
+  </article>
+
+<nav role="pagination">
+  <div>
+    
+      <a class="prev" href="/blog/page/24/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/22/">Newer &rarr;</a>
+    
+  </div>
+</nav>
+
+<script type="text/javascript">
+    var disqus_shortname = 'joshkerr';
+    (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+</div>
+<aside role=sidebar>
+  
+    <section>
+  <h1>Josh Kerr</h1>
+
+    <div id="josh-frame"><div id="josh-headshot"></div></div>
+
+ 	<p>I am the co-founder of <a href="http://www.zosh.com">Zosh</a> a company that was
+	recently acquired by <a href="http://yousendit.com">YouSendIt</a>.  Currently I am Director of Product at <a href="http://www.macheen.com">Macheen</a> the leading enabler in &#8220;Internet included&#8221; connected devices.  I am also a mentor at <a href="http://www.capitalfactory.com">Capital Factory</a> an early stage startup accelerator in Austin, TX.  &nbsp;<a href="/about/">Read more</a>.</p>
+</section>
+<section>
+  <h1>Featured Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/09/i-was-looking-for-a-delicious-app-for-mac/">I Was Looking for a Delicious App for Mac</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/09/the-details-of-the-greatest-online-game-scam/">The details of the greatest online game scam</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/09/capital-factory-demo-day-2011/">Capital Factory Demo Day 2011</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/09/how-do-win-a-demogod-award-at-demo/">How do win a DEMOgod Award at DEMO</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/08/monster-cable-goes-after-the-wrong-guy-lawsuit-gone-wrong/">Monster Cable goes after the wrong guy</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/06/using-file-vault-2-with-multiple-drives/">Using File Vault 2 with multiple drives</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/02/automatic-tv-show-downloading-via-sickbeard/">automatic tv show downloading via sickbeard on a mac</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/02/automating-the-creation-of-posts-in-jekyll/">automating the creation of posts in jekyll</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/09/sick-downhill-ride-from-danny-hart/">Sick Downhill Ride From Danny Hart</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/09/create-mac-app-from-shell-script/">Create Mac App From Shell Script</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/09/watch-out-for-chuck-testa/">Watch Out for Chuck Testa</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/09/this-on-nytimes-fashion-blog/">This? on NY Times Fashion Blog?</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/09/windows-8-is-looking-good/">Windows 8 Is Looking Good</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/09/i-was-looking-for-a-delicious-app-for-mac/">I Was Looking for a Delicious App for Mac</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/09/the-best-music-discover-service-you-cant-use/">The Best Music Discovery Service</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/09/do-you-want-to-blow-up-the-earth-scifi-style/">Do You Want to Blow Up the Earth SciFi Style?</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("joshkerr", 8, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/joshkerr" class="twitter-follow-button" data-width="208px" data-show-count="false">Follow @joshkerr</a>
+  
+</section>
+
+
+<section>
+  <h1>On Delicious</h1>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/js/joshkerr?title=&count=8&sort=date&extended"></script>
+  <p><a href="/delicious/">My Delicious Bookmarks &raquo;</a></p>
+</section>
+
+
+<section>
+  <h1>Github Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/joshkerr">@joshkerr</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'joshkerr',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer><p>
+  Copyright &copy; 2011 - Josh Kerr -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  <span class="credit"> | Additional <a href="/attributions/">Attributions</a></span>
+</p>
+
+</footer>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-9009358-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+</body>
+</html>
