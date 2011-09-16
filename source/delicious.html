@@ -1,0 +1,13 @@
+---
+layout: page
+title: Delicious Bookmarks
+permalink: /delicious/
+---
+
+<p>I track interesting content through Delicious a bookmarking service.  I acquire these links mostly through my RSS reader (Reeder.)</p>
+
+{% if site.delicious_user %}
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/js/{{ site.delicious_user }}?title=&count={{ site.delicious_archive_count }}&sort=date&extended"></script>
+  <p><a href="http://delicious.com/{{ site.delicious_user }}">My Delicious Bookmarks &raquo;</a></p>
+{% endif %}
+

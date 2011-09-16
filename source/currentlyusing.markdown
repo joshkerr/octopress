@@ -4,7 +4,7 @@ title: What I'm currently into
 permalink: /currentlyusing/
 ---
 
-I'm an Apple fan boy and I love all things Mac, especially their iOS products. Â I'm a music and film buff and I spend a lot of time outside outdoors.  I'm also an a photography buff with not only an interest in taking the photos, but in collecting the equipment.
+I'm an Apple fan boy and I love all things Mac, especially their iOS products. I'm a music and film buff and I spend a lot of time outside outdoors.  I'm also an a photography buff with not only an interest in taking the photos, but in collecting the equipment.
 
 These are the things I use:
 
@@ -68,6 +68,11 @@ My early years in technology revolved around software so I'm very picky about wh
 * [Textmate](http://macromates.com/)
 * [Marked](http://itunes.apple.com/us/app/marked/id448925439?mt=12)
 * [Reader](http://reederapp.com/)
+* [Microsoft Office Mac](http://www.microsoft.com/mac/)
+* [Skype](http://www.skype.com)
+* [Evernote](http://www.evernote.com)
+* [Dropbox](http://www.dropbox.com)
+* [CSSEdit](http://www.macrabbit.com)
 
 
 More coming soon...
