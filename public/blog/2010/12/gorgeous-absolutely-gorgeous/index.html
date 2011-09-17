@@ -42,29 +42,11 @@
   <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   
 </ul>
-<!--
-    <input type="hidden" name="q" value="site:joshkerr.com" />
+<form action="http://joshkerr.com/search/" method="get">
+  <fieldset role="site-search">
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
--->
-<link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
-
-
-<div class="search" id="cse-search-form" style="width: 100%;">Loading</div>
-<script src="http://www.google.com/jsapi" type="text/javascript"></script>
-<script type="text/javascript">
-  google.load('search', '1', {language : 'en'});
-  google.setOnLoadCallback(function() {
-    var customSearchControl = new google.search.CustomSearchControl('002670987270344031863:3efrgc5bkpo');
-    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-    var options = new google.search.DrawOptions();
-    options.enableSearchboxOnly("http://www.joshkerr.com/search/");
-    customSearchControl.draw('cse-search-form', options);
-  }, true);
-</script>
-<link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
-
-
-
+  </fieldset>
+</form>
 <ul role=main-navigation>
   <li><a href="/">Blog</a></li>
   <li><a href="/about/">About</a></li>
