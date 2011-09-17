@@ -256,7 +256,7 @@ multitask :github do
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m '#{message}'"
     puts "\n## Pushing source code"
-    system "git push github"
+    system "git push origin"
     puts "\n## github code deploy complete"
 end
 
