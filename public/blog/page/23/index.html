@@ -66,6 +66,41 @@
     
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2010/11/how-we-raised-13-million-as-first-time-founders/">How We Raised $1.3 Million as First-Time Founders</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-11-08T00:00:00-06:00" pubdate  data-updated="true" >Nov 8<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Great article on how this company raised money.</p>
+
+
+<p>(Via <a href="http://news.ycombinator.com/">Hacker News</a>.)</p>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2010/11/using-markdown-with-wordpress/">Using Markdown With Wordpress</a></h1>
     
     
@@ -508,80 +543,6 @@ export PASSPHRASE</code>
 
   </article>
 
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/10/mailgun-email-interface-for-your-app/">@mailgun: Email Interface for Your App</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-10-29T00:00:00-05:00" pubdate  data-updated="true" >Oct 29<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://mailgun.net/">Mailgun</a> is a service that provides a web-server API for fully managed, scalable email servers.  This is something that I think would work great with a service like <a href="http://www.zosh.com">Zosh</a>.</p>
-
-
-<p>If you run a web application that needs to process email, the best way to get that email into your app server would be to have it posted.  You provide some sort of secure page and emails are posted via an HTTP POST.  Sendmail will let you do this, but there aren&#8217;t a lot of other email servers that have this kind of capability.  This is where Mailgun comes in.  They will post a UTF-8 format email to the URL that you specify.  You get all parts of the email including the attachments and you can process it as if it was ordinary data.  You can even apply pattern matching before the email reaches your app server.</p>
-
-
-<p>This is very powerful as it can be used to setup routes for certain emails.  For example lets say that we want to assign each user on our system their own @joshkerr.com email address.  Using this system we can easily route all shipping@joshkerr.com emails to a different location than the invoicing@joshkerr.com emails.</p>
-
-
-
-
-<p>Mailgun provides a host of libraries to get you started including Ruby, PHP, Python, Java and C#.  <a href="http://mailgun.net/pricing">Pricing</a> is reasonable and I&#8217;m really tempted to use their service for one of my projects.  If anyone has any experience with them, please post to the comments.</p>
-
-
-
-
-<p>Here is some sample code showing an HTTP POST:</p>
-
-
-
-
-<div>
-  <pre>
-    <code class='ruby'>def upload(request):
-     if request.method == 'POST':
-         sender    = request.POST.get('sender')
-         recipient = request.POST.get('recipient')
-         subject   = request.POST.get('subject', '')
-
-         body_html  = request.POST.get('body-html', '')
-         body_plain = request.POST.get('body-plain', '')
-
-         for key in request.FILES:
-             file = request.FILES[key]
-             # do_something_cool_with(file)
-
-     # Returned text is ignored but HTTP status code matters:
-     # Mailgun wants to see 200, otherwise it will make another attempt
-     return HttpResponse('OK')</code>
-  </pre>
-</div>
-
-
-
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
@@ -658,6 +619,10 @@ export PASSPHRASE</code>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2011/09/really-cool-new-keyboard-from-corsair/">Really Cool New Keyboard From Corsair</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes/">David Blaine Explains How He Holds His Breath for 17 Minutes</a>
       </li>
     
@@ -683,10 +648,6 @@ export PASSPHRASE</code>
     
       <li class="post">
         <a href="/blog/2011/09/watch-out-for-chuck-testa/">Watch Out for Chuck Testa</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/09/this-on-nytimes-fashion-blog/">This? on NY Times Fashion Blog?</a>
       </li>
     
   </ul>
