@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/search.html" afterPath="$PROJECT_DIR$/source/search.html" />
-    </list>
+    <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link" />
     <ignored path="octopress.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,12 +41,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="249" column="0" selection-start="9564" selection-end="9564" vertical-scroll-proportion="0.75208914">
+            <state line="239" column="123" selection-start="9249" selection-end="9249" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2011-09-17-now-this-is-how-you-fly.markdown" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/rant/2011-09-17-now-this-is-how-you-fly.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="44" selection-start="120" selection-end="153" vertical-scroll-proportion="0.18103448">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -683,16 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/rant/2011-09-17-now-this-is-how-you-fly.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="104" selection-end="104" vertical-scroll-proportion="0.12931034">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/base/_solarized.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -716,9 +714,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="0" selection-start="9564" selection-end="9564" vertical-scroll-proportion="0.75208914">
+        <state line="239" column="123" selection-start="9249" selection-end="9249" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/rant/2011-09-17-now-this-is-how-you-fly.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="44" selection-start="120" selection-end="153" vertical-scroll-proportion="0.18103448">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
