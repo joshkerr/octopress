@@ -1146,7 +1146,7 @@
     </url>
     <url>
         <loc>http://joshkerr.com/currentlyusing/</loc>
-        <lastmod>2011-09-16T10:08:02-05:00</lastmod>
+        <lastmod>2011-09-16T22:38:53-05:00</lastmod>
     </url>
     <url>
         <loc>http://joshkerr.com/delicious/</loc>
@@ -1159,5 +1159,9 @@
     <url>
         <loc>http://joshkerr.com/</loc>
         <lastmod>2011-09-16T22:30:17-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://joshkerr.com/search/</loc>
+        <lastmod>2011-09-16T23:57:33-05:00</lastmod>
     </url>
 </urlset>

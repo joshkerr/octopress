@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>What is the Technological Singularity? - Josh Kerr</title>
+  <title>Search Results - Josh Kerr</title>
   <meta name="author" content="Josh Kerr">
   
 
@@ -16,7 +16,7 @@
 
   
 
-  <link rel="canonical" href="http://joshkerr.com/blog/2011/06/what-is-the-technological-singularity/"/>
+  <link rel="canonical" href="http://joshkerr.com/search/"/>
   <link href="/favicon.png" rel="shortcut icon" />
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -64,94 +64,57 @@
   <div id="main">
     <div id="content">
       <div>
-<article class="hentry">
+<article>
   
   <header>
-    
-      <h1 class="entry-title">What Is the Technological Singularity?</h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-06-19T00:00:00-05:00" pubdate  data-updated="true" >Jun 19<span>th</span>, 2011</time></p>
+    <h1 class="entry-title">Search Results</h1>
     
   </header>
-
-
-<div class="entry-content"><p>Link: <a href="http://thenextweb.com/industry/2011/06/19/what-is-the-technological-singularity/">What is the Technological Singularity?</a></p>
-
-<pre><code>    &lt;p&gt;A really cool article on technological singularities.  We are reaching a point soon where computers will have more intelligence than humans.&lt;/p&gt;
-</code></pre>
-</div>
-
-
-  <footer>
-    <p class="meta">
+  
+  <div id="cse" style="width: 100%;">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+  function parseQueryFromUrl () {
+    var queryParamName = "q";
+    var search = window.location.search.substr(1);
+    var parts = search.split('&');
+    for (var i = 0; i < parts.length; i++) {
+      var keyvaluepair = parts[i].split('=');
+      if (decodeURIComponent(keyvaluepair[0]) == queryParamName) {
+        return decodeURIComponent(keyvaluepair[1].replace(/\+/g, ' '));
+      }
+    }
+    return '';
+  }
+  google.load('search', '1', {language : 'en'});
+  google.setOnLoadCallback(function() {
+    var customSearchControl = new google.search.CustomSearchControl('002670987270344031863:3efrgc5bkpo');
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    customSearchControl.draw('cse');
+    var queryFromUrl = parseQueryFromUrl();
+    if (queryFromUrl) {
+      customSearchControl.execute(queryFromUrl);
+    }
+  }, true);
+</script>
+<link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
+  
+    <footer>
       
-  
-
-<span class="byline author vcard">Posted by <span class="fn">Josh Kerr</span></span>
-
       
-
-
-
-
-
+        <div class="sharing">
   
-
-
-
-<time datetime="2011-06-19T00:00:00-05:00" pubdate  data-updated="true" >Jun 19<span>th</span>, 2011</time>
-      
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/rant/'>rant</a>
-  
-</span>
-
-
-    </p>
-    
-      <div class="sharing">
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://joshkerr.com/blog/2011/06/what-is-the-technological-singularity/" data-via="joshkerr" data-counturl="http://joshkerr.com/blog/2011/06/what-is-the-technological-singularity/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://joshkerr.com/search/" data-via="joshkerr" data-counturl="http://joshkerr.com/search/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
   
 </div>
 
-    
-  </footer>
+      
+    </footer>
+  
 </article>
-
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread"><div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname = 'joshkerr';
-  var disqus_identifier = 'http://joshkerr.com/blog/2011/06/what-is-the-technological-singularity/';
-  var disqus_url = 'http://joshkerr.com/blog/2011/06/what-is-the-technological-singularity/';
-  //var disqus_developer = 1;
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-  </section>
 
 </div>
 
