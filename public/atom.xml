@@ -4,13 +4,26 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-09-16T19:17:12-05:00</updated>
+  <updated>2011-09-16T20:55:51-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>An Amazing Photo Gallery of North Korea</title>
+    <link href="http://joshkerr.com/blog/2011/09/an-amazing-photo-gallery-of-north-korea/"/>
+    <updated>2011-09-16T20:53:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/an-amazing-photo-gallery-of-north-korea</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/L9AZX.jpg&quot; alt=&quot;Central Pyongyang, North Korea at dusk. David Guttenfelder/Associated Press&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Its an unbelievable gallery showing many details of North Korea that you wouldn&amp;#8217;t normally be able to see.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.boston.com/bigpicture/2011/09/north_korea.html&quot;&gt;See more on Boston.com&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Sick Downhill Ride From Danny Hart</title>
@@ -610,80 +623,6 @@ To say it was a successful day is an understatement.  Emil and the other &lt;a h
 
 
 
-</content>
-  </entry>
-  
-  <entry>
-    <title>Using iA Writer with Jekyll</title>
-    <link href="http://joshkerr.com/blog/2011/09/using-ia-writer-with-jekyll/"/>
-    <updated>2011-09-05T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/09/using-ia-writer-with-jekyll</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/vs4EW.jpg&quot; alt=&quot;iAWriterScreen&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;#8217;m a big fan of &lt;a href=&quot;http://www.iawriter.com/&quot;&gt;iA Writer&lt;/a&gt;, a Mac app that allows you to write in Markdown free of distractions by focusing on the content and removing pretty much everything else.&lt;/p&gt;
-
-&lt;p&gt;I&amp;#8217;m also using &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; which is a static blogging app to pre-generate my site before deploying it and with a simple rake script, I&amp;#8217;m able to use both together.&lt;/p&gt;
-
-&lt;p&gt;First, you&amp;#8217;ll want to make sure you&amp;#8217;ve got both Jekyll and IA Writer installed.  With that done, just add the following to your rake file:&lt;/p&gt;
-
-&lt;!&#8211; more &#8211;&gt;
-
-
-
-
-&lt;div&gt;
-  &lt;pre&gt;
-    &lt;code class=&#8217;ruby&#8217;&gt;desc &#8216;Begin a new post&#8217;
-task :post do
-  ROOT_DIR = File.dirname(__FILE__)
-
-  title = ARGV[1]
-  tags = ARGV[2 ]
-
-  unless title
-    puts %{Usage: rake post &amp;quot;The Post Title&amp;quot;}
-    exit(-1)
-  end
-
-  datetime = Time.now.strftime(&#8216;%Y-%m-%d&#8217;)  # 30 minutes from now.
-  slug = title.strip.downcase.gsub(/ /, &#8216;-&#8216;)
-
-  # E.g. 2006-07-16_11-41-batch-open-urls-from-clipboard.markdown
-  path = &amp;quot;#{ROOT_DIR}/_posts/#{datetime}-#{slug}.markdown&amp;quot;
-
-  header = &amp;lt;&amp;lt;-END
-&#8212;
-layout: post
-title: #{title}
-excerpt:
-category:
-&#8212;
-
-
-END
-
-  File.open(path, &#8216;w&#8217;) {|f| f &amp;lt;&amp;lt; header }
-  #system(&amp;quot;bbedit&amp;quot;, path)
-  open_iAWriter(path)
-end
-
-def open_iAWriter(path)
-    sh &#8216;open $1 -a /Applications/iA\ Writer.app &#8217; + path
-end&lt;/code&gt;
-  &lt;/pre&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;This will create a new post and open it in IA Writer.  Just make sure to pass in a subject for the post.  (The file name will be your subject too.)  So for example:&lt;/p&gt;
-
-&lt;div&gt;
-  &lt;pre&gt;
-    &lt;code class=&#8217;bash&#8217;&gt;rake post &amp;quot;This is a test post&amp;quot;&lt;/code&gt;
-  &lt;/pre&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Although I do not have it as part of this script, you could also open your new Markdown document in &lt;a href=&quot;http://markedapp.com/&quot;&gt;Marked&lt;/a&gt; too.  This would display a Markdown preview while you were editing the document in IA Writer.&lt;/p&gt;
 </content>
   </entry>
   
