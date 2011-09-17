@@ -2,24 +2,9 @@
 layout: post
 title: Using File Vault 2 with multiple drives
 category: featured
-tags: 
-- tips
-- Tips
 status: publish
 type: post
 published: true
-meta: 
-  _edit_last: "1"
-  soy_box_size: Default (310px)
-  soy_show_title: "Yes"
-  soy_show_desc: "Yes"
-  soy_post_style: Normal
-  _aioseop_title: Using File Vault 2 with multiple drives in Mac OS X Lion
-  _aioseop_keywords: Mac,OSX,Lion,File Vault
-  _aioseop_description: This tutorial will show you how to use File Vault 2 with several drives.
-  _networkpub_meta_published: new
-  _networkpub_meta_publish: "1"
-  _networkpub_meta_content: "0"
 ---
 
 <p><img title="Encrypted second volume" src="http://i.imgur.com/l2Qwp.png" /></p>

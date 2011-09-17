@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/cool/2011-09-17-really-cool-new-keyboard-from-corsair.markdown" afterPath="$PROJECT_DIR$/source/_posts/cool/2011-09-17-really-cool-new-keyboard-from-corsair.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/featured/2011-06-10-using-file-vault-2-with-multiple-drives.markdown" afterPath="$PROJECT_DIR$/source/_posts/featured/2011-06-10-using-file-vault-2-with-multiple-drives.markdown" />
     </list>
     <ignored path="octopress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,15 +35,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2011-09-17-really-cool-new-keyboard-from-corsair.markdown" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2011-09-17-really-cool-new-keyboard-from-corsair.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/cool/2011-09-17-really-cool-new-keyboard-from-corsair.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="33" selection-start="650" selection-end="650" vertical-scroll-proportion="0.5755396">
+            <state line="9" column="175" selection-start="422" selection-end="422" vertical-scroll-proportion="-8.181818">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2011-06-10-using-file-vault-2-with-multiple-drives.markdown" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/featured/2011-06-10-using-file-vault-2-with-multiple-drives.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="18" selection-start="83" selection-end="83" vertical-scroll-proportion="-2.7272727">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="11" selection-start="607" selection-end="607" vertical-scroll-proportion="0.66945606">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -118,24 +140,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="180" selection-end="180" vertical-scroll-proportion="-7.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/blog/archives/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="33" selection-start="299" selection-end="330" vertical-scroll-proportion="-11.666667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -150,8 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/_includes/navigation.html" />
-        <option value="$PROJECT_DIR$/source/_posts/2011-09-17-now-this-is-how-you-fly.markdown" />
         <option value="$PROJECT_DIR$/source/search.html" />
         <option value="$PROJECT_DIR$/source/_posts/rant/2011-09-17-now-this-is-how-you-fly.markdown" />
         <option value="$PROJECT_DIR$/source/_posts/2011-09-17-david-blaine-explains-how-he-holds-his-breath-for-17-minutes.markdown" />
@@ -166,6 +168,8 @@
         <option value="$PROJECT_DIR$/source/_posts/2011-09-17-look-at-those-kicks.markdown" />
         <option value="$PROJECT_DIR$/source/_posts/2011-09-17-really-cool-new-keyboard-from-corsair.markdown" />
         <option value="$PROJECT_DIR$/source/_posts/cool/2011-09-17-really-cool-new-keyboard-from-corsair.markdown" />
+        <option value="$PROJECT_DIR$/source/_posts/featured/2011-06-10-using-file-vault-2-with-multiple-drives.markdown" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -303,7 +307,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cool" />
+              <option name="myItemId" value="featured" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,7 +409,7 @@
       </server>
     </servers>
   </component>
-  <component name="RunManager" selected="Rake.Deploy">
+  <component name="RunManager" selected="Rake.Generate">
     <configuration default="false" name="Deploy" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="octopress" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -650,7 +654,7 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4159919" sideWeight="0.7306562" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2693438" sideWeight="0.99696356" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2693438" sideWeight="0.99696356" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -712,20 +716,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_includes/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="73" selection-start="582" selection-end="582" vertical-scroll-proportion="-9.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/base/_solarized.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/base/_theme.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="31" selection-start="358" selection-end="358" vertical-scroll-proportion="0.17548746">
@@ -840,12 +830,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/cool/2011-09-17-really-cool-new-keyboard-from-corsair.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="650" selection-end="650" vertical-scroll-proportion="0.5755396">
+        <state line="9" column="175" selection-start="422" selection-end="422" vertical-scroll-proportion="-8.181818">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/featured/2011-06-10-using-file-vault-2-with-multiple-drives.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="18" selection-start="83" selection-end="83" vertical-scroll-proportion="-2.7272727">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="11" selection-start="607" selection-end="607" vertical-scroll-proportion="0.66945606">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

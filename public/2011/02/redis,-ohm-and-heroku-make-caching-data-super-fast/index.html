@@ -1,0 +1,500 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Redis, Ohm and Heroku make caching data super fast - Josh Kerr</title>
+  <meta name="author" content="Josh Kerr">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+  <link rel="canonical" href="http://joshkerr.com/2011/02/redis%2C-ohm-and-heroku-make-caching-data-super-fast/"/>
+  <link href="/favicon.png" rel="shortcut icon" />
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="http://s3.amazonaws.com/ender-js/jeesh.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Josh Kerr" type="application/atom+xml"/>
+  <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
+<link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body  >
+  <header><hgroup>
+  <h1><a href="/">Josh Kerr</a></h1>
+  
+    <h2>Startups + Gadgets + Geekery</h2>
+  
+</hgroup>
+
+</header>
+  <nav role=navigation><ul role=subscription data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+<form action="http://joshkerr.com/search/" method="get">
+  <fieldset role="site-search">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+<ul role=main-navigation>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/about/">About</a></li>
+ <li><a href="/currentlyusing/">Stuff I like</a></li>
+   <li><a href="/featured">Featured</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry">
+  
+  <header>
+    
+      <h1 class="entry-title">Redis, Ohm and Heroku Make Caching Data Super Fast</h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-25T00:00:00-06:00" pubdate  data-updated="true" >Feb 25<span>th</span>, 2011</time></p>
+    
+  </header>
+
+
+<div class="entry-content"><p>My blog is mostly static content.  I write the articles, pass them through Jekyll which transforms them into static HTML and then they get pushed up to my Heroku box where they are served.  This system works great until you want to have a live activity feed.  I&#8217;ve got one on my main page showing the latest from RSS feeds on Twitter, Google Reader, Github and a few others.  You could probably manage this in javascript, but Heroku and Ruby came calling so this is how I created my feed.</p>
+
+<p><img src="http://joshkerr.s3.amazonaws.com/images/myfeed.png" alt="ScreenShotOfFeed" /></p>
+
+<p>First I thought, okay I&#8217;ll just parse the feeds after the page loads.  I hooked in some javascript:</p>
+
+<div>
+  <pre>
+    <code class='javascript'>&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/
+    libs/jquery/1.3.2/jquery.min.js&quot;&gt;&lt;/script&gt; 
+    &lt;script type=&quot;text/javascript&quot;&gt;$(document).ready(function()
+    {$(&quot;#elsewhere&quot;).load(&quot;/feed/&quot;);});&lt;/script&gt;</code>
+  </pre>
+</div>
+
+
+<p>Next I thought I&#8217;d just read the feeds.  I found this great Ruby gem called <a href="http://github.com/pauldix/feedzirra">Feedzirra</a> which fetches and parses RSS and ATOM feeds.  Perfect.  I implemented it and boom, I had feeds.  But I also had a problem.  The feeds took time to load and the more URL&#8217;s that I add, the longer they will take.  People aren&#8217;t going to sit around waiting for them.  Time to cache.</p>
+
+<p>At first I thought I would write the feeds to a file on Heroku and then just read that.  Not going to happen.  Heroku does not let you write local files.  So I need to either keep this data in memory, but how?</p>
+
+<p>Enter <a href="http://redis.io">Redis</a> a key value store with high performance and low overhead.  This will work, but I want to store my Ruby objects in there, how am I going to do that?  Enter <a href="http://github.com/soveran/ohm">Ohm</a> object hash mapping for Redis.  Perfect, now I can write my feed.  (I&#8217;m just starting with Ruby, so the following is a hack.)</p>
+
+<h3>Model</h3>
+
+<div>
+  <pre>
+    <code class='ruby'>require 'ohm'
+  
+  class Feeder &lt; Ohm::Model
+    attribute :title
+    attribute :published
+    attribute :feed_id
+    attribute :url
+    attribute :content
+    attribute :service
+    index :published
+  end
+
+  
+  class FeederContainer &lt; Ohm::Model
+    attribute :date
+    list :feeds, Feeder
+    index :date
+  end</code>
+  </pre>
+</div>
+
+
+<h3>Controller</h3>
+
+<div>
+  <pre>
+    <code class='ruby'>require 'rubygems' 
+require 'nokogiri'
+require 'open-uri'
+require 'feedzirra'
+require 'redis'
+require 'time'
+require 'feeder'
+
+class FeederController &lt; ApplicationController
+
+  def list
+    
+    @feedurls = THE_FEED_URLS  # This is a global of just URL's in an array
+    @total_feeds = NUM_FEEDS # So is this a global integer
+    @n = 0
+                              
+    Ohm.connect(:url =&gt; &quot;redis://your_connection_here&quot;)
+    
+    feedTime = FeederContainer[1].date unless FeederContainer[1] == nil
+    feedTime = (Time.now - Time.parse(feedTime)).round unless 
+        feedTime == nil
+    
+    print &quot;Retrieving and combining feeds.\n&quot;
+     
+    if feedTime == nil or feedTime &gt; 1800 then
+    
+      puts &quot;Feed is stale, getting new feed.&quot;
+      
+      Ohm.flush
+      
+      # Create the storage
+      feedContainer = FeederContainer.create(:date =&gt; Time.now)
+      
+        @feedurls.each do |feed|
+            rawfeed = Feedzirra::Feed.fetch_and_parse(feed)            
+            rawfeed.entries.each do |entry|
+              feedContainer.feeds &lt;&lt; Feeder.create(:content =&gt; 
+                entry.content, :title =&gt; entry.title, :url =&gt; entry.url, 
+                :published =&gt; entry.published, :feed_id =&gt; entry.entry_id )
+            end
+        end
+
+        @feedlist = feedContainer.feeds.all             
+        @feedlist.sort! {|a,b| Date.parse(b.published) &lt;=&gt; 
+            Date.parse(a.published)}
+        print &quot;Total feed items: &quot;, @feedlist.size, &quot;\n&quot;
+    else
+
+      puts &quot;Feed is good, getting cached feed.&quot;
+      @feedlist = FeederContainer[1].feeds.all
+      @feedlist.sort! {|a,b| Date.parse(b.published) &lt;=&gt; 
+        Date.parse(a.published)}     
+      print &quot;Total feed items: &quot;, @feedlist.size, &quot;\n&quot;
+    end
+  end
+end</code>
+  </pre>
+</div>
+
+
+<h3>View</h3>
+
+<div>
+  <pre>
+    <code class='ruby'>&lt;% @feedlist.each do |entry| %&gt;
+    &lt;%
+
+    if @n &gt; NUM_FEEDS then
+        break
+    end
+    if entry.url.include? &quot;twitter.com&quot; then
+        classname=&quot;twitter&quot;
+        servicename=&quot;Twitter&quot;
+    elsif entry.url.include? &quot;github.com&quot; then
+        classname=&quot;github&quot;
+        servicename=&quot;Github&quot;
+    elsif entry.url.include? &quot;flickr.com&quot; then
+        classname=&quot;flickr&quot;
+        servicename=&quot;Flickr&quot;
+    elsif entry.url.include? &quot;youtube.com&quot; then
+        classname=&quot;youtube&quot;
+        servicename=&quot;YouTube&quot;
+    elsif entry.feed_id.include? &quot;google.com&quot; then
+        classname=&quot;reader&quot;
+        servicename=&quot;Google Reader&quot;
+    end
+    
+    unless entry.content == nil then
+        # Display the comments between the blockquote tags
+        content = Nokogiri::HTML(entry.content).css(&quot;blockquote&quot;).map 
+        {|blockquote| blockquote.content}   
+    end
+
+    @n = @n+1
+    %&gt;
+    &lt;li&gt;
+        &lt;div class=&quot;archive-date&quot;&gt;&lt;%=Date.parse(entry.published)
+            .strftime(&quot;%b %d, %Y&quot;)%&gt;&lt;/div&gt;
+        &lt;div class=&quot;&lt;%=classname%&gt;&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;archive-link&quot;&gt;&lt;a href=&quot;&lt;%=entry.url.sanitize%&gt;&quot;&gt;
+            &lt;%=entry.title%&gt;&lt;/a&gt;&lt;/div&gt;
+        &lt;% unless content == nil then %&gt;
+            &lt;div class=&quot;archive-comment&quot;&gt;&lt;%=content%&gt;&lt;/div&gt;
+        &lt;% end %&gt;
+    &lt;/li&gt;
+    
+&lt;% end %&gt;</code>
+  </pre>
+</div>
+
+
+<h3>Conclusion</h3>
+
+<p>I wrote this code pretty quickly and it would probably scale well.  Heroku and Ruby are a pretty powerful combination.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Josh Kerr</span></span>
+
+      
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-25T00:00:00-06:00" pubdate  data-updated="true" >Feb 25<span>th</span>, 2011</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://joshkerr.com/2011/02/redis%2C-ohm-and-heroku-make-caching-data-super-fast/" data-via="joshkerr" data-counturl="http://joshkerr.com/2011/02/redis%2C-ohm-and-heroku-make-caching-data-super-fast/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+</div>
+
+    
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread"><div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'joshkerr';
+  var disqus_identifier = 'http://joshkerr.com/2011/02/redis%2C-ohm-and-heroku-make-caching-data-super-fast/';
+  var disqus_url = 'http://joshkerr.com/2011/02/redis%2C-ohm-and-heroku-make-caching-data-super-fast/';
+  //var disqus_developer = 1;
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside role=sidebar>
+  
+    <section>
+  <h1>Josh Kerr</h1>
+
+    <div id="josh-frame"><div id="josh-headshot"></div></div>
+
+ 	<p>I am the co-founder of <a href="http://www.zosh.com">Zosh</a> a company that was
+	recently acquired by <a href="http://yousendit.com">YouSendIt</a>.  Currently I am Director of Product at <a href="http://www.macheen.com">Macheen</a> the leading enabler in "Internet included" connected devices.  I am also a mentor at <a href="http://www.capitalfactory.com">Capital Factory</a> an early stage startup accelerator in Austin, TX.  &nbsp;<a href="/about/">Read more</a>.</p>
+</section>
+<section>
+  <h1>Featured Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2011/09/i-was-looking-for-a-delicious-app-for-mac/">I Was Looking for a Delicious App for Mac</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/09/the-details-of-the-greatest-online-game-scam/">The details of the greatest online game scam</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/09/capital-factory-demo-day-2011/">Capital Factory Demo Day 2011</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/09/how-do-win-a-demogod-award-at-demo/">How do win a DEMOgod Award at DEMO</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/08/monster-cable-goes-after-the-wrong-guy-lawsuit-gone-wrong/">Monster Cable goes after the wrong guy</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/06/using-file-vault-2-with-multiple-drives/">Using File Vault 2 with multiple drives</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/02/automatic-tv-show-downloading-via-sickbeard/">automatic tv show downloading via sickbeard on a mac</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/02/automating-the-creation-of-posts-in-jekyll/">automating the creation of posts in jekyll</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2011/09/really-cool-new-keyboard-from-corsair/">Really Cool New Keyboard From Corsair</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes/">David Blaine Explains How He Holds His Breath for 17 Minutes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/09/now-this-is-how-you-fly/">Now This Is How You Fly</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/09/an-amazing-photo-gallery-of-north-korea/">An Amazing Photo Gallery of North Korea</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/09/sick-downhill-ride-from-danny-hart/">Sick Downhill Ride From Danny Hart</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/09/create-mac-app-from-shell-script/">Create Mac App From Shell Script</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/09/watch-out-for-chuck-testa/">Watch Out for Chuck Testa</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("joshkerr", 8, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/joshkerr" class="twitter-follow-button" data-width="208px" data-show-count="false">Follow @joshkerr</a>
+  
+</section>
+
+
+<section>
+  <h1>On Delicious</h1>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/js/joshkerr?title=&count=8&sort=date&extended"></script>
+  <p><a href="/delicious/">My Delicious Bookmarks &raquo;</a></p>
+</section>
+
+
+<section>
+  <h1>Github Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/joshkerr">@joshkerr</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'joshkerr',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer><p>
+  Copyright &copy; 2011 - Josh Kerr -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  <span class="credit"> | Additional <a href="/attributions/">Attributions</a></span>
+</p>
+
+</footer>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-9009358-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+</body>
+</html>
