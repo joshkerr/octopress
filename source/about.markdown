@@ -36,7 +36,7 @@ I attended the University of Texas at Austin where I received a Bachelor of Scie
 
 ### Recent press about me or my company ###
 
-* [Tech Crunch: Inside Capital Factory Demo Day]
+* [Tech Crunch Inside Capital Factory Demo Day]
 * <a href="http://blogs.wsj.com/digits/2011/01/31/app-watch-signing-documents-on-the-ipad/">Wall Street Journal</a>
 * <a href="http://www.nytimes.com/external/venturebeat/2011/01/05/05venturebeat-yousendit-acquires-startups-attassa-and-zosh-9734.html?partner=rss&amp;emc=rss">New York Times</a>
 * <a href="http://techcrunch.com/2011/01/05/yousendit-buys-email-collaboration-startup-attassa-and-e-signature-service-zosh/">Tech Crunch</a>
