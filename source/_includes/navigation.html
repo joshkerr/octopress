@@ -6,10 +6,26 @@
 </ul>
 <form action="{{ site.simple_search }}" method="get">
   <fieldset role="site-search">
+<!--
     <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+-->
 <link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
 
+
+<div class="search" id="cse-search-form" style="width: 100%;">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+  google.load('search', '1', {language : 'en'});
+  google.setOnLoadCallback(function() {
+    var customSearchControl = new google.search.CustomSearchControl('002670987270344031863:3efrgc5bkpo');
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    var options = new google.search.DrawOptions();
+    options.enableSearchboxOnly("http://");
+    customSearchControl.draw('cse-search-form', options);
+  }, true);
+</script>
+<link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
 
 
   </fieldset>
