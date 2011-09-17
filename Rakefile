@@ -9,7 +9,7 @@ document_root  = "/var/www/"
 deploy_default = "rsync"
 
 # This will be configured for you when you run config_deploy
-deploy_branch  = "gh-pages"
+deploy_branch  = "master"
 
 ## -- Misc Configs -- ##
 
@@ -234,6 +234,18 @@ multitask :push do
     system "git push origin #{deploy_branch}"
     puts "\n## Github Pages deploy complete"
   end
+end
+
+desc "deploy public directory to heroku"
+multitask :heroku do
+    system "git add ."
+    system "git add -u"
+    puts "\n## Commiting: Site updated at #{Time.now.utc}"
+    message = "Site updated at #{Time.now.utc}"
+    system "git commit -m '#{message}'"
+    puts "\n## Pushing generated website"
+    system "git push heroku"
+    puts "\n## heroku Pages deploy complete"
 end
 
 desc "Update configurations to support publishing to root or sub directory"

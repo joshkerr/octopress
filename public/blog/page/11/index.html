@@ -66,6 +66,53 @@
     
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2011/02/why-i-switched-to-amazon-ec2-hosting/">Why I Switched to Amazon EC2 Hosting and Then Heroku</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-19T00:00:00-06:00" pubdate  data-updated="true" >Feb 19<span>th</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I used to host my blog at <a href="http://www.mediatemple.com">Media Temple</a> which provided a great virtual dedicated hosting platform called (ve).  The server gives you full control and hosting starts at $30 a month.  Very reasonable and very powerful.  Recently I switched to <a href="http://github.com/mojombo/jekyll">Jekyll</a> for blogging which allows you to pre-generate content so that you only need to deploy static files to your web server.  With a system like this in place, there is no need for a database or app server, just a simple web server.  You could use a system like <a href="http://www.ngnix.org">Ngnix</a> which reduces your overhead pretty significantly.</p>
+
+<p>I&#8217;m currently using an <a href="http://aws.amazon.com">Amazon EC2</a> micro server to host this blog and I plan to eventually move to S3 for hosting as soon as Amazon allows me to point my DNS A records at it.  (They currently only allow CNAME records.)</p>
+
+<p>Setup is not easy on Amazon, you are going to need to configure a complete server so I don&#8217;t recommend it for novice users.  There are freely available pre-built servers that are provided by the Amazon community, but I don&#8217;t recommend those because you really never know what someone else installed.  I&#8217;ve seen root keys embedded in the default profile so that someone could root your box with their own key.</p>
+
+<p>One of the big advantages of Amazon EC2 over a provider like Media Temple is that you can easily spawn a new site based on your old one, test out some new settings, and then shut it down, all without needing to pay more than the few hours of time that you had the server running.  (Amazon bills hourly for servers.)  With Media Temple, I&#8217;m having to throw down a month&#8217;s worth of cash just to turn on a new box.</p>
+
+<p>I would still recommend <a href="http://www.mediatemple.com">Media Temple</a> for those that don&#8217;t want to mess with managing their own servers.  For me, I&#8217;m staying with <a href="http://aws.amazon.com">Amazon EC2</a>.</p>
+
+<h3>Update</h3>
+
+<p>Okay, so I&#8217;m not staying with Amazon EC2.  In the end I switched to <a href="http://www.heroku.com">Heroku</a>.  Part of my blog has a feed that shows you my most recent activity across Google Reader, Github, Twitter, etc..  In order to generate that feed, I need to execute a PHP script.  Or do I?  Turns out I don&#8217;t really need a real-time feed, so I just generate the feed when I deploy another blog posting.</p>
+
+<p>So, with that, I decided to deploy my blog to <a href="http://www.heroku.com">Heroku</a>.  Wow is this thing fast.  So what is <a href="http://www.heroku.com">Heroku</a>?  It is a platform to host Ruby apps.  Why would I choose this over Amazon?  Well for one it is cheap as hell.  (Free for small stuff.)  The other consideration is that this platform uses a pure git workflow which is something that I find very appealing.</p>
+
+<p>I&#8217;ll post up a &#8220;how to host your jekyll blog on Heroku&#8221; article in the near future.</p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2011/02/mobile-phones-and-youtube-shake-up-the-middle-east/">Mobile Phones and YouTube Shake Up the Middle East</a></h1>
     
     
@@ -363,43 +410,6 @@ PS1='\[\033[01;32m\]\u\[\033[01;34m\]::\[\033[01;31m\]\h \[\033[00;34m\]{ \[\033
 
   </article>
 
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/02/why-i-am-not-watching-the-superbowl/">Why I Am Not Watching the Super-bowl</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-02-06T00:00:00-06:00" pubdate  data-updated="true" >Feb 6<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I am not watching the Superbowl this year. At least not yet. For the past six months, I&#8217;ve gone without a TV. It is an experiment to see if I can satisfy my TV watching with downloadable content from the Internet.</p>
-
-<p>Using a combination of iTunes, Netflix and Hulu, I can watch enough TV to be satisfied. The only real thing I miss is live sporting events. This will be the first year that I don&#8217;t watch the super-bowl live. I will watch it after it gets posted online, but for the live event, I&#8217;m missing out.</p>
-
-<p>The tough part for me is not going to ESPN.com and looking up the score. In the end, it will be impossible for me not to know the outcome of the game before I end up watching it. I&#8217;ll try to hold out as long as possible.</p>
-
-<p>Cable TV, beware. I&#8217;m happy without you, so you&#8217;ll need to retool and add some significant value before I come back.</p>
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
@@ -476,6 +486,10 @@ PS1='\[\033[01;32m\]\u\[\033[01;34m\]::\[\033[01;31m\]\h \[\033[00;34m\]{ \[\033
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2011/09/now-this-is-how-you-fly/">Now This Is How You Fly</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
       </li>
     
@@ -501,10 +515,6 @@ PS1='\[\033[01;32m\]\u\[\033[01;34m\]::\[\033[01;31m\]\h \[\033[00;34m\]{ \[\033
     
       <li class="post">
         <a href="/blog/2011/09/windows-8-is-looking-good/">Windows 8 Is Looking Good</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/09/i-was-looking-for-a-delicious-app-for-mac/">I Was Looking for a Delicious App for Mac</a>
       </li>
     
   </ul>

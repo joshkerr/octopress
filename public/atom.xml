@@ -4,13 +4,26 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-09-17T00:36:25-05:00</updated>
+  <updated>2011-09-17T08:47:02-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>Now This Is How You Fly</title>
+    <link href="http://joshkerr.com/blog/2011/09/now-this-is-how-you-fly/"/>
+    <updated>2011-09-17T08:41:00-05:00</updated>
+    <id>http://joshkerr.com/blog/2011/09/now-this-is-how-you-fly</id>
+    <content type="html">&lt;p&gt;Liquid error: 710: unexpected token at &amp;#8217;&lt;html&gt;&lt;title&gt;404: Not Found - HTTP 599: Operation timed out after 30000 milliseconds with 607 out of 607 bytes received&lt;/title&gt;&lt;body&gt;404: Not Found - HTTP 599: Operation timed out after 30000 milliseconds with 607 out of 607 bytes received&lt;/body&gt;&lt;/html&gt;&amp;#8217;&lt;/p&gt;
+
+&lt;p&gt;Are you looking to upgrade the way you fly? Probably not.  It is doubtful that the sort of people who could afford this type of cabin on a plane would be reading this blog.  So instead, let me introduce you to the way that you won&amp;#8217;t be flying.  Private cabin.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://elitechoice.org/2011/09/17/airbus-showcases-worlds-largest-corporate-jet-cabin-on-airbus-acj-318/&quot;&gt;More on Elite Choice&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Jedi Kittens. Enough Said.</title>
@@ -502,25 +515,6 @@ To say it was a successful day is an understatement.  Emil and the other &lt;a h
 &lt;h3&gt;Auren Hoffman&lt;/h3&gt;
 
 &lt;p&gt;All in all it was a fantastic day for the Austin startup community.  &lt;a href=&quot;http://www.capitalfactory.com/&quot;&gt;Capital Factory&lt;/a&gt; put on a wonderful show and the hard work of the 5 companies who transformed into Cinderella will certainly go on to grow into great success.&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>TablSkin 2 overlay helps with tablet typing</title>
-    <link href="http://joshkerr.com/blog/2011/09/tablskin-2-overlay-helps-with-tablet-typing/"/>
-    <updated>2011-09-06T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/09/tablskin-2-overlay-helps-with-tablet-typing</id>
-    <content type="html">&lt;p&gt;I did this product which helps you type faster on an iPad by giving you tactile keyboard feedback.  Not sure if it helps because I haven&amp;#8217;t tried it, but I like the idea:&lt;/p&gt;
-
-&lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;640&quot; height=&quot;360&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/7Dvrz3Yx6Cw?version=3&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/7Dvrz3Yx6Cw?version=3&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;640&quot; height=&quot;360&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
-
-
-
-
-&lt;p&gt;You can find more here: [TablSkin][]&lt;/p&gt;
-
-
-
 </content>
   </entry>
   
