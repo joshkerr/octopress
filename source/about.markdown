@@ -78,16 +78,18 @@ I've been able to accelerate my site using [Cloud Flare][] a really cool service
 Powered by [Octopress] a static blogging package built around [Jekyll] and running on [Heroku].
 
 [Octopress]: http://www.octopress.org
-[Cloud Flare]:http://www.cloudflare.com
-[Stefania]:http://www.stefaniagentile.com
-[PhotoOfJosh]:http://joshkerr.s3.amazonaws.com/images/joshincarwithjack.png
-[Watch the video here]:http://www.demo.com/alumni/demo2010/203755.html
-[Heroku]:http://www.heroku.com
-[Jekyll]:http://github.com/mojombo/jekyll
-[switched]:/2011/02/why-i-switched-to-amazon-ec2-hosting/
-[Redis]:http://redis.io
-[Ohm]:http://github.com/soveran/ohm
-[Feedzirra]:http://github.com/pauldix/feedzirra
-[Capital Factory]:http://www.capitalfactory.com
-[Tech Crunch Inside Capital Factory Demo Day]:http://techcrunch.com/2011/09/09/austin%E2%80%99s-capital-factory-2011-demo-day/
-[Heroku]:http://www.heroku.com
+[Cloud Flare]: http://www.cloudflare.com
+[Stefania]: http://www.stefaniagentile.com
+[PhotoOfJosh]: http://joshkerr.s3.amazonaws.com/images/joshincarwithjack.png
+[Watch the video here]: http://www.demo.com/alumni/demo2010/203755.html
+[Heroku]: http://www.heroku.com
+[Jekyll]: http://github.com/mojombo/jekyll
+[switched]: /2011/02/why-i-switched-to-amazon-ec2-hosting/
+[Redis]: http://redis.io
+[Ohm]: http://github.com/soveran/ohm
+[Feedzirra]: http://github.com/pauldix/feedzirra
+[Capital Factory]: http://www.capitalfactory.com
+
+[Tech Crunch Inside Capital Factory Demo Day]: http://techcrunch.com/2011/09/09/austin%E2%80%99s-capital-factory-2011-demo-day/
+
+[Heroku]: http://www.heroku.com
