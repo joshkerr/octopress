@@ -67,6 +67,166 @@
     
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2010/11/arkhippo-iphone-4-case-gives-your-baby-some-back/">Arkhippo iPhone 4 Case Gives Your Baby Some Back</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-11-23T00:00:00-06:00" pubdate  data-updated="true" >Nov 23<span>rd</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>TUAW posted a quick review of the iPhone 4 case from Arkhippo which is actually pretty neat.  The case itself is the size of a small brick which gives it some added usefulness.  It protects your phone like no other, but it also doubles as a stand (using its bulk) which means you can rest it on your dashboard while using the nav.  Cool.</p>
+
+
+<blockquote>The Unofficial Apple Weblog (TUAW)  Link:  <a href="http://www.tuaw.com/2010/11/18/arkhippo-iphone-4-case-gives-your-baby-some-back/">Arkhippo iPhone 4 case gives your baby some back</a>.</blockquote>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/11/how-to-secure-your-ssh-server/">How to Secure Your SSH Server.</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-11-17T00:00:00-06:00" pubdate  data-updated="true" >Nov 17<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>If you are running any variant of Unix or Linux remotely you are probably using SSH to access that system.  This article from <a href="http://www.rackspacecloud.com/blog/2010/11/11/securing-your-ssh-server/">Rackspace</a> does a great job telling you how to secure your box so that hackers have a really hard time breaking into your system.</p>
+
+
+<div>
+  <pre>
+    <code class='bash'>iptables -A INPUT -j ACCEPT -p tcp --dport 22 -s 10.0.0.20
+iptables -A INPUT -j ACCEPT -p tcp --dport 22 -s 10.0.0.25
+iptables -A INPUT -j DROP -p tcp --dport 22</code>
+  </pre>
+</div>
+
+
+
+
+<p><a href="http://www.rackspacecloud.com/blog/2010/11/11/securing-your-ssh-server/">Read the article</a>.</p>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/11/write-your-resume-in-markdown-keep-it-in-git/">Write Your Resume in Markdown, Keep It in Git</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-11-16T00:00:00-06:00" pubdate  data-updated="true" >Nov 16<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I am probably not alone in admitting that I do not keep my resume up to date.  I do a pretty good job of keeping my LinkedIn profile up to date, but I can&#8217;t really email that out as a resume replacement when applying for a job.  If I needed my resume today, I&#8217;d grab some old copy lying around on my computer buried in some old folder and re-write it on the spot with what has changed since I last needed it.  My memory isn&#8217;t so good so chances are good that I will fudge the details.   </p>
+
+
+<p>I recently read an article on <a href="http://pseudoweb.net/2010/10/25/developing-your-resume/">Hacker News</a> about a guy who wrote his resume in Markdown and then published it to the Git source control system where he keeps it up to date.</p>
+
+
+<p>I think this is overkill, but I like the idea and it certainly does make the chore of resume management a lot easier once you&#8217;ve spent the requisite 5 hours setting this up.   The author published a Git <a href="https://github.com/icco/Resume">project</a> that you can fork if you are a member of Git and then markup to be your own.  If you are a Ruby master, you can easily publish the resume directly to your web-server for all your potential managers/bosses to see.</p>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/11/simple-tip-for-merging-video-files-on-a-mac-free/">Simple Tip for Merging Video Files on a Mac (Free)</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-11-16T00:00:00-06:00" pubdate  data-updated="true" >Nov 16<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I saw this tip on Mac OS Hints and thought I&#8217;d share it.   This is a very easy way to join together two video files into one large file.  I&#8217;ve tested it with AVI and MP4 which are both video container files so I can&#8217;t say if it works on other file types.</p>
+
+
+<pre>cat video1.avi video2.avi > video1and2.avi</pre>
+
+
+<p>Next open the video in Quicktime X and re-save it.  Done.</p>
+
+
+<p><a href="http://hints.macworld.com/article.php?story=20101105030030245">Article on Mac OSX Hints</a></p>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2010/11/is-anyone-using-kik-messenger/">Is Anyone Using Kik Messenger?</a></h1>
     
     
@@ -280,205 +440,6 @@
 
   </article>
 
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/11/quickly-encode-mkv-to-mv4-compatible-with-ipad/">Quickly Encode Mkv to Mv4 Compatible With Ipad</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-11-07T00:00:00-05:00" pubdate  data-updated="true" >Nov 7<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I’m a big fan of watching movies on my Apple TV, iPad and sometimes iPhone.  There is a lot of free and legal content that is available to download from the net and I’ve been collecting it,<a href="http://en.wikipedia.org/wiki/Transcoding">transcoding</a> it, <a href="http://joshkerr.com/2010/04/21/use-iflicks-to-add-meta-data-to-your-movies">tagging</a> it and adding it to my iTunes library.</p>
-
-<p>Since all of the device that I use to view the material support 720P, I am usually working with source content that is high-def and packaged in an <a href="http://en.wikipedia.org/wiki/Matroska">MKV</a> container which is not supported by any of the IOS devices so I need to re-encode it.  In the past I used Handbrake which works wonders for taking a video in one format and transcoding it into another format.  This is a CPU intensive task and it can take an hour to encode a 40 minute video stream.</p>
-
-<p>Seeking a faster way to get my videos into the correct format, I did a little research and learned that 720P MKV files actually contain a H.264 video stream.  You don’t need to transcode it.  To make these files compatible with an IOS device you just need to transcode the audio into AAC and then re-package into an MP4 or M4V container.</p>
-
-<h2>MKVTools</h2>
-
-<p>Doing a bit more research I found <a href="http://www.emmgunn.com/mokgvm2dvd/mokgvmhome.html">MKVTools</a> which is essentially an Applescript app that will do this for you automatically resulting in a much faster conversion.  How much faster?  That same 40 minute video stream now transcodes in 4 minutes.  Since the video is already encoded, all you need to do is extract it, re-encode the audio, and then MUX it back together.</p>
-
-<p><a href="http://joshkerr.s3.amazonaws.com/wp-content/uploads/MKVtools.png"><img src="http://joshkerr.s3.amazonaws.com/wp-content/uploads/MKVtools.png" alt="MKV Tools Screenshot" /></a></p>
-
-<p>In MKVTools select the MP4 option, choose Pass Thru for video and AAC (2CH) for audio.  I also select the iPad under Device and then hit the <strong>Convert</strong> button.</p>
-
-<p>I’ve been working with MKVTools for a few days now and it seems to work very well.  I haven’t noticed any strange artifacts in the video or audio, everything syncs up nicely and it even handles subtitles.  The price tag on this tool is $4.99 which I gladly paid.</p>
-
-<h2>iFlicks</h2>
-
-<p>If you are an organization freak like myself, you probably want to tag your M4V files before you load them into iTunes.  This will ensure that they have the right descriptions, episode ID’s and even poster art.  The files will look just like the content you buy directly from the iTunes store.  I use a program called <a href="http://www.iflicksapp.com/">iFlicks</a> to do this.</p>
-
-<p>iFlicks will take the output M4V file from MKVTools and lookup the file name in themoviedb.org and TVDB.com to try to determine what it is.  Once it determines the name of the movie or tv show, it will tag it with all the required data including the poster art.  Click the “Start” button and the results are written to the file and loaded into iTunes.  It couldn’t be easier.</p>
-
-<p><a href="http://joshkerr.s3.amazonaws.com/wp-content/uploads/The.Social.Network.2010.DvdScr.Xvid.AC3-THC.avi.png"><img src="http://joshkerr.s3.amazonaws.com/wp-content/uploads/The.Social.Network.2010.DvdScr.Xvid.AC3-THC.avi.png" alt="Social Network iFlicks screenshot" /></a></p>
-
-<p><a href="http://joshkerr.s3.amazonaws.com/wp-content/uploads/iTunes.png"><img src="http://joshkerr.s3.amazonaws.com/wp-content/uploads/iTunes.png" alt="iTunes Screenshot" /></a></p>
-
-<p>iFlicks is $20 euros and the developer updates the application regularly.  There is however one catch in this workflow that can be easily resolved.  MKTools does not automatically load the resulting M4V files into iFlicks.  You have the manually drag them into the application.</p>
-
-<h2>Hazel</h2>
-
-<p>This is where <a href="http://www.noodlesoft.com/hazel.php">Hazel</a> comes into play.  Hazel is a folder watching service which can apply rules to those folders.  For me, I use it to look for processed M4V files and load them automatically into iFlicks.  You could probably achieve the same result using folder actions, but Hazel makes it so easy.</p>
-
-<p>This workflow is great for getting MKV 720P files into iTunes and in a great high quality that is compatible with the latest IOS devices including the new Apple TV.  It would be really cool if someone were to build all this functionality into a single app.  (I’m talking to you Mr. MKVTools author.)</p>
-
-<h2>iFlicks 1.3.0 Beta</h2>
-
-<p>It turns out that the newest version of iFlicks now support transcoding MKV files into M4V without the needing to re-encode the video.  This is great news and for those of you who want to try it out you can get it form their <a href="href=%22http://groups.google.com/group/iflicks/browse_thread/thread/d10236fd31cd87f7">Google Groups</a>.</p>
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/11/just-add-water-household-cleaner-in-an-empty-bottle/">Just Add Water: Household Cleaner in an Empty Bottle</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-11-02T00:00:00-05:00" pubdate  data-updated="true" >Nov 2<span>nd</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Okay, this is really cool.  Since 90% of the makeup of a common household cleaner is water, why not ship it without the water and let the consumer fill it with their own?  I imagine this saves huge on shipping costs especially if these cleaners are being flown from somewhere.  The product is appropriately called <a href="http://www.myreplenish.com/rethink-the-bottle.html">Replenish</a>.</p>
-
-
-<p><img alt="Product photo" src="http://joshkerr.s3.amazonaws.com/wp-content/uploads/replenish.jpeg"/></p>
-
-
-<p>Hat tip: Gearlog</p>
-
-
-<p>via <a href="http://feedproxy.google.com/~r/ziffdavis/gearlog-ziffdavis/~3/DuJ3Xr23iGk/just_add_water_household_clean.php">Just Add Water: Household Cleaner In An Empty Bottle</a>.</p>
-
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/11/base-one-labs-introduces-impactband-massive-iphone-case/">Base One Labs Introduces ImpactBand: Massive iPhone Case</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-11-02T00:00:00-05:00" pubdate  data-updated="true" >Nov 2<span>nd</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Holy Batman, that is a <strong>HUGE</strong> iPhone 4 case.  If you watch the <a href="http://www.baseonelabs.com/products/impactbandtm-for-iphone-4">video</a> from the <a href="http://www.baseonelabs.com">website</a>, you see a guy drop it from more than 6 feet on to concrete.  Wow.</p>
-
-
-<p><img src="http://joshkerr.s3.amazonaws.com/wp-content/uploads/ib_large.png" alt="Massive iPhone Case from Base One Labs"/></p>
-
-
-<p>I need my iPhone to fit into my pants pocket, so I’ll pass on this one.</p>
-
-
-<p>Hat tip: The Unofficial Apple Weblog (TUAW)</p>
-
-
-<p>via <a href="http://www.tuaw.com/2010/11/02/base-one-labs-introduces-impactband-a-beefier-alternative-to-ip/">Base One Labs introduces ImpactBand, a beefier alternative to iPhone bumper</a>.</p>
-
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/11/improve-blog-performance-with-optimized-images/">Improve Blog Performance With Optimized Images</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-11-01T00:00:00-05:00" pubdate  data-updated="true" >Nov 1<span>st</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Tyler Hall, a web guy over at Yahoo wrote this great script that will automatically sort through your Amazon S3 stored images and run them through Yahoo&#8217;s autosmash to optimize them for faster web performance.</p>
-
-
-<p>Why should this concern you?  First, you should not be hosting your blog&#8217;;s images from your blog web site.  You should be using a CDN (content delivery network) just in case you get a front page link on the New York Times or Reddit which would cause thousands of users to suddenly come visit your site.  Hosting those images from your site would kill your site.  (Think denial of service.)</p>
-
-
-<p>If you are using Wordpress you should also be using TanTan Noodles Amazon S3<a href="http://tantannoodles.com/toolkit/wordpress-s3/">plugin</a>.  This plugin will automatically place uploaded images on your in your S3 account.  Amazon is a low cost CDN and this plugin makes its use seamless.</p>
-
-
-<p>Now add in Autosmush and you can have your photos optimized not only in size (without loss of quality,) but to last in your browsers cache for a longer period of time.  So rather than requesting the same image over and over, it will grab the image from its cache thus cutting back on a lot of the requests to your server.</p>
-
-
-<p>Everything you need to install and use this script is available on Tyler&#8217;;s github account.  I&#8217;;ve been using it for a month now and it works great.</p>
-
-
-<p><a href="http://github.com/tylerhall/Autosmush/blob/master/autosmush"><a href="http://github.com/tylerhall/Autosmush/blob/master/autosmush">http://github.com/tylerhall/Autosmush/blob/master/autosmush</a></a></p>
-
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
@@ -555,6 +516,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2011/09/an-amazing-photo-gallery-of-north-korea/">An Amazing Photo Gallery of North Korea</a>
       </li>
     
@@ -580,10 +545,6 @@
     
       <li class="post">
         <a href="/blog/2011/09/i-was-looking-for-a-delicious-app-for-mac/">I Was Looking for a Delicious App for Mac</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/09/the-best-music-discover-service-you-cant-use/">The Best Music Discovery Service</a>
       </li>
     
   </ul>

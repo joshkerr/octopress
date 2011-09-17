@@ -67,6 +67,191 @@
     
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2011/02/do-you-believe-the-statistics/">Do You Believe the Statistics</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-03T00:00:00-06:00" pubdate  data-updated="true" >Feb 3<span>rd</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>There are so many infographics that chart different types of stats over different industries.  The latest version I saw is on cellphone usage from <a href="http://brandappstoday.com/">Brand Apps Today</a> that looks a bit like this:</p>
+
+<p><a href="http://joshkerr.s3.amazonaws.com/images/The-Shocking-Demographics-Of-Cell-Phone-Use.jpg"><img src="http://joshkerr.s3.amazonaws.com/images/The-Shocking-Demographics-Of-Cell-Phone-Use.jpg" alt="Mobile Phone Usage Chart" /></a></p>
+
+<p>If you take a look at some of these numbers, they seem impossible to gather.  &#8220;Americans who answer the phone during sex?&#8221;  They did a survey on that?  Doubtful.</p>
+
+<p>You really have to take these things with a grain of salt.  Make up your own mind on whether or not to believe the statistics.  Just because someone spouts a number, doesn&#8217;t mean it is true.</p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/02/automating-the-creation-of-posts-in-jekyll/">Automating the Creation of Posts in Jekyll</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-03T00:00:00-06:00" pubdate  data-updated="true" >Feb 3<span>rd</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I really dig the control that Jekyll afford me to blog using the tools of my choice in the manner I see fit.  I like that I can publish with static files and that what I edit on my local machine is identical to what you see on my blog.</p>
+
+<p>Creating new posts can be a chore however because there are default tags that have to be added to each post.  You can automate this in a bunch of different ways, but I like this way:</p>
+
+<p><a href="http://forrst.com/posts/Jekyll_Workflow_Automation-1hs">Workflow grabbed from Forrst</a></p>
+
+<div>
+  <pre>
+    <code class='bash'># create a new post and fill the template
+alias create=&quot;sh ~/.postname&quot;
+
+# the contents of ~/.postname:
+#!/bin/zsh
+
+################
+# Get our info #
+################
+yearmonth=`date &quot;+%Y/%m&quot;`
+postdate=`date &quot;+%Y-%m-%d&quot;`
+jekylldate=`date &quot;+%Y-%m-%d&quot;`
+read -p &quot;Enter the post name: &quot; post_variable;
+touch /Users/TJ/Desktop/foobar.com/_posts/$yearmonth/$postdate-$post_variable.markdown &amp;&amp;
+cat &lt;&lt;EOF &gt; /Users/TJ/Desktop/foobar.com/_posts/$yearmonth/$postdate-$post_variable.markdown
+---
+layout: post
+date: $jekylldate
+title: $post_variable
+excerpt:
+---
+EOF
+mate /Users/TJ/Desktop/foobar.com/_posts/$yearmonth/$postdate-$post_variable.markdown
+exit 0
+
+# start up Jekyll for local preview of blog
+alias preview=&quot;cd /Users/TJ/Desktop/foobar.com &amp;&amp; jekyll --server --auto&quot;
+
+# delete the existing built site and rebuild
+alias build=&quot;cd /Users/TJ/Desktop/foobar.com &amp;&amp; rm -rf _site/ &amp;&amp; jekyll&quot;
+
+# use rsync to push the weblog to my (ve)
+alias deploy=&quot;echo 'Deploying to remote host...' &amp;&amp;
+cd /Users/TJ/Desktop/foobar.com &amp;&amp; rsync -rtz --delete _site/ deploy@foobar.com:/var/www/_site &amp;&amp;
+echo 'Done!'&quot;</code>
+  </pre>
+</div>
+
+
+<p>Just add this to your bash_profile to enable simple terminal commands for creating blog entries.  It will use textmate as the editor, but you can easily swap it out for another.  Make sure to configure the directories correct as the ones above were configured for someone else.</p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/02/apple-adds-bugs-in-beta-releases/">Apple Purposely Adds Bugs to iOS Releases</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-01T00:00:00-06:00" pubdate  data-updated="true" >Feb 1<span>st</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I recently read a rant by a user who was testing iOS 4.3 beta 3 and complained that all three beta releases had an annoying bug that caused his folders to disappear on his springboard and the icons set to default layout.  I think Apple is doing this on purpose to prevent users from deploying beta versions.</p>
+
+<p>I could see many reasons for Apple doing this, but the big one is that they enable features in a beta that they wanted tested and then disable them in a release.  Tethering is a good one.  I also think they users of beta copies create more support incidents which can be costly for a company that has such a large customers base.</p>
+
+<p>Either way, I don&#8217;t see why a user would complain about this.  The software is beta for a reason.  End of rant.</p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/bullet-train-keyboard-is-awesome/">Bullet Train Offers Desktop Keyboard With Form Factor of Notebook</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-31T00:00:00-06:00" pubdate  data-updated="true" >Jan 31<span>st</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I need this bad.  I&#8217;ve been wanting something like this for years.  It is a keyboard stand for your wireless Apple keyboard and trackpad.  It is shaped like the bottom of a Macbook Pro.  I ordered one within a few seconds of seeing it.</p>
+
+<p><a href="http://bullettrain.com/express.html">Bulletin Train Keyboard</a></p>
+
+<p><img src="http://www.blogcdn.com/www.tuaw.com/media/2011/01/bullettrainkeyboardexpress2342.jpg" alt="Photo" /></p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2011/01/Zosh-in-wallstreet-journal/">Zosh Gets a Shout-out in the Wall Street Journal</a></h1>
     
     
@@ -225,161 +410,6 @@ end</code>
 
   </article>
 
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/01/Tooth-decay-by-PFFR/">Tooth Decay by PFFR</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-01-28T00:00:00-06:00" pubdate  data-updated="true" >Jan 28<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Very cool song, very cool video.  Enough said.</p>
-
-<iframe title="YouTube video player" class="youtube-player" type="text/html" width="480" height="390" src="http://www.youtube.com/embed/bEBzmrDbJ-I" frameborder="0" allowFullScreen></iframe>
-
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/01/Taco-Bell-damage/">Taco Bell, Real Beef or Not, Damage Is Done</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-01-28T00:00:00-06:00" pubdate  data-updated="true" >Jan 28<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>It doesn&#8217;t matter if Taco Bell uses real beef in their Tacos or not, the PR damage done by the recently filed lawsuit cannot be easily repaired.</p>
-
-
-<p><a href="http://www.tacobell.com/company/newsreleasearticle/Statement-Regarding-Class-Action-Lawsuit">Video</a> of Taco Bell president doing damage control.</p>
-
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/01/best-peel-out-ever/">Best Peel-out EVER.</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-01-24T00:00:00-06:00" pubdate  data-updated="true" >Jan 24<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I wasn&#8217;t expecting this guy to be so good.  Fast forward to 6:38 to see Mike burn rubber like nobody else.</p>
-
-<iframe title="YouTube video player" class="youtube-player" type="text/html" width="600" height="480" src="http://www.youtube.com/embed/iYDAdzlEDZ4?rel=0" frameborder="0" allowFullScreen></iframe>
-
-
-<p>Hat tip to the <a href="http://theawesomer.com/">Awesomer</a>.</p>
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/01/twitter-did-you-just-change-your-icon-again/">Twitter, Did You Just Change Your Icon Again?</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-01-23T00:00:00-06:00" pubdate  data-updated="true" >Jan 23<span>rd</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img class="dropshadow" src="http://jk.joshkerr.com/wp-content/uploads/2011/01/Twitter.png" border="0" alt="Twitter.png" width="63" height="70" /> <img class="dropshadow" src="http://jk.joshkerr.com/wp-content/uploads/2011/01/Twitter2.png" border="0" alt="Twitter2.png" width="70" height="72" /></p>
-
-
-<p>Why would you change your icon again? &nbsp;The Mac App Store launches, Twitter launches a new client with a black Icon. &nbsp;It looked cool. &nbsp;Then they released an update with a blue icon. &nbsp;Now a third update with a 3d icon. &nbsp;Why? &nbsp;Just focus on making your app less annoying.</p>
-
-
-<p><img class="dropshadow" src="http://jk.joshkerr.com/wp-content/uploads/2011/01/MarsEdit.png" border="0" alt="MarsEdit.png" width="461" height="74" /></p>
-
-
-<p>A normal Mac App has the minimize, maximize and close icons at the top right in standard red, yellow and green.</p>
-
-
-<p><img class="dropshadow" src="http://jk.joshkerr.com/wp-content/uploads/2011/01/Twitter12.png" border="0" alt="Twitter1.png" width="433" height="99" /></p>
-
-
-<p>Twitter decided to write their own UI with black icons. &nbsp;While it might look good, it isn&#8217;t that easy to use. &nbsp;Why not keep the standard OS UI?</p>
-
-
-<p>I&#8217;m done with my rant now.</p>
-
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
@@ -456,6 +486,10 @@ end</code>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2011/09/an-amazing-photo-gallery-of-north-korea/">An Amazing Photo Gallery of North Korea</a>
       </li>
     
@@ -481,10 +515,6 @@ end</code>
     
       <li class="post">
         <a href="/blog/2011/09/i-was-looking-for-a-delicious-app-for-mac/">I Was Looking for a Delicious App for Mac</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/09/the-best-music-discover-service-you-cant-use/">The Best Music Discovery Service</a>
       </li>
     
   </ul>

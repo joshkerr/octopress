@@ -67,6 +67,249 @@
     
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2010/12/nyc-subway-at-42nd-st-taken-with-instagram/">Nyc Subway at 42nd St Taken With Instagram</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-12-16T00:00:00-06:00" pubdate  data-updated="true" >Dec 16<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://joshkerr.tumblr.com/photo/1280/2333992926/1/tumblr_ldidd3E0aw1qz9lkr" alt=""/><br/><br/><p>NYC subway at 42nd St (Taken with <a href="http://instagr.am">instagram</a>)</p></p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/12/video-tagging-automation-with-iflicks-and-hazel/">Video Tagging Automation With iFlicks and Hazel</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-12-14T00:00:00-06:00" pubdate  data-updated="true" >Dec 14<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>The latest beta version of iFlicks will transcode HD versions of mkv files into iTunes compatible mp4 files without re-encoding the video.  With this and Hazel, a Mac automation app, I&#8217;ve got an automated way of converting and tagging my video files.</p>
+
+
+
+
+<p>First, you need to download the beta version of iFlicks.  You can get it from the iFlicks <a href="http://groups.google.com/group/iflicks/topics">Google group</a>.  Just search around and you&#8217;ll find the link.</p>
+
+
+
+
+<p>Now that iFlicks is installed, you&#8217;ll need to download and install Hazel.  You can get it from <a href="http://www.noodlesoft.com/hazel.php">here</a>.</p>
+
+
+
+
+<p>Now you&#8217;ll need to configure your Hazel rules.  Lets pretend that you use a program like <a href="http://www.sabnzbd.org">SABNzbd</a> to download TV shows or Movies (non copyrighted of course) from the Internet.  I would normally have them in either my Movie or TV folder depending on the type.</p>
+
+
+
+
+<p><a href="http://joshkerr.s3.amazonaws.com/images/Finder.png"><img src="http://joshkerr.s3.amazonaws.com/images/Finder.png" alt="Finder"/></a></p>
+
+
+
+
+<p>Now we can configure Hazel to automatically load our mkv files into iFlicks and clean up the folders when it is done.  This is what my list of rules looks like for my Movies folder.</p>
+
+
+
+
+<p><a href="http://joshkerr.s3.amazonaws.com/images/Hazel%20Window.png"><img src="http://joshkerr.s3.amazonaws.com/images/Hazel%20Window.png" alt="Hazel Window"/></a></p>
+
+
+
+
+<p>I&#8217;ve got three rules that you&#8217;ll need to create:
+
+</p>
+
+
+<ul>
+<li>Encode Video - loads the mkv file into iFlicks for encoding and tagging</li>
+<li>Delete NFO files - this cleans out the directory from the left over garbage leaving an empty folder</li>
+<li>Process sub folders - this will go into sub folders and run the previous two rules.  If the folder is empty it will delete it</li>
+</ul>
+
+
+<p><a href="http://joshkerr.s3.amazonaws.com/images/Encode%20Video.png"><img src="http://joshkerr.s3.amazonaws.com/images/Encode%20Video.png" alt="Encode Video"/></a></p>
+
+
+
+
+<p>The encode video rule first looks for a file over 500mb that ends in mkv.  It also checks that it does not have a color label.  This is important as the label signifies that a video is being procoessed.  Since processing can take several minutes, you don&#8217;t want Hazel to keep adding the same video to iFlicks.</p>
+
+
+
+
+<p><a href="http://joshkerr.s3.amazonaws.com/images/Delete%20info%20files.png"><img src="http://joshkerr.s3.amazonaws.com/images/Delete%20info%20files.png" alt="Delete info files"/></a></p>
+
+
+
+
+<p>The delete NFO files rule just removes the meaningless files left over after processing the video.  When done I should have an empty folder.</p>
+
+
+
+
+<p><a href="http://joshkerr.s3.amazonaws.com/images/Remove%20subfolders.png"><img src="http://joshkerr.s3.amazonaws.com/images/Remove%20subfolders.png" alt="Remove subfolders"/></a></p>
+
+
+
+
+<p>The process subfolders rule does two things.  First it dives into subfolders and runs the previous two rules.  Second it looks for empty folders and runs a script to delete them. </p>
+
+
+
+
+<p><code>
+tell application "Finder"<br/>
+  set theContents to entire contents of theFile<br/>
+  if theContents = {} then<br/>
+   delete theFile<br/>
+  end if<br/>
+end tell
+</code></p>
+
+
+
+
+<p>If you configure your TV folder to run the same way, you&#8217;ll end up with an automated way to process your downloaded mkv files using Hazel and iFlicks.  It took me a while to finally come up with a reliable automated solution.  I&#8217;d like to see iFlicks handle most of this without the need for using Hazel, but for now this is working pretty well.</p>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/12/photojojonow-thats-how-you-a-do-a-profile-picture-bravo-alexandre-bravovia-gueamu/">Now That Is How You Create a Facebook Profile Page</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-12-13T00:00:00-06:00" pubdate  data-updated="true" >Dec 13<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://joshkerr.tumblr.com/photo/1280/2307474322/1/tumblr_ldclij3Qyb1qz4vi2" alt=""/><br/><br/><p><a href="http://tumblr.photojojo.com/post/2195625035/now-thats-how-you-a-do-a-profile-picture-bravo">photojojo</a>:</p></p>
+
+<blockquote>
+<p>Now THAT’s how you a do a profile picture. Bravo, <a href="http://www.facebook.com/alexandre.oudin">Alexandre</a>. Bravo.</p>
+<p><small><em><span class="tumblr_blog">via </span><a href="http://gueamu.net/post/2195092331/now-that-is-a-nice-profile-picture-like">gueamu</a></em></small></p>
+</blockquote>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/12/do-you-encrypt-your-hard-drive-pgp-vs-filevault/">Do You Encrypt Your Hard Drive? PGP vs FileVault</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-12-13T00:00:00-06:00" pubdate  data-updated="true" >Dec 13<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I just got done with encrypting my notebook&#8217;s 500GB  hard drive.  It took a little over 6 hours to for PGP to encrypt the whole drive.  I have a Mac so I had the option to use FileVault the built in encryption service, but chose instead to use PGP.</p>
+
+
+<p><img src="http://joshkerr.s3.amazonaws.com/images/pgp.png" alt="Encrypting my hard drive"/><br/><br/>For me, the big differentiator is that FileVault only encrypts your home folder.  There are so many ways that data can get outside your home folder and that is a glaring security hole. <br/><br/>These are the advantages to PGP Whole Disk Encryption over FileVault: </p>
+
+
+<ul>
+<li>Time Machine Backup&#8217;s run whilst user is logged into home folder.</li>
+<li>You get some extra tools (eg to encrypt external drives.)</li>
+<li>You don&#8217;t need to worry about sensitive data getting outside of the home folder.</li>
+<li>You can use the computer while the disk is encrypting.</li>
+<li>Your swap file and sleep image are encrypted automatically.</li>
+<li>No extra waiting during shutdown for FileVault optimizations.</li>
+</ul>
+
+
+<p>The big advantage of FileVault over PGP WDE is that FileVault is an Apple created technology and will be compatible with future versions of Mac OS X where PGP might not.  Recently users who upgraded to 10.6.5 found their computers unable to boot due to a last minute change made by Apple before the release.  PGP was quick to fix the issue and nobody lost data, but the thought of waiting for a rescue boot disk to use your notebook again is pretty scary.</p>
+
+
+<p>I consider myself a power user and I was initially worried about performance.  WDE is not supposed to cause any noticeable performance hit to your notebook in normal usage.  (What ever that means.)  For me, I notice that the startup times are a bit longer, but everything else is just as zippy fast as it was before WDE.</p>
+
+
+<p>I travel quite a bit and feel reassured that my notebook is protected especially in the event of a theft.  If you have the extra cash, I recommend PGP Whole Disk Encryption over using FileVault as it provides a much more secure way to keep your data safe.</p>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2010/12/go-get-reeder-for-the-mac-if-a-you-own-a-mac-and-b-you-use-google-reader-it-is-the-best-reader-experience-on-the-mac-bar-none/">Go Get Reeder for the Mac if a You Own a Mac and B You Use Google Reader It Is the Best Reader Experience on the Mac Bar None</a></h1>
     
     
@@ -194,132 +437,6 @@
 
   </article>
 
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/12/some-pretty-obvious-criticisms-of-angry-birds-doesn8217t-sway-me-from-playing-the-game-though/">Some Pretty Obvious Criticisms of Angry Birds.</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-12-10T00:00:00-06:00" pubdate  data-updated="true" >Dec 10<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><object type="application/x-shockwave-flash" data="http://www.dorkly.com/moogaloop/noobtube.swf?clip_id=7008&amp;fullscreen=1" width="400" height="225"><param name="allowfullscreen" value="true" /><param name="wmode" value="transparent" /><param name="allowScriptAccess" value="always" /><param name="movie" quality="best" value="http://www.dorkly.com/moogaloop/noobtube.swf?clip_id=7008&amp;fullscreen=1" /><embed src="http://www.dorkly.com/moogaloop/noobtube.swf?clip_id=7008&amp;fullscreen=1" type="application/x-shockwave-flash" wmode="transparent" width="400" height="225" allowscriptaccess="always"></embed></object>
-
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/12/very-cool-mashup-of-sting-and-rudolph-the-red-nosereindeer-not-sure-who-things-up-these-things-but-the-snowman-playing-the-guitar-riff-at-thebeginningwas-perfect/">Very Cool Mashup of Sting and Rudolph the Red Nose Reindeer</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-12-08T00:00:00-06:00" pubdate  data-updated="true" >Dec 8<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><object width="400" height="325"><param name="movie" value="http://www.youtube.com/v/5N4EFVgtB0Y&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1"></param><param name="wmode" value="transparent"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/5N4EFVgtB0Y&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1" type="application/x-shockwave-flash" width="400" height="325" allowFullScreen="true" wmode="transparent"></embed></object>
-
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/12/how-to-clean-up-your-macs-open-with-contextual-menu/">How to Clean Up Your Mac&#8217;s &quot;Open With&quot; Contextual Menu</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-12-08T00:00:00-06:00" pubdate  data-updated="true" >Dec 8<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://lifehacker.com/5708820/how-to-clean-up-your-macs-open-with-contextual-menu?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+lifehacker%2Ffull+%28Lifehacker%29">How to Clean Up Your Mac&#8217;s &#8220;Open With&#8221; Contextual Menu</a><br/><p>This is pretty useful.  I go through a lot of apps and they all leave this Open with.. residue.</p></p>
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/12/daft-punk-tron-8220derezzed8221-video-like-i-couldn8217t-be-more-excited-to-see-this-movie/">Daft Punk With Tron Derezzed</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-12-08T00:00:00-06:00" pubdate  data-updated="true" >Dec 8<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><embed src="http://media.mtvnservices.com/mgid:uma:video:mtv.com:603648" width="400" height="249" type="application/x-shockwave-flash" flashvars="configParams=id%3D1653651%26vid%3D603648%26uri%3Dmgid%3Auma%3Avideo%3Amtv.com%3A603648" allowfullscreen="true" allowscriptaccess="always" base="."></embed></p>
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
@@ -396,6 +513,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2011/09/an-amazing-photo-gallery-of-north-korea/">An Amazing Photo Gallery of North Korea</a>
       </li>
     
@@ -421,10 +542,6 @@
     
       <li class="post">
         <a href="/blog/2011/09/i-was-looking-for-a-delicious-app-for-mac/">I Was Looking for a Delicious App for Mac</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/09/the-best-music-discover-service-you-cant-use/">The Best Music Discovery Service</a>
       </li>
     
   </ul>

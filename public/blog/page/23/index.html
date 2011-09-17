@@ -67,6 +67,205 @@
     
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2010/11/quickly-encode-mkv-to-mv4-compatible-with-ipad/">Quickly Encode Mkv to Mv4 Compatible With Ipad</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-11-07T00:00:00-05:00" pubdate  data-updated="true" >Nov 7<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I’m a big fan of watching movies on my Apple TV, iPad and sometimes iPhone.  There is a lot of free and legal content that is available to download from the net and I’ve been collecting it,<a href="http://en.wikipedia.org/wiki/Transcoding">transcoding</a> it, <a href="http://joshkerr.com/2010/04/21/use-iflicks-to-add-meta-data-to-your-movies">tagging</a> it and adding it to my iTunes library.</p>
+
+<p>Since all of the device that I use to view the material support 720P, I am usually working with source content that is high-def and packaged in an <a href="http://en.wikipedia.org/wiki/Matroska">MKV</a> container which is not supported by any of the IOS devices so I need to re-encode it.  In the past I used Handbrake which works wonders for taking a video in one format and transcoding it into another format.  This is a CPU intensive task and it can take an hour to encode a 40 minute video stream.</p>
+
+<p>Seeking a faster way to get my videos into the correct format, I did a little research and learned that 720P MKV files actually contain a H.264 video stream.  You don’t need to transcode it.  To make these files compatible with an IOS device you just need to transcode the audio into AAC and then re-package into an MP4 or M4V container.</p>
+
+<h2>MKVTools</h2>
+
+<p>Doing a bit more research I found <a href="http://www.emmgunn.com/mokgvm2dvd/mokgvmhome.html">MKVTools</a> which is essentially an Applescript app that will do this for you automatically resulting in a much faster conversion.  How much faster?  That same 40 minute video stream now transcodes in 4 minutes.  Since the video is already encoded, all you need to do is extract it, re-encode the audio, and then MUX it back together.</p>
+
+<p><a href="http://joshkerr.s3.amazonaws.com/wp-content/uploads/MKVtools.png"><img src="http://joshkerr.s3.amazonaws.com/wp-content/uploads/MKVtools.png" alt="MKV Tools Screenshot" /></a></p>
+
+<p>In MKVTools select the MP4 option, choose Pass Thru for video and AAC (2CH) for audio.  I also select the iPad under Device and then hit the <strong>Convert</strong> button.</p>
+
+<p>I’ve been working with MKVTools for a few days now and it seems to work very well.  I haven’t noticed any strange artifacts in the video or audio, everything syncs up nicely and it even handles subtitles.  The price tag on this tool is $4.99 which I gladly paid.</p>
+
+<h2>iFlicks</h2>
+
+<p>If you are an organization freak like myself, you probably want to tag your M4V files before you load them into iTunes.  This will ensure that they have the right descriptions, episode ID’s and even poster art.  The files will look just like the content you buy directly from the iTunes store.  I use a program called <a href="http://www.iflicksapp.com/">iFlicks</a> to do this.</p>
+
+<p>iFlicks will take the output M4V file from MKVTools and lookup the file name in themoviedb.org and TVDB.com to try to determine what it is.  Once it determines the name of the movie or tv show, it will tag it with all the required data including the poster art.  Click the “Start” button and the results are written to the file and loaded into iTunes.  It couldn’t be easier.</p>
+
+<p><a href="http://joshkerr.s3.amazonaws.com/wp-content/uploads/The.Social.Network.2010.DvdScr.Xvid.AC3-THC.avi.png"><img src="http://joshkerr.s3.amazonaws.com/wp-content/uploads/The.Social.Network.2010.DvdScr.Xvid.AC3-THC.avi.png" alt="Social Network iFlicks screenshot" /></a></p>
+
+<p><a href="http://joshkerr.s3.amazonaws.com/wp-content/uploads/iTunes.png"><img src="http://joshkerr.s3.amazonaws.com/wp-content/uploads/iTunes.png" alt="iTunes Screenshot" /></a></p>
+
+<p>iFlicks is $20 euros and the developer updates the application regularly.  There is however one catch in this workflow that can be easily resolved.  MKTools does not automatically load the resulting M4V files into iFlicks.  You have the manually drag them into the application.</p>
+
+<h2>Hazel</h2>
+
+<p>This is where <a href="http://www.noodlesoft.com/hazel.php">Hazel</a> comes into play.  Hazel is a folder watching service which can apply rules to those folders.  For me, I use it to look for processed M4V files and load them automatically into iFlicks.  You could probably achieve the same result using folder actions, but Hazel makes it so easy.</p>
+
+<p>This workflow is great for getting MKV 720P files into iTunes and in a great high quality that is compatible with the latest IOS devices including the new Apple TV.  It would be really cool if someone were to build all this functionality into a single app.  (I’m talking to you Mr. MKVTools author.)</p>
+
+<h2>iFlicks 1.3.0 Beta</h2>
+
+<p>It turns out that the newest version of iFlicks now support transcoding MKV files into M4V without the needing to re-encode the video.  This is great news and for those of you who want to try it out you can get it form their <a href="href=%22http://groups.google.com/group/iflicks/browse_thread/thread/d10236fd31cd87f7">Google Groups</a>.</p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/11/just-add-water-household-cleaner-in-an-empty-bottle/">Just Add Water: Household Cleaner in an Empty Bottle</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-11-02T00:00:00-05:00" pubdate  data-updated="true" >Nov 2<span>nd</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Okay, this is really cool.  Since 90% of the makeup of a common household cleaner is water, why not ship it without the water and let the consumer fill it with their own?  I imagine this saves huge on shipping costs especially if these cleaners are being flown from somewhere.  The product is appropriately called <a href="http://www.myreplenish.com/rethink-the-bottle.html">Replenish</a>.</p>
+
+
+<p><img alt="Product photo" src="http://joshkerr.s3.amazonaws.com/wp-content/uploads/replenish.jpeg"/></p>
+
+
+<p>Hat tip: Gearlog</p>
+
+
+<p>via <a href="http://feedproxy.google.com/~r/ziffdavis/gearlog-ziffdavis/~3/DuJ3Xr23iGk/just_add_water_household_clean.php">Just Add Water: Household Cleaner In An Empty Bottle</a>.</p>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/11/base-one-labs-introduces-impactband-massive-iphone-case/">Base One Labs Introduces ImpactBand: Massive iPhone Case</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-11-02T00:00:00-05:00" pubdate  data-updated="true" >Nov 2<span>nd</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Holy Batman, that is a <strong>HUGE</strong> iPhone 4 case.  If you watch the <a href="http://www.baseonelabs.com/products/impactbandtm-for-iphone-4">video</a> from the <a href="http://www.baseonelabs.com">website</a>, you see a guy drop it from more than 6 feet on to concrete.  Wow.</p>
+
+
+<p><img src="http://joshkerr.s3.amazonaws.com/wp-content/uploads/ib_large.png" alt="Massive iPhone Case from Base One Labs"/></p>
+
+
+<p>I need my iPhone to fit into my pants pocket, so I’ll pass on this one.</p>
+
+
+<p>Hat tip: The Unofficial Apple Weblog (TUAW)</p>
+
+
+<p>via <a href="http://www.tuaw.com/2010/11/02/base-one-labs-introduces-impactband-a-beefier-alternative-to-ip/">Base One Labs introduces ImpactBand, a beefier alternative to iPhone bumper</a>.</p>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/11/improve-blog-performance-with-optimized-images/">Improve Blog Performance With Optimized Images</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-11-01T00:00:00-05:00" pubdate  data-updated="true" >Nov 1<span>st</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Tyler Hall, a web guy over at Yahoo wrote this great script that will automatically sort through your Amazon S3 stored images and run them through Yahoo&#8217;s autosmash to optimize them for faster web performance.</p>
+
+
+<p>Why should this concern you?  First, you should not be hosting your blog&#8217;;s images from your blog web site.  You should be using a CDN (content delivery network) just in case you get a front page link on the New York Times or Reddit which would cause thousands of users to suddenly come visit your site.  Hosting those images from your site would kill your site.  (Think denial of service.)</p>
+
+
+<p>If you are using Wordpress you should also be using TanTan Noodles Amazon S3<a href="http://tantannoodles.com/toolkit/wordpress-s3/">plugin</a>.  This plugin will automatically place uploaded images on your in your S3 account.  Amazon is a low cost CDN and this plugin makes its use seamless.</p>
+
+
+<p>Now add in Autosmush and you can have your photos optimized not only in size (without loss of quality,) but to last in your browsers cache for a longer period of time.  So rather than requesting the same image over and over, it will grab the image from its cache thus cutting back on a lot of the requests to your server.</p>
+
+
+<p>Everything you need to install and use this script is available on Tyler&#8217;;s github account.  I&#8217;;ve been using it for a month now and it works great.</p>
+
+
+<p><a href="http://github.com/tylerhall/Autosmush/blob/master/autosmush"><a href="http://github.com/tylerhall/Autosmush/blob/master/autosmush">http://github.com/tylerhall/Autosmush/blob/master/autosmush</a></a></p>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2010/10/using-duplicity-to-backup-your-server-to-amazon-s3/">Using Duplicity to Backup Your Server to Amazon S3</a></h1>
     
     
@@ -313,166 +512,6 @@ export PASSPHRASE</code>
 
   </article>
 
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/10/the-most-important-startup-discussion-roles-goals/">The Most Important Startup Discussion: Roles and Goals</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-10-26T00:00:00-05:00" pubdate  data-updated="true" >Oct 26<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Many startups begin with two or more co-founders.  Each co-founder brings a different set of skills to the table and it is critical that each co-founder’s role is clearly defined and that you set agreeable goals otherwise your startup is doom to fail. </p>
-
-
-
-
-<p>Right from the beginning, each co-founder will wear different hats.  Some will be responsible for development, some for marketing, some for business development and others for investor relations.  These areas of responsibility should be placed into clearly defined roles with attached goals. <br/><br/></p>
-
-
-
-
-<h2>What role will you play in your new startup?</h2>
-
-
-
-
-<p><br/><br/>For example let’s say we define the role of marketing to include public relations and social network out reach.  The goal for the first three months could be to establish a social marketing presence and attain 600 twitter followers and 1000 views to the company’s website.  This marketing role now has a goal and can be assigned to one of the co-founders. <br/><br/>Each role should be assigned to the person with the best chance for success.  At the end of the first month the group should review the performance of each person and decide on whether the roles need to be changed, goals need to be adjusted or if that person needs to be removed all together from their assigned role. <br/><br/>Consider this comment by Bob, a co-founder who was assigned with the aforementioned marking role:</p>
-
-
-
-
-<blockquote>Hey it wasn&#8217;t my fault that we only got 230 twitter followers even though our goal was 600.  John didn&#8217;t do enough Tweeting.</blockquote>
-
-
-
-
-<p><br/>Actually, it was your fault that you only received 230 twitter followers.  You own the marketing role.  You should&#8217;ve done everything in your power to make sure that you hit your numbers.  If John isn&#8217;t helping, find someone else who will or do it yourself. <br/><br/>The other key element to roles is delineating clear authority with regard to decision making.   The co-founders should decide the extent to which each persons role can make decisions without needing the permission from the group.  This is paramount as it will facilitate much faster iteration.  Every time the co-founders need to meet to make a decision, they waste time so allowing Bob the authority to run a promotion to acquire more twitter users could&#8217;ve allowed him to hit his goal. <br/><br/>With this formula in place, the company will have its best chance for success.  It will also place clear responsibility, ownership, and authority with each of the co-founders and provide a good way to reward future success or punish failure.</p>
-
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/10/readwriteweb-gives-me-a-shout-out/">ReadWriteWeb Gives Me a Shout-out</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-10-26T00:00:00-05:00" pubdate  data-updated="true" >Oct 26<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I wrote an article about TestFlight a new service that makes it easier to conduct IOS beta&#8217;s and got some nice coverage from ReadWriteWeb.  Thanks guys.</p>
-
-
-<p><a href="http://www.readwriteweb.com/mobile/2010/10/testflight-improves-ios-beta-testing-process.php">ReadWriteWeb Article</a></p>
-
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/10/goldman-sachs-is-paying-warren-buffet-15-a-second/">Goldman Sachs Is Paying Warren Buffet $15 a Second.</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-10-22T00:00:00-05:00" pubdate  data-updated="true" >Oct 22<span>nd</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://digg.com/news/worldnews/goldman_sachs_reportedly_paying_warren_buffett_1_3_million_per_day_may_repay_investment">Goldman Sachs is paying Warren Buffet $15 a second.</a><br/><p>Wow, that is a great investment.</p></p>
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/10/christina-symanski-a-paralyzed-woman/">Paralyzed Woman Does a Video Review of My App</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-10-19T00:00:00-05:00" pubdate  data-updated="true" >Oct 19<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Christina Symanski, a paralyzed woman who cannot use her hands, posted a video demonstration of my iPhone app Zosh using a specialized stylus that she controls with her mouth. She runs through the demonstration with such ease that I don&#8217;t know if I could&#8217;ve done a better job.</p>
-
-<p>Zosh lets you fill in and sign documents from your mobile phone. I started the company with my co-founder and good friend Alexander Bibighaus a few years back as a side project. In March of this year we released the product and it became an instant hit.
- I&#8217;ve always considered my target audience people that could benefit from not having to be tied down to a fax machine to fill in a form or document and sign it. Christina fits that mold, but to see her benefit from Zosh without using her hands really made me feel proud of what we built.</p>
-
-<object width="400" height="336"><param name="movie" value="http://www.youtube.com/v/nBuFTH_CQm0&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1"></param><param name="wmode" value="transparent"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/nBuFTH_CQm0&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1" type="application/x-shockwave-flash" width="400" height="336" allowFullScreen="true" wmode="transparent"></embed></object>
-
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
@@ -549,6 +588,10 @@ export PASSPHRASE</code>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2011/09/an-amazing-photo-gallery-of-north-korea/">An Amazing Photo Gallery of North Korea</a>
       </li>
     
@@ -574,10 +617,6 @@ export PASSPHRASE</code>
     
       <li class="post">
         <a href="/blog/2011/09/i-was-looking-for-a-delicious-app-for-mac/">I Was Looking for a Delicious App for Mac</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/09/the-best-music-discover-service-you-cant-use/">The Best Music Discovery Service</a>
       </li>
     
   </ul>

@@ -3,7 +3,295 @@
   <component name="ChangeListManager">
     <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/2010/10/02/testflightapp-beta-test-iphone-apps-without-using-adhoc/index.html" afterPath="$PROJECT_DIR$/public/2010/10/02/testflightapp-beta-test-iphone-apps-without-using-adhoc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about/index.html" afterPath="$PROJECT_DIR$/public/about/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/atom.xml" afterPath="$PROJECT_DIR$/public/atom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/attributions/index.html" afterPath="$PROJECT_DIR$/public/attributions/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/04/ahh-the-new-york-bagel/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/04/ahh-the-new-york-bagel/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/04/kevinrose-lip-dub-need-you-tonight-by-inxs-revision3-i-thought-this-was-kind-of-funny/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/04/kevinrose-lip-dub-need-you-tonight-by-inxs-revision3-i-thought-this-was-kind-of-funny/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/04/my-first-tumblr-post/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/04/my-first-tumblr-post/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/04/this-is-a-quick-little-video-i-show-with-qik-wwwqikcom-i-really-dig-being-able-to-stream-video-from-my-cell-phone-to-the-web/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/04/this-is-a-quick-little-video-i-show-with-qik-wwwqikcom-i-really-dig-being-able-to-stream-video-from-my-cell-phone-to-the-web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/06/getting-excited-about-the-wwdc-2008-keynote/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/06/getting-excited-about-the-wwdc-2008-keynote/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/06/iphone/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/06/iphone/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/06/twitter-is-the-most-unstable-service-ever/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/06/twitter-is-the-most-unstable-service-ever/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/06/working/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/06/working/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/07/i'm-really-loving-freshbooks/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/07/i'm-really-loving-freshbooks/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/08/a-video-of-my-office-from-qik.com/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/08/a-video-of-my-office-from-qik.com/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/08/awesome-t-shirt-design-you-can-buy-it-herehttpwwwgeekswagcomshopproductinfophppname525-floppy-inches/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/08/awesome-t-shirt-design-you-can-buy-it-herehttpwwwgeekswagcomshopproductinfophppname525-floppy-inches/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/08/first-class-lounge-at-moscows-domo-airport/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/08/first-class-lounge-at-moscows-domo-airport/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/08/first-class-on-singapore-airlines-777/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/08/first-class-on-singapore-airlines-777/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/08/free-booze-at-the-first-class-lounge-in-singapore-for-sing-air/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/08/free-booze-at-the-first-class-lounge-in-singapore-for-sing-air/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/08/how-to-win-a-fight-against-20-children/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/08/how-to-win-a-fight-against-20-children/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/08/scotch-greatest-of-mans-creations/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/08/scotch-greatest-of-mans-creations/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/08/work-sucks/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/08/work-sucks/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/09/52207330/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/09/52207330/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/09/fireman8217s-4-great-after-work-beverage/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/09/fireman8217s-4-great-after-work-beverage/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/09/perrier-with-lime/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/09/perrier-with-lime/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/09/teaching-my-kid-to-ride-a-bike/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/09/teaching-my-kid-to-ride-a-bike/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/10/a-bloody-mary-and-a-bannana-it8217s-a-good-way-to-start/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/10/a-bloody-mary-and-a-bannana-it8217s-a-good-way-to-start/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/10/newcastle-at-the-denver-airport/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/10/newcastle-at-the-denver-airport/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/11/Merc/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/11/Merc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2008/12/great-weather/index.html" afterPath="$PROJECT_DIR$/public/blog/2008/12/great-weather/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2009/01/great-weather/index.html" afterPath="$PROJECT_DIR$/public/blog/2009/01/great-weather/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2009/01/qik-on-a-non-hacked-iphone/index.html" afterPath="$PROJECT_DIR$/public/blog/2009/01/qik-on-a-non-hacked-iphone/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2009/02/74950068/index.html" afterPath="$PROJECT_DIR$/public/blog/2009/02/74950068/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2009/02/75226940/index.html" afterPath="$PROJECT_DIR$/public/blog/2009/02/75226940/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2009/02/my-iphone-clock/index.html" afterPath="$PROJECT_DIR$/public/blog/2009/02/my-iphone-clock/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2009/03/mars-edit-support-for-tumblr/index.html" afterPath="$PROJECT_DIR$/public/blog/2009/03/mars-edit-support-for-tumblr/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2009/03/my-brother8217s-parking-spot-in-nyc-i-love-smart-cars/index.html" afterPath="$PROJECT_DIR$/public/blog/2009/03/my-brother8217s-parking-spot-in-nyc-i-love-smart-cars/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2009/03/my-canon-5d-mark-ii-camera-is-awesome/index.html" afterPath="$PROJECT_DIR$/public/blog/2009/03/my-canon-5d-mark-ii-camera-is-awesome/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2009/09/yummy-snack-made-by-my-girlfriend/index.html" afterPath="$PROJECT_DIR$/public/blog/2009/09/yummy-snack-made-by-my-girlfriend/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/04/a-zosh-customer-left-this-review-last-month-and-i-just-had-to-post-it-i-like-how-he-drank-and-beer-and-remained-calm-way-to-go-mike/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/04/a-zosh-customer-left-this-review-last-month-and-i-just-had-to-post-it-i-like-how-he-drank-and-beer-and-remained-calm-way-to-go-mike/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/04/cool-sms-replacement/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/04/cool-sms-replacement/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/04/everyday-people-making-thousands-as-amateur-paparazzi/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/04/everyday-people-making-thousands-as-amateur-paparazzi/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/04/i'm-speaking-at-the-university-of-texas-tomorrow/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/04/i'm-speaking-at-the-university-of-texas-tomorrow/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/04/i-almost-invented-napster/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/04/i-almost-invented-napster/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/04/mrganthe-internets-most-beloved-truck-is-back-with-a-fresh-coat-of-paint-and-a-whole-new-sporty-engineget-it-at-paniccom/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/04/mrganthe-internets-most-beloved-truck-is-back-with-a-fresh-coat-of-paint-and-a-whole-new-sporty-engineget-it-at-paniccom/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/04/mrganweve-posted-a-thrilling-new-wallpaper-at-httptheincidentappcom-painted-by-my-brother-vanja-mrganboy-am-i-printing-a-poster-of-that/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/04/mrganweve-posted-a-thrilling-new-wallpaper-at-httptheincidentappcom-painted-by-my-brother-vanja-mrganboy-am-i-printing-a-poster-of-that/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/04/north-carolina-beach-town-bans-thongs/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/04/north-carolina-beach-town-bans-thongs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/04/video-blackberry-6-preview-from-wes/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/04/video-blackberry-6-preview-from-wes/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/05/chum-buddy-sleeping-bag/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/05/chum-buddy-sleeping-bag/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/05/mars-edit-30/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/05/mars-edit-30/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/06/blank-canvas-is-a-greasemonkey-script-manager-for-chrome-downloads/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/06/blank-canvas-is-a-greasemonkey-script-manager-for-chrome-downloads/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/06/ios-4-gold-master-release-candidate-almost-ready-for-download/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/06/ios-4-gold-master-release-candidate-almost-ready-for-download/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/06/iphone-4-vs-droid-incredible-vs-android-evo-4g-vs-nexus-one-tech-specs/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/06/iphone-4-vs-droid-incredible-vs-android-evo-4g-vs-nexus-one-tech-specs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/06/iphone-4-vs-iphone-3gs/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/06/iphone-4-vs-iphone-3gs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/09/how-to-pitch-your-startup-to-the-press/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/09/how-to-pitch-your-startup-to-the-press/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/10/christina-symanski-a-paralyzed-woman/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/10/christina-symanski-a-paralyzed-woman/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/10/fast-society-keep-up-with-your-friends-at-a-concert/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/10/fast-society-keep-up-with-your-friends-at-a-concert/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/10/goldman-sachs-is-paying-warren-buffet-15-a-second/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/10/goldman-sachs-is-paying-warren-buffet-15-a-second/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/10/how-facebook-can-become-bigger-in-five-years-than-google-is-today/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/10/how-facebook-can-become-bigger-in-five-years-than-google-is-today/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/10/iphone-4-coming-to-verizon/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/10/iphone-4-coming-to-verizon/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/10/kevin-rose-talks-about-his-failures-at-digg/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/10/kevin-rose-talks-about-his-failures-at-digg/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/10/mailgun-email-interface-for-your-app/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/10/mailgun-email-interface-for-your-app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/10/pagelines-platformpro-wordpress-cms-perfection/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/10/pagelines-platformpro-wordpress-cms-perfection/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/10/readwriteweb-gives-me-a-shout-out/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/10/readwriteweb-gives-me-a-shout-out/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/10/separation-between-church-and-mac/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/10/separation-between-church-and-mac/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/10/sneakily-snap-pictures-with-the-camera-camouflage-iphone-app/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/10/sneakily-snap-pictures-with-the-camera-camouflage-iphone-app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/10/the-most-important-startup-discussion-roles-goals/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/10/the-most-important-startup-discussion-roles-goals/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/10/using-duplicity-to-backup-your-server-to-amazon-s3/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/10/using-duplicity-to-backup-your-server-to-amazon-s3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/11/arkhippo-iphone-4-case-gives-your-baby-some-back/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/11/arkhippo-iphone-4-case-gives-your-baby-some-back/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/11/base-one-labs-introduces-impactband-massive-iphone-case/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/11/base-one-labs-introduces-impactband-massive-iphone-case/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/11/how-to-secure-your-ssh-server/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/11/how-to-secure-your-ssh-server/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/11/how-we-raised-13-million-as-first-time-founders/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/11/how-we-raised-13-million-as-first-time-founders/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/11/improve-blog-performance-with-optimized-images/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/11/improve-blog-performance-with-optimized-images/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/11/is-anyone-using-kik-messenger/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/11/is-anyone-using-kik-messenger/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/11/just-add-water-household-cleaner-in-an-empty-bottle/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/11/just-add-water-household-cleaner-in-an-empty-bottle/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/11/prioritizing-network-connections-in-mac-os-x-snow-leopard/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/11/prioritizing-network-connections-in-mac-os-x-snow-leopard/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/11/quickly-encode-mkv-to-mv4-compatible-with-ipad/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/11/quickly-encode-mkv-to-mv4-compatible-with-ipad/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/11/simple-tip-for-merging-video-files-on-a-mac-free/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/11/simple-tip-for-merging-video-files-on-a-mac-free/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/11/useful-ssh-commands-and-tricks/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/11/useful-ssh-commands-and-tricks/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/11/using-markdown-with-wordpress/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/11/using-markdown-with-wordpress/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/11/write-your-resume-in-markdown-keep-it-in-git/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/11/write-your-resume-in-markdown-keep-it-in-git/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/2345497195/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/2345497195/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/awesome-video-makes-me-want-to-race/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/awesome-video-makes-me-want-to-race/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/backup-flickr-with-bulkr/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/backup-flickr-with-bulkr/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/best-burgers-in-the-us-food-wine/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/best-burgers-in-the-us-food-wine/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/best-business-card-on-the-web-ever-httpbdcvc/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/best-business-card-on-the-web-ever-httpbdcvc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/chrome-8-is-out-but-nobody-seems-to-care/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/chrome-8-is-out-but-nobody-seems-to-care/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/confirmed-ebay-acquires-milo-for-75-million-investors-make-a-killing/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/confirmed-ebay-acquires-milo-for-75-million-investors-make-a-killing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/daft-punk-tron-8220derezzed8221-video-like-i-couldn8217t-be-more-excited-to-see-this-movie/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/daft-punk-tron-8220derezzed8221-video-like-i-couldn8217t-be-more-excited-to-see-this-movie/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/deplorablewordinception-in-real-time-via-weikangvery-cool/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/deplorablewordinception-in-real-time-via-weikangvery-cool/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/do-i-need-this-yes-i-do/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/do-i-need-this-yes-i-do/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/do-you-encrypt-your-hard-drive-pgp-vs-filevault/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/do-you-encrypt-your-hard-drive-pgp-vs-filevault/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/download-an-entire-website-via-a-simple-linux-command/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/download-an-entire-website-via-a-simple-linux-command/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/first-iphone-4-battery-that-feels-good-in-your-hand/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/first-iphone-4-battery-that-feels-good-in-your-hand/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/flickr-export-40-for-iphoto-is-out/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/flickr-export-40-for-iphoto-is-out/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/go-get-reeder-for-the-mac-if-a-you-own-a-mac-and-b-you-use-google-reader-it-is-the-best-reader-experience-on-the-mac-bar-none/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/go-get-reeder-for-the-mac-if-a-you-own-a-mac-and-b-you-use-google-reader-it-is-the-best-reader-experience-on-the-mac-bar-none/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/google-chrome-web-store/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/google-chrome-web-store/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/gorgeous-absolutely-gorgeous/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/gorgeous-absolutely-gorgeous/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/harris-hill-race-track-in-san-marcos-tx-i-took-the-trusty-old-911-turbo-s-on-it-and-blew-my-mind-in-the-process/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/harris-hill-race-track-in-san-marcos-tx-i-took-the-trusty-old-911-turbo-s-on-it-and-blew-my-mind-in-the-process/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/how-i-got-featured-on-techcrunch-and-many-more/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/how-i-got-featured-on-techcrunch-and-many-more/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/how-to-clean-up-your-macs-open-with-contextual-menu/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/how-to-clean-up-your-macs-open-with-contextual-menu/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/how-to-enable-ftp-uploads-to-amazon-s3/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/how-to-enable-ftp-uploads-to-amazon-s3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/i-hope-captain-sully-is-driving/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/i-hope-captain-sully-is-driving/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/if-i-did-buy-a-workstation-i8217d-want-it-to-look-like-this-sometimes-dell-has-great-design/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/if-i-did-buy-a-workstation-i8217d-want-it-to-look-like-this-sometimes-dell-has-great-design/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/im-watching-a-movie-with-my-daughter/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/im-watching-a-movie-with-my-daughter/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/kod-the-open-source-text-editor-for-the-mac/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/kod-the-open-source-text-editor-for-the-mac/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/last-minute-500000-check-saves-evernote/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/last-minute-500000-check-saves-evernote/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/mophie-juicepack-plus-is-out/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/mophie-juicepack-plus-is-out/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/movieofthedayno-country-for-old-men-2007basses-assassin-nothing-like-him/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/movieofthedayno-country-for-old-men-2007basses-assassin-nothing-like-him/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/my-current-iphone-wallpaper/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/my-current-iphone-wallpaper/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/my-son-jack-as-the-fet-in-a-video-i-created-with-my-kids-today/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/my-son-jack-as-the-fet-in-a-video-i-created-with-my-kids-today/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/national-velocity-alt-is-a-great-notepad-for-the-mac/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/national-velocity-alt-is-a-great-notepad-for-the-mac/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/nyc-subway-at-42nd-st-taken-with-instagram/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/nyc-subway-at-42nd-st-taken-with-instagram/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/photojojonow-thats-how-you-a-do-a-profile-picture-bravo-alexandre-bravovia-gueamu/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/photojojonow-thats-how-you-a-do-a-profile-picture-bravo-alexandre-bravovia-gueamu/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/redirected-to-this-image-after-buying-this-guys-app/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/redirected-to-this-image-after-buying-this-guys-app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/repairing-your-disk-with-pgp-whole-disk-encryption-mac/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/repairing-your-disk-with-pgp-whole-disk-encryption-mac/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/second-largest-fish-tank-in-the-world/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/second-largest-fish-tank-in-the-world/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/security-app-hidden-free-until-january/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/security-app-hidden-free-until-january/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/some-pretty-obvious-criticisms-of-angry-birds-doesn8217t-sway-me-from-playing-the-game-though/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/some-pretty-obvious-criticisms-of-angry-birds-doesn8217t-sway-me-from-playing-the-game-though/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/sparrow-is-my-new-gmail-client/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/sparrow-is-my-new-gmail-client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/stranded-on-the-highway-because-of-snow/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/stranded-on-the-highway-because-of-snow/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/the-google-nexus-s-looks-mighty-pretty-android-23-also-looks-pretty-sweet-this-is-going-to-be-a-winner-for-both-google-and-samsung/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/the-google-nexus-s-looks-mighty-pretty-android-23-also-looks-pretty-sweet-this-is-going-to-be-a-winner-for-both-google-and-samsung/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/there-are-so-many-times-when-i-need-this/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/there-are-so-many-times-when-i-need-this/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/this-isnt-spam-what/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/this-isnt-spam-what/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/very-cool-mashup-of-sting-and-rudolph-the-red-nosereindeer-not-sure-who-things-up-these-things-but-the-snowman-playing-the-guitar-riff-at-thebeginningwas-perfect/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/very-cool-mashup-of-sting-and-rudolph-the-red-nosereindeer-not-sure-who-things-up-these-things-but-the-snowman-playing-the-guitar-riff-at-thebeginningwas-perfect/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/video-tagging-automation-with-iflicks-and-hazel/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/video-tagging-automation-with-iflicks-and-hazel/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/vintage-effects-in-iphone-videos-really/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/vintage-effects-in-iphone-videos-really/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/vintage-effects-in-iphone-videos/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/vintage-effects-in-iphone-videos/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/watch-mkv-videos-on-your-ipad-iphone-with-this-script/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/watch-mkv-videos-on-your-ipad-iphone-with-this-script/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/why-you-shouldn8217t-fry-gnocchi-courtesy-of-boing-boing/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/why-you-shouldn8217t-fry-gnocchi-courtesy-of-boing-boing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2010/12/wow-what-a-moving-speech-by-a-15-year-old-student-in-reaction-to-the-protests-in-london/index.html" afterPath="$PROJECT_DIR$/public/blog/2010/12/wow-what-a-moving-speech-by-a-15-year-old-student-in-reaction-to-the-protests-in-london/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/My-first-blog-post-with-Jekyll/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/My-first-blog-post-with-Jekyll/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/Taco-Bell-damage/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/Taco-Bell-damage/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/Tooth-decay-by-PFFR/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/Tooth-decay-by-PFFR/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/Your-Exchange-server-doesnt-have-imap-no-problem/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/Your-Exchange-server-doesnt-have-imap-no-problem/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/Zosh-in-wallstreet-journal/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/Zosh-in-wallstreet-journal/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/best-peel-out-ever/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/best-peel-out-ever/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/bullet-train-keyboard-is-awesome/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/bullet-train-keyboard-is-awesome/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/lucy-the-cat-is-39-years-old-oldest-ever/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/lucy-the-cat-is-39-years-old-oldest-ever/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/see-you-latr-tumblr/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/see-you-latr-tumblr/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/sushi-ran-in-san-francisco-is-amazing/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/sushi-ran-in-san-francisco-is-amazing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/the-funniest-website-ever/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/the-funniest-website-ever/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/twitter-did-you-change-your-icon/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/twitter-did-you-change-your-icon/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/twitter-did-you-just-change-your-icon-again/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/twitter-did-you-just-change-your-icon-again/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/01/women-everywhere-are-offended-by-this/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/01/women-everywhere-are-offended-by-this/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/a-bash-prompt-full-of-color-makes-a-happy-terminal/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/a-bash-prompt-full-of-color-makes-a-happy-terminal/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/ahhh,-iphone-os-programming.--been-a-while-sir./index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/ahhh,-iphone-os-programming.--been-a-while-sir./index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/apple-adds-bugs-in-beta-releases/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/apple-adds-bugs-in-beta-releases/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/automatic-tv-show-downloading-via-sickbeard/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/automatic-tv-show-downloading-via-sickbeard/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/automating-the-creation-of-posts-in-jekyll/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/automating-the-creation-of-posts-in-jekyll/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/california-stores-cant-ask-for-zip-codes/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/california-stores-cant-ask-for-zip-codes/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/do-you-believe-the-statistics/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/do-you-believe-the-statistics/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/dont-break-up-with-an-seo-expert/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/dont-break-up-with-an-seo-expert/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/great-story-on-about.me-acquisition/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/great-story-on-about.me-acquisition/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/here-is-a-duck/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/here-is-a-duck/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/hp-launches-tablets-and-phones/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/hp-launches-tablets-and-phones/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/iffmpeg-is-a-great-gui-for-ffmpeg-mac/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/iffmpeg-is-a-great-gui-for-ffmpeg-mac/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/mobile-phones-and-youtube-shake-up-the-middle-east/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/mobile-phones-and-youtube-shake-up-the-middle-east/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/no-guarantee-of-privacy-on-social-nets/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/no-guarantee-of-privacy-on-social-nets/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/redis,-ohm-and-heroku-make-caching-data-super-fast/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/redis,-ohm-and-heroku-make-caching-data-super-fast/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/rsa-security-conference-loves-the-cloud/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/rsa-security-conference-loves-the-cloud/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/securely-erasing-files-on-your-mac/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/securely-erasing-files-on-your-mac/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/startup-weekend-austin/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/startup-weekend-austin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/steven-wright-reviews-gucci-watch/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/steven-wright-reviews-gucci-watch/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/superduper-best-mac-backup-app/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/superduper-best-mac-backup-app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/why-i-am-not-watching-the-superbowl/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/why-i-am-not-watching-the-superbowl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/why-i-switched-to-amazon-ec2-hosting/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/why-i-switched-to-amazon-ec2-hosting/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/wifi-in-flight-is-techno-cool/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/wifi-in-flight-is-techno-cool/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/02/women-laughing-alone-with-salad/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/02/women-laughing-alone-with-salad/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/03/alaska-airlines-cancels-the-nerd-bird/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/03/alaska-airlines-cancels-the-nerd-bird/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/03/awesome-anti-drug-advertisement/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/03/awesome-anti-drug-advertisement/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/03/google-docs-in-real-time/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/03/google-docs-in-real-time/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/03/i-love-customer-feedback-via-twitter/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/03/i-love-customer-feedback-via-twitter/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/03/megaerase---my-first-mac-app-store-app/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/03/megaerase---my-first-mac-app-store-app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/03/slow-computer--add-two-hard-drives./index.html" afterPath="$PROJECT_DIR$/public/blog/2011/03/slow-computer--add-two-hard-drives./index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/03/xcode-4-thoughts/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/03/xcode-4-thoughts/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/amazing-100-seconds-tiltshift-england-2-2-switzerland-uefa-european-championships-040611/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/amazing-100-seconds-tiltshift-england-2-2-switzerland-uefa-european-championships-040611/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/cartefactporsche-718160w-rs-spyderporsche-718-rsk-f1-porsche-904-porsche-356b-carrera-gtl-abarthsilver-arrows/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/cartefactporsche-718160w-rs-spyderporsche-718-rsk-f1-porsche-904-porsche-356b-carrera-gtl-abarthsilver-arrows/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/i%e2%80%99m-seriously-considering-this-product-%c2%a0it-analyzes-your/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/i%e2%80%99m-seriously-considering-this-product-%c2%a0it-analyzes-your/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/i-am-really-excited-about-these-headphones-i-love-all-things-incase-and-i-have-a-thing-for-headphones-they-launch-in-sept/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/i-am-really-excited-about-these-headphones-i-love-all-things-incase-and-i-have-a-thing-for-headphones-they-launch-in-sept/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/i-love-tilt-shift-photography-this-photo-of-a-car-show-is-a-great-example/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/i-love-tilt-shift-photography-this-photo-of-a-car-show-is-a-great-example/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/i-wish-my-bank-balance-looked-like-this-guys-2/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/i-wish-my-bank-balance-looked-like-this-guys-2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/image-4/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/image-4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/image-5/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/image-5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/image-6/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/image-6/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/image-7/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/image-7/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/my-cat-goes-psycho-for-this-video/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/my-cat-goes-psycho-for-this-video/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/my-daughter-playing-on-her-ipad/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/my-daughter-playing-on-her-ipad/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/noneedforsecondopinions1313hello-mr-or-mrs-squirrel-by-rafalweb1313/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/noneedforsecondopinions1313hello-mr-or-mrs-squirrel-by-rafalweb1313/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/now-this-is-a-fish-tank/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/now-this-is-a-fish-tank/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/photo-13/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/photo-13/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/stuck/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/stuck/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/tag-huer-outs-new-phone-for-7000/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/tag-huer-outs-new-phone-for-7000/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/using-file-vault-2-with-multiple-drives/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/using-file-vault-2-with-multiple-drives/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/what-are-those-mentos/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/what-are-those-mentos/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/06/what-is-the-technological-singularity/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/06/what-is-the-technological-singularity/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/07/banana-mascot-gets-owned-by-security-guard/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/07/banana-mascot-gets-owned-by-security-guard/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/07/cat-you-are-very-bright/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/07/cat-you-are-very-bright/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/07/crazy-kick/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/07/crazy-kick/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/07/hound-dogs-running/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/07/hound-dogs-running/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/07/interesting-story-about-the-olympics/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/07/interesting-story-about-the-olympics/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/07/took-the-kids-to-the-park-today-nailed-it/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/07/took-the-kids-to-the-park-today-nailed-it/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/07/undercover-karaoke-with-jewel/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/07/undercover-karaoke-with-jewel/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/behind-the-wheel-something-bentley-this-way-comes-driving-the-2012-bentley-continental-gt/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/behind-the-wheel-something-bentley-this-way-comes-driving-the-2012-bentley-continental-gt/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/change-the-launchpad-folder-background-image/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/change-the-launchpad-folder-background-image/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/cool-tour-of-a-ferrari-factory/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/cool-tour-of-a-ferrari-factory/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/future-firefox-mockup-looks-hot/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/future-firefox-mockup-looks-hot/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/gartner-research-shows-ios-android-claiming-62-of-total-smartphone-market/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/gartner-research-shows-ios-android-claiming-62-of-total-smartphone-market/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/getoutoftherecatget-out-of-there-cat-you-are-not-homeless/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/getoutoftherecatget-out-of-there-cat-you-are-not-homeless/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/hbo-you-need-to-make-this-into-a-series/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/hbo-you-need-to-make-this-into-a-series/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/i-laughed-really-hard-when-i-saw-this/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/i-laughed-really-hard-when-i-saw-this/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/icloud-built-using-the-sproutcore-framework/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/icloud-built-using-the-sproutcore-framework/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/ios-developers-building-icloud-integration-in-droves/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/ios-developers-building-icloud-integration-in-droves/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/monster-cable-goes-after-the-wrong-guy-lawsuit-gone-wrong/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/monster-cable-goes-after-the-wrong-guy-lawsuit-gone-wrong/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/the-nintendo-cartridge-samurai-will-get-all-the-babes-nintendo/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/the-nintendo-cartridge-samurai-will-get-all-the-babes-nintendo/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/this-baseball-player-is-insane/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/this-baseball-player-is-insane/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/08/water-bridge-in-germany-how-is-this-possible/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/08/water-bridge-in-germany-how-is-this-possible/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/a-great-video-showing-how-small-we-are/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/a-great-video-showing-how-small-we-are/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/capital-factory-demo-day-2011/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/capital-factory-demo-day-2011/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/cats-on-a-treadmill/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/cats-on-a-treadmill/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/create-mac-app-from-shell-script/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/create-mac-app-from-shell-script/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/do-you-want-to-blow-up-the-earth-scifi-style/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/do-you-want-to-blow-up-the-earth-scifi-style/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/easily-add-search-to-static-blog/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/easily-add-search-to-static-blog/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/great-command-prompt-shortcuts/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/great-command-prompt-shortcuts/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/how-do-win-a-demogod-award-at-demo/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/how-do-win-a-demogod-award-at-demo/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/i-was-looking-for-a-delicious-app-for-mac/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/i-was-looking-for-a-delicious-app-for-mac/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/i-would-kill-for-thes-nike-mags/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/i-would-kill-for-thes-nike-mags/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/migrated-back-to-jekyll/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/migrated-back-to-jekyll/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/octopress-is-a-great-jekyll-blogging-system/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/octopress-is-a-great-jekyll-blogging-system/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/off-duty-storm-troopers/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/off-duty-storm-troopers/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/ruby-mine-as-a-jekyll-front-end/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/ruby-mine-as-a-jekyll-front-end/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/sick-downhill-ride-from-danny-hart/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/sick-downhill-ride-from-danny-hart/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/tablskin-2-overlay-helps-with-tablet-typing/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/tablskin-2-overlay-helps-with-tablet-typing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/the-best-music-discover-service-you-cant-use/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/the-best-music-discover-service-you-cant-use/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/the-details-of-the-greatest-online-game-scam/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/the-details-of-the-greatest-online-game-scam/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/this-on-nytimes-fashion-blog/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/this-on-nytimes-fashion-blog/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/using-ia-writer-with-jekyll/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/using-ia-writer-with-jekyll/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/watch-out-for-chuck-testa/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/watch-out-for-chuck-testa/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/2011/09/windows-8-is-looking-good/index.html" afterPath="$PROJECT_DIR$/public/blog/2011/09/windows-8-is-looking-good/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/archives/index.html" afterPath="$PROJECT_DIR$/public/blog/archives/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/apps/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/apps/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/cool/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/cool/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/featured/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/featured/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/humor/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/humor/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/interesting/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/interesting/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/mac/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/mac/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/opinion/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/opinion/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/product/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/product/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/random/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/random/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/rant/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/rant/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/software/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/software/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/startup/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/startup/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/tips/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/tips/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/video/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/video/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/zosh/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/zosh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/10/index.html" afterPath="$PROJECT_DIR$/public/blog/page/10/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/11/index.html" afterPath="$PROJECT_DIR$/public/blog/page/11/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/12/index.html" afterPath="$PROJECT_DIR$/public/blog/page/12/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/13/index.html" afterPath="$PROJECT_DIR$/public/blog/page/13/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/14/index.html" afterPath="$PROJECT_DIR$/public/blog/page/14/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/15/index.html" afterPath="$PROJECT_DIR$/public/blog/page/15/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/16/index.html" afterPath="$PROJECT_DIR$/public/blog/page/16/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/17/index.html" afterPath="$PROJECT_DIR$/public/blog/page/17/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/18/index.html" afterPath="$PROJECT_DIR$/public/blog/page/18/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/19/index.html" afterPath="$PROJECT_DIR$/public/blog/page/19/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/2/index.html" afterPath="$PROJECT_DIR$/public/blog/page/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/20/index.html" afterPath="$PROJECT_DIR$/public/blog/page/20/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/21/index.html" afterPath="$PROJECT_DIR$/public/blog/page/21/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/22/index.html" afterPath="$PROJECT_DIR$/public/blog/page/22/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/23/index.html" afterPath="$PROJECT_DIR$/public/blog/page/23/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/24/index.html" afterPath="$PROJECT_DIR$/public/blog/page/24/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/25/index.html" afterPath="$PROJECT_DIR$/public/blog/page/25/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/26/index.html" afterPath="$PROJECT_DIR$/public/blog/page/26/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/27/index.html" afterPath="$PROJECT_DIR$/public/blog/page/27/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/28/index.html" afterPath="$PROJECT_DIR$/public/blog/page/28/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/29/index.html" afterPath="$PROJECT_DIR$/public/blog/page/29/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/3/index.html" afterPath="$PROJECT_DIR$/public/blog/page/3/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/30/index.html" afterPath="$PROJECT_DIR$/public/blog/page/30/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/4/index.html" afterPath="$PROJECT_DIR$/public/blog/page/4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/5/index.html" afterPath="$PROJECT_DIR$/public/blog/page/5/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/6/index.html" afterPath="$PROJECT_DIR$/public/blog/page/6/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/7/index.html" afterPath="$PROJECT_DIR$/public/blog/page/7/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/8/index.html" afterPath="$PROJECT_DIR$/public/blog/page/8/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/page/9/index.html" afterPath="$PROJECT_DIR$/public/blog/page/9/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/currentlyusing/index.html" afterPath="$PROJECT_DIR$/public/currentlyusing/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/delicious/index.html" afterPath="$PROJECT_DIR$/public/delicious/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/featured/index.html" afterPath="$PROJECT_DIR$/public/featured/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sitemap.xml" afterPath="$PROJECT_DIR$/public/sitemap.xml" />
     </list>
     <ignored path="octopress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,10 +389,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2011-09-16-an-amazing-photo-gallery-of-north-korea.markdown" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2011-09-16-an-amazing-photo-gallery-of-north-korea.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/random/2011-09-16-an-amazing-photo-gallery-of-north-korea.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="10" selection-start="355" selection-end="355" vertical-scroll-proportion="0.28489208">
+            <state line="11" column="90" selection-start="428" selection-end="428" vertical-scroll-proportion="-9.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2011-09-16-jedi-kittens-enough-said.markdown" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-16-jedi-kittens-enough-said.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="76" selection-start="260" selection-end="260" vertical-scroll-proportion="0.2589928">
               <folding />
             </state>
           </provider>
@@ -145,6 +445,7 @@
         <option value="$PROJECT_DIR$/source/about.markdown" />
         <option value="$PROJECT_DIR$/source/_posts/2011-09-16-test-embed.markdown" />
         <option value="$PROJECT_DIR$/source/_posts/2011-09-16-an-amazing-photo-gallery-of-north-korea.markdown" />
+        <option value="$PROJECT_DIR$/source/_posts/2011-09-16-jedi-kittens-enough-said.markdown" />
       </list>
     </option>
   </component>
@@ -203,6 +504,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,7 +730,7 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="new_post[An amazing photo gallery of North Korea]" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="new_post[Jedi Kittens.  Enough said.]" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="true" />
@@ -594,7 +917,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/random/2011-09-16-an-amazing-photo-gallery-of-north-korea.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="355" selection-end="355" vertical-scroll-proportion="0.28489208">
+        <state line="11" column="90" selection-start="428" selection-end="428" vertical-scroll-proportion="-9.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-16-jedi-kittens-enough-said.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="76" selection-start="260" selection-end="260" vertical-scroll-proportion="0.2589928">
           <folding />
         </state>
       </provider>

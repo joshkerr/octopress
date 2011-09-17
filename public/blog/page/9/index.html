@@ -67,6 +67,174 @@
     
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2011/06/using-file-vault-2-with-multiple-drives/">Using File Vault 2 With Multiple Drives</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-06-10T00:00:00-05:00" pubdate  data-updated="true" >Jun 10<span>th</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img title="Encrypted second volume" src="http://i.imgur.com/l2Qwp.png" /></p>
+
+
+<p>File Vault 2 is Mac OS X Lion’s new whole disk encryption system. It is baked into the OS and uses whole disk encryption to protect your entire disk, not just your home folder. This is easy to enable from the Security preferences panel which lets you encrypt your boot volume, but what if your home directory resides on a second disk?</p>
+
+<p>This is the setup I use with my OS on an internal SSD drive and my home folder on a second normal drive. This configuration offers me higher performance and is easier to backup and upgrade. I&#8217;d like to be able to use File Vault, but there is no option to encrypt a second disk.</p>
+
+<p>Command line to the rescue. Apple offers powerful tools to manage the encrypted disks via diskutil. The disks are actually CoreStorage units and you can manage them via:</p>
+
+<div>
+  <pre>
+    <code class='bash'>diskutil cs</code>
+  </pre>
+</div>
+
+
+<p>To convert a volume into a CoreStorage unit with encryption:</p>
+
+<div>
+  <pre>
+    <code class='bash'>diskutil cs convert [device] -passphrase [password]</code>
+  </pre>
+</div>
+
+
+<p>Replace device with the disk and password with the requested password. If it can convert the disk in place encryption will begin immediately.</p>
+
+<p>When you are done, you can confirm that the process worked by checking your disk in Disk Utility.</p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/05/50-state-stereotypes-in-2-minutes-for-texas-everything-is-bigger-even-our-morons/">50 State Stereotypes in 2 Minutes.</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-05-30T00:00:00-05:00" pubdate  data-updated="true" >May 30<span>th</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><blockquote><p>50 State Stereotypes in 2 minutes.  For Texas: &#8220;Everything is bigger, even our morons.&#8221;</p></blockquote>
+
+<object width="400" height="251"><param name="movie" value="http://www.youtube.com/v/h68UJaHvG_c&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1"></param><param name="wmode" value="transparent"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/h68UJaHvG_c&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1" type="application/x-shockwave-flash" width="400" height="251" allowFullScreen="true" wmode="transparent"></embed></object>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/05/tech-tool-pro-now-allows-bootable-partition/">Tech Tool Pro Now Allows Bootable Partition</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-05-29T00:00:00-05:00" pubdate  data-updated="true" >May 29<span>th</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Tech Tool Pro is a long time leader in Mac repair and diagnostics.  It used to be bundled with new Mac purchases as part of the Apple Care warranty.</p>
+
+<p><img src="http://i.imgur.com/6pDCK.jpg" alt="TechTool" /></p>
+
+<p>One of the best features in the product is its ability to boot from a DVD and repair your system.  Ever since the release of EFI firmware Macs, the bootable DVD hasn&#8217;t worked.  Now, with the release of Tech Tool Pro version 6, you can create an e-drive bootable partition on your Mac and repair without needing a DVD.</p>
+
+<p>I haven&#8217;t tried it yet, but its the logical next step in bootable diagnostics, especially considering the future of computing doesn&#8217;t have an optical media drive.  Take for instance that new Macbook Airs come with media on a USB stick.</p>
+
+<p>I can see problems with the bootable partition scheme though.  What if you need to repair the drive with the bootable partition?  Maybe you boot off a clone on an external drive?</p>
+
+<p>Also new with Tech Tool Pro 6 is a cloning feature.  I&#8217;m a big fan of cloning, it keeps a fully working disk on hand so that if I do have a failure, I can boot in seconds off the clone and keep on working.</p>
+
+<p>I bought a copy of Tech Tool 6 and plan to take it through its paces.</p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/05/i-saw-this-on-reddit-with-the-title-this-kind-of-ice-makes-me-really-happy-i-so-agree/">I Saw This on Reddit With the Title</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-05-29T00:00:00-05:00" pubdate  data-updated="true" >May 29<span>th</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://24.media.tumblr.com/tumblr_llznlgKxUY1qz9lkro1_500.jpg" alt="Cool photo from Reddit" /></p>
+
+<blockquote><p>I saw this on Reddit with the title &#8220;This kind of ice makes me really happy.&#8221;  I so agree.</p></blockquote>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2011/03/awesome-anti-drug-advertisement/">Awesome Anti Drug Advertisement</a></h1>
     
     
@@ -208,167 +376,6 @@
 
   </article>
 
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/03/megaerase---my-first-mac-app-store-app/">MegaErase - My First Mac App Store App</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-03-05T00:00:00-06:00" pubdate  data-updated="true" >Mar 5<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I&#8217;ve been interested in learning more about the Mac App store so I figured I&#8217;d whip up something in my spare time.  Being security conscious I decided to write a simple secure erase program that I could access via the menu bar.  The use case is that there are several files that I need to securely erase and rather than &#8220;secure empty&#8221; my trash which could take hours, I could just drag those files into a menu bar icon which would securely erase them.</p>
-
-<p>When I say securely erase, I mean the type of delete procedure where the file cannot be retrieved (EVER.)  So I whipped me up an app.  You erase files by dropping the on the menu bar icon:</p>
-
-<p><img src="http://joshkerr.s3.amazonaws.com/images/MegaErase.png" alt="menu bar icon" /></p>
-
-<p>This is the dialog that will appear:</p>
-
-<p><img src="http://joshkerr.s3.amazonaws.com/images/Deleting%20files.png" alt="delete dialog" /></p>
-
-<p>You can see what is happening in the background via the console window:</p>
-
-<p><img src="http://joshkerr.s3.amazonaws.com/images/MegaErase%20Console.png" alt="console" /></p>
-
-<p>And lastly here is the preferences dialog:</p>
-
-<p><img src="http://joshkerr.s3.amazonaws.com/images/Preferences.png" alt="preferences" /></p>
-
-<p>This is a work in progress so there are a lot of elements that need to be completed.  I wrote the app in Xcode 4 in about 6 hours a few weekends ago.  It is multi-threaded and uses the standard unix srm command to destroy the files.  I plan to make it so that you can switch up the delete command so that the app uses a different command line app (like bcwipe.)</p>
-
-<p>I want to implement a queue which would persist between launches of the app.  That way you could queue up a ton of files, turn off your computer, turn it back on and let the app continue where it left off.  You should also be able to queue up more files while it is currently operating on a series of files.</p>
-
-<p>I think I&#8217;m going to give it away for free.   I haven&#8217;t released it to the Mac App Store yet but plan to in the next day or so.</p>
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/03/slow-computer--add-two-hard-drives./">Slow Computer? Add Two Hard Drives.</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-03-03T00:00:00-06:00" pubdate  data-updated="true" >Mar 3<span>rd</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I have a Macbook Pro which has 8gigs of RAM, a super fast processor, and runs dog slow.  Knowing that the bottle neck is usually the HD, I went out and bought an SSD drive to replace the existing HD.  This worked for a little bit until the SSD became too fragmented from lack of TRIM support.  Now my notebook is slower than it was with a regular HD.</p>
-
-<p>I did some research and learned that SSD drives are great for boot devices, but not so good as scratch devices.  Ahhh.   So now I know what to do.  I quickly ordered an OWC <a href="http://eshop.macsales.com/item/Other%20World%20Computing/DDAMBS0GB/">data doubler</a> which would let me mount a second HD where my optical drive is.  (I never use my optical drive.)   I used <a href="http://diglloydtools.com/disktester.html">disk tester</a> to recondition my SSD drive.  Lastly I reconfigured my OS to put the /Users folder on my 2nd HD.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2011/03/slow-computer--add-two-hard-drives./">Read on &rarr;</a>
-    </footer>
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/03/google-docs-in-real-time/">Google Docs in Real Time? Google Wave?</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-03-03T00:00:00-06:00" pubdate  data-updated="true" >Mar 3<span>rd</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Google Docs probably received some of the technology from the now <a href="http://www.google.com/support/wave/bin/answer.py?answer=1083134">abandoned</a> <a href="https://wave.google.com/wave/?pli=1">Google Wave</a>, because I just signed up on a Google Docs spreadsheet and while I was filling it in, I could see other users in <a href="http://www.google.com/google-d-s/tour2.html">real time</a> adding their data.  It was really creepy at first, but then really interesting.  I actually sat around and watched others move the cursor around the spreadsheet, type in their data, it was very voyeur like.</p>
-
-<p><img src="http://joshkerr.s3.amazonaws.com/images/Google%20Docss%20screenshot.png" alt="ScreenShot" /></p>
-
-<p>Now I know where <a href="https://wave.google.com/wave/?pli=1">Google Wave</a> went.  Nicely done Google.</p>
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/02/startup-weekend-austin/">Startup Weekend Austin</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-02-27T00:00:00-06:00" pubdate  data-updated="true" >Feb 27<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I got the honor of being one of the three judges at <a href="http://austin.startupweekend.org/about/">Startup Weekend Austin</a> today.  There were 10 different groups each presenting a company that they had incubated over the weekend.  The ideas were mostly good, some were downright hilarious and a few seemed to have legs.  I don&#8217;t know that I&#8217;d go out and invest in any one of them, but I&#8217;d certainly consider taking equity in return for a role as an advisor.</p>
-
-<p>Microsoft hosted the event in their new offices in North Austin and they did a great job providing a forum for these entrepreneurs to work in.  Many came from outside of Austin, Dallas, San Antonio and even one guy from Oklahoma.  Most had day jobs and a few were actually fairly successful and looking for something a bit more challenging that their usual routine.</p>
-
-<p>It was fun and in the end we had to choose a winner.  Not easy, but that is the way the game works.</p>
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
@@ -445,6 +452,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2011/09/an-amazing-photo-gallery-of-north-korea/">An Amazing Photo Gallery of North Korea</a>
       </li>
     
@@ -470,10 +481,6 @@
     
       <li class="post">
         <a href="/blog/2011/09/i-was-looking-for-a-delicious-app-for-mac/">I Was Looking for a Delicious App for Mac</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/09/the-best-music-discover-service-you-cant-use/">The Best Music Discovery Service</a>
       </li>
     
   </ul>
