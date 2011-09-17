@@ -248,6 +248,19 @@ multitask :heroku do
     puts "\n## heroku Pages deploy complete"
 end
 
+desc "deploy public directory to github"
+multitask :github do
+    system "git add ."
+    system "git add -u"
+    puts "\n## Commiting: Site updated at #{Time.now.utc}"
+    message = "Site updated at #{Time.now.utc}"
+    system "git commit -m '#{message}'"
+    puts "\n## Pushing source code"
+    system "git push github"
+    puts "\n## github code deploy complete"
+end
+
+
 desc "Update configurations to support publishing to root or sub directory"
 task :set_root_dir, :dir do |t, args|
   puts ">>> !! Please provide a directory, eg. rake config_dir[publishing/subdirectory]" unless args.dir
