@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/search.html" afterPath="$PROJECT_DIR$/source/search.html" />
     </list>
     <ignored path="octopress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,10 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="38" selection-start="222" selection-end="222" vertical-scroll-proportion="0.16345063">
+            <state line="33" column="133" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="0" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.77712953">
               <folding />
             </state>
           </provider>
@@ -67,9 +78,9 @@
         <option value="$PROJECT_DIR$/source/_posts/2011-09-16-test-embed.markdown" />
         <option value="$PROJECT_DIR$/source/_posts/2011-09-16-an-amazing-photo-gallery-of-north-korea.markdown" />
         <option value="$PROJECT_DIR$/source/_posts/2011-09-16-jedi-kittens-enough-said.markdown" />
-        <option value="$PROJECT_DIR$/source/search.html" />
         <option value="$PROJECT_DIR$/source/_includes/navigation.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/source/search.html" />
       </list>
     </option>
   </component>
@@ -393,7 +404,7 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25015217" sideWeight="0.7679325" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23206751" sideWeight="0.99634814" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23206751" sideWeight="0.99634814" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -555,13 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="38" selection-end="38" vertical-scroll-proportion="0.042007003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_includes/navigation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="107" selection-start="764" selection-end="764" vertical-scroll-proportion="-12.75">
@@ -571,7 +575,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="222" selection-end="222" vertical-scroll-proportion="0.16345063">
+        <state line="33" column="133" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.77712953">
           <folding />
         </state>
       </provider>
