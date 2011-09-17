@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/rant/2011-09-17-now-this-is-how-you-fly.markdown" afterPath="$PROJECT_DIR$/source/_posts/rant/2011-09-17-now-this-is-how-you-fly.markdown" />
-    </list>
+    <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link" />
     <ignored path="octopress.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,10 +50,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2011-09-17-now-this-is-how-you-fly.markdown" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2011-09-17-now-this-is-how-you-fly.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/rant/2011-09-17-now-this-is-how-you-fly.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="107" selection-start="216" selection-end="216" vertical-scroll-proportion="0.18103448">
+            <state line="9" column="288" selection-start="477" selection-end="477" vertical-scroll-proportion="-7.3636365">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2011-09-17-david-blaine-explains-how-he-holds-his-breath-for-17-minutes.markdown" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-17-david-blaine-explains-how-he-holds-his-breath-for-17-minutes.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="56" selection-start="203" selection-end="203" vertical-scroll-proportion="0.18103448">
               <folding />
             </state>
           </provider>
@@ -111,6 +121,7 @@
         <option value="$PROJECT_DIR$/source/search.html" />
         <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/source/_posts/rant/2011-09-17-now-this-is-how-you-fly.markdown" />
+        <option value="$PROJECT_DIR$/source/_posts/2011-09-17-david-blaine-explains-how-he-holds-his-breath-for-17-minutes.markdown" />
       </list>
     </option>
   </component>
@@ -187,28 +198,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rant" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,7 +299,7 @@
       </server>
     </servers>
   </component>
-  <component name="RunManager" selected="Rake.Deploy">
+  <component name="RunManager" selected="Rake.Generate local">
     <configuration default="false" name="Deploy" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="octopress" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -468,7 +457,7 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="new_post[Now this is how you fly]" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="new_post[David Blaine explains how he holds his breath for 17 minutes]" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="true" />
@@ -546,7 +535,7 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25015217" sideWeight="0.7309198" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26908022" sideWeight="0.99634814" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26908022" sideWeight="0.99634814" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -608,16 +597,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-16-jedi-kittens-enough-said.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="56" selection-start="317" selection-end="317" vertical-scroll-proportion="0.20954598">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/random/2011-09-16-an-amazing-photo-gallery-of-north-korea.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="83" selection-start="428" selection-end="428" vertical-scroll-proportion="0.23050058">
@@ -724,7 +703,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/rant/2011-09-17-now-this-is-how-you-fly.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="107" selection-start="216" selection-end="216" vertical-scroll-proportion="0.18103448">
+        <state line="9" column="288" selection-start="477" selection-end="477" vertical-scroll-proportion="-7.3636365">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-17-david-blaine-explains-how-he-holds-his-breath-for-17-minutes.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="56" selection-start="203" selection-end="203" vertical-scroll-proportion="0.18103448">
           <folding />
         </state>
       </provider>
