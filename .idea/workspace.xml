@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/alias_generator.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/jekyll_indextank.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/related_posts.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/custom/head.html" afterPath="$PROJECT_DIR$/source/_includes/custom/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_layouts/post.html" afterPath="$PROJECT_DIR$/source/_layouts/post.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/search.html" afterPath="$PROJECT_DIR$/source/search.html" />
     </list>
     <ignored path="octopress.iws" />
@@ -52,10 +45,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="head.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/_includes/custom/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="110" selection-start="438" selection-end="438" vertical-scroll-proportion="-2.25">
+            <state line="22" column="36" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.7837446">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_includes/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -64,16 +66,16 @@
       <file leaf-file-name="search.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="199" selection-end="199" vertical-scroll-proportion="-8.25">
+            <state line="13" column="3" selection-start="201" selection-end="201" vertical-scroll-proportion="-9.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jekyll_indextank.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="jekyll_indextank.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/jekyll_indextank.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="74" selection-start="784" selection-end="784" vertical-scroll-proportion="0.73211783">
+            <state line="26" column="74" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,8 +109,8 @@
         <option value="$PROJECT_DIR$/source/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/plugins/jekyll_indextank.rb" />
-        <option value="$PROJECT_DIR$/source/_includes/custom/head.html" />
         <option value="$PROJECT_DIR$/source/search.html" />
+        <option value="$PROJECT_DIR$/source/_includes/custom/head.html" />
       </list>
     </option>
   </component>
@@ -521,7 +523,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="883" y="22" width="1037" height="1109" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -593,16 +595,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-15-watch-out-for-chuck-testa.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="-8.181818">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/alias_generator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="51" selection-start="291" selection-end="291" vertical-scroll-proportion="0.25245443">
@@ -705,23 +697,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_includes/custom/head.html">
+    <entry file="file://$PROJECT_DIR$/plugins/jekyll_indextank.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="110" selection-start="438" selection-end="438" vertical-scroll-proportion="-2.25">
+        <state line="26" column="74" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="199" selection-end="199" vertical-scroll-proportion="-8.25">
+        <state line="13" column="3" selection-start="201" selection-end="201" vertical-scroll-proportion="-9.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jekyll_indextank.rb">
+    <entry file="file://$PROJECT_DIR$/source/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="74" selection-start="784" selection-end="784" vertical-scroll-proportion="0.73211783">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_includes/custom/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="36" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.7837446">
           <folding />
         </state>
       </provider>
