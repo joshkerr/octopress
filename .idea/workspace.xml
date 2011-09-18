@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/random/2011-09-18-container-ship-delivering-craines.markdown" afterPath="$PROJECT_DIR$/source/_posts/random/2011-09-18-container-ship-delivering-craines.markdown" />
     </list>
     <ignored path="octopress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="273" column="29" selection-start="10275" selection-end="10275" vertical-scroll-proportion="0.83169705">
+            <state line="285" column="7" selection-start="10643" selection-end="10643" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2011-09-18-container-ship-delivering-craines.markdown" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/random/2011-09-18-container-ship-delivering-craines.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="91" selection-start="274" selection-end="274" vertical-scroll-proportion="0.26049203">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="2011-09-17-really-cool-new-keyboard-from-corsair.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/cool/2011-09-17-really-cool-new-keyboard-from-corsair.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="175" selection-start="422" selection-end="422" vertical-scroll-proportion="-8.181818">
+            <state line="9" column="175" selection-start="422" selection-end="422" vertical-scroll-proportion="-7.3636365">
               <folding />
             </state>
           </provider>
@@ -50,7 +62,7 @@
       <file leaf-file-name="2011-06-10-using-file-vault-2-with-multiple-drives.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/featured/2011-06-10-using-file-vault-2-with-multiple-drives.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="83" selection-end="83" vertical-scroll-proportion="-2.7272727">
+            <state line="3" column="18" selection-start="83" selection-end="83" vertical-scroll-proportion="-2.4545455">
               <folding />
             </state>
           </provider>
@@ -71,7 +83,7 @@
       <file leaf-file-name="about.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/about.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="14" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.3181818">
+            <state line="38" column="14" selection-start="2338" selection-end="2338" vertical-scroll-proportion="3.7727273">
               <folding />
             </state>
           </provider>
@@ -83,19 +95,7 @@
       <file leaf-file-name="2011-09-09-i-would-kill-for-thes-nike-mags.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/cool/2011-09-09-i-would-kill-for-thes-nike-mags.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="12" selection-start="553" selection-end="553" vertical-scroll-proportion="-14.545455">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2011-09-16-sick-downhill-ride-from-danny-hart.markdown" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-16-sick-downhill-ride-from-danny-hart.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="323" selection-end="323" vertical-scroll-proportion="-9.090909">
+            <state line="16" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="-13.090909">
               <folding />
             </state>
           </provider>
@@ -107,7 +107,7 @@
       <file leaf-file-name="2011-09-16-jedi-kittens-enough-said.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-16-jedi-kittens-enough-said.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="274" selection-end="274" vertical-scroll-proportion="-9.090909">
+            <state line="10" column="13" selection-start="274" selection-end="274" vertical-scroll-proportion="-8.181818">
               <folding />
             </state>
           </provider>
@@ -119,7 +119,7 @@
       <file leaf-file-name="2011-09-15-watch-out-for-chuck-testa.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-15-watch-out-for-chuck-testa.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="-9.090909">
+            <state line="10" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="-8.181818">
               <folding />
             </state>
           </provider>
@@ -131,7 +131,7 @@
       <file leaf-file-name="2011-09-11-a-great-video-showing-how-small-we-are.markdown" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-11-a-great-video-showing-how-small-we-are.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="-12.727273">
+            <state line="14" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="-11.454545">
               <folding />
             </state>
           </provider>
@@ -154,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/_posts/rant/2011-09-17-now-this-is-how-you-fly.markdown" />
         <option value="$PROJECT_DIR$/source/_posts/2011-09-17-david-blaine-explains-how-he-holds-his-breath-for-17-minutes.markdown" />
         <option value="$PROJECT_DIR$/source/_includes/articlemini.html" />
         <option value="$PROJECT_DIR$/source/index.html" />
@@ -170,6 +169,7 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/source/about.markdown" />
         <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/source/_posts/random/2011-09-18-container-ship-delivering-craines.markdown" />
       </list>
     </option>
   </component>
@@ -315,31 +315,7 @@
       </server>
     </servers>
   </component>
-  <component name="RunManager" selected="Rake.New Post">
-    <configuration default="false" name="Deploy" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="octopress" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="heroku" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="true" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Rake.Deploy All">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -514,11 +490,35 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="Deploy All" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="octopress" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="go" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="true" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Rake.Generate" />
       <item index="1" class="java.lang.String" itemvalue="Rake.New Post" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.Deploy" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.Push to Github" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.Push to Github" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.Deploy All" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -560,7 +560,7 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4159919" sideWeight="0.72959685" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27040315" sideWeight="0.99696356" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27040315" sideWeight="0.99696356" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -622,13 +622,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="137" selection-start="4168" selection-end="4168" vertical-scroll-proportion="-4.9166665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/rant/2011-09-17-now-this-is-how-you-fly.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="259" selection-start="477" selection-end="477" vertical-scroll-proportion="-7.3636365">
@@ -672,7 +665,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-16-sick-downhill-ride-from-danny-hart.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="323" selection-end="323" vertical-scroll-proportion="-9.090909">
+        <state line="10" column="13" selection-start="323" selection-end="323" vertical-scroll-proportion="-8.181818">
           <folding />
         </state>
       </provider>
@@ -682,7 +675,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-16-jedi-kittens-enough-said.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="274" selection-end="274" vertical-scroll-proportion="-9.090909">
+        <state line="10" column="13" selection-start="274" selection-end="274" vertical-scroll-proportion="-8.181818">
           <folding />
         </state>
       </provider>
@@ -692,7 +685,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-15-watch-out-for-chuck-testa.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="-9.090909">
+        <state line="10" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="-8.181818">
           <folding />
         </state>
       </provider>
@@ -702,7 +695,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-11-a-great-video-showing-how-small-we-are.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="-12.727273">
+        <state line="14" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="-11.454545">
           <folding />
         </state>
       </provider>
@@ -712,7 +705,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/cool/2011-09-09-i-would-kill-for-thes-nike-mags.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="12" selection-start="553" selection-end="553" vertical-scroll-proportion="-14.545455">
+        <state line="16" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="-13.090909">
           <folding />
         </state>
       </provider>
@@ -722,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/cool/2011-09-17-really-cool-new-keyboard-from-corsair.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="175" selection-start="422" selection-end="422" vertical-scroll-proportion="-8.181818">
+        <state line="9" column="175" selection-start="422" selection-end="422" vertical-scroll-proportion="-7.3636365">
           <folding />
         </state>
       </provider>
@@ -732,7 +725,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/featured/2011-06-10-using-file-vault-2-with-multiple-drives.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="83" selection-end="83" vertical-scroll-proportion="-2.7272727">
+        <state line="3" column="18" selection-start="83" selection-end="83" vertical-scroll-proportion="-2.4545455">
           <folding />
         </state>
       </provider>
@@ -749,7 +742,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/about.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="14" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.3181818">
+        <state line="38" column="14" selection-start="2338" selection-end="2338" vertical-scroll-proportion="3.7727273">
           <folding />
         </state>
       </provider>
@@ -759,9 +752,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="273" column="29" selection-start="10275" selection-end="10275" vertical-scroll-proportion="0.83169705">
+        <state line="285" column="7" selection-start="10643" selection-end="10643" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/random/2011-09-18-container-ship-delivering-craines.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="91" selection-start="274" selection-end="274" vertical-scroll-proportion="0.26049203">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
