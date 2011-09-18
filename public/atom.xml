@@ -4,13 +4,24 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-09-17T16:29:43-05:00</updated>
+  <updated>2011-09-18T11:08:57-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>Container Ship Delivering Craines</title>
+    <link href="http://joshkerr.com/2011/09/container-ship-delivering-craines/"/>
+    <updated>2011-09-18T11:03:00-05:00</updated>
+    <id>http://joshkerr.com/2011/09/container-ship-delivering-craines</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/dKOBh.jpg&quot; alt=&quot;How does this thing stay up?&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So I&amp;#8217;m looking at this photo wondering how does this ship not fall over?  Can it even traverse an ocean?&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Really Cool New Keyboard From Corsair</title>
@@ -494,27 +505,6 @@ type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
 &lt;p&gt;When you are done you&amp;#8217;ll get the search box similar to what you see to the left on this site.&lt;/p&gt;
 
 &lt;p&gt;Thanks to &lt;a href=&quot;http://jrmiii.com/2009/03/03/super-easy-sidebar-search-for-jekyll-powered-sites.html&quot;&gt;Joe Martinez&lt;/a&gt; for the tip.&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Off duty Storm Troopers</title>
-    <link href="http://joshkerr.com/2011/09/off-duty-storm-troopers/"/>
-    <updated>2011-09-09T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/off-duty-storm-troopers</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/LtGEK.jpg&quot; alt=&quot;StormOff&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hilariously funny photos of Storm Troopers while they are off duty.  Of course they leave their uniforms on while enjoying their leisure time.  Who has time to create this sort of thing?  And why am I so amused by it?&lt;/p&gt;
-
-&lt;!&#8211; more &#8211;&gt;
-
-
-
-
-&lt;div class=&quot;embed rich flickr&quot;&gt;&lt;embed width=&quot;800&quot; height=&quot;450&quot; flashvars=&quot;v=107931&amp;offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2Fkalexanderson%2Fsets%2F72157626416953560%2Fshow%2F&amp;page_show_back_url=%2Fphotos%2Fkalexanderson%2Fsets%2F72157626416953560%2F&amp;set_id=72157626416953560&amp;jump_to=&quot; allowfullscreen=&quot;true&quot; bgcolor=&quot;#000000&quot; src=&quot;http://www.flickr.com/apps/slideshow/show.swf?v=107931&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/div&gt;
-
-
-
 </content>
   </entry>
   

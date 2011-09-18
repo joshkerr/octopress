@@ -66,6 +66,51 @@
     
   <header>
     
+      <h1 class="entry-title"><a href="/2011/02/iffmpeg-is-a-great-gui-for-ffmpeg-mac/">Iffmpeg Is a Great Gui for Ffmpeg Mac</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-05T00:00:00-06:00" pubdate  data-updated="true" >Feb 5<span>th</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;m big into movies and I like the <a href="/2010/11/quickly-encode-mkv-to-mv4-compatible-with-ipad/">MKV</a> format for storage, but iOS devices for watching.  Since Apple doesn&#8217;t natively support <a href="/2010/11/quickly-encode-mkv-to-mv4-compatible-with-ipad/">MKV</a>, I&#8217;m forced to remux into MP4.  I&#8217;ve tried a bunch of different tools for doing this, even came up with a <a href="https://github.com/joshkerr/mkvtom4v">bash script</a> (hosted on my <a href="http://github.com/joshkerr">github</a> account,) and now I&#8217;m using <a href="http://www.iffmpeg.com/">iFFmpeg</a>, a new GUI for <a href="http://www.ffmpeg.org">FFmpeg</a>.</p>
+
+<p><a href="http://www.iffmpeg.com/">iFFmpeg</a> is the first GUI That makes it possible for me to easily remux my MKV files into MP4.  Previous attempts at mastering the command-line or other GUI hacks, left me files that aren&#8217;t compatible with Apple devices.  With this app (which I believe is new to the scene,) I can just select the &#8220;video stream passthrough&#8221; option, AAC conversion option and boom, my MKV&#8217;s are magically (and quickly) turned into MP4 files compatible with Apple devices.</p>
+
+<p>My original files start off as 720p video encoded via h264, the audio is usually AC3 or DTS.  The final file has the exact same video with no changes, but audio re-encoded to AAC stereo.  Since my iPad and iPhone can&#8217;t play 5 channel audio, there is no point for me to leave it.</p>
+
+<p><img src="http://joshkerr.s3.amazonaws.com/images/iFFmpeg.png" alt="iffmpegscreen" /></p>
+
+<p>Using <a href="http://www.iffmpeg.com/">iFFmpeg</a> is simple.  Just drag the video file into the app, choose a codec, and press start.  My favorite feature (other than the quick and high quality conversion) is the very clear indicator in the dock icon that shows how much remuxing (or encoding) is left on the current file.  The author plans to add a total batch indicator as well.</p>
+
+<p><img src="http://joshkerr.s3.amazonaws.com/images/iffmpegdock.png" alt="iffmpegdock" /></p>
+
+<p>The app is 8 euros and requires that you manually install the <a href="http://www.ffmpeg.org">FFmpeg</a> binary.  They provide a link to a <a href="http://ffmpeg.arrozcru.org/builds/">static binary</a> (I chose the 64bit variety) and installing it is as simple as dragging it into the app.</p>
+
+<p>I&#8217;m excited about this app because it uses one of the best video encoding engines <a href="http://www.ffmpeg.org">FFmpeg</a> and it has an author that seems to be really motivated about pushing out new features.   I&#8217;m keeping an eye on this one.</p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h1 class="entry-title"><a href="/2011/02/no-guarantee-of-privacy-on-social-nets/">No Guarantee of Privacy on Social Nets</a></h1>
     
     
@@ -349,39 +394,6 @@ echo 'Done!'&quot;</code>
 
   </article>
 
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/2011/01/Zosh-in-wallstreet-journal/">Zosh Gets a Shout-out in the Wall Street Journal</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-01-31T00:00:00-06:00" pubdate  data-updated="true" >Jan 31<span>st</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Zosh got a great hit today in the Wall Street Journal.  The article is on Docusign, the big gorilla of the e-signature business and when the author mentions competitors, the first company named is YouSendIt&#8217;s Zosh.  Nice.</p>
-
-<p><a href="http://blogs.wsj.com/digits/2011/01/31/app-watch-signing-documents-on-the-ipad/" title="Zosh in WSJ">Zosh in the Wall Street Journal</a></p>
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
@@ -458,6 +470,10 @@ echo 'Done!'&quot;</code>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2011/09/container-ship-delivering-craines/">Container Ship Delivering Craines</a>
+      </li>
+    
+      <li class="post">
         <a href="/2011/09/really-cool-new-keyboard-from-corsair/">Really Cool New Keyboard From Corsair</a>
       </li>
     
@@ -483,10 +499,6 @@ echo 'Done!'&quot;</code>
     
       <li class="post">
         <a href="/2011/09/create-mac-app-from-shell-script/">Create Mac App From Shell Script</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/watch-out-for-chuck-testa/">Watch Out for Chuck Testa</a>
       </li>
     
   </ul>

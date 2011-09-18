@@ -109,6 +109,10 @@ task :new_post, :title do |t, args|
     post.puts "categories: "
     post.puts "---"
   end
+
+  #open in iAWriter & Marked
+  open_iAWriter(filename)
+  open_Marked(filename)
 end
 
 # usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")
@@ -260,7 +264,15 @@ multitask :github do
     puts "\n## github code deploy complete"
 end
 
-
+desc "deploy everything genreate, github then heroku"
+multitask :go do
+  Rake::Task["generate"].reenable
+  Rake::Task["generate"].invoke
+  Rake::Task["heroku"].reenable
+  Rake::Task["heroku"].invoke
+  Rake::Task["github"].reenable
+  Rake::Task["github"].invoke
+end
 
 desc "Update configurations to support publishing to root or sub directory"
 task :set_root_dir, :dir do |t, args|
@@ -344,4 +356,14 @@ desc "list tasks"
 task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
+end
+
+
+
+def open_iAWriter(path)
+	sh 'open $1 -a /Applications/iA\ Writer.app ' + path
+end
+
+def open_Marked(path)
+	sh 'open $1 -a /Applications/Marked.app ' + path
 end

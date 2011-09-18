@@ -66,6 +66,106 @@
     
   <header>
     
+      <h1 class="entry-title"><a href="/2010/10/using-duplicity-to-backup-your-server-to-amazon-s3/">Using Duplicity to Backup Your Server to Amazon S3</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-10-30T00:00:00-05:00" pubdate  data-updated="true" >Oct 30<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>There is no question that you want your data backed up to the cloud and the cheapest way to do that is by using Amazon S3.  For more people, their hosted servers provide some sort of web based automated backup system.  For those of us that manage our own servers, yo&#8217;ll need to configure something yourself.  This task can be fairly straight forward and I&#8217;ll show you how I&#8217;ve configured mine.</p>
+
+<p>The key tool that we are going to use is a program called duplicity which will support incremental encrypted backups to Amazon.  Before we get started yo&#8217;ll need an Amazon S3 account with a bucket configured for your backups.  I&#8217;m not going to show you how to do that in this article as it is pretty straight forward.</p>
+
+<p>Next, you&#8217;ll want to choose which directories on your server you want to backup.  For me, I&#8217;m backing up the following</p>
+
+<div>
+  <pre>
+    <code class='bash'>/home/
+/etc/
+/usr/
+/lib/
+/opt/
+/root/
+/var/</code>
+  </pre>
+</div>
+
+
+<p>This gives me all that I&#8217;d need to reconfigure my server in case of complete server failure.  It isn&#8217;t a complete drive clone, but I don&#8217;t really need that.</p>
+
+<p>To install duplicity, you&#8217;ll need to make sure that your apt-get library is up to date.</p>
+
+<div>
+  <pre>
+    <code class='bash'>apt-get update</code>
+  </pre>
+</div>
+
+
+<p>Next you&#8217;ll want to install duplicity:</p>
+
+<div>
+  <pre>
+    <code class='bash'>apt-get install duplicity</code>
+  </pre>
+</div>
+
+
+<p>With duplicity installed, all that is left is your backup script.  You probably shouldn&#8217;t leave the PASSPHRASE in the script and you will need to replace they [KEY-ID] and [SEC-KEY] with your own Amazon information.  Here is a copy of mine:</p>
+
+<div>
+  <pre>
+    <code class='bash'>#!/bin/bash
+
+#Log script
+log() { logger -t scriptname &quot;$@&quot;; echo &quot;$@&quot;; }
+
+export AWS_ACCESS_KEY_ID=[KEY-ID]
+export AWS_SECRET_ACCESS_KEY=[SEC-KEY]
+export PASSPHRASE=[PASSWORD]
+
+duplicity /home/ s3+http://joshkerr/joshkerr-com/home/
+duplicity /etc/ s3+http://joshkerr/joshkerr-com/etc/
+duplicity /usr/ s3+http://joshkerr/joshkerr-com/usr/
+duplicity /lib/ s3+http://joshkerr/joshkerr-com/lib/
+duplicity /opt/ s3+http://joshkerr/joshkerr-com/opt/
+duplicity /root/ s3+http://joshkerr/joshkerr-com/root/
+duplicity /var/ s3+http://joshkerr/joshkerr-com/var/
+
+log &quot;Backup completed.&quot;
+
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
+export PASSPHRASE</code>
+  </pre>
+</div>
+
+
+<p>Its a good thing I posted this article shortly before I decided to upgrade my server to Ubuntu 10.04 LTS because it basically wiped clean my drive.  Hey MediaTemple, where is the heads up?  They do put your old data in the /old folder, but it was way easier to restore from Amazon S3.  Thank you duplicity.</p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h1 class="entry-title"><a href="/2010/10/mailgun-email-interface-for-your-app/">@mailgun: Email Interface for Your App</a></h1>
     
     
@@ -372,41 +472,6 @@
 
   </article>
 
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/2010/10/sneakily-snap-pictures-with-the-camera-camouflage-iphone-app/">Sneakily Snap Pictures With the Camera Camouflage iPhone App</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-10-15T00:00:00-05:00" pubdate  data-updated="true" >Oct 15<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>An iPhone app that lets you take sneaky photos of people?  Creepy.   Reminds me of this strange Flickr <a href="http://www.flickr.com/photos/53955993@N04/">page</a> I saw on <a href="http://www.reddit.com/r/WTF/duplicates/drf5r/found_this_guys_flickr_account_accidentlykinda/">Reddit</a>.  That guy would probably love this app.</p>
-
-
-<blockquote>From Gizmodo:  <a href="http://feeds.gawker.com/~r/gizmodo/full/~3/RzkutEAEJdI/sneakily-snap-pictures-with-the-camera-camouflage-iphone-app">Sneakily Snap Pictures with the Camera Camouflage iPhone App</a>.</blockquote>
-
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
@@ -483,6 +548,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2011/09/container-ship-delivering-craines/">Container Ship Delivering Craines</a>
+      </li>
+    
+      <li class="post">
         <a href="/2011/09/really-cool-new-keyboard-from-corsair/">Really Cool New Keyboard From Corsair</a>
       </li>
     
@@ -508,10 +577,6 @@
     
       <li class="post">
         <a href="/2011/09/create-mac-app-from-shell-script/">Create Mac App From Shell Script</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/watch-out-for-chuck-testa/">Watch Out for Chuck Testa</a>
       </li>
     
   </ul>
