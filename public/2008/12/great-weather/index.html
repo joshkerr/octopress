@@ -26,7 +26,29 @@
   <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript">
+  //just a quick example, in no way pretty code.
 
+  $(document).ready(function() {
+   	$('form#search').submit(function() {
+        search($('input#query').val());
+      return false;
+   	});
+  });
+
+  function search(query) {
+    //Try searching for 'Python', 'Hyde', 'Linux'. Note that I didn't index all my posts yet, so you won't be able to find all my posts.
+    var result = $.getJSON('http://http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
+    	$.each(data.results, function(index, result) {
+        $('div#results').html('<div id="result">\
+      			<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
+      			' + result.snippet_text + '</p>\
+    		</div')
+    	});
+    });
+  }
+</script>
 </head>
 
 <body  >
@@ -125,6 +147,52 @@
 </div>
 
     
+
+      <h2> Related posts</h2>
+      <ul>
+      
+        <li><a href="/2011/09/now-this-is-how-you-fly/">Now This Is How You Fly</a></li>
+      
+        <li><a href="/2011/09/this-on-nytimes-fashion-blog/">This? on NY Times Fashion Blog?</a></li>
+      
+        <li><a href="/2011/09/windows-8-is-looking-good/">Windows 8 Is Looking Good</a></li>
+      
+        <li><a href="/2011/09/the-best-music-discover-service-you-cant-use/">The Best Music Discovery Service</a></li>
+      
+        <li><a href="/2011/06/what-is-the-technological-singularity/">What is the Technological Singularity?</a></li>
+      
+        <li><a href="/2011/02/mobile-phones-and-youtube-shake-up-the-middle-east/">Mobile phones and YouTube shake up the middle east</a></li>
+      
+        <li><a href="/2011/02/california-stores-cant-ask-for-zip-codes/">california stores can't ask for zip codes</a></li>
+      
+        <li><a href="/2011/02/no-guarantee-of-privacy-on-social-nets/">no guarantee of privacy on social nets</a></li>
+      
+        <li><a href="/2011/02/do-you-believe-the-statistics/">do you believe the statistics</a></li>
+      
+        <li><a href="/2011/01/see-you-latr-tumblr/">See you latr Tumblr</a></li>
+      
+        <li><a href="/2011/01/twitter-did-you-change-your-icon/">Twitter, did you just change your icon again?</a></li>
+      
+        <li><a href="/2010/12/vintage-effects-in-iphone-videos/">Vintage effects in iPhone videos</a></li>
+      
+        <li><a href="/2010/10/goldman-sachs-is-paying-warren-buffet-15-a-second/">Goldman Sachs is paying Warren Buffet $15 a second.</a></li>
+      
+        <li><a href="/2010/04/video-blackberry-6-preview-from-wes/">BlackBerry 6 Preview From WES</a></li>
+      
+        <li><a href="/2010/04/north-carolina-beach-town-bans-thongs/">North Carolina beach town bans thongs</a></li>
+      
+        <li><a href="/2009/01/qik-on-a-non-hacked-iphone/">Qik on a non-hacked iphone.</a></li>
+      
+        <li><a href="/2008/11/Merc/">Merc</a></li>
+      
+        <li><a href="/2008/08/work-sucks/">Work sux</a></li>
+      
+        <li><a href="/2008/06/twitter-is-the-most-unstable-service-ever/">Twitter is the most unstable service ever!</a></li>
+      
+      </ul>
+
+
+
   </footer>
 </article>
 

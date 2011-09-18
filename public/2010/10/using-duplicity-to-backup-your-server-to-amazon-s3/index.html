@@ -26,7 +26,29 @@
   <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript">
+  //just a quick example, in no way pretty code.
 
+  $(document).ready(function() {
+   	$('form#search').submit(function() {
+        search($('input#query').val());
+      return false;
+   	});
+  });
+
+  function search(query) {
+    //Try searching for 'Python', 'Hyde', 'Linux'. Note that I didn't index all my posts yet, so you won't be able to find all my posts.
+    var result = $.getJSON('http://http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
+    	$.each(data.results, function(index, result) {
+        $('div#results').html('<div id="result">\
+      			<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
+      			' + result.snippet_text + '</p>\
+    		</div')
+    	});
+    });
+  }
+</script>
 </head>
 
 <body  >
@@ -193,6 +215,42 @@ export PASSPHRASE</code>
 </div>
 
     
+
+      <h2> Related posts</h2>
+      <ul>
+      
+        <li><a href="/2011/09/i-was-looking-for-a-delicious-app-for-mac/">I Was Looking for a Delicious App for Mac</a></li>
+      
+        <li><a href="/2011/09/the-details-of-the-greatest-online-game-scam/">The details of the greatest online game scam</a></li>
+      
+        <li><a href="/2011/09/capital-factory-demo-day-2011/">Capital Factory Demo Day 2011</a></li>
+      
+        <li><a href="/2011/09/how-do-win-a-demogod-award-at-demo/">How do win a DEMOgod Award at DEMO</a></li>
+      
+        <li><a href="/2011/08/monster-cable-goes-after-the-wrong-guy-lawsuit-gone-wrong/">Monster Cable goes after the wrong guy</a></li>
+      
+        <li><a href="/2011/06/using-file-vault-2-with-multiple-drives/">Using File Vault 2 with multiple drives</a></li>
+      
+        <li><a href="/2011/02/automatic-tv-show-downloading-via-sickbeard/">automatic tv show downloading via sickbeard on a mac</a></li>
+      
+        <li><a href="/2011/02/automating-the-creation-of-posts-in-jekyll/">automating the creation of posts in jekyll</a></li>
+      
+        <li><a href="/2010/12/repairing-your-disk-with-pgp-whole-disk-encryption-mac/">repairing your disk with pgp whole disk encryption mac</a></li>
+      
+        <li><a href="/2010/12/how-to-enable-ftp-uploads-to-amazon-s3/">how to enable ftp uploads to amazon s3</a></li>
+      
+        <li><a href="/2010/11/quickly-encode-mkv-to-mv4-compatible-with-ipad/">quickly encode mkv to mv4 compatible with ipad</a></li>
+      
+        <li><a href="/2010/10/christina-symanski-a-paralyzed-woman/">paralyzed woman does a video review of my app</a></li>
+      
+        <li><a href="/2010/10/02/testflightapp-beta-test-iphone-apps-without-using-adhoc/">testflightapp beta test iphone apps without using adhoc</a></li>
+      
+        <li><a href="/2010/04/i-almost-invented-napster/">I almost invented Napster.</a></li>
+      
+      </ul>
+
+
+
   </footer>
 </article>
 

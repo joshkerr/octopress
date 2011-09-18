@@ -13,6 +13,8 @@ group :development do
   gem 'rb-fsevent'
   gem 'stringex'
   gem 'domainatrix'
+  gem 'indextank'
+  gem 'nokogiri'
 end
 
 gem 'sinatra', '1.2.6'

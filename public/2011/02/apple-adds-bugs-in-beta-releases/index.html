@@ -26,7 +26,29 @@
   <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript">
+  //just a quick example, in no way pretty code.
 
+  $(document).ready(function() {
+   	$('form#search').submit(function() {
+        search($('input#query').val());
+      return false;
+   	});
+  });
+
+  function search(query) {
+    //Try searching for 'Python', 'Hyde', 'Linux'. Note that I didn't index all my posts yet, so you won't be able to find all my posts.
+    var result = $.getJSON('http://http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
+    	$.each(data.results, function(index, result) {
+        $('div#results').html('<div id="result">\
+      			<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
+      			' + result.snippet_text + '</p>\
+    		</div')
+    	});
+    });
+  }
+</script>
 </head>
 
 <body  >
@@ -128,6 +150,44 @@
 </div>
 
     
+
+      <h2> Related posts</h2>
+      <ul>
+      
+        <li><a href="/2011/08/gartner-research-shows-ios-android-claiming-62-of-total-smartphone-market/">Gartner Claiming iOS 62% of smartphone Market</a></li>
+      
+        <li><a href="/2011/08/ios-developers-building-icloud-integration-in-droves/">iOS developers building iCloud integration in droves</a></li>
+      
+        <li><a href="/2011/02/why-i-switched-to-amazon-ec2-hosting/">Why I switched to Amazon EC2 hosting and then Heroku</a></li>
+      
+        <li><a href="/2011/02/rsa-security-conference-loves-the-cloud/">rsa security conference loves the cloud</a></li>
+      
+        <li><a href="/2011/02/hp-launches-tablets-and-phones/">hp launches tablets and phones</a></li>
+      
+        <li><a href="/2011/02/dont-break-up-with-an-seo-expert/">dont break up with an seo expert</a></li>
+      
+        <li><a href="/2011/02/wifi-in-flight-is-techno-cool/">wifi in flight is techno cool</a></li>
+      
+        <li><a href="/2011/01/Taco-Bell-damage/">Taco Bell, real beef or not, damage is done</a></li>
+      
+        <li><a href="/2010/10/iphone-4-coming-to-verizon/">iPhone 4 coming to Verizon?</a></li>
+      
+        <li><a href="/2010/10/kevin-rose-talks-about-his-failures-at-digg/">Kevin Rose talks about his failures at Digg</a></li>
+      
+        <li><a href="/2010/10/how-facebook-can-become-bigger-in-five-years-than-google-is-today/">How Facebook Can Become Bigger In Five Years Than Google Is Today</a></li>
+      
+        <li><a href="/2010/06/iphone-4-vs-droid-incredible-vs-android-evo-4g-vs-nexus-one-tech-specs/">iPhone 4 vs Droid Incredible vs Android Evo 4G vs Nexus One tech specs</a></li>
+      
+        <li><a href="/2010/06/iphone-4-vs-iphone-3gs/">iPhone 4 vs. iPhone 3GS</a></li>
+      
+        <li><a href="/2010/04/everyday-people-making-thousands-as-amateur-paparazzi/">Everyday People Making Thousands as Amateur Paparazzi</a></li>
+      
+        <li><a href="/2008/06/getting-excited-about-the-wwdc-2008-keynote/">Getting excited about the WWDC 2008 keynote</a></li>
+      
+      </ul>
+
+
+
   </footer>
 </article>
 
