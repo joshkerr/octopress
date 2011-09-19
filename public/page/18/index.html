@@ -66,6 +66,37 @@
     
   <header>
     
+      <h3 class="entry-title"><a href="/2010/12/if-i-did-buy-a-workstation-i8217d-want-it-to-look-like-this-sometimes-dell-has-great-design/">If I Did Buy a Workstation I8217d Want It to Look Like This Sometimes Dell Has Great Design</a></h3>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-12-17T00:00:00-06:00" pubdate  data-updated="true" >Dec 17<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://joshkerr.tumblr.com/photo/1280/2355229185/1/tumblr_ldfbceMPGF1qz9lkr" alt=""/><br/><br/><p>If I did buy a workstation, I&#8217;d want it to look like this.  Sometimes Dell has great design.<br/></p></p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h3 class="entry-title"><a href="/2010/12/i-hope-captain-sully-is-driving/">I Hope Captain Sully Is Driving</a></h3>
     
     
@@ -85,6 +116,75 @@
 
 
   <div class="entry-content"><p><img src="http://29.media.tumblr.com/tumblr_ldfmprze641qzbpldo1_500.jpg" alt=""/><br/><br/><p>I hope Captain Sully is driving.</p></p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h3 class="entry-title"><a href="/2010/12/how-to-enable-ftp-uploads-to-amazon-s3/">How to Enable Ftp Uploads to Amazon S3</a></h3>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-12-17T00:00:00-06:00" pubdate  data-updated="true" >Dec 17<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>There are many apps which allow you to upload an image to a server which can then be inserted into content.  I keep my images on Amazon S3 storage because of the cost/space benefits.  Many of these apps support ftp but not Amazon S3 leaving me with the added burden of manually copying my images to their destination.
+I recently started using myTumblr to create my Tumblr content and wanted to use it with Amazon S3, but it only supports ftp.  No problem, I&#8217;ll improvise.</p>
+
+<p>I&#8217;m a Mac user so I know that I&#8217;ve got built in ftp support.  Great, I&#8217;ll enable that:</p>
+
+<p><a href="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260590.jpg"><img src="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260590.jpg" alt="TurnOnFTP" /></a></p>
+
+<p>I go into my System Preferences, Sharing and then choose File Sharing and options.  I check the FTP option.  Make sure ftp is enabled.  Now create a folder to host those images on your local machine.  I chose something under:</p>
+
+<div>
+  <pre>
+    <code class='bash'>~/Sites/joshkerr.com/images/</code>
+  </pre>
+</div>
+
+
+<p>You cold also enable SSH and then use SFTP (which is what I did,) but that is entirely up to you.</p>
+
+<p>Next, I need a way to sync those files up to Amazon S3.  For more advanced users, you can just write a shell script and use FolderActions to trigger it.  For less advanced users, I recommend using Transmit by Panic.  It has an Automator action that is very easy to setup.</p>
+
+<p>Load up Automator and choose a new folder action.  Then set it up like so:</p>
+
+<p><a href="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260825.jpg"><img src="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260825.jpg" alt="AutomatorAction" /></a></p>
+
+<p>Make sure to choose the folder you created in the previous step to execute the folder action on.  Also be sure to choose the right Amazon S3 folder.  At the end, when you copy a new image into this folder, you want to trigger it to launch Transmit and sync the folder.</p>
+
+<p>Next you will need to make sure you have cloud font support enabled on Amazon S3.  This will give you a public URL that you can use that will be consistent for each image you upload to S3.</p>
+
+<p>If you are a bit more sophisticated, you can use a shell script to sync the files.  This has the added benefit of being a background operation.  I would still use Automator and folder actions to set it up, but this time around, do something like this:</p>
+
+<p><a href="http://joshkerr.s3.amazonaws.com/images/Automator%20with%20shell%20script.png"><img src="http://joshkerr.s3.amazonaws.com/images/Automator%20with%20shell%20script.png" alt="AutomatorScript" /></a></p>
+
+<p>I used a ruby script called s3sync to handle the actual syncing.  I am not going to cover the installation of that utility in this article.</p>
+
+<p>The last step is to configure your app to support the new ftp site.  For me, I&#8217;m using myTumblr so I configure it like so:</p>
+
+<p><a href="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292261061.jpg"><img src="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292261061.jpg" alt="ConfigureApp" /></a></p>
+
+<p>Make sure to enter your cloud front URL instead of mine.  If everything is configured correctly, when a new image is added to the images folder it should launch a sync on Transmit.  The side effect of this unfortunately is that Transmit will open a new window in the foreground interrupting your workflow.  Still, it saves a bunch of steps that would otherwise complicate something that should be simple.</p>
 </div>
   
   
@@ -170,75 +270,6 @@
 
 <p>Make sure to enter your cloud front URL instead of mine.  If everything is configured correctly, when a new image is added to the images folder it should launch a sync on Transmit.  The side effect of this unfortunately is that Transmit will open a new window in the foreground interrupting your workflow.  Still, it saves a bunch of steps that would otherwise complicate something that should be simple.</p>
 
-</div>
-  
-  
-
-
-  </article>
-
-
-  <article>
-    
-  <header>
-    
-      <h3 class="entry-title"><a href="/2010/12/how-to-enable-ftp-uploads-to-amazon-s3/">How to Enable Ftp Uploads to Amazon S3</a></h3>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-12-17T00:00:00-06:00" pubdate  data-updated="true" >Dec 17<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>There are many apps which allow you to upload an image to a server which can then be inserted into content.  I keep my images on Amazon S3 storage because of the cost/space benefits.  Many of these apps support ftp but not Amazon S3 leaving me with the added burden of manually copying my images to their destination.
-I recently started using myTumblr to create my Tumblr content and wanted to use it with Amazon S3, but it only supports ftp.  No problem, I&#8217;ll improvise.</p>
-
-<p>I&#8217;m a Mac user so I know that I&#8217;ve got built in ftp support.  Great, I&#8217;ll enable that:</p>
-
-<p><a href="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260590.jpg"><img src="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260590.jpg" alt="TurnOnFTP" /></a></p>
-
-<p>I go into my System Preferences, Sharing and then choose File Sharing and options.  I check the FTP option.  Make sure ftp is enabled.  Now create a folder to host those images on your local machine.  I chose something under:</p>
-
-<div>
-  <pre>
-    <code class='bash'>~/Sites/joshkerr.com/images/</code>
-  </pre>
-</div>
-
-
-<p>You cold also enable SSH and then use SFTP (which is what I did,) but that is entirely up to you.</p>
-
-<p>Next, I need a way to sync those files up to Amazon S3.  For more advanced users, you can just write a shell script and use FolderActions to trigger it.  For less advanced users, I recommend using Transmit by Panic.  It has an Automator action that is very easy to setup.</p>
-
-<p>Load up Automator and choose a new folder action.  Then set it up like so:</p>
-
-<p><a href="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260825.jpg"><img src="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260825.jpg" alt="AutomatorAction" /></a></p>
-
-<p>Make sure to choose the folder you created in the previous step to execute the folder action on.  Also be sure to choose the right Amazon S3 folder.  At the end, when you copy a new image into this folder, you want to trigger it to launch Transmit and sync the folder.</p>
-
-<p>Next you will need to make sure you have cloud font support enabled on Amazon S3.  This will give you a public URL that you can use that will be consistent for each image you upload to S3.</p>
-
-<p>If you are a bit more sophisticated, you can use a shell script to sync the files.  This has the added benefit of being a background operation.  I would still use Automator and folder actions to set it up, but this time around, do something like this:</p>
-
-<p><a href="http://joshkerr.s3.amazonaws.com/images/Automator%20with%20shell%20script.png"><img src="http://joshkerr.s3.amazonaws.com/images/Automator%20with%20shell%20script.png" alt="AutomatorScript" /></a></p>
-
-<p>I used a ruby script called s3sync to handle the actual syncing.  I am not going to cover the installation of that utility in this article.</p>
-
-<p>The last step is to configure your app to support the new ftp site.  For me, I&#8217;m using myTumblr so I configure it like so:</p>
-
-<p><a href="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292261061.jpg"><img src="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292261061.jpg" alt="ConfigureApp" /></a></p>
-
-<p>Make sure to enter your cloud front URL instead of mine.  If everything is configured correctly, when a new image is added to the images folder it should launch a sync on Transmit.  The side effect of this unfortunately is that Transmit will open a new window in the foreground interrupting your workflow.  Still, it saves a bunch of steps that would otherwise complicate something that should be simple.</p>
 </div>
   
   
@@ -468,43 +499,6 @@ end tell
 
   </article>
 
-
-  <article>
-    
-  <header>
-    
-      <h3 class="entry-title"><a href="/2010/12/photojojonow-thats-how-you-a-do-a-profile-picture-bravo-alexandre-bravovia-gueamu/">Now That Is How You Create a Facebook Profile Page</a></h3>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-12-13T00:00:00-06:00" pubdate  data-updated="true" >Dec 13<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://joshkerr.tumblr.com/photo/1280/2307474322/1/tumblr_ldclij3Qyb1qz4vi2" alt=""/><br/><br/><p><a href="http://tumblr.photojojo.com/post/2195625035/now-thats-how-you-a-do-a-profile-picture-bravo">photojojo</a>:</p></p>
-
-<blockquote>
-<p>Now THAT’s how you a do a profile picture. Bravo, <a href="http://www.facebook.com/alexandre.oudin">Alexandre</a>. Bravo.</p>
-<p><small><em><span class="tumblr_blog">via </span><a href="http://gueamu.net/post/2195092331/now-that-is-a-nice-profile-picture-like">gueamu</a></em></small></p>
-</blockquote>
-
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
@@ -581,6 +575,10 @@ end tell
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2011/09/this-keyboard-is-super-comfortable/">This Keyboard Is Super Comfortable</a>
+      </li>
+    
+      <li class="post">
         <a href="/2011/09/site2pic-creates-website-screenshots/">Site2Pic Creates Website Screenshots</a>
       </li>
     
@@ -606,10 +604,6 @@ end tell
     
       <li class="post">
         <a href="/2011/09/an-amazing-photo-gallery-of-north-korea/">An Amazing Photo Gallery of North Korea</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/sick-downhill-ride-from-danny-hart/">Sick Downhill Ride From Danny Hart</a>
       </li>
     
   </ul>

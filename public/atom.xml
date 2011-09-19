@@ -4,13 +4,26 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-09-19T14:42:30-05:00</updated>
+  <updated>2011-09-19T15:02:02-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>This Keyboard Is Super Comfortable</title>
+    <link href="http://joshkerr.com/2011/09/this-keyboard-is-super-comfortable/"/>
+    <updated>2011-09-19T14:47:00-05:00</updated>
+    <id>http://joshkerr.com/2011/09/this-keyboard-is-super-comfortable</id>
+    <content type="html">&lt;p&gt;I&amp;#8217;m in love with this keyboard.  Its the Microsoft Arc and it is   one of the most comfortable keyboards I&amp;#8217;ve ever used.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/cXeEv.jpg&quot; alt=&quot;Microsoft Arc&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The keyboard has great button action, is easy to position due to its small size, and works perfectly with my Mac and 2nd monitor.    It would be so cool if Apple embeded this sucker into the Mac Book Pro.  Pretty please?&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Site2Pic Creates Website Screenshots</title>
@@ -434,28 +447,6 @@
 
 
 
-</content>
-  </entry>
-  
-  <entry>
-    <title>Ruby Mine as a Jekyll front end</title>
-    <link href="http://joshkerr.com/2011/09/ruby-mine-as-a-jekyll-front-end/"/>
-    <updated>2011-09-10T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/ruby-mine-as-a-jekyll-front-end</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/smVdS.png&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Ruby Mine is a powerful editor from the folks at &lt;a href=&quot;http://www.jetbrains.com&quot;&gt;Jet Brains&lt;/a&gt; that is designed for full on Ruby on Rails development, but actually makes a nice front end for managing your Jekyll site.&lt;/p&gt;
-
-&lt;!&#8211; more &#8211;&gt;
-
-
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/mUEwQ.png&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Ruby Mine does a nice job of executing your Rake tasks so I use it to deploy my Jekyll site via a toolbar button.  True, you can achieve this same functionality with other code editors, but Ruby Mine parses your Rake file and makes these functions available to you with little to no effort on your part.&lt;/p&gt;
-
-&lt;p&gt;Ruby Mine also has an extensive collection of plugins making things like Markdown work nicely. It even has a built in preview function.  I still prefer to use iA Writer for most editing so I let Ruby Mine launch it when creating and editing markdown documents.&lt;/p&gt;
-
-&lt;p&gt;Ruby Mine&amp;#8217;s only downside is that it isn&amp;#8217;t cheap.  A personal license is $69 and a professional license is $150.&lt;/p&gt;
 </content>
   </entry>
   

@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Redis, Ohm and Heroku make caching data super fast - Josh Kerr</title>
+  <title>This Keyboard Is Super Comfortable - Josh Kerr</title>
   <meta name="author" content="Josh Kerr">
   
 
@@ -16,7 +16,7 @@
 
   
 
-  <link rel="canonical" href="http://joshkerr.com/2011/02/redis%2C-ohm-and-heroku-make-caching-data-super-fast/"/>
+  <link rel="canonical" href="http://joshkerr.com/2011/09/this-keyboard-is-super-comfortable/"/>
   <link href="/favicon.png" rel="shortcut icon" />
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -63,7 +63,7 @@
   
   <header>
     
-      <h3 class="entry-title">Redis, Ohm and Heroku Make Caching Data Super Fast</h3>
+      <h3 class="entry-title">This Keyboard Is Super Comfortable</h3>
     
     
       <p class="meta">
@@ -76,177 +76,16 @@
 
 
 
-<time datetime="2011-02-25T00:00:00-06:00" pubdate  data-updated="true" >Feb 25<span>th</span>, 2011</time></p>
+<time datetime="2011-09-19T14:47:00-05:00" pubdate  data-updated="true" >Sep 19<span>th</span>, 2011</time></p>
     
   </header>
 
 
-<div class="entry-content"><p>My blog is mostly static content.  I write the articles, pass them through Jekyll which transforms them into static HTML and then they get pushed up to my Heroku box where they are served.  This system works great until you want to have a live activity feed.  I&#8217;ve got one on my main page showing the latest from RSS feeds on Twitter, Google Reader, Github and a few others.  You could probably manage this in javascript, but Heroku and Ruby came calling so this is how I created my feed.</p>
+<div class="entry-content"><p>I&#8217;m in love with this keyboard.  Its the Microsoft Arc and it is   one of the most comfortable keyboards I&#8217;ve ever used.</p>
 
-<p><img src="http://joshkerr.s3.amazonaws.com/images/myfeed.png" alt="ScreenShotOfFeed" /></p>
+<p><img src="http://i.imgur.com/cXeEv.jpg" alt="Microsoft Arc" /></p>
 
-<p>First I thought, okay I&#8217;ll just parse the feeds after the page loads.  I hooked in some javascript:</p>
-
-<div>
-  <pre>
-    <code class='javascript'>&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/
-    libs/jquery/1.3.2/jquery.min.js&quot;&gt;&lt;/script&gt; 
-    &lt;script type=&quot;text/javascript&quot;&gt;$(document).ready(function()
-    {$(&quot;#elsewhere&quot;).load(&quot;/feed/&quot;);});&lt;/script&gt;</code>
-  </pre>
-</div>
-
-
-<p>Next I thought I&#8217;d just read the feeds.  I found this great Ruby gem called <a href="http://github.com/pauldix/feedzirra">Feedzirra</a> which fetches and parses RSS and ATOM feeds.  Perfect.  I implemented it and boom, I had feeds.  But I also had a problem.  The feeds took time to load and the more URL&#8217;s that I add, the longer they will take.  People aren&#8217;t going to sit around waiting for them.  Time to cache.</p>
-
-<p>At first I thought I would write the feeds to a file on Heroku and then just read that.  Not going to happen.  Heroku does not let you write local files.  So I need to either keep this data in memory, but how?</p>
-
-<p>Enter <a href="http://redis.io">Redis</a> a key value store with high performance and low overhead.  This will work, but I want to store my Ruby objects in there, how am I going to do that?  Enter <a href="http://github.com/soveran/ohm">Ohm</a> object hash mapping for Redis.  Perfect, now I can write my feed.  (I&#8217;m just starting with Ruby, so the following is a hack.)</p>
-
-<h3>Model</h3>
-
-<div>
-  <pre>
-    <code class='ruby'>require 'ohm'
-  
-  class Feeder &lt; Ohm::Model
-    attribute :title
-    attribute :published
-    attribute :feed_id
-    attribute :url
-    attribute :content
-    attribute :service
-    index :published
-  end
-
-  
-  class FeederContainer &lt; Ohm::Model
-    attribute :date
-    list :feeds, Feeder
-    index :date
-  end</code>
-  </pre>
-</div>
-
-
-<h3>Controller</h3>
-
-<div>
-  <pre>
-    <code class='ruby'>require 'rubygems' 
-require 'nokogiri'
-require 'open-uri'
-require 'feedzirra'
-require 'redis'
-require 'time'
-require 'feeder'
-
-class FeederController &lt; ApplicationController
-
-  def list
-    
-    @feedurls = THE_FEED_URLS  # This is a global of just URL's in an array
-    @total_feeds = NUM_FEEDS # So is this a global integer
-    @n = 0
-                              
-    Ohm.connect(:url =&gt; &quot;redis://your_connection_here&quot;)
-    
-    feedTime = FeederContainer[1].date unless FeederContainer[1] == nil
-    feedTime = (Time.now - Time.parse(feedTime)).round unless 
-        feedTime == nil
-    
-    print &quot;Retrieving and combining feeds.\n&quot;
-     
-    if feedTime == nil or feedTime &gt; 1800 then
-    
-      puts &quot;Feed is stale, getting new feed.&quot;
-      
-      Ohm.flush
-      
-      # Create the storage
-      feedContainer = FeederContainer.create(:date =&gt; Time.now)
-      
-        @feedurls.each do |feed|
-            rawfeed = Feedzirra::Feed.fetch_and_parse(feed)            
-            rawfeed.entries.each do |entry|
-              feedContainer.feeds &lt;&lt; Feeder.create(:content =&gt; 
-                entry.content, :title =&gt; entry.title, :url =&gt; entry.url, 
-                :published =&gt; entry.published, :feed_id =&gt; entry.entry_id )
-            end
-        end
-
-        @feedlist = feedContainer.feeds.all             
-        @feedlist.sort! {|a,b| Date.parse(b.published) &lt;=&gt; 
-            Date.parse(a.published)}
-        print &quot;Total feed items: &quot;, @feedlist.size, &quot;\n&quot;
-    else
-
-      puts &quot;Feed is good, getting cached feed.&quot;
-      @feedlist = FeederContainer[1].feeds.all
-      @feedlist.sort! {|a,b| Date.parse(b.published) &lt;=&gt; 
-        Date.parse(a.published)}     
-      print &quot;Total feed items: &quot;, @feedlist.size, &quot;\n&quot;
-    end
-  end
-end</code>
-  </pre>
-</div>
-
-
-<h3>View</h3>
-
-<div>
-  <pre>
-    <code class='ruby'>&lt;% @feedlist.each do |entry| %&gt;
-    &lt;%
-
-    if @n &gt; NUM_FEEDS then
-        break
-    end
-    if entry.url.include? &quot;twitter.com&quot; then
-        classname=&quot;twitter&quot;
-        servicename=&quot;Twitter&quot;
-    elsif entry.url.include? &quot;github.com&quot; then
-        classname=&quot;github&quot;
-        servicename=&quot;Github&quot;
-    elsif entry.url.include? &quot;flickr.com&quot; then
-        classname=&quot;flickr&quot;
-        servicename=&quot;Flickr&quot;
-    elsif entry.url.include? &quot;youtube.com&quot; then
-        classname=&quot;youtube&quot;
-        servicename=&quot;YouTube&quot;
-    elsif entry.feed_id.include? &quot;google.com&quot; then
-        classname=&quot;reader&quot;
-        servicename=&quot;Google Reader&quot;
-    end
-    
-    unless entry.content == nil then
-        # Display the comments between the blockquote tags
-        content = Nokogiri::HTML(entry.content).css(&quot;blockquote&quot;).map 
-        {|blockquote| blockquote.content}   
-    end
-
-    @n = @n+1
-    %&gt;
-    &lt;li&gt;
-        &lt;div class=&quot;archive-date&quot;&gt;&lt;%=Date.parse(entry.published)
-            .strftime(&quot;%b %d, %Y&quot;)%&gt;&lt;/div&gt;
-        &lt;div class=&quot;&lt;%=classname%&gt;&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;archive-link&quot;&gt;&lt;a href=&quot;&lt;%=entry.url.sanitize%&gt;&quot;&gt;
-            &lt;%=entry.title%&gt;&lt;/a&gt;&lt;/div&gt;
-        &lt;% unless content == nil then %&gt;
-            &lt;div class=&quot;archive-comment&quot;&gt;&lt;%=content%&gt;&lt;/div&gt;
-        &lt;% end %&gt;
-    &lt;/li&gt;
-    
-&lt;% end %&gt;</code>
-  </pre>
-</div>
-
-
-<h3>Conclusion</h3>
-
-<p>I wrote this code pretty quickly and it would probably scale well.  Heroku and Ruby are a pretty powerful combination.</p>
+<p>The keyboard has great button action, is easy to position due to its small size, and works perfectly with my Mac and 2nd monitor.    It would be so cool if Apple embeded this sucker into the Mac Book Pro.  Pretty please?</p>
 </div>
 
 
@@ -267,15 +106,21 @@ end</code>
 
 
 
-<time datetime="2011-02-25T00:00:00-06:00" pubdate  data-updated="true" >Feb 25<span>th</span>, 2011</time>
+<time datetime="2011-09-19T14:47:00-05:00" pubdate  data-updated="true" >Sep 19<span>th</span>, 2011</time>
       
+
+<span class="categories">
+  
+    <a href="/blog/category/product/">product</a>
+  
+</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://joshkerr.com/2011/02/redis%2C-ohm-and-heroku-make-caching-data-super-fast/" data-via="joshkerr" data-counturl="http://joshkerr.com/2011/02/redis%2C-ohm-and-heroku-make-caching-data-super-fast/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://joshkerr.com/2011/09/this-keyboard-is-super-comfortable/" data-via="joshkerr" data-counturl="http://joshkerr.com/2011/09/this-keyboard-is-super-comfortable/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -286,6 +131,8 @@ end</code>
 
       <h2> Related posts</h2>
       <ul>
+      
+        <li><a href="/2011/06/i-am-really-excited-about-these-headphones-i-love-all-things-incase-and-i-have-a-thing-for-headphones-they-launch-in-sept/">I am really excited about these headphones</a></li>
       
       </ul>
 
@@ -299,8 +146,8 @@ end</code>
     <div id="disqus_thread"><div id="disqus_thread"></div>
 <script type="text/javascript">
   var disqus_shortname = 'joshkerr';
-  var disqus_identifier = 'http://joshkerr.com/2011/02/redis%2C-ohm-and-heroku-make-caching-data-super-fast/';
-  var disqus_url = 'http://joshkerr.com/2011/02/redis%2C-ohm-and-heroku-make-caching-data-super-fast/';
+  var disqus_identifier = 'http://joshkerr.com/2011/09/this-keyboard-is-super-comfortable/';
+  var disqus_url = 'http://joshkerr.com/2011/09/this-keyboard-is-super-comfortable/';
   //var disqus_developer = 1;
   (function() {
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
