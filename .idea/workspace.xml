@@ -46,7 +46,16 @@
       <file leaf-file-name="search.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="12" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.8487395">
+            <state line="5" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.108043216">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="icanhaz.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/javascripts/icanhaz.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="382" selection-start="2963" selection-end="2963" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -692,7 +701,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/javascripts/icanhaz.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="308" selection-start="4408" selection-end="4408" vertical-scroll-proportion="0.8485714">
+        <state line="5" column="382" selection-start="2963" selection-end="2963" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -706,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="12" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.8487395">
+        <state line="5" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.108043216">
           <folding />
         </state>
       </provider>
