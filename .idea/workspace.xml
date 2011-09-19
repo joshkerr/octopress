@@ -1,65 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jekyll_indextank.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/apps/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/cool/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/featured/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/humor/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/interesting/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/mac/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/opinion/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/product/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/random/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/rant/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/software/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/startup/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/tips/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/video/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/zosh/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/10/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/11/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/12/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/13/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/14/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/15/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/16/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/17/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/18/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/19/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/20/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/21/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/22/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/23/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/24/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/25/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/26/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/27/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/28/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/29/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/3/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/30/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/31/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/4/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/5/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/6/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/7/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/8/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/9/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/octopress.iml" afterPath="$PROJECT_DIR$/.idea/octopress.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/custom/_styles.scss" afterPath="$PROJECT_DIR$/sass/custom/_styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/article.html" afterPath="$PROJECT_DIR$/source/_includes/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_layouts/category_index.html" afterPath="$PROJECT_DIR$/source/_layouts/category_index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_layouts/page.html" afterPath="$PROJECT_DIR$/source/_layouts/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/example.html" afterPath="$PROJECT_DIR$/source/example.html" />
-    </list>
+    <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link" />
     <ignored path="octopress.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
