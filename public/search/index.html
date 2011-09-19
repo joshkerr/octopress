@@ -32,7 +32,7 @@
 
   $(document).ready(function() {
    	$('form#search').submit(function() {
-        search($('input#query').val());
+        search($('input#q').val());
       return false;
    	});
   });
@@ -88,7 +88,7 @@
   </header>
   
     <form id="search">
-    <input type="text" id="query" name="query"/>
+    <input type="text" id="q" name="query"/>
     <input type="submit"/>
   </form>
 

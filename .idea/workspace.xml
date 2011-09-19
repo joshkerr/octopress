@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/javascripts/icanhaz.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/apps/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/apps/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/cool/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/cool/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/featured/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/featured/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/humor/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/humor/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/interesting/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/interesting/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/mac/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/mac/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/opinion/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/opinion/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/product/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/product/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/random/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/random/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/rant/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/rant/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/software/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/software/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/startup/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/startup/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/tips/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/tips/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/video/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/video/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/zosh/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/zosh/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sitemap.xml" afterPath="$PROJECT_DIR$/public/sitemap.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/custom/head.html" afterPath="$PROJECT_DIR$/source/_includes/custom/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/search.html" afterPath="$PROJECT_DIR$/source/search.html" />
     </list>
     <ignored path="octopress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,19 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="head.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/_includes/custom/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="19" selection-start="994" selection-end="994" vertical-scroll-proportion="-14.25">
+            <state line="9" column="25" selection-start="620" selection-end="620" vertical-scroll-proportion="0.25120193">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="22" selection-start="201" selection-end="201" vertical-scroll-proportion="0.27403846">
+            <state line="12" column="24" selection-start="201" selection-end="201" vertical-scroll-proportion="-9.12">
               <folding />
             </state>
           </provider>
@@ -99,8 +80,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/source/javascripts/mustache.js" />
         <option value="$PROJECT_DIR$/source/javascripts/icanhaz.min.js" />
-        <option value="$PROJECT_DIR$/source/_includes/custom/head.html" />
         <option value="$PROJECT_DIR$/source/search.html" />
+        <option value="$PROJECT_DIR$/source/_includes/custom/head.html" />
       </list>
     </option>
   </component>
@@ -709,16 +690,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_includes/custom/head.html">
+    <entry file="file://$PROJECT_DIR$/source/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="994" selection-end="994" vertical-scroll-proportion="-14.25">
+        <state line="12" column="24" selection-start="201" selection-end="201" vertical-scroll-proportion="-9.12">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/search.html">
+    <entry file="file://$PROJECT_DIR$/source/_includes/custom/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="201" selection-end="201" vertical-scroll-proportion="0.27403846">
+        <state line="9" column="25" selection-start="620" selection-end="620" vertical-scroll-proportion="0.25120193">
           <folding />
         </state>
       </provider>
