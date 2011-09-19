@@ -6,7 +6,7 @@ layout: default
 <article>
   {% if page.title %}
   <header>
-    <h1 class="entry-title">{{ page.title | titlecase }}</h1>
+    <h3 class="entry-title">{{ page.title | titlecase }}</h3>
     {% if page.date %}<p class="meta">{% include post/date.html %}{{ time }}</p>{% endif %}
   </header>
   {% endif %}
@@ -26,7 +26,7 @@ layout: default
 </article>
 {% if site.disqus_short_name and page.comments == true %}
   <section>
-    <h1>Comments</h1>
+    <h3>Comments</h3>
     <div id="disqus_thread">{% include post/disqus_thread.html %}</div>
   </section>
 {% endif %}

@@ -4,13 +4,26 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-09-19T05:14:24-05:00</updated>
+  <updated>2011-09-19T14:42:30-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>Site2Pic Creates Website Screenshots</title>
+    <link href="http://joshkerr.com/2011/09/site2pic-creates-website-screenshots/"/>
+    <updated>2011-09-19T14:06:00-05:00</updated>
+    <id>http://joshkerr.com/2011/09/site2pic-creates-website-screenshots</id>
+    <content type="html">&lt;p&gt;A new service called Site2Pic will take a URL and take a screenshot of said website.  Its a pretty useful service if you want to spice up your links with photos.  I&amp;#8217;d like to see them create an API so that it can auto-screenshot links for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/BpT9k.png&quot; alt=&quot;Screenshot of joshkerr.com&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;More at the source: &lt;a href=&quot;http://www.site2pic.com&quot;&gt;Site2Pic&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Container Ship Delivering Cranes</title>
@@ -443,68 +456,6 @@
 &lt;p&gt;Ruby Mine also has an extensive collection of plugins making things like Markdown work nicely. It even has a built in preview function.  I still prefer to use iA Writer for most editing so I let Ruby Mine launch it when creating and editing markdown documents.&lt;/p&gt;
 
 &lt;p&gt;Ruby Mine&amp;#8217;s only downside is that it isn&amp;#8217;t cheap.  A personal license is $69 and a professional license is $150.&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Easily add search to a static blog</title>
-    <link href="http://joshkerr.com/2011/09/easily-add-search-to-static-blog/"/>
-    <updated>2011-09-10T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/easily-add-search-to-static-blog</id>
-    <content type="html">&lt;p&gt;Static blog sites like those powered by &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; use a locally running generator to create static content which is uploaded to your web host.  So with a static site, how are you going to power a search engine?&lt;/p&gt;
-
-&lt;p&gt;Leave it to the folks at Google to create a very ajaxy way to add search that integrates quite well with a static site.  Here is a quick tutorial:&lt;/p&gt;
-
-&lt;p&gt;First, you need a Google code API key which you can get &lt;a href=&quot;http://code.google.com/apis/loader/signup.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;!&#8211; more &#8211;&gt;
-
-
-&lt;p&gt;Second, you need to add this code before your html head tag:&lt;/p&gt;
-
-&lt;div&gt;
-  &lt;pre&gt;
-    &lt;code class=&#8217;html&#8217;&gt;&amp;lt;script src=&amp;quot;http://www.google.com/jsapi?key=your_api_key&amp;quot; 
-type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-&amp;lt;script language=&amp;quot;Javascript&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;
-  
-  google.load(&amp;quot;search&amp;quot;, &amp;quot;1&amp;quot;);
-  
-  function OnLoad() {
-    // Create a search control
-    var searchControl = new google.search.SearchControl();
-    
-    // Add in a WebSearch
-    var webSearch = new google.search.WebSearch();
-    
-    // Restrict our search to pages from this site
-    webSearch.setSiteRestriction(&#8216;your site url&#8217;);
-    
-    // Add the searcher to the SearchControl
-    searchControl.addSearcher(webSearch);
-    
-    // tell the searcher to draw itself and tell it where to attach
-    searchControl.draw(document.getElementById(&amp;quot;search&amp;quot;));
-  }
-  google.setOnLoadCallback(OnLoad);
-  
-&amp;lt;/script&amp;gt;&lt;/code&gt;
-  &lt;/pre&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Just replace the API key and the site URL.  Lastly add a simple div tag with the ID = search.&lt;/p&gt;
-
-&lt;div&gt;
-  &lt;pre&gt;
-    &lt;code class=&#8217;html&#8217;&gt;&amp;lt;div id=&amp;quot;search&amp;quot;&amp;gt;loading…&amp;lt;/div&amp;gt;&lt;/code&gt;
-  &lt;/pre&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;When you are done you&amp;#8217;ll get the search box similar to what you see to the left on this site.&lt;/p&gt;
-
-&lt;p&gt;Thanks to &lt;a href=&quot;http://jrmiii.com/2009/03/03/super-easy-sidebar-search-for-jekyll-powered-sites.html&quot;&gt;Joe Martinez&lt;/a&gt; for the tip.&lt;/p&gt;
 </content>
   </entry>
   

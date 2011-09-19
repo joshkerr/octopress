@@ -66,7 +66,42 @@
     
   <header>
     
-      <h1 class="entry-title"><a href="/2011/09/container-ship-delivering-craines/">Container Ship Delivering Cranes</a></h1>
+      <h3 class="entry-title"><a href="/2011/09/site2pic-creates-website-screenshots/">Site2Pic Creates Website Screenshots</a></h3>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-19T14:06:00-05:00" pubdate  data-updated="true" >Sep 19<span>th</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>A new service called Site2Pic will take a URL and take a screenshot of said website.  Its a pretty useful service if you want to spice up your links with photos.  I&#8217;d like to see them create an API so that it can auto-screenshot links for you.</p>
+
+<p><img src="http://i.imgur.com/BpT9k.png" alt="Screenshot of joshkerr.com" /></p>
+
+<p>More at the source: <a href="http://www.site2pic.com">Site2Pic</a></p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h3 class="entry-title"><a href="/2011/09/container-ship-delivering-craines/">Container Ship Delivering Cranes</a></h3>
     
     
       <p class="meta">
@@ -99,7 +134,7 @@
     
   <header>
     
-      <h1 class="entry-title"><a href="/2011/09/really-cool-new-keyboard-from-corsair/">Really Cool New Keyboard From Corsair</a></h1>
+      <h3 class="entry-title"><a href="/2011/09/really-cool-new-keyboard-from-corsair/">Really Cool New Keyboard From Corsair</a></h3>
     
     
       <p class="meta">
@@ -140,7 +175,7 @@
     
   <header>
     
-      <h1 class="entry-title"><a href="/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes/">David Blaine Explains How He Holds His Breath for 17 Minutes</a></h1>
+      <h3 class="entry-title"><a href="/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes/">David Blaine Explains How He Holds His Breath for 17 Minutes</a></h3>
     
     
       <p class="meta">
@@ -176,7 +211,7 @@
     
   <header>
     
-      <h1 class="entry-title"><a href="/2011/09/now-this-is-how-you-fly/">Now This Is How You Fly</a></h1>
+      <h3 class="entry-title"><a href="/2011/09/now-this-is-how-you-fly/">Now This Is How You Fly</a></h3>
     
     
       <p class="meta">
@@ -211,7 +246,7 @@
     
   <header>
     
-      <h1 class="entry-title"><a href="/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a></h1>
+      <h3 class="entry-title"><a href="/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a></h3>
     
     
       <p class="meta">
@@ -247,7 +282,7 @@
     
   <header>
     
-      <h1 class="entry-title"><a href="/2011/09/an-amazing-photo-gallery-of-north-korea/">An Amazing Photo Gallery of North Korea</a></h1>
+      <h3 class="entry-title"><a href="/2011/09/an-amazing-photo-gallery-of-north-korea/">An Amazing Photo Gallery of North Korea</a></h3>
     
     
       <p class="meta">
@@ -282,7 +317,7 @@
     
   <header>
     
-      <h1 class="entry-title"><a href="/2011/09/sick-downhill-ride-from-danny-hart/">Sick Downhill Ride From Danny Hart</a></h1>
+      <h3 class="entry-title"><a href="/2011/09/sick-downhill-ride-from-danny-hart/">Sick Downhill Ride From Danny Hart</a></h3>
     
     
       <p class="meta">
@@ -313,76 +348,10 @@
 
   </article>
 
-
-  <article>
-    
-  <header>
-    
-      <h1 class="entry-title"><a href="/2011/09/create-mac-app-from-shell-script/">Create Mac App From Shell Script</a></h1>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-09-16T10:13:00-05:00" pubdate  data-updated="true" >Sep 16<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><blockquote><p>Great article showing how to convert a shell script into a Mac app.</p></blockquote>
-
-<figure role=code><figcaption><span>Convert script into app </span><a href='http://mathiasbynens.be/notes/shell-script-mac-apps'>Matias Bynens Website </a></figcaption> <div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
-<span class='line'>2</span>
-<span class='line'>3</span>
-<span class='line'>4</span>
-<span class='line'>5</span>
-<span class='line'>6</span>
-<span class='line'>7</span>
-<span class='line'>8</span>
-<span class='line'>9</span>
-<span class='line'>10</span>
-<span class='line'>11</span>
-<span class='line'>12</span>
-<span class='line'>13</span>
-<span class='line'>14</span>
-<span class='line'>15</span>
-</pre></td><td class='code' width='100%'><pre><code class='bash'><div class='line'><span class="c">#!/bin/bash</span>
-</div><div class='line'>
-</div><div class='line'><span class="nv">APPNAME</span><span class="o">=</span><span class="k">${</span><span class="nv">2</span><span class="k">:-$(</span>basename <span class="s2">&quot;$1&quot;</span> <span class="s2">&quot;.sh&quot;</span><span class="k">)}</span>
-</div><div class='line'><span class="nv">DIR</span><span class="o">=</span><span class="s2">&quot;$APPNAME.app/Contents/MacOS&quot;</span>
-</div><div class='line'>
-</div><div class='line'><span class="k">if</span> <span class="o">[[</span> -a <span class="s2">&quot;$APPNAME.app&quot;</span> <span class="o">]]</span>; <span class="k">then</span>
-</div><div class='line'><span class="k">  </span><span class="nb">echo</span> <span class="s2">&quot;$PWD/$APPNAME.app already exists :(&quot;</span>
-</div><div class='line'>  <span class="nb">exit </span>1
-</div><div class='line'><span class="k">fi</span>
-</div><div class='line'>
-</div><div class='line'>mkdir -p <span class="s2">&quot;$DIR&quot;</span>
-</div><div class='line'>cp <span class="s2">&quot;$1&quot;</span> <span class="s2">&quot;$DIR/$APPNAME&quot;</span>
-</div><div class='line'>chmod +x <span class="s2">&quot;$DIR/$APPNAME&quot;</span>
-</div><div class='line'>
-</div><div class='line'><span class="nb">echo</span> <span class="s2">&quot;$PWD/$APPNAME.app&quot;</span>
-</div></code></pre></td></tr></table></div></figure>
-
-
-<p><a href="http://mathiasbynens.be/notes/shell-script-mac-apps">Mathias Bynens on converting script into App</a></p>
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
-      <a class="prev" href="/blog/page/2/">&larr; Older</a>
+      <a class="prev" href="/page/2/">&larr; Older</a>
     
     <a href="/blog/archives">Blog Archives</a>
     
@@ -453,6 +422,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2011/09/site2pic-creates-website-screenshots/">Site2Pic Creates Website Screenshots</a>
+      </li>
+    
+      <li class="post">
         <a href="/2011/09/container-ship-delivering-craines/">Container Ship Delivering Cranes</a>
       </li>
     
@@ -478,10 +451,6 @@
     
       <li class="post">
         <a href="/2011/09/sick-downhill-ride-from-danny-hart/">Sick Downhill Ride From Danny Hart</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/create-mac-app-from-shell-script/">Create Mac App From Shell Script</a>
       </li>
     
   </ul>

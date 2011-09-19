@@ -1,7 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link" />
+    <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/jekyll_indextank.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/apps/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/cool/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/featured/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/humor/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/interesting/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/mac/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/opinion/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/product/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/random/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/rant/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/software/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/startup/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/tips/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/video/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/categories/zosh/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/10/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/11/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/12/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/13/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/14/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/15/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/16/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/17/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/18/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/19/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/20/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/21/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/22/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/23/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/24/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/25/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/26/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/27/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/28/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/29/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/30/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/31/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/4/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/5/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/6/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/7/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/8/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/blog/page/9/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/octopress.iml" afterPath="$PROJECT_DIR$/.idea/octopress.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/custom/_styles.scss" afterPath="$PROJECT_DIR$/sass/custom/_styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/article.html" afterPath="$PROJECT_DIR$/source/_includes/article.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_layouts/category_index.html" afterPath="$PROJECT_DIR$/source/_layouts/category_index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_layouts/page.html" afterPath="$PROJECT_DIR$/source/_layouts/page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/example.html" afterPath="$PROJECT_DIR$/source/example.html" />
+    </list>
     <ignored path="octopress.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,35 +80,7 @@
     <favorites_list name="octopress" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="_config.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="19" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_includes/custom/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="-2.28">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="74" selection-start="4409" selection-end="4409" vertical-scroll-proportion="0.15504807">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -64,22 +94,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/_posts/cool/2011-09-17-really-cool-new-keyboard-from-corsair.markdown" />
-        <option value="$PROJECT_DIR$/source/_posts/featured/2011-06-10-using-file-vault-2-with-multiple-drives.markdown" />
-        <option value="$PROJECT_DIR$/source/about.markdown" />
-        <option value="$PROJECT_DIR$/Rakefile" />
-        <option value="$PROJECT_DIR$/source/_posts/random/2011-09-18-container-ship-delivering-craines.markdown" />
-        <option value="$PROJECT_DIR$/plugins/alias_generator.rb" />
-        <option value="$PROJECT_DIR$/plugins/related_posts.rb" />
-        <option value="$PROJECT_DIR$/source/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/plugins/jekyll_indextank.rb" />
-        <option value="$PROJECT_DIR$/source/example.html" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/source/javascripts/mustache.js" />
         <option value="$PROJECT_DIR$/source/javascripts/icanhaz.min.js" />
         <option value="$PROJECT_DIR$/source/_includes/custom/head.html" />
         <option value="$PROJECT_DIR$/source/search.html" />
+        <option value="$PROJECT_DIR$/plugins/tag_cloud.rb" />
+        <option value="$PROJECT_DIR$/plugins/tag_page.rb" />
+        <option value="$PROJECT_DIR$/plugins/tag_page_generator.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/source/example.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/sass/custom/_styles.scss" />
+        <option value="$PROJECT_DIR$/sass/base/_typography.scss" />
+        <option value="$PROJECT_DIR$/source/_includes/article.html" />
+        <option value="$PROJECT_DIR$/source/_layouts/page.html" />
+        <option value="$PROJECT_DIR$/source/_layouts/category_index.html" />
       </list>
     </option>
   </component>
@@ -94,7 +124,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -109,6 +139,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -155,114 +187,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -275,7 +215,7 @@
       </server>
     </servers>
   </component>
-  <component name="RunManager" selected="Rake.Deploy All">
+  <component name="RunManager" selected="Rake.Generate">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -337,6 +277,24 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -372,7 +330,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -509,23 +467,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="973" y="83" width="1348" height="1253" extended-state="0" />
-    <editor active="true" />
+    <frame x="361" y="22" width="1348" height="1289" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31639722" sideWeight="0.76313525" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.321786" sideWeight="0.9709302" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23686478" sideWeight="0.97151655" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27066928" sideWeight="0.97151655" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -572,134 +530,97 @@
     <MESSAGE value="Added Heroku link" />
   </component>
   <component name="WindowDressing">
-    <option name="x" value="973" />
-    <option name="y" value="83" />
+    <option name="x" value="361" />
+    <option name="y" value="22" />
     <option name="width" value="1348" />
-    <option name="height" value="1253" />
+    <option name="height" value="1289" />
     <option name="extendedState" value="0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Rakefile">
+    <entry file="file://$PROJECT_DIR$/sass/partials/_sidebar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="7" selection-start="10643" selection-end="10643" vertical-scroll-proportion="0.099579245">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/cool/2011-09-17-really-cool-new-keyboard-from-corsair.markdown">
+    <entry file="file://$PROJECT_DIR$/sass/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="175" selection-start="422" selection-end="422" vertical-scroll-proportion="0.37168142">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/featured/2011-06-10-using-file-vault-2-with-multiple-drives.markdown">
+    <entry file="file://$PROJECT_DIR$/sass/custom/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="83" selection-end="83" vertical-scroll-proportion="0.07964602">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/about.markdown">
+    <entry file="file://$PROJECT_DIR$/sass/base/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="14" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.5943953">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+        <state line="25" column="17" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/cool/2011-09-09-i-would-kill-for-thes-nike-mags.markdown">
+    <entry file="file://$PROJECT_DIR$/source/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="0.5575221">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+        <state line="8" column="20" selection-start="157" selection-end="157" vertical-scroll-proportion="-6.08" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/video/2011-09-11-a-great-video-showing-how-small-we-are.markdown">
+    <entry file="file://$PROJECT_DIR$/source/_includes/article.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.46888566">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="409" selection-end="786" vertical-scroll-proportion="-17.48" />
       </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_includes/post/author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_includes/post/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_includes/post/date.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_includes/post/disqus_thread.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_includes/post/sharing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_layouts/category_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="278" selection-end="278" vertical-scroll-proportion="0.27656478" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="7" selection-start="588" selection-end="588" vertical-scroll-proportion="-15.208333">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/jekyll_indextank.rb">
+    <entry file="file://$PROJECT_DIR$/source/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="74" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="28" column="20" selection-start="878" selection-end="878" vertical-scroll-proportion="0.44687045" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_includes/head.html">
+    <entry file="file://$PROJECT_DIR$/source/_posts/cool/2011-09-17-really-cool-new-keyboard-from-corsair.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="241" selection-end="1132" vertical-scroll-proportion="0.20899855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="323" selection-end="323" vertical-scroll-proportion="0.42917252">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_includes/custom/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="19" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_includes/custom/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="-2.28">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="74" selection-start="4409" selection-end="4409" vertical-scroll-proportion="0.15504807">
-          <folding />
-        </state>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

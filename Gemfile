@@ -15,7 +15,6 @@ group :development do
   gem 'domainatrix'
   gem 'indextank'
   gem 'nokogiri'
-  gem 'mustache'
 end
 
 gem 'sinatra', '1.2.6'
