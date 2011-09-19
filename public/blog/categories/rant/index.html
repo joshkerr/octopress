@@ -28,28 +28,7 @@
   <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script type="text/javascript">
-  //just a quick example, in no way pretty code.
 
-  $(document).ready(function() {
-   	$('form#search').submit(function() {
-        search($('input#q').val());
-      return false;
-   	});
-  });
-
-  function search(query) {
-    var result = $.getJSON('http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
-    	$.each(data.results, function(index, result) {
-        $('div#results').html('<div id="result">\
-      			<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
-      			' + result.snippet_text + '</p>\
-    		</div')
-    	});
-    });
-  }
-</script>
 </head>
 
 <body  >

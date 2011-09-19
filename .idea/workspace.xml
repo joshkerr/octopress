@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/custom/head.html" afterPath="$PROJECT_DIR$/source/_includes/custom/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/search.html" afterPath="$PROJECT_DIR$/source/search.html" />
     </list>
     <ignored path="octopress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,19 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="head.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_includes/custom/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="25" selection-start="620" selection-end="620" vertical-scroll-proportion="0.25120193">
+            <state line="3" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="-2.28">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="search.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="24" selection-start="201" selection-end="201" vertical-scroll-proportion="-9.12">
+            <state line="155" column="74" selection-start="4409" selection-end="4409" vertical-scroll-proportion="0.15504807">
               <folding />
             </state>
           </provider>
@@ -80,8 +81,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/source/javascripts/mustache.js" />
         <option value="$PROJECT_DIR$/source/javascripts/icanhaz.min.js" />
-        <option value="$PROJECT_DIR$/source/search.html" />
         <option value="$PROJECT_DIR$/source/_includes/custom/head.html" />
+        <option value="$PROJECT_DIR$/source/search.html" />
       </list>
     </option>
   </component>
@@ -690,16 +691,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/search.html">
+    <entry file="file://$PROJECT_DIR$/source/_includes/custom/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="201" selection-end="201" vertical-scroll-proportion="-9.12">
+        <state line="3" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="-2.28">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_includes/custom/head.html">
+    <entry file="file://$PROJECT_DIR$/source/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="620" selection-end="620" vertical-scroll-proportion="0.25120193">
+        <state line="155" column="74" selection-start="4409" selection-end="4409" vertical-scroll-proportion="0.15504807">
           <folding />
         </state>
       </provider>
