@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/example.html" afterPath="$PROJECT_DIR$/source/example.html" />
-    </list>
+    <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link" />
     <ignored path="octopress.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +26,7 @@
       <file leaf-file-name="example.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/example.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="167" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.3823272">
+            <state line="25" column="61" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.48206475">
               <folding />
             </state>
           </provider>
@@ -585,7 +583,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/example.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="167" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.3823272">
+        <state line="25" column="61" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.48206475">
           <folding />
         </state>
       </provider>
