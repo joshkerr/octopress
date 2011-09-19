@@ -2,6 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c57b618b-ac8c-4d7a-b2a4-5a247126f272" name="Default" comment="Added Heroku link">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/javascripts/icanhaz.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/apps/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/apps/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/cool/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/cool/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/featured/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/featured/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/humor/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/humor/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/interesting/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/interesting/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/mac/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/mac/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/opinion/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/opinion/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/product/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/product/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/random/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/random/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/rant/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/rant/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/software/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/software/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/startup/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/startup/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/tips/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/tips/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/video/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/video/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/categories/zosh/index.html" afterPath="$PROJECT_DIR$/public/blog/categories/zosh/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sitemap.xml" afterPath="$PROJECT_DIR$/public/sitemap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/custom/head.html" afterPath="$PROJECT_DIR$/source/_includes/custom/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/search.html" afterPath="$PROJECT_DIR$/source/search.html" />
     </list>
     <ignored path="octopress.iws" />
@@ -28,7 +47,7 @@
       <file leaf-file-name="_config.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="48" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+            <state line="28" column="19" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -37,7 +56,7 @@
       <file leaf-file-name="head.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_includes/custom/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="110" selection-start="438" selection-end="438" vertical-scroll-proportion="-2.25">
+            <state line="18" column="19" selection-start="994" selection-end="994" vertical-scroll-proportion="-14.25">
               <folding />
             </state>
           </provider>
@@ -46,16 +65,7 @@
       <file leaf-file-name="search.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.108043216">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="icanhaz.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/javascripts/icanhaz.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="382" selection-start="2963" selection-end="2963" vertical-scroll-proportion="0.0">
+            <state line="12" column="22" selection-start="201" selection-end="201" vertical-scroll-proportion="0.27403846">
               <folding />
             </state>
           </provider>
@@ -531,7 +541,7 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31639722" sideWeight="0.76313525" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23686478" sideWeight="0.97151655" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23686478" sideWeight="0.97151655" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -694,28 +704,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="48" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/javascripts/icanhaz.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="382" selection-start="2963" selection-end="2963" vertical-scroll-proportion="0.0">
+        <state line="28" column="19" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_includes/custom/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="110" selection-start="438" selection-end="438" vertical-scroll-proportion="-2.25">
+        <state line="18" column="19" selection-start="994" selection-end="994" vertical-scroll-proportion="-14.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.108043216">
+        <state line="12" column="22" selection-start="201" selection-end="201" vertical-scroll-proportion="0.27403846">
           <folding />
         </state>
       </provider>

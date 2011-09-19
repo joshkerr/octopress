@@ -4,58 +4,10 @@ title: Search Results
 permalink: /search/
 ---
 
-<script type="text/javascript">
-	function params()
-  {
-      var vars = [], hash;
-      var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-      for(var i = 0; i < hashes.length; i++)
-      {
-          hash = hashes[i].split('=');
-          vars.push(hash[0]);
-          vars[hash[0]] = hash[1];
-      }
-      return vars;
-	}
+  <form id="search">
+    <input type="text" id="query" name="query"/>
+    <input type="submit"/>
+  </form>
 
-	$(document).ready(function() {
-        if(params()['q'])
-        {
-        	var query = params()['q'];
-      		$('div#search_results p#loading').show();
-
-         	var result = $.getJSON('http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
-            	$('div#search_results div#inner').empty();
-
-            	$.each(data.results, function(index, result) {
-                    result['domain'] = window.location.hostname;
-                    $('div#search_results div#inner').append(ich.search_result(result));
-                });
-
-                if(data.results.length == 0)
-                {
-                    $('div#search_results div#inner').append('<p>Sorry, nothing found.</p>');
-                }
-
-                $('div#search_results p#loading').hide();
-            });
-        }
-	});
-</script>
-
-
-<script id="search_result" type="text/html">
-    <div class="result">
-        <a href="http://{{ domain }}{{ docid }}">{{ title }}</a>
-        <p>{{{ snippet_text }}}</p>
-    </div>
-</script>
-
-
-
-	<h2>Search results</h2>
-	<div id="search_results">
-  	<noscript>Sorry, searching requires JavaScript. Please enable Javascript if you'd like to use the search.</noscript>
-  	<p id="loading">Loading...</p>
-    <div id="inner"></div>
-   </div>
+  <div id="results">
+  </div>
