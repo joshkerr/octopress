@@ -28,16 +28,8 @@
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
 <script type="text/javascript">
-  //just a quick example, in no way pretty code.
   
-  $(document).ready(function() {
-
-   	$('form#search').submit(function() {
-        search($('input#query').val());
-      return false;
-   	}); 
-   	
-   	function params()
+  	function params()
   {
       var vars = [], hash;
       var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
@@ -50,6 +42,15 @@
       return vars;
 	}
 
+  
+  $(document).ready(function() {
+
+   	$('form#search').submit(function() {
+        search($('input#query').val());
+      return false;
+   	}); 
+   	
+   
    	
    	 if(params()['q'])
         {
