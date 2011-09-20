@@ -4,7 +4,7 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-09-20T13:58:10-05:00</updated>
+  <updated>2011-09-20T14:00:36-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
@@ -17,7 +17,9 @@
     <link href="http://joshkerr.com/2011/09/some-great-osx-hacks-via-the-command-line/"/>
     <updated>2011-09-20T13:55:00-05:00</updated>
     <id>http://joshkerr.com/2011/09/some-great-osx-hacks-via-the-command-line</id>
-    <content type="html">&lt;p&gt;Liquid error: &amp;#8220;\xE2&amp;#8221; from ASCII-8BIT to UTF-8&lt;/p&gt;
+    <content type="html">&lt;div&gt;&lt;script src=&#8217;https://gist.github.com/1229970.js?file=&#8217;&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
+
 
 &lt;p&gt;Some of these are great hacks.  All are pretty easy to enable or disable.&lt;/p&gt;
 

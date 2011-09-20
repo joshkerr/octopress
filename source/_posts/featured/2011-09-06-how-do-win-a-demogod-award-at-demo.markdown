@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How do win a DEMOgod Award at DEMO
+title: How to win a DEMOgod Award at DEMO
 excerpt:
 category: featured
 alias: /2010/09/13/how-to-win-a-demogod-award-at-the-demo-conference/index.html
