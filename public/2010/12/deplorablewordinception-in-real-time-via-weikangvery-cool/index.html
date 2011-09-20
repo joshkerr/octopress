@@ -32,8 +32,7 @@ Very cool. - Josh Kerr</title>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
 <script type="text/javascript">
-  
-  	function params()
+	function params()
   {
       var vars = [], hash;
       var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
@@ -46,55 +45,29 @@ Very cool. - Josh Kerr</title>
       return vars;
 	}
 
-    function search(query) {
-    var result = $.getJSON('http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
-    	$.each(data.results, function(index, result) {
-        $('div#results').append('<div id="result">\
-      			<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
-      			' + result.snippet_text + '</p>\
-    		</div')
-    	});
-    });
-  }
-
-  
-  
-  $(document).ready(function() {
-	/*
-   	 $('form#search').submit(function() {
-        search($('input#query').val());
-      return false;
-   	}); 
-   	*/ 
-   	
-   
-   	
-   	 if(params()['q'])
+	$(document).ready(function() {
+        if(params()['q'])
         {
         	var query = params()['q'];
-        	$('div#search_results p#loading').show();
+      		$('div#search_results p#loading').show();
+          
+         	var result = $.getJSON('http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
+            	$('div#search_results div#inner').empty();
+              
+            	$.each(data.results, function(index, result) {
+                    result['domain'] = window.location.hostname;
+                    $('div#search_results div#inner').append(ich.search_result(result));
+                });
 
-   			var result = $.getJSON('http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {   							
-			$.each(data.results, function(index, result) {
-			$('div#results').append('<div id="result">\
-					<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
-					' + result.snippet_text + '</p>\
-				</div')
-				});				
-			});
-			
-			
-			if(data.results.length == 0)
+                if(data.results.length == 0)
                 {
                     $('div#search_results div#inner').append('<p>Sorry, nothing found.</p>');
                 }
 
-            $('div#search_results p#loading').hide();
-			
-   		}
-   	
-  });
-
+                $('div#search_results p#loading').hide();
+            });
+        }
+	});
 </script>
 </head>
 
