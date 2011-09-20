@@ -4,13 +4,24 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-09-20T13:04:22-05:00</updated>
+  <updated>2011-09-20T13:20:11-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>10 Fatest States in America</title>
+    <link href="http://joshkerr.com/2011/09/10-fatest-states-in-america/"/>
+    <updated>2011-09-20T13:15:00-05:00</updated>
+    <id>http://joshkerr.com/2011/09/10-fatest-states-in-america</id>
+    <content type="html">&lt;p&gt;Good to see Texas isn&amp;#8217;t in the running.  Mississippi tops the list which isn&amp;#8217;t so surprising.  The photos that accompany this article are pretty unflattering.  I wonder if any of those people identified themselves in a &amp;#8220;America is Fat&amp;#8221; type article.  Sad.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.businessinsider.com/fattest-states-in-america-2011-7&quot;&gt;10 Fatest states in America&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Wheelmate Laptop Steering Wheel Desk</title>
@@ -346,117 +357,6 @@
 &lt;p&gt;An amazing online heist that shows you that even gamers can be suckers.  Who can you trust these days?&lt;/p&gt;
 
 &lt;p&gt;More on the scam written by the scammers themselves: &lt;a href=&quot;http://www.phaserinc.com/index1.html&quot;&gt;Phaser, Inc.&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Great command prompt shortcuts</title>
-    <link href="http://joshkerr.com/2011/09/great-command-prompt-shortcuts/"/>
-    <updated>2011-09-12T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/great-command-prompt-shortcuts</id>
-    <content type="html">&lt;blockquote&gt;&lt;p&gt;I came across these outstanding command prompt shortcuts on &lt;a href=&quot;http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/&quot;&gt;Skorks&lt;/a&gt; and had to post them.  I originally bookmarked them via Delicious, but they are so good that I had to create a post out of them.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;!&#8211; more &#8211;&gt;
-
-
-
-
-&lt;figure role=code&gt;&lt;figcaption&gt;&lt;span&gt;Convert script into app  &lt;/span&gt;&lt;/figcaption&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;2&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;3&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;4&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;5&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;6&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;7&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;8&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;9&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;10&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;11&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;12&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;13&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;14&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;15&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;16&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;17&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;18&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;19&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;20&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;21&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;22&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;23&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;24&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;25&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;26&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;27&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;28&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;29&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;30&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;31&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;32&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;33&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;34&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;35&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;36&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;37&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;38&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;39&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;40&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;41&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;42&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;43&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;44&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;45&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;46&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217; width=&#8217;100%&#8217;&gt;&lt;pre&gt;&lt;code class=&#8221;&gt;&lt;div class=&#8217;line&#8217;&gt;Command Editing Shortcuts
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + a – go to the start of the command line
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + e – go to the end of the command line
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + k – delete from cursor to the end of the command line
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + u – delete from cursor to the start of the command line
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + w – delete from cursor to start of word (i.e. delete backwards one word)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + y – paste word or text that was cut using one of the deletion shortcuts (such as the one above) after the cursor
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + xx – move between start of command line and current cursor position (and back again)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + b – move backward one word (or go to start of word the cursor is currently on)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + f – move forward one word (or go to end of word the cursor is currently on)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + d – delete to end of word starting at cursor (whole word if cursor is at the beginning of word)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + c – capitalize to end of word starting at cursor (whole word if cursor is at the beginning of word)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + u – make uppercase from cursor to end of word
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + l – make lowercase from cursor to end of word
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + t – swap current word with previous
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + f – move forward one character
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + b – move backward one character
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + d – delete character under the cursor
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + h – delete character before the cursor
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + t – swap character under cursor with the previous one
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Command Recall Shortcuts
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + r – search the history backwards
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + g – escape from history searching mode
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + p – previous command in history (i.e. walk back through the command history)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + n – next command in history (i.e. walk forward through the command history)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Alt + . – use the last word of the previous command
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Command Control Shortcuts
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + l – clear the screen
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + s – stops the output to the screen (for long running verbose command)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + q – allow output to the screen (if previously stopped using command above)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + c – terminate the command
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Ctrl + z – suspend/stop the command
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Bash Bang (!) Commands
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;Bash also has some handy features that use the ! (bang) to allow you to do some funky stuff with bash commands.
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!! - run last command
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!blah – run the most recent command that starts with ‘blah’ (e.g. !ls)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!blah:p – print out the command that !blah would run (also adds it as the latest command in the command history)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!$ – the last word of the previous command (same as Alt + .)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!$:p – print out the word that !$ would substitute
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!* – the previous command except for the last word (e.g. if you type ‘find some_file.txt /‘, then !* would give you ‘find some_file.txt‘)
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;!*:p – print out what !* would substitute&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
-
-
-&lt;p&gt;Courtesy of &lt;a href=&quot;http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/&quot;&gt;Skorks&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
   

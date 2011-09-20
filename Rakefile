@@ -111,7 +111,8 @@ task :new_post, :title do |t, args|
   end
 
   #open in iAWriter & Marked
-  open_iAWriter(filename)
+  #open_iAWriter(filename)
+  open_bbedit(filename)
   open_Marked(filename)
 end
 
@@ -359,10 +360,14 @@ task :list do
 end
 
 
-
 def open_iAWriter(path)
 	sh 'open $1 -a /Applications/iA\ Writer.app ' + path
 end
+
+def open_bbedit(path)
+	sh 'open $1 -a /Applications/bbedit.app ' + path
+end
+
 
 def open_Marked(path)
 	sh 'open $1 -a /Applications/Marked.app ' + path
