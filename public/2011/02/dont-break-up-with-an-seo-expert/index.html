@@ -31,6 +31,7 @@
   //just a quick example, in no way pretty code.
   
   $(document).ready(function() {
+
    	$('form#search').submit(function() {
         search($('input#query').val());
       return false;
@@ -39,24 +40,17 @@
    	 if(params()['q'])
         {
         	var query = params()['q'];
-      		$('div#results p#loading').show();
-   	
+        	
    			var result = $.getJSON('http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
    	
-			$('div#results').empty();
+			
+			
 			$.each(data.results, function(index, result) {
 			$('div#results').append('<div id="result">\
 					<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
 					' + result.snippet_text + '</p>\
 				</div')
-			});
-			
-			if(data.results.length == 0)
-					{
-						$('div#results').append('<p>Sorry, nothing found.</p>');
-					}
-	
-			$('div#results p#loading').hide();
+			});				
 		}    	
    	
    	
