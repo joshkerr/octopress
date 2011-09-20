@@ -1,42 +1,37 @@
-<html>
-    <head>
-        <!-- Dependencies -->
+<!doctype html> 
+<html lang="en"> 
+<head> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
+<script type="text/javascript">
+  //just a quick example, in no way pretty code.
+  
+  $(document).ready(function() {
+   	$('form#search').submit(function() {
+        search($('input#query').val());
+      return false;
+   	}); 
+  });
 
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="/javascripts/jquery.indextank.ize.js"></script>
-        <script type="text/javascript" src="/javascripts/jquery.indextank.autocomplete.js"></script>
-        <script type="text/javascript" src="/javascripts/querybuilder.js"></script>
-        <script type="text/javascript" src="/javascripts/jquery.indextank.ajaxsearch.js"></script>
-        <script type="text/javascript" src="/javascripts/jquery.indextank.renderer.js"></script>
-        <script type="text/javascript" src="/javascripts/jquery.indextank.instantsearch.js"></script>
-        <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/themes/south-street/jquery-ui.css" media="all" />
+  function search(query) {
+    //Try searching for 'Python', 'Hyde', 'Linux'. Note that I didn't index all my posts yet, so you won't be able to find all my posts.
+    var result = $.getJSON('http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
+    	$.each(data.results, function(index, result) {
+        $('div#results').append('<div id="result">\
+      			<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
+      			' + result.snippet_text + '</p>\
+    		</div')
+    	});
+    });
+  }
+</script>
+</head>
+<body>
+  <form id="search">
+    <input type="text" id="query" name="query"/>
+    <input type="submit"/>
+  </form>
 
-
-        <script>
-            $(document).ready(function(){
-
-                var customFormat = function(item){
-    return $("<div></div>")
-        .addClass("result")
-        .append( $("<a></a>").attr("href", item.link || item.url ).text(item.title || item.name) )
-        .append( $("<span></span>").addClass("description").html(item.snippet_text || item.text) );
-}
-
-                $("#myform").indextank_Ize("http://8mk3o.api.indextank.com", "joshkerr_index");
-                var renderer =  $("#results").indextank_Renderer({format:customFormat});
-                $("#query").indextank_Autocomplete().indextank_AjaxSearch( {listeners: renderer}).indextank_InstantSearch();
-            });
-        </script>
-    </head>
-
-    <body>
-        <h3>Start typing and see suggestions from indextank.com's documentation.</h3>
-        <form id="myform" action="ignored.html">
-            <input id="query" type="text"/>
-        </form>
-
-        <div id="results"></div>
-
-    </body>
+  <div id="results">
+  </div>
+</body> 
 </html>

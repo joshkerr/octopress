@@ -26,7 +26,29 @@
   <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
+<script type="text/javascript">
+  //just a quick example, in no way pretty code.
+  
+  $(document).ready(function() {
+   	$('form#search').submit(function() {
+        search($('input#query').val());
+      return false;
+   	}); 
+  });
 
+  function search(query) {
+    //Try searching for 'Python', 'Hyde', 'Linux'. Note that I didn't index all my posts yet, so you won't be able to find all my posts.
+    var result = $.getJSON('http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
+    	$.each(data.results, function(index, result) {
+        $('div#results').append('<div id="result">\
+      			<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
+      			' + result.snippet_text + '</p>\
+    		</div')
+    	});
+    });
+  }
+</script>
 </head>
 
 <body  >
@@ -60,16 +82,16 @@
     <div id="content">
       <div class="blog-index">
 
+<h3>My Articles</h3>
+
+
 
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/do-you-want-to-blow-up-the-earth-scifi-style/">Do You Want to Blow Up the Earth SciFi Style?</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -79,23 +101,10 @@
 
 
 
-<time datetime="2011-09-13T07:58:00-05:00" pubdate  data-updated="true" >Sep 13<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://i.imgur.com/ow39r.jpg" alt="Deathstar blowing up in Starwars" /></p>
-
-<p>So you want to blow up the earth SciFi style?  Think again.  Astronomer Phil Plait from the Discovery Channel gives us reasons why it can&#8217;t be done.</p>
-
-<blockquote><p>Math is easy, energy&#8230; not so much</p></blockquote>
-
-<p>The amount of energy it would take to destroy the earth is so massive, over  200,000,000,000,000,000,000,000,000,000,000 joules of it, that you would need to harness all of the output of the sun for over a week.  That&#8217;s quite a bit.</p>
-
-<p><a href="http://blastr.com/2011/09/astronomer-explains-why-w.php?utm_campaign=Feed%3A+http%3A%2F%2Fservices.digg.com%2F2.0%2Fstory.getTopNews%3Ftype%3Drss&amp;utm_medium=feed&amp;utm_source=diggapi">3 Reasons why we can&#8217;t blow up the earth SciFi style</a></p>
-</div>
-  
-  
+<time datetime="2011-03-03T00:00:00-06:00" pubdate  data-updated="true" >Mar 3<span>rd</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/03/slow-computer--add-two-hard-drives./">Slow Computer? Add Two Hard Drives.</a></div>
+    </div>
+      
 
 
   </article>
@@ -103,12 +112,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/octopress-is-a-great-jekyll-blogging-system/">Octopress Is a Great Jekyll Blogging System</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -118,21 +124,10 @@
 
 
 
-<time datetime="2011-09-12T16:47:00-05:00" pubdate  data-updated="true" >Sep 12<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://i.imgur.com/0HT9J.png" alt="Octopress is the shizz" /></p>
-
-<p>I don&#8217;t know how I missed this, but it appears that someone has taken <a href="http://www.jekyllrb.org">Jekyll</a> and packaged it with a great theme and a whole slew of plugins.  This package called <a href="http://www.octopress.org">Octopress</a> is a fantastic static blogging package that in my opinion matches what you&#8217;d get with <a href="http://www.wordpress.org">Wordpress</a> straight out of the box.</p>
-
-<p>I actually prefer the Octopress default theme to <a href="http://www.wordpress.org">Wordpress</a>&#8217;s.  A great side benefit to using <a href="http://www.octopress.org">Octopress</a> is that it takes advantage of some of the newer more cutting edge technologies like <a href="http://sass-lang.com/">SASS</a> and <a href="http://compass-style.org/">Compass</a>.</p>
-
-<p>It took me all of 10 minutes to migrate to Octopress.</p>
-</div>
-  
-  
+<time datetime="2011-03-03T00:00:00-06:00" pubdate  data-updated="true" >Mar 3<span>rd</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/03/google-docs-in-real-time/">Google Docs in Real Time? Google Wave?</a></div>
+    </div>
+      
 
 
   </article>
@@ -140,12 +135,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/the-details-of-the-greatest-online-game-scam/">The Details of the Greatest Online Game Scam</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -155,24 +147,10 @@
 
 
 
-<time datetime="2011-09-12T00:00:00-05:00" pubdate  data-updated="true" >Sep 12<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://i.imgur.com/Rhoye.jpg" alt="Eve Online" /></p>
-
-<p><a href="http://www.eveonline.com">Eve</a> is a fantastic space MMORPG that has a very sophisticated monetary system very much like the US, but without the regulation.  So, two guys decide to create a financial institution called <a href="http://www.phaserinc.com/index1.html">Phaser, Inc.</a> and go on to scam gamers out of a Trillion dollars of online money.</p>
-
-<p>The money stolen wasn&#8217;t actual US currency, but the value is about 150 million ISK to 15 USD.  So the total amount stolen is about $7K USD, but in the game, the 1 Trillion is actually a lot of cash.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/2011/09/the-details-of-the-greatest-online-game-scam/">Read on &rarr;</a>
-    </footer>
-  
+<time datetime="2011-02-27T00:00:00-06:00" pubdate  data-updated="true" >Feb 27<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/startup-weekend-austin/">Startup Weekend Austin</a></div>
+    </div>
+      
 
 
   </article>
@@ -180,12 +158,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/great-command-prompt-shortcuts/">Great Command Prompt Shortcuts</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -195,20 +170,10 @@
 
 
 
-<time datetime="2011-09-12T00:00:00-05:00" pubdate  data-updated="true" >Sep 12<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><blockquote><p>I came across these outstanding command prompt shortcuts on <a href="http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/">Skorks</a> and had to post them.  I originally bookmarked them via Delicious, but they are so good that I had to create a post out of them.</p></blockquote>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/2011/09/great-command-prompt-shortcuts/">Read on &rarr;</a>
-    </footer>
-  
+<time datetime="2011-02-26T00:00:00-06:00" pubdate  data-updated="true" >Feb 26<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/here-is-a-duck/">Here Is a Duck</a></div>
+    </div>
+      
 
 
   </article>
@@ -216,12 +181,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/a-great-video-showing-how-small-we-are/">A Great Video Showing How Small We Are</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -231,20 +193,10 @@
 
 
 
-<time datetime="2011-09-11T00:00:00-05:00" pubdate  data-updated="true" >Sep 11<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><blockquote><p>A friend of mine posted this video and wow, are we small in comparison to the rest of our known universe.  It sort of makes our lives seem to irrelevant.  Video is from the American Museaum of Natural History.</p></blockquote>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/2011/09/a-great-video-showing-how-small-we-are/">Read on &rarr;</a>
-    </footer>
-  
+<time datetime="2011-02-25T00:00:00-06:00" pubdate  data-updated="true" >Feb 25<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/redis%2C-ohm-and-heroku-make-caching-data-super-fast/">Redis, Ohm and Heroku Make Caching Data Super Fast</a></div>
+    </div>
+      
 
 
   </article>
@@ -252,12 +204,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/ruby-mine-as-a-jekyll-front-end/">Ruby Mine as a Jekyll Front End</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -267,22 +216,10 @@
 
 
 
-<time datetime="2011-09-10T00:00:00-05:00" pubdate  data-updated="true" >Sep 10<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://i.imgur.com/smVdS.png"></p>
-
-<p>Ruby Mine is a powerful editor from the folks at <a href="http://www.jetbrains.com">Jet Brains</a> that is designed for full on Ruby on Rails development, but actually makes a nice front end for managing your Jekyll site.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/2011/09/ruby-mine-as-a-jekyll-front-end/">Read on &rarr;</a>
-    </footer>
-  
+<time datetime="2011-02-23T00:00:00-06:00" pubdate  data-updated="true" >Feb 23<span>rd</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/ahhh%2C-iphone-os-programming.--been-a-while-sir./">Ahhh, iPhone OS Programming. Been a While Sir.</a></div>
+    </div>
+      
 
 
   </article>
@@ -290,12 +227,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/easily-add-search-to-static-blog/">Easily Add Search to a Static Blog</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -305,24 +239,10 @@
 
 
 
-<time datetime="2011-09-10T00:00:00-05:00" pubdate  data-updated="true" >Sep 10<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Static blog sites like those powered by <a href="http://jekyllrb.com">Jekyll</a> use a locally running generator to create static content which is uploaded to your web host.  So with a static site, how are you going to power a search engine?</p>
-
-<p>Leave it to the folks at Google to create a very ajaxy way to add search that integrates quite well with a static site.  Here is a quick tutorial:</p>
-
-<p>First, you need a Google code API key which you can get <a href="http://code.google.com/apis/loader/signup.html">here</a>.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/2011/09/easily-add-search-to-static-blog/">Read on &rarr;</a>
-    </footer>
-  
+<time datetime="2011-02-19T00:00:00-06:00" pubdate  data-updated="true" >Feb 19<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/why-i-switched-to-amazon-ec2-hosting/">Why I Switched to Amazon EC2 Hosting and Then Heroku</a></div>
+    </div>
+      
 
 
   </article>
@@ -330,12 +250,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/off-duty-storm-troopers/">Off Duty Storm Troopers</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -345,22 +262,746 @@
 
 
 
-<time datetime="2011-09-09T00:00:00-05:00" pubdate  data-updated="true" >Sep 9<span>th</span>, 2011</time></p>
+<time datetime="2011-02-19T00:00:00-06:00" pubdate  data-updated="true" >Feb 19<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/mobile-phones-and-youtube-shake-up-the-middle-east/">Mobile Phones and YouTube Shake Up the Middle East</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
     
-  </header>
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
-  <div class="entry-content"><p><img src="http://i.imgur.com/LtGEK.jpg" alt="StormOff" /></p>
 
-<p>Hilariously funny photos of Storm Troopers while they are off duty.  Of course they leave their uniforms on while enjoying their leisure time.  Who has time to create this sort of thing?  And why am I so amused by it?</p>
 
-</div>
+
   
+
+
+
+<time datetime="2011-02-16T00:00:00-06:00" pubdate  data-updated="true" >Feb 16<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/rsa-security-conference-loves-the-cloud/">Rsa Security Conference Loves the Cloud</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
   
-    <footer>
-      <a rel="full-article" href="/2011/09/off-duty-storm-troopers/">Read on &rarr;</a>
-    </footer>
+
+
+
+<time datetime="2011-02-14T00:00:00-06:00" pubdate  data-updated="true" >Feb 14<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/great-story-on-about.me-acquisition/">Great Story on about.me Acquisition by AOL</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
   
+
+
+
+<time datetime="2011-02-12T00:00:00-06:00" pubdate  data-updated="true" >Feb 12<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/automatic-tv-show-downloading-via-sickbeard/">Automatic Tv Show Downloading via Sickbeard on a Mac</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-11T00:00:00-06:00" pubdate  data-updated="true" >Feb 11<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/california-stores-cant-ask-for-zip-codes/">California Stores Can&#8217;t Ask for Zip Codes</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-10T00:00:00-06:00" pubdate  data-updated="true" >Feb 10<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/hp-launches-tablets-and-phones/">Hp Launches Tablets and Phones</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-07T00:00:00-06:00" pubdate  data-updated="true" >Feb 7<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/a-bash-prompt-full-of-color-makes-a-happy-terminal/">A Bash Prompt Full of Color Makes a Happy Terminal</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-06T00:00:00-06:00" pubdate  data-updated="true" >Feb 6<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/why-i-am-not-watching-the-superbowl/">Why I Am Not Watching the Super-bowl</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-06T00:00:00-06:00" pubdate  data-updated="true" >Feb 6<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/superduper-best-mac-backup-app/">SuperDuper! Is the Best Mac Backup App</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-06T00:00:00-06:00" pubdate  data-updated="true" >Feb 6<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/steven-wright-reviews-gucci-watch/">Steven Wright Reviews Gucci Watch</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-06T00:00:00-06:00" pubdate  data-updated="true" >Feb 6<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/securely-erasing-files-on-your-mac/">Securely Erasing Files on Your Mac</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-05T00:00:00-06:00" pubdate  data-updated="true" >Feb 5<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/women-laughing-alone-with-salad/">Women Laughing Alone With Salad</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-05T00:00:00-06:00" pubdate  data-updated="true" >Feb 5<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/iffmpeg-is-a-great-gui-for-ffmpeg-mac/">Iffmpeg Is a Great Gui for Ffmpeg Mac</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-04T00:00:00-06:00" pubdate  data-updated="true" >Feb 4<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/no-guarantee-of-privacy-on-social-nets/">No Guarantee of Privacy on Social Nets</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-04T00:00:00-06:00" pubdate  data-updated="true" >Feb 4<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/dont-break-up-with-an-seo-expert/">Dont Break Up With an Seo Expert</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-03T00:00:00-06:00" pubdate  data-updated="true" >Feb 3<span>rd</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/wifi-in-flight-is-techno-cool/">Wifi in Flight Is Techno Cool</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-03T00:00:00-06:00" pubdate  data-updated="true" >Feb 3<span>rd</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/do-you-believe-the-statistics/">Do You Believe the Statistics</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-03T00:00:00-06:00" pubdate  data-updated="true" >Feb 3<span>rd</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/automating-the-creation-of-posts-in-jekyll/">Automating the Creation of Posts in Jekyll</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-01T00:00:00-06:00" pubdate  data-updated="true" >Feb 1<span>st</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/02/apple-adds-bugs-in-beta-releases/">Apple Purposely Adds Bugs to iOS Releases</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-31T00:00:00-06:00" pubdate  data-updated="true" >Jan 31<span>st</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/bullet-train-keyboard-is-awesome/">Bullet Train Offers Desktop Keyboard With Form Factor of Notebook</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-31T00:00:00-06:00" pubdate  data-updated="true" >Jan 31<span>st</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/Zosh-in-wallstreet-journal/">Zosh Gets a Shout-out in the Wall Street Journal</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-31T00:00:00-06:00" pubdate  data-updated="true" >Jan 31<span>st</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/My-first-blog-post-with-Jekyll/">Yes, This Is My First Post.</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-30T00:00:00-06:00" pubdate  data-updated="true" >Jan 30<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/sushi-ran-in-san-francisco-is-amazing/">Sushi Ran in San Francisco Is Amazing</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-28T00:00:00-06:00" pubdate  data-updated="true" >Jan 28<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/best-peel-out-ever/">Best Peel-out Ever</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-28T00:00:00-06:00" pubdate  data-updated="true" >Jan 28<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/Tooth-decay-by-PFFR/">Tooth Decay by PFFR</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-28T00:00:00-06:00" pubdate  data-updated="true" >Jan 28<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/Taco-Bell-damage/">Taco Bell, Real Beef or Not, Damage Is Done</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-24T00:00:00-06:00" pubdate  data-updated="true" >Jan 24<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/best-peel-out-ever/">Best Peel-out EVER.</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-23T00:00:00-06:00" pubdate  data-updated="true" >Jan 23<span>rd</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/twitter-did-you-just-change-your-icon-again/">Twitter, Did You Just Change Your Icon Again?</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-23T00:00:00-06:00" pubdate  data-updated="true" >Jan 23<span>rd</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/twitter-did-you-change-your-icon/">Twitter, Did You Just Change Your Icon Again?</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-23T00:00:00-06:00" pubdate  data-updated="true" >Jan 23<span>rd</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/see-you-latr-tumblr/">See You Latr Tumblr</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-23T00:00:00-06:00" pubdate  data-updated="true" >Jan 23<span>rd</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/Your-Exchange-server-doesnt-have-imap-no-problem/">Your Exchange Server Doesn&#8217;t Have Imap? No Problem.</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-13T00:00:00-06:00" pubdate  data-updated="true" >Jan 13<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/women-everywhere-are-offended-by-this/">Women Everywhere Are Offended by This</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-01-13T00:00:00-06:00" pubdate  data-updated="true" >Jan 13<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/01/lucy-the-cat-is-39-years-old-oldest-ever/">Lucy the Cat Is 39 Years Old. (Oldest Ever.)</a></div>
+    </div>
+      
 
 
   </article>
@@ -422,18 +1063,6 @@
         <a href="/2011/08/monster-cable-goes-after-the-wrong-guy-lawsuit-gone-wrong/">Monster Cable goes after the wrong guy</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/06/using-file-vault-2-with-multiple-drives/">Using File Vault 2 with multiple drives</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/02/automatic-tv-show-downloading-via-sickbeard/">automatic tv show downloading via sickbeard on a mac</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/02/automating-the-creation-of-posts-in-jekyll/">automating the creation of posts in jekyll</a>
-      </li>
-    
   </ul>
 </section>
 <section>
@@ -460,18 +1089,6 @@
         <a href="/2011/09/really-cool-new-keyboard-from-corsair/">Really Cool New Keyboard From Corsair</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes/">David Blaine Explains How He Holds His Breath for 17 Minutes</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/now-this-is-how-you-fly/">Now This Is How You Fly</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -482,7 +1099,7 @@
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
-      getTwitterFeed("joshkerr", 8, false);
+      getTwitterFeed("joshkerr", 3, false);
     });
   </script>
   <script src="/javascripts/twitter.js" type="text/javascript"> </script>
@@ -494,38 +1111,8 @@
 
 <section>
   <h1>On Delicious</h1>
-  <script type="text/javascript" src="http://feeds.delicious.com/v2/js/joshkerr?title=&count=8&sort=date&extended"></script>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/js/joshkerr?title=&count=3&sort=date&extended"></script>
   <p><a href="/delicious/">My Delicious Bookmarks &raquo;</a></p>
-</section>
-
-
-<section>
-  <h1>Github Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/joshkerr">@joshkerr</a> on Github
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'joshkerr',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 

@@ -26,7 +26,29 @@
   <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
+<script type="text/javascript">
+  //just a quick example, in no way pretty code.
+  
+  $(document).ready(function() {
+   	$('form#search').submit(function() {
+        search($('input#query').val());
+      return false;
+   	}); 
+  });
 
+  function search(query) {
+    //Try searching for 'Python', 'Hyde', 'Linux'. Note that I didn't index all my posts yet, so you won't be able to find all my posts.
+    var result = $.getJSON('http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
+    	$.each(data.results, function(index, result) {
+        $('div#results').append('<div id="result">\
+      			<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
+      			' + result.snippet_text + '</p>\
+    		</div')
+    	});
+    });
+  }
+</script>
 </head>
 
 <body  >
@@ -61,11 +83,9 @@
       <div>
 <article class="hentry">
   
-  <header>
     
+	  <header>
       <h3 class="entry-title">I'm Speaking at the University of Texas Tomorrow</h3>
-    
-    
       <p class="meta">
 
 
@@ -77,11 +97,8 @@
 
 
 <time datetime="2010-04-28T00:00:00-05:00" pubdate  data-updated="true" >Apr 28<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-<div class="entry-content"><p>The University of Texas has a program called <a href="http://3daystartup.com/">3 Day Startup</a> which puts students in an office for 3 days and gives them all the materials they need to start a company.  They choose the most promising idea and try to get it off the ground.  If the project is successful, the company continues to grow after the 3 days.  Either way, its great experience for the students and encourages a lot of great ideas.  The program organized a series of guest speakers including Brett Hurt CEO of Bazzarvoice, Joshua Baer CEO of Otherinbox.  I&#8217;m the last of the speakers to go and I&#8217;m going to be talking about my experiences both successes and more importantly failures.  I&#8217;m also going to talk about why I love what I do and what I see for myself in the future.  There will be some Q&A (probably a lot of it.)</p>
+	</header>
+	<div class="entry-content"><p>The University of Texas has a program called <a href="http://3daystartup.com/">3 Day Startup</a> which puts students in an office for 3 days and gives them all the materials they need to start a company.  They choose the most promising idea and try to get it off the ground.  If the project is successful, the company continues to grow after the 3 days.  Either way, its great experience for the students and encourages a lot of great ideas.  The program organized a series of guest speakers including Brett Hurt CEO of Bazzarvoice, Joshua Baer CEO of Otherinbox.  I&#8217;m the last of the speakers to go and I&#8217;m going to be talking about my experiences both successes and more importantly failures.  I&#8217;m also going to talk about why I love what I do and what I see for myself in the future.  There will be some Q&A (probably a lot of it.)</p>
 
 
 
@@ -89,6 +106,7 @@
 <p>I was a UT computer science student in the early 90&#8217;s and I haven&#8217;t been back to the computer science campus since I graduated.  So this will be a bit of a homecoming for me.  I&#8217;m reminded of when I was a marketing student and in my junior year decided I wanted to change my major to computer science.  My advisor told me that I was unfit to be a computer science student and I should just stay the course.  I argued and she unwillingly let me into the program.  Little did she know that I would thrive in the program and go on to greater success.  Tomorrow should be fun.</p>
 
 </div>
+	  
 
 
   <footer>
@@ -283,18 +301,6 @@
         <a href="/2011/08/monster-cable-goes-after-the-wrong-guy-lawsuit-gone-wrong/">Monster Cable goes after the wrong guy</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/06/using-file-vault-2-with-multiple-drives/">Using File Vault 2 with multiple drives</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/02/automatic-tv-show-downloading-via-sickbeard/">automatic tv show downloading via sickbeard on a mac</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/02/automating-the-creation-of-posts-in-jekyll/">automating the creation of posts in jekyll</a>
-      </li>
-    
   </ul>
 </section>
 <section>
@@ -321,18 +327,6 @@
         <a href="/2011/09/really-cool-new-keyboard-from-corsair/">Really Cool New Keyboard From Corsair</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes/">David Blaine Explains How He Holds His Breath for 17 Minutes</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/now-this-is-how-you-fly/">Now This Is How You Fly</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -343,7 +337,7 @@
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
-      getTwitterFeed("joshkerr", 8, false);
+      getTwitterFeed("joshkerr", 3, false);
     });
   </script>
   <script src="/javascripts/twitter.js" type="text/javascript"> </script>
@@ -355,38 +349,8 @@
 
 <section>
   <h1>On Delicious</h1>
-  <script type="text/javascript" src="http://feeds.delicious.com/v2/js/joshkerr?title=&count=8&sort=date&extended"></script>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/js/joshkerr?title=&count=3&sort=date&extended"></script>
   <p><a href="/delicious/">My Delicious Bookmarks &raquo;</a></p>
-</section>
-
-
-<section>
-  <h1>Github Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/joshkerr">@joshkerr</a> on Github
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'joshkerr',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 

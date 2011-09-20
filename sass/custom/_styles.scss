@@ -23,3 +23,40 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+div.entry-date {
+float: left;	
+}
+
+div.entry-subject{
+	float: left;
+	text-indent: 15px;
+}
+
+div.entry-subject a {
+	text-decoration: none;
+	position: absolute;
+}
+
+div.entry-date{
+	color: #aaa;
+}
+
+#content div.blog-index article {
+	padding: 5px;
+	margin-left: 45px;
+	
+}
+
+div.blog-index {
+	margin-top: 75px;
+}
+
+div.entry-item {
+	float: left;
+}
+#content div.blog-index h3 {
+	padding-top: 10px;
+	margin-left: 45px;
+}

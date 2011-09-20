@@ -26,7 +26,29 @@
   <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
+<script type="text/javascript">
+  //just a quick example, in no way pretty code.
+  
+  $(document).ready(function() {
+   	$('form#search').submit(function() {
+        search($('input#query').val());
+      return false;
+   	}); 
+  });
 
+  function search(query) {
+    //Try searching for 'Python', 'Hyde', 'Linux'. Note that I didn't index all my posts yet, so you won't be able to find all my posts.
+    var result = $.getJSON('http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
+    	$.each(data.results, function(index, result) {
+        $('div#results').append('<div id="result">\
+      			<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
+      			' + result.snippet_text + '</p>\
+    		</div')
+    	});
+    });
+  }
+</script>
 </head>
 
 <body  >
@@ -61,11 +83,9 @@
       <div>
 <article class="hentry">
   
-  <header>
     
+	  <header>
       <h3 class="entry-title">Awesome Anti Drug Advertisement</h3>
-    
-    
       <p class="meta">
 
 
@@ -77,14 +97,12 @@
 
 
 <time datetime="2011-03-22T00:00:00-05:00" pubdate  data-updated="true" >Mar 22<span>nd</span>, 2011</time></p>
-    
-  </header>
-
-
-<div class="entry-content"><p><img src="http://joshkerr.s3.amazonaws.com/images/4tpnt.jpg" alt="Drug advertisement" /></p>
+	</header>
+	<div class="entry-content"><p><img src="http://joshkerr.s3.amazonaws.com/images/4tpnt.jpg" alt="Drug advertisement" /></p>
 
 <p>This actually makes meth seem interesting.  Chewbacca playing baseball is awesome, so meth must be awesome too.  Horrible ad.</p>
 </div>
+	  
 
 
   <footer>
@@ -279,18 +297,6 @@
         <a href="/2011/08/monster-cable-goes-after-the-wrong-guy-lawsuit-gone-wrong/">Monster Cable goes after the wrong guy</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/06/using-file-vault-2-with-multiple-drives/">Using File Vault 2 with multiple drives</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/02/automatic-tv-show-downloading-via-sickbeard/">automatic tv show downloading via sickbeard on a mac</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/02/automating-the-creation-of-posts-in-jekyll/">automating the creation of posts in jekyll</a>
-      </li>
-    
   </ul>
 </section>
 <section>
@@ -317,18 +323,6 @@
         <a href="/2011/09/really-cool-new-keyboard-from-corsair/">Really Cool New Keyboard From Corsair</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes/">David Blaine Explains How He Holds His Breath for 17 Minutes</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/now-this-is-how-you-fly/">Now This Is How You Fly</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -339,7 +333,7 @@
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
-      getTwitterFeed("joshkerr", 8, false);
+      getTwitterFeed("joshkerr", 3, false);
     });
   </script>
   <script src="/javascripts/twitter.js" type="text/javascript"> </script>
@@ -351,38 +345,8 @@
 
 <section>
   <h1>On Delicious</h1>
-  <script type="text/javascript" src="http://feeds.delicious.com/v2/js/joshkerr?title=&count=8&sort=date&extended"></script>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/js/joshkerr?title=&count=3&sort=date&extended"></script>
   <p><a href="/delicious/">My Delicious Bookmarks &raquo;</a></p>
-</section>
-
-
-<section>
-  <h1>Github Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/joshkerr">@joshkerr</a> on Github
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'joshkerr',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 

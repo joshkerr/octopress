@@ -26,7 +26,29 @@
   <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
+<script type="text/javascript">
+  //just a quick example, in no way pretty code.
+  
+  $(document).ready(function() {
+   	$('form#search').submit(function() {
+        search($('input#query').val());
+      return false;
+   	}); 
+  });
 
+  function search(query) {
+    //Try searching for 'Python', 'Hyde', 'Linux'. Note that I didn't index all my posts yet, so you won't be able to find all my posts.
+    var result = $.getJSON('http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
+    	$.each(data.results, function(index, result) {
+        $('div#results').append('<div id="result">\
+      			<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
+      			' + result.snippet_text + '</p>\
+    		</div')
+    	});
+    });
+  }
+</script>
 </head>
 
 <body  >
@@ -61,11 +83,9 @@
       <div>
 <article class="hentry">
   
-  <header>
     
+	  <header>
       <h3 class="entry-title">iOS 4 Gold Master Release Candidate Almost Ready for Download</h3>
-    
-    
       <p class="meta">
 
 
@@ -77,11 +97,8 @@
 
 
 <time datetime="2010-06-07T00:00:00-05:00" pubdate  data-updated="true" >Jun 7<span>th</span>, 2010</time></p>
-    
-  </header>
-
-
-<div class="entry-content"><p>Filed under: <a rel="tag" href="http://www.tuaw.com/category/developer/">Developer</a></p>
+	</header>
+	<div class="entry-content"><p>Filed under: <a rel="tag" href="http://www.tuaw.com/category/developer/">Developer</a></p>
 
 
 <p><img style="width: 176px; height: 101px;" src="http://www.blogcdn.com/www.tuaw.com/media/2010/04/appstoreexplodingapps-1271788141.jpg" border="0" alt="" hspace="8" vspace="8" align="right"/>Finally! The <span style="text-decoration: line-through;">iPhone OS 4.0 SDK</span> <a href="http://www.tuaw.com/2010/06/07/wwdc-2010-iphone-os-4-now-ios-4/">iOS 4 SDK</a> is almost (but not quite) ready to roll for all members of Apples developer program, not just the paid App Store developers. And paid devs are almost ready to finally start shipping apps leveraging the new firmwares amazingly cool features. We cant wait until we start seeing VoiP and Game Center apps in action.<br/><br/> Today, youll be able to head on over to <a href="http://developer.apple.com/iphone"><span style="text-decoration: underline;">Apples developer site</span></a> and start downloading your copy of the 4.0 SDK release candidate. Although the site still shows beta 4, the gold master release candidate, as Steve announced at the Keynote this morning, should be ready momentarily.<br/><br/> Of course, the <a href="http://tuaw.com/tag/ipad">iPad</a> SDK is another matter. Any iPad SDK, when it appears (likely in the fall sometime), will remain under an ongoing NDA until that firmware and SDK is officially released. But the good news is that the new version of the iPhone firmware is <a href="http://www.tuaw.com/2010/06/07/wwdc-2010-second-generation-ipod-touch-gets-free-update-to-ios4/">just around the corner on June 21st</a>.</p>
@@ -90,6 +107,7 @@
 <p>(Via <a href="http://www.tuaw.com">The Unofficial Apple Weblog (TUAW)</a>.)</p>
 
 </div>
+	  
 
 
   <footer>
@@ -284,18 +302,6 @@
         <a href="/2011/08/monster-cable-goes-after-the-wrong-guy-lawsuit-gone-wrong/">Monster Cable goes after the wrong guy</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/06/using-file-vault-2-with-multiple-drives/">Using File Vault 2 with multiple drives</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/02/automatic-tv-show-downloading-via-sickbeard/">automatic tv show downloading via sickbeard on a mac</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/02/automating-the-creation-of-posts-in-jekyll/">automating the creation of posts in jekyll</a>
-      </li>
-    
   </ul>
 </section>
 <section>
@@ -322,18 +328,6 @@
         <a href="/2011/09/really-cool-new-keyboard-from-corsair/">Really Cool New Keyboard From Corsair</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes/">David Blaine Explains How He Holds His Breath for 17 Minutes</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/now-this-is-how-you-fly/">Now This Is How You Fly</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -344,7 +338,7 @@
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
-      getTwitterFeed("joshkerr", 8, false);
+      getTwitterFeed("joshkerr", 3, false);
     });
   </script>
   <script src="/javascripts/twitter.js" type="text/javascript"> </script>
@@ -356,38 +350,8 @@
 
 <section>
   <h1>On Delicious</h1>
-  <script type="text/javascript" src="http://feeds.delicious.com/v2/js/joshkerr?title=&count=8&sort=date&extended"></script>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/js/joshkerr?title=&count=3&sort=date&extended"></script>
   <p><a href="/delicious/">My Delicious Bookmarks &raquo;</a></p>
-</section>
-
-
-<section>
-  <h1>Github Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/joshkerr">@joshkerr</a> on Github
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'joshkerr',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 

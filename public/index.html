@@ -26,7 +26,29 @@
   <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> 
+<script type="text/javascript">
+  //just a quick example, in no way pretty code.
+  
+  $(document).ready(function() {
+   	$('form#search').submit(function() {
+        search($('input#query').val());
+      return false;
+   	}); 
+  });
 
+  function search(query) {
+    //Try searching for 'Python', 'Hyde', 'Linux'. Note that I didn't index all my posts yet, so you won't be able to find all my posts.
+    var result = $.getJSON('http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {
+    	$.each(data.results, function(index, result) {
+        $('div#results').append('<div id="result">\
+      			<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
+      			' + result.snippet_text + '</p>\
+    		</div')
+    	});
+    });
+  }
+</script>
 </head>
 
 <body  >
@@ -60,16 +82,16 @@
     <div id="content">
       <div class="blog-index">
 
+<h3>My Articles</h3>
+
+
 
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/wheelmate-laptop-steering-wheel-desk/">Wheelmate Laptop Steering Wheel Desk</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -79,35 +101,10 @@
 
 
 
-<time datetime="2011-09-19T16:12:00-05:00" pubdate  data-updated="true" >Sep 19<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Amazon reviews are sometimes hilarious.  I recently found this gem for a Wheelmate laptop steering wheel desk.  You hook it on your steering wheel to give you a desk that you can use to write, type notes, etc..</p>
-
-<p><img src="http://i.imgur.com/Ymr3A.jpg" alt="Wheelmate" /></p>
-
-<p>Another shot of it in action:</p>
-
-<p><img src="http://i.imgur.com/2XUZ9.jpg" alt="Wheelmate in action" /></p>
-
-<p>Customers can upload their own product photos.  One customer uploaded this:</p>
-
-<p><img src="http://i.imgur.com/q1xn8.jpg" alt="Customer 1" /></p>
-
-<p>And another customer sent this:</p>
-
-<p><img src="http://i.imgur.com/U2Wog.jpg" alt="Customer 2" /></p>
-
-<p>and this one:</p>
-
-<p><img src="http://i.imgur.com/Akh3X.jpg" alt="Customer 3" /></p>
-
-<p>There are over 128 customer images of car crashes.  It is hilarious how an entire Amazon community of reviewers has decided that this product causes car accidents.  It probably does.</p>
-</div>
-  
-  
+<time datetime="2011-09-19T16:12:00-05:00" pubdate  data-updated="true" >Sep 19<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/wheelmate-laptop-steering-wheel-desk/">Wheelmate Laptop Steering Wheel Desk</a></div>
+    </div>
+      
 
 
   </article>
@@ -115,12 +112,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/this-keyboard-is-super-comfortable/">This Keyboard Is Super Comfortable</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -130,19 +124,10 @@
 
 
 
-<time datetime="2011-09-19T14:47:00-05:00" pubdate  data-updated="true" >Sep 19<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I&#8217;m in love with this keyboard.  Its the Microsoft Arc and it is   one of the most comfortable keyboards I&#8217;ve ever used.</p>
-
-<p><img src="http://i.imgur.com/cXeEv.jpg" alt="Microsoft Arc" /></p>
-
-<p>The keyboard has great button action, is easy to position due to its small size, and works perfectly with my Mac and 2nd monitor.    It would be so cool if Apple embeded this sucker into the Mac Book Pro.  Pretty please?</p>
-</div>
-  
-  
+<time datetime="2011-09-19T14:47:00-05:00" pubdate  data-updated="true" >Sep 19<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/this-keyboard-is-super-comfortable/">This Keyboard Is Super Comfortable</a></div>
+    </div>
+      
 
 
   </article>
@@ -150,12 +135,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/site2pic-creates-website-screenshots/">Site2Pic Creates Website Screenshots</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -165,19 +147,10 @@
 
 
 
-<time datetime="2011-09-19T14:06:00-05:00" pubdate  data-updated="true" >Sep 19<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>A new service called Site2Pic will take a URL and take a screenshot of said website.  Its a pretty useful service if you want to spice up your links with photos.  I&#8217;d like to see them create an API so that it can auto-screenshot links for you.</p>
-
-<p><img src="http://i.imgur.com/BpT9k.png" alt="Screenshot of joshkerr.com" /></p>
-
-<p>More at the source: <a href="http://www.site2pic.com">Site2Pic</a></p>
-</div>
-  
-  
+<time datetime="2011-09-19T14:06:00-05:00" pubdate  data-updated="true" >Sep 19<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/site2pic-creates-website-screenshots/">Site2Pic Creates Website Screenshots</a></div>
+    </div>
+      
 
 
   </article>
@@ -185,12 +158,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/container-ship-delivering-craines/">Container Ship Delivering Cranes</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -200,17 +170,10 @@
 
 
 
-<time datetime="2011-09-18T11:03:00-05:00" pubdate  data-updated="true" >Sep 18<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://i.imgur.com/dKOBh.jpg" alt="How does this thing stay up?" /></p>
-
-<p>So I&#8217;m looking at this photo wondering how does this ship not fall over?  Can it even traverse an ocean?</p>
-</div>
-  
-  
+<time datetime="2011-09-18T11:03:00-05:00" pubdate  data-updated="true" >Sep 18<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/container-ship-delivering-craines/">Container Ship Delivering Cranes</a></div>
+    </div>
+      
 
 
   </article>
@@ -218,12 +181,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/really-cool-new-keyboard-from-corsair/">Really Cool New Keyboard From Corsair</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -233,25 +193,10 @@
 
 
 
-<time datetime="2011-09-17T15:53:00-05:00" pubdate  data-updated="true" >Sep 17<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://f.cl.ly/items/000l08123I1R1R3F3T2V/Screen%20Shot%202011-09-17%20at%203.52.34%20PM.png" alt="Corsair Vengence keyboard" /></p>
-
-<p>Corsair just came out with a new gaming keyboard for FPS gamers that aims to help you dominate Call of Duty with these interchangeable keys that angle to make your hands sit more comfortably.   It also has a wrist rest for your left hand which looks comfortable too.</p>
-
-<p>The keyboard looks great.  I love the contrast of red and black keys wtih the steel keyboard bottom.</p>
-
-<p>Its about $120 and available now.</p>
-
-<p><img src="http://f.cl.ly/items/133m2F1J0G1w0U1C3q2R/Screen%20Shot%202011-09-17%20at%203.55.11%20PM.png" alt="Cool keys" /></p>
-
-<p>Hat tip:<a href="http://www.engadget.com/2011/09/16/corsair-vengeance-gaming-keyboards-mice-and-headsets-hands-on/">Engadget</a></p>
-</div>
-  
-  
+<time datetime="2011-09-17T15:53:00-05:00" pubdate  data-updated="true" >Sep 17<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/really-cool-new-keyboard-from-corsair/">Really Cool New Keyboard From Corsair</a></div>
+    </div>
+      
 
 
   </article>
@@ -259,12 +204,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes/">David Blaine Explains How He Holds His Breath for 17 Minutes</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -274,20 +216,10 @@
 
 
 
-<time datetime="2011-09-17T09:01:00-05:00" pubdate  data-updated="true" >Sep 17<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This is a great video from TED showing David Blaine&#8217;s personal account of his most recent stunts.  Amazing.</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes/">Read on &rarr;</a>
-    </footer>
-  
+<time datetime="2011-09-17T09:01:00-05:00" pubdate  data-updated="true" >Sep 17<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes/">David Blaine Explains How He Holds His Breath for 17 Minutes</a></div>
+    </div>
+      
 
 
   </article>
@@ -295,12 +227,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/now-this-is-how-you-fly/">Now This Is How You Fly</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -310,19 +239,10 @@
 
 
 
-<time datetime="2011-09-17T08:41:00-05:00" pubdate  data-updated="true" >Sep 17<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://f.cl.ly/items/413B2W1L382a0c2o3A1G/Screen%20Shot%202011-09-17%20at%208.41.02%20AM.png" alt="Sick cabin" /></p>
-
-<p>Are you looking to upgrade the way you fly? Probably not.  It is doubtful that the sort of people who could afford this type of cabin on a plane would be reading this blog.  So instead, let me introduce you to the way that you won&#8217;t be flying.  Private cabin.</p>
-
-<p><a href="http://elitechoice.org/2011/09/17/airbus-showcases-worlds-largest-corporate-jet-cabin-on-airbus-acj-318/">More on Elite Choice</a></p>
-</div>
-  
-  
+<time datetime="2011-09-17T08:41:00-05:00" pubdate  data-updated="true" >Sep 17<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/now-this-is-how-you-fly/">Now This Is How You Fly</a></div>
+    </div>
+      
 
 
   </article>
@@ -330,12 +250,9 @@
 
   <article>
     
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a></h3>
-    
-    
-      <p class="meta">
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
 
@@ -345,20 +262,746 @@
 
 
 
-<time datetime="2011-09-16T22:29:00-05:00" pubdate  data-updated="true" >Sep 16<span>th</span>, 2011</time></p>
+<time datetime="2011-09-16T22:29:00-05:00" pubdate  data-updated="true" >Sep 16<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
     
-  </header>
+        
+    <div class="entry-item">
+		<div class="entry-date">
 
 
-  <div class="entry-content"><blockquote><p>Not really sure what to say.  Kittens in Starwars?  The production quality is high, so someone obviously had too much free time on their hands.</p></blockquote>
 
-</div>
+
+
   
+
+
+
+<time datetime="2011-09-16T20:53:00-05:00" pubdate  data-updated="true" >Sep 16<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/an-amazing-photo-gallery-of-north-korea/">An Amazing Photo Gallery of North Korea</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
   
-    <footer>
-      <a rel="full-article" href="/2011/09/jedi-kittens-enough-said/">Read on &rarr;</a>
-    </footer>
+
+
+
+<time datetime="2011-09-16T11:04:00-05:00" pubdate  data-updated="true" >Sep 16<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/sick-downhill-ride-from-danny-hart/">Sick Downhill Ride From Danny Hart</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
   
+
+
+
+<time datetime="2011-09-16T10:13:00-05:00" pubdate  data-updated="true" >Sep 16<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/create-mac-app-from-shell-script/">Create Mac App From Shell Script</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-15T07:12:00-05:00" pubdate  data-updated="true" >Sep 15<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/watch-out-for-chuck-testa/">Watch Out for Chuck Testa</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-14T14:49:00-05:00" pubdate  data-updated="true" >Sep 14<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/this-on-nytimes-fashion-blog/">This? on NY Times Fashion Blog?</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-14T00:29:00-05:00" pubdate  data-updated="true" >Sep 14<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/windows-8-is-looking-good/">Windows 8 Is Looking Good</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-13T15:31:00-05:00" pubdate  data-updated="true" >Sep 13<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/i-was-looking-for-a-delicious-app-for-mac/">I Was Looking for a Delicious App for Mac</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-13T13:34:00-05:00" pubdate  data-updated="true" >Sep 13<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/the-best-music-discover-service-you-cant-use/">The Best Music Discovery Service</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-13T07:58:00-05:00" pubdate  data-updated="true" >Sep 13<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/do-you-want-to-blow-up-the-earth-scifi-style/">Do You Want to Blow Up the Earth SciFi Style?</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-12T16:47:00-05:00" pubdate  data-updated="true" >Sep 12<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/octopress-is-a-great-jekyll-blogging-system/">Octopress Is a Great Jekyll Blogging System</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-12T00:00:00-05:00" pubdate  data-updated="true" >Sep 12<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/the-details-of-the-greatest-online-game-scam/">The Details of the Greatest Online Game Scam</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-12T00:00:00-05:00" pubdate  data-updated="true" >Sep 12<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/great-command-prompt-shortcuts/">Great Command Prompt Shortcuts</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-11T00:00:00-05:00" pubdate  data-updated="true" >Sep 11<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/a-great-video-showing-how-small-we-are/">A Great Video Showing How Small We Are</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-10T00:00:00-05:00" pubdate  data-updated="true" >Sep 10<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/ruby-mine-as-a-jekyll-front-end/">Ruby Mine as a Jekyll Front End</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-10T00:00:00-05:00" pubdate  data-updated="true" >Sep 10<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/easily-add-search-to-static-blog/">Easily Add Search to a Static Blog</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-09T00:00:00-05:00" pubdate  data-updated="true" >Sep 9<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/off-duty-storm-troopers/">Off Duty Storm Troopers</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-09T00:00:00-05:00" pubdate  data-updated="true" >Sep 9<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/i-would-kill-for-thes-nike-mags/">I Would Kill for Some Nike Mags</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-07T00:00:00-05:00" pubdate  data-updated="true" >Sep 7<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/capital-factory-demo-day-2011/">Capital Factory Demo Day 2011</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-06T00:00:00-05:00" pubdate  data-updated="true" >Sep 6<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/tablskin-2-overlay-helps-with-tablet-typing/">TablSkin 2 Overlay Helps With Tablet Typing</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-06T00:00:00-05:00" pubdate  data-updated="true" >Sep 6<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/how-do-win-a-demogod-award-at-demo/">How Do Win a DEMOgod Award at DEMO</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-05T00:00:00-05:00" pubdate  data-updated="true" >Sep 5<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/using-ia-writer-with-jekyll/">Using iA Writer With Jekyll</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-05T00:00:00-05:00" pubdate  data-updated="true" >Sep 5<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/migrated-back-to-jekyll/">Migrated Back to Jekyll</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-09-05T00:00:00-05:00" pubdate  data-updated="true" >Sep 5<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/09/cats-on-a-treadmill/">Cats on a Treadmill</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-08-27T00:00:00-05:00" pubdate  data-updated="true" >Aug 27<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/08/i-laughed-really-hard-when-i-saw-this/">I Laughed Really Hard When I Saw This.</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-08-25T00:00:00-05:00" pubdate  data-updated="true" >Aug 25<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/08/getoutoftherecatget-out-of-there-cat-you-are-not-homeless/">Get Out of There Cat. You Are Not Homeless.</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-08-19T00:00:00-05:00" pubdate  data-updated="true" >Aug 19<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/08/the-nintendo-cartridge-samurai-will-get-all-the-babes-nintendo/">The Nintendo Cartridge Samurai Will Get All the Babes</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-08-15T00:00:00-05:00" pubdate  data-updated="true" >Aug 15<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/08/this-baseball-player-is-insane/">This Baseball Player Is INSANE</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-08-11T00:00:00-05:00" pubdate  data-updated="true" >Aug 11<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/08/gartner-research-shows-ios-android-claiming-62-of-total-smartphone-market/">Gartner Claiming iOS 62% of Smartphone Market</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-08-06T00:00:00-05:00" pubdate  data-updated="true" >Aug 6<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/08/hbo-you-need-to-make-this-into-a-series/">HBO, You Need to Make This Into a Series</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-08-05T00:00:00-05:00" pubdate  data-updated="true" >Aug 5<span>th</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/08/change-the-launchpad-folder-background-image/">Change the Launchpad Folder Background Image</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-08-03T00:00:00-05:00" pubdate  data-updated="true" >Aug 3<span>rd</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/08/water-bridge-in-germany-how-is-this-possible/">Water Bridge in Germany. How Is This Possible?</a></div>
+    </div>
+      
+
+
+  </article>
+
+
+  <article>
+    
+        
+    <div class="entry-item">
+		<div class="entry-date">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-08-03T00:00:00-05:00" pubdate  data-updated="true" >Aug 3<span>rd</span>, 2011</time></div>
+      	<div class="entry-subject"><a href="/2011/08/ios-developers-building-icloud-integration-in-droves/">iOS Developers Building iCloud Integration in Droves</a></div>
+    </div>
+      
 
 
   </article>
@@ -418,18 +1061,6 @@
         <a href="/2011/08/monster-cable-goes-after-the-wrong-guy-lawsuit-gone-wrong/">Monster Cable goes after the wrong guy</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/06/using-file-vault-2-with-multiple-drives/">Using File Vault 2 with multiple drives</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/02/automatic-tv-show-downloading-via-sickbeard/">automatic tv show downloading via sickbeard on a mac</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/02/automating-the-creation-of-posts-in-jekyll/">automating the creation of posts in jekyll</a>
-      </li>
-    
   </ul>
 </section>
 <section>
@@ -456,18 +1087,6 @@
         <a href="/2011/09/really-cool-new-keyboard-from-corsair/">Really Cool New Keyboard From Corsair</a>
       </li>
     
-      <li class="post">
-        <a href="/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes/">David Blaine Explains How He Holds His Breath for 17 Minutes</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/now-this-is-how-you-fly/">Now This Is How You Fly</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -478,7 +1097,7 @@
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
-      getTwitterFeed("joshkerr", 8, false);
+      getTwitterFeed("joshkerr", 3, false);
     });
   </script>
   <script src="/javascripts/twitter.js" type="text/javascript"> </script>
@@ -490,38 +1109,8 @@
 
 <section>
   <h1>On Delicious</h1>
-  <script type="text/javascript" src="http://feeds.delicious.com/v2/js/joshkerr?title=&count=8&sort=date&extended"></script>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/js/joshkerr?title=&count=3&sort=date&extended"></script>
   <p><a href="/delicious/">My Delicious Bookmarks &raquo;</a></p>
-</section>
-
-
-<section>
-  <h1>Github Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/joshkerr">@joshkerr</a> on Github
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'joshkerr',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
