@@ -28,7 +28,10 @@
               
             	$.each(data.results, function(index, result) {
                     result['domain'] = window.location.hostname;
-                    $('div#search_results div#inner').append(ich.search_result(result));
+                    $('div#search_results div#inner').append('<div id="result">\
+      			<p><a href="http://joshkerr.com' + result.docid + '">' + result.title + '</a><br/>\
+      			' + result.snippet_text + '</p>\
+    		</div');
                 });
 
                 if(data.results.length == 0)
