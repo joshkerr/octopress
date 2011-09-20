@@ -4,13 +4,26 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-09-20T13:24:56-05:00</updated>
+  <updated>2011-09-20T13:58:10-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>Some Great OSX Hacks via the Command Line</title>
+    <link href="http://joshkerr.com/2011/09/some-great-osx-hacks-via-the-command-line/"/>
+    <updated>2011-09-20T13:55:00-05:00</updated>
+    <id>http://joshkerr.com/2011/09/some-great-osx-hacks-via-the-command-line</id>
+    <content type="html">&lt;p&gt;Liquid error: &amp;#8220;\xE2&amp;#8221; from ASCII-8BIT to UTF-8&lt;/p&gt;
+
+&lt;p&gt;Some of these are great hacks.  All are pretty easy to enable or disable.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/mathiasbynens/dotfiles/blob/master/.osx&quot;&gt;Mathias Bynens&lt;/a&gt; for the original.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>10 Fatest States in America</title>
@@ -333,30 +346,6 @@
 &lt;p&gt;I actually prefer the Octopress default theme to &lt;a href=&quot;http://www.wordpress.org&quot;&gt;Wordpress&lt;/a&gt;&amp;#8217;s.  A great side benefit to using &lt;a href=&quot;http://www.octopress.org&quot;&gt;Octopress&lt;/a&gt; is that it takes advantage of some of the newer more cutting edge technologies like &lt;a href=&quot;http://sass-lang.com/&quot;&gt;SASS&lt;/a&gt; and &lt;a href=&quot;http://compass-style.org/&quot;&gt;Compass&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;It took me all of 10 minutes to migrate to Octopress.&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>The details of the greatest online game scam</title>
-    <link href="http://joshkerr.com/2011/09/the-details-of-the-greatest-online-game-scam/"/>
-    <updated>2011-09-12T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/the-details-of-the-greatest-online-game-scam</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/Rhoye.jpg&quot; alt=&quot;Eve Online&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.eveonline.com&quot;&gt;Eve&lt;/a&gt; is a fantastic space MMORPG that has a very sophisticated monetary system very much like the US, but without the regulation.  So, two guys decide to create a financial institution called &lt;a href=&quot;http://www.phaserinc.com/index1.html&quot;&gt;Phaser, Inc.&lt;/a&gt; and go on to scam gamers out of a Trillion dollars of online money.&lt;/p&gt;
-
-&lt;p&gt;The money stolen wasn&amp;#8217;t actual US currency, but the value is about 150 million ISK to 15 USD.  So the total amount stolen is about $7K USD, but in the game, the 1 Trillion is actually a lot of cash.&lt;/p&gt;
-
-&lt;!&#8211; more &#8211;&gt;
-
-
-&lt;p&gt;So how did these two guys do it?  Well, they setup an investment company.  Users registered for an account and then deposited game currency.  Depositers were promised a return on their investement and for a time, were actually paid interest and were allowed to withdraw their money.  At the peak there was over 1.8 trillion invested.&lt;/p&gt;
-
-&lt;p&gt;At some point in time, the &lt;a href=&quot;http://www.phaserinc.com/index1.html&quot;&gt;Phaser, Inc.&lt;/a&gt; guys decide to steal the invested cash.  So they took 1 trillion ISK and shutdown the system.&lt;/p&gt;
-
-&lt;p&gt;An amazing online heist that shows you that even gamers can be suckers.  Who can you trust these days?&lt;/p&gt;
-
-&lt;p&gt;More on the scam written by the scammers themselves: &lt;a href=&quot;http://www.phaserinc.com/index1.html&quot;&gt;Phaser, Inc.&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   
