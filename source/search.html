@@ -11,5 +11,16 @@ permalink: /search/
     <input type="submit" value="Search"/>
   </form>
 
-  <div id="results">
-  </div>
+
+
+<script id="search_result" type="text/html">
+    <div class="result">
+        <a href="http://{{ domain }}{{ docid }}">{{ title }}</a>
+        <p>{{{ snippet_text }}}</p>
+    </div>
+</script>
+
+  <div id="results"></div>
+	<noscript>Sorry, searching requires JavaScript. Please enable Javascript if you'd like to use the search.</noscript>   	
+  	<p id="loading">Loading...</p>
+    <div id="inner">

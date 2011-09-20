@@ -71,7 +71,8 @@ Very cool. - Josh Kerr</title>
    	 if(params()['q'])
         {
         	var query = params()['q'];
-        	
+        	$('div#search_results p#loading').show();
+
    			var result = $.getJSON('http://8mk3o.api.indextank.com/v1/indexes/joshkerr_index/search?q=' + encodeURIComponent(query) + '&fetch=title&snippet=text&callback=?', function(data) {   							
 			$.each(data.results, function(index, result) {
 			$('div#results').append('<div id="result">\
@@ -80,6 +81,15 @@ Very cool. - Josh Kerr</title>
 				</div')
 				});				
 			});
+			
+			
+			if(data.results.length == 0)
+                {
+                    $('div#search_results div#inner').append('<p>Sorry, nothing found.</p>');
+                }
+
+                $('div#search_results p#loading').hide();
+			
    		}
    	
   });
