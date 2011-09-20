@@ -31,11 +31,12 @@
   
   
   $(document).ready(function() {
-
-   	$('form#search').submit(function() {
+	/*
+   	 $('form#search').submit(function() {
         search($('input#query').val());
       return false;
    	}); 
+   	*/ 
    	
    
    	
@@ -59,7 +60,7 @@
                     $('div#search_results div#inner').append('<p>Sorry, nothing found.</p>');
                 }
 
-                $('div#search_results p#loading').hide();
+            $('div#search_results p#loading').hide();
 			
    		}
    	

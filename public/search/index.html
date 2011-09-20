@@ -56,11 +56,12 @@
   
   
   $(document).ready(function() {
-
-   	$('form#search').submit(function() {
+	/*
+   	 $('form#search').submit(function() {
         search($('input#query').val());
       return false;
    	}); 
+   	*/ 
    	
    
    	
@@ -84,7 +85,7 @@
                     $('div#search_results div#inner').append('<p>Sorry, nothing found.</p>');
                 }
 
-                $('div#search_results p#loading').hide();
+            $('div#search_results p#loading').hide();
 			
    		}
    	
@@ -130,9 +131,7 @@
     
   </header>
   
-  <p>Search engine is powered by [Index Tank](http://www.indextank.com).</p> 
-
-<form id="search">
+  <form id="search">
     <input type="text" id="query" name="query"/>
     <input type="submit" value="Search"/>
   </form>
@@ -151,6 +150,7 @@
   	<p id="loading">Loading&#8230;</p>
     <div id="inner">
 
+<p>Search engine is powered by [Index Tank](http://www.indextank.com).</p> 
   
     <footer>
       
