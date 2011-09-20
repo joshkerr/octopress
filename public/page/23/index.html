@@ -66,6 +66,52 @@
     
   <header>
     
+      <h3 class="entry-title"><a href="/2010/11/how-to-secure-your-ssh-server/">How to Secure Your SSH Server.</a></h3>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2010-11-17T00:00:00-06:00" pubdate  data-updated="true" >Nov 17<span>th</span>, 2010</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>If you are running any variant of Unix or Linux remotely you are probably using SSH to access that system.  This article from <a href="http://www.rackspacecloud.com/blog/2010/11/11/securing-your-ssh-server/">Rackspace</a> does a great job telling you how to secure your box so that hackers have a really hard time breaking into your system.</p>
+
+
+<div>
+  <pre>
+    <code class='bash'>iptables -A INPUT -j ACCEPT -p tcp --dport 22 -s 10.0.0.20
+iptables -A INPUT -j ACCEPT -p tcp --dport 22 -s 10.0.0.25
+iptables -A INPUT -j DROP -p tcp --dport 22</code>
+  </pre>
+</div>
+
+
+
+
+<p><a href="http://www.rackspacecloud.com/blog/2010/11/11/securing-your-ssh-server/">Read the article</a>.</p>
+
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h3 class="entry-title"><a href="/2010/11/write-your-resume-in-markdown-keep-it-in-git/">Write Your Resume in Markdown, Keep It in Git</a></h3>
     
     
@@ -425,47 +471,6 @@
 
   </article>
 
-
-  <article>
-    
-  <header>
-    
-      <h3 class="entry-title"><a href="/2010/11/just-add-water-household-cleaner-in-an-empty-bottle/">Just Add Water: Household Cleaner in an Empty Bottle</a></h3>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2010-11-02T00:00:00-05:00" pubdate  data-updated="true" >Nov 2<span>nd</span>, 2010</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Okay, this is really cool.  Since 90% of the makeup of a common household cleaner is water, why not ship it without the water and let the consumer fill it with their own?  I imagine this saves huge on shipping costs especially if these cleaners are being flown from somewhere.  The product is appropriately called <a href="http://www.myreplenish.com/rethink-the-bottle.html">Replenish</a>.</p>
-
-
-<p><img alt="Product photo" src="http://joshkerr.s3.amazonaws.com/wp-content/uploads/replenish.jpeg"/></p>
-
-
-<p>Hat tip: Gearlog</p>
-
-
-<p>via <a href="http://feedproxy.google.com/~r/ziffdavis/gearlog-ziffdavis/~3/DuJ3Xr23iGk/just_add_water_household_clean.php">Just Add Water: Household Cleaner In An Empty Bottle</a>.</p>
-
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
@@ -542,6 +547,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2011/09/wheelmate-laptop-steering-wheel-desk/">Wheelmate Laptop Steering Wheel Desk</a>
+      </li>
+    
+      <li class="post">
         <a href="/2011/09/this-keyboard-is-super-comfortable/">This Keyboard Is Super Comfortable</a>
       </li>
     
@@ -567,10 +576,6 @@
     
       <li class="post">
         <a href="/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/an-amazing-photo-gallery-of-north-korea/">An Amazing Photo Gallery of North Korea</a>
       </li>
     
   </ul>

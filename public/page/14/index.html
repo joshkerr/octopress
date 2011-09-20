@@ -66,6 +66,84 @@
     
   <header>
     
+      <h3 class="entry-title"><a href="/2011/02/automating-the-creation-of-posts-in-jekyll/">Automating the Creation of Posts in Jekyll</a></h3>
+    
+    
+      <p class="meta">
+
+
+
+
+
+  
+
+
+
+<time datetime="2011-02-03T00:00:00-06:00" pubdate  data-updated="true" >Feb 3<span>rd</span>, 2011</time></p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I really dig the control that Jekyll afford me to blog using the tools of my choice in the manner I see fit.  I like that I can publish with static files and that what I edit on my local machine is identical to what you see on my blog.</p>
+
+<p>Creating new posts can be a chore however because there are default tags that have to be added to each post.  You can automate this in a bunch of different ways, but I like this way:</p>
+
+<p><a href="http://forrst.com/posts/Jekyll_Workflow_Automation-1hs">Workflow grabbed from Forrst</a></p>
+
+<div>
+  <pre>
+    <code class='bash'># create a new post and fill the template
+alias create=&quot;sh ~/.postname&quot;
+
+# the contents of ~/.postname:
+#!/bin/zsh
+
+################
+# Get our info #
+################
+yearmonth=`date &quot;+%Y/%m&quot;`
+postdate=`date &quot;+%Y-%m-%d&quot;`
+jekylldate=`date &quot;+%Y-%m-%d&quot;`
+read -p &quot;Enter the post name: &quot; post_variable;
+touch /Users/TJ/Desktop/foobar.com/_posts/$yearmonth/$postdate-$post_variable.markdown &amp;&amp;
+cat &lt;&lt;EOF &gt; /Users/TJ/Desktop/foobar.com/_posts/$yearmonth/$postdate-$post_variable.markdown
+---
+layout: post
+date: $jekylldate
+title: $post_variable
+excerpt:
+---
+EOF
+mate /Users/TJ/Desktop/foobar.com/_posts/$yearmonth/$postdate-$post_variable.markdown
+exit 0
+
+# start up Jekyll for local preview of blog
+alias preview=&quot;cd /Users/TJ/Desktop/foobar.com &amp;&amp; jekyll --server --auto&quot;
+
+# delete the existing built site and rebuild
+alias build=&quot;cd /Users/TJ/Desktop/foobar.com &amp;&amp; rm -rf _site/ &amp;&amp; jekyll&quot;
+
+# use rsync to push the weblog to my (ve)
+alias deploy=&quot;echo 'Deploying to remote host...' &amp;&amp;
+cd /Users/TJ/Desktop/foobar.com &amp;&amp; rsync -rtz --delete _site/ deploy@foobar.com:/var/www/_site &amp;&amp;
+echo 'Done!'&quot;</code>
+  </pre>
+</div>
+
+
+<p>Just add this to your bash_profile to enable simple terminal commands for creating blog entries.  It will use textmate as the editor, but you can easily swap it out for another.  Make sure to configure the directories correct as the ones above were configured for someone else.</p>
+</div>
+  
+  
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
       <h3 class="entry-title"><a href="/2011/02/apple-adds-bugs-in-beta-releases/">Apple Purposely Adds Bugs to iOS Releases</a></h3>
     
     
@@ -328,41 +406,6 @@ end</code>
 
   </article>
 
-
-  <article>
-    
-  <header>
-    
-      <h3 class="entry-title"><a href="/2011/01/Taco-Bell-damage/">Taco Bell, Real Beef or Not, Damage Is Done</a></h3>
-    
-    
-      <p class="meta">
-
-
-
-
-
-  
-
-
-
-<time datetime="2011-01-28T00:00:00-06:00" pubdate  data-updated="true" >Jan 28<span>th</span>, 2011</time></p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>It doesn&#8217;t matter if Taco Bell uses real beef in their Tacos or not, the PR damage done by the recently filed lawsuit cannot be easily repaired.</p>
-
-
-<p><a href="http://www.tacobell.com/company/newsreleasearticle/Statement-Regarding-Class-Action-Lawsuit">Video</a> of Taco Bell president doing damage control.</p>
-
-</div>
-  
-  
-
-
-  </article>
-
 <nav role="pagination">
   <div>
     
@@ -439,6 +482,10 @@ end</code>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2011/09/wheelmate-laptop-steering-wheel-desk/">Wheelmate Laptop Steering Wheel Desk</a>
+      </li>
+    
+      <li class="post">
         <a href="/2011/09/this-keyboard-is-super-comfortable/">This Keyboard Is Super Comfortable</a>
       </li>
     
@@ -464,10 +511,6 @@ end</code>
     
       <li class="post">
         <a href="/2011/09/jedi-kittens-enough-said/">Jedi Kittens. Enough Said.</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/09/an-amazing-photo-gallery-of-north-korea/">An Amazing Photo Gallery of North Korea</a>
       </li>
     
   </ul>
