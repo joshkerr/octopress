@@ -100,7 +100,7 @@ function wrapFlashVideos(){
 
 $.domReady(function(){
 
-  //testFeatures();
+  testFeatures();
   wrapFlashVideos();
   flashVideoFallback();
   addCodeLineNumbers();
