@@ -100,18 +100,6 @@ function wrapFlashVideos(){
 
 $.domReady(function(){
 
-
-Modernizr.load([
-  {
-    load: '//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js',
-    complete: function () {
-      if ( !window.jQuery ) {
-	
-      }
-    }
-  }
-]);
-
   testFeatures();
   wrapFlashVideos();
   flashVideoFallback();
