@@ -32,11 +32,11 @@ function addSidebarToggler() {
 }
 function testFeatures() {
   var features = ['maskImage'];
-  $(features).map(function(this){
-    if (Modernizr.testAllProps(this)) {
-      $('html').addClass(this);
+  $(features).map(function(feature){
+    if (Modernizr.testAllProps(feature)) {
+      $('html').addClass(feature);
     } else {
-      $('html').addClass('no-'+this);
+      $('html').addClass('no-'+feature);
     }
   });
   if ("placeholder" in document.createElement("input")) {
