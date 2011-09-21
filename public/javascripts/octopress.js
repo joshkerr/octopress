@@ -31,14 +31,16 @@ function addSidebarToggler() {
   if(sections.length >= 3){ $('aside[role=sidebar]').addClass('thirds') }
 }
 function testFeatures() {
+/*
   var features = ['maskImage'];
   $(features).map(function(feature){
-    if (Modernizr.testAllProps($(this))) {
-      $('html').addClass($(this));
+    if (Modernizr.testAllProps(feature)) {
+      $('html').addClass(feature);
     } else {
-      $('html').addClass('no-'+$(this));
+      $('html').addClass('no-'+feature);
     }
   });
+  */
   if ("placeholder" in document.createElement("input")) {
     $('html').addClass('placeholder');
   } else {
