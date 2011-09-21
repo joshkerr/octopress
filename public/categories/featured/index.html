@@ -47,6 +47,10 @@
 	}
 
 	$(document).ready(function() {
+	
+		// Get the Twitter feed
+	    getTwitterFeed("joshkerr", 3, false);
+	
         if(params()['q'])
         {
         	var query = params()['q'];
@@ -405,11 +409,6 @@
   <ul id="tweets">
     <li class="loading">Status updating...</li>
   </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("joshkerr", 3, false);
-    });
-  </script>
   
     <a href="http://twitter.com/joshkerr" class="twitter-follow-button" data-width="208px" data-show-count="false">Follow @joshkerr</a>
   

@@ -20,6 +20,10 @@
 	}
 
 	$(document).ready(function() {
+	
+		// Get the Twitter feed
+	    getTwitterFeed("{{site.twitter_user}}", {{site.twitter_tweet_count}}, {{site.twitter_show_replies}});
+	
         if(params()['q'])
         {
         	var query = params()['q'];
