@@ -46,6 +46,10 @@
 
 
 	$(document).ready(function() {
+
+		// Get the Twitter feed
+	    getTwitterFeed("joshkerr", 3, false);
+	
 	
 		// Octopress specific features
 	  	testFeatures();
@@ -55,10 +59,6 @@
   		getNav();
   		addSidebarToggler();
 
-	
-		// Get the Twitter feed
-	    getTwitterFeed("joshkerr", 3, false);
-	
         if(params()['q'])
         {
         	var query = params()['q'];
