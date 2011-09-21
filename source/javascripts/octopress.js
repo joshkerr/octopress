@@ -103,10 +103,10 @@ $.domReady(function(){
 
 Modernizr.load([
   {
-    load: 'http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js',
+    load: '//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js',
     complete: function () {
       if ( !window.jQuery ) {
-		Alert("Error!  Jquery not loaded");
+	
       }
     }
   }
