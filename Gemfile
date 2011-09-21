@@ -15,6 +15,8 @@ group :development do
   gem 'domainatrix'
   gem 'indextank'
   gem 'nokogiri'
+  gem 'ruby-aaws'
+  gem 's3sync'
 end
 
 gem 'sinatra', '1.2.6'
