@@ -98,14 +98,6 @@ function wrapFlashVideos(){
   });
 }
 
-$.domReady(function(){
-  testFeatures();
-  wrapFlashVideos();
-  flashVideoFallback();
-  addCodeLineNumbers();
-  getNav();
-  addSidebarToggler();
-});
 
 // iOS scaling bug fix
 // Rewritten version

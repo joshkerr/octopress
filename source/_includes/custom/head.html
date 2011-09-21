@@ -19,7 +19,17 @@
       return vars;
 	}
 
+
 	$(document).ready(function() {
+	
+		// Octopress specific features
+	  	testFeatures();
+	  	wrapFlashVideos();
+  		flashVideoFallback();
+		addCodeLineNumbers();
+  		getNav();
+  		addSidebarToggler();
+
 	
 		// Get the Twitter feed
 	    getTwitterFeed("{{site.twitter_user}}", {{site.twitter_tweet_count}}, {{site.twitter_show_replies}});

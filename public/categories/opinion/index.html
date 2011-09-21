@@ -46,7 +46,17 @@
       return vars;
 	}
 
+
 	$(document).ready(function() {
+	
+		// Octopress specific features
+	  	testFeatures();
+	  	wrapFlashVideos();
+  		flashVideoFallback();
+		addCodeLineNumbers();
+  		getNav();
+  		addSidebarToggler();
+
 	
 		// Get the Twitter feed
 	    getTwitterFeed("joshkerr", 3, false);
