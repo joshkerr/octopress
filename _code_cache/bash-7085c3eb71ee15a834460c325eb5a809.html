@@ -1,0 +1,17 @@
+<div class="highlight"><pre><span class="c">#!/bin/bash</span>
+
+<span class="nv">APPNAME</span><span class="o">=</span><span class="k">${</span><span class="nv">2</span><span class="k">:-$(</span>basename <span class="s2">&quot;$1&quot;</span> <span class="s2">&quot;.sh&quot;</span><span class="k">)}</span>
+<span class="nv">DIR</span><span class="o">=</span><span class="s2">&quot;$APPNAME.app/Contents/MacOS&quot;</span>
+
+<span class="k">if</span> <span class="o">[[</span> -a <span class="s2">&quot;$APPNAME.app&quot;</span> <span class="o">]]</span>; <span class="k">then</span>
+<span class="k">  </span><span class="nb">echo</span> <span class="s2">&quot;$PWD/$APPNAME.app already exists :(&quot;</span>
+  <span class="nb">exit </span>1
+<span class="k">fi</span>
+
+mkdir -p <span class="s2">&quot;$DIR&quot;</span>
+cp <span class="s2">&quot;$1&quot;</span> <span class="s2">&quot;$DIR/$APPNAME&quot;</span>
+chmod +x <span class="s2">&quot;$DIR/$APPNAME&quot;</span>
+
+<span class="nb">echo</span> <span class="s2">&quot;$PWD/$APPNAME.app&quot;</span>
+</pre>
+</div>
