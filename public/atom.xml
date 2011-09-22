@@ -4,13 +4,26 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-09-21T21:30:17-05:00</updated>
+  <updated>2011-09-22T10:11:03-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>Gunpoint Game</title>
+    <link href="http://joshkerr.com/2011/09/gunpoint-game/"/>
+    <updated>2011-09-22T09:19:00-05:00</updated>
+    <id>http://joshkerr.com/2011/09/gunpoint-game</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/472n2f0S41202E1w3a2L/Screen%20Shot%202011-09-22%20at%209.19.12%20AM.png&quot; alt=&quot;Gunpoint Game screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://arstechnica.com/gaming/news/2011/09/gunpoint-hands-on-an-intelligent-spy-thriller-with-breakable-glass.ars?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign=rss&quot;&gt;Ars Technica&lt;/a&gt; wrote about a new came called Gunpoint which is in development by a guy who writes for PC Gamer.  The game has this 8bit graphics that remind me of the days of Leisure Suit Larry and make me really want to play his game.  Unfortunately the game is under development and not completed.&lt;/p&gt;
+
+&lt;p&gt;Get this thing out soon.  Please.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Some Great OSX Hacks via the Command Line</title>
@@ -333,21 +346,6 @@
 &lt;p&gt;The amount of energy it would take to destroy the earth is so massive, over  200,000,000,000,000,000,000,000,000,000,000 joules of it, that you would need to harness all of the output of the sun for over a week.  That&amp;#8217;s quite a bit.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://blastr.com/2011/09/astronomer-explains-why-w.php?utm_campaign=Feed%3A+http%3A%2F%2Fservices.digg.com%2F2.0%2Fstory.getTopNews%3Ftype%3Drss&amp;amp;utm_medium=feed&amp;amp;utm_source=diggapi&quot;&gt;3 Reasons why we can&amp;#8217;t blow up the earth SciFi style&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Octopress Is a Great Jekyll Blogging System</title>
-    <link href="http://joshkerr.com/2011/09/octopress-is-a-great-jekyll-blogging-system/"/>
-    <updated>2011-09-12T16:47:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/octopress-is-a-great-jekyll-blogging-system</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/0HT9J.png&quot; alt=&quot;Octopress is the shizz&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I don&amp;#8217;t know how I missed this, but it appears that someone has taken &lt;a href=&quot;http://www.jekyllrb.org&quot;&gt;Jekyll&lt;/a&gt; and packaged it with a great theme and a whole slew of plugins.  This package called &lt;a href=&quot;http://www.octopress.org&quot;&gt;Octopress&lt;/a&gt; is a fantastic static blogging package that in my opinion matches what you&amp;#8217;d get with &lt;a href=&quot;http://www.wordpress.org&quot;&gt;Wordpress&lt;/a&gt; straight out of the box.&lt;/p&gt;
-
-&lt;p&gt;I actually prefer the Octopress default theme to &lt;a href=&quot;http://www.wordpress.org&quot;&gt;Wordpress&lt;/a&gt;&amp;#8217;s.  A great side benefit to using &lt;a href=&quot;http://www.octopress.org&quot;&gt;Octopress&lt;/a&gt; is that it takes advantage of some of the newer more cutting edge technologies like &lt;a href=&quot;http://sass-lang.com/&quot;&gt;SASS&lt;/a&gt; and &lt;a href=&quot;http://compass-style.org/&quot;&gt;Compass&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It took me all of 10 minutes to migrate to Octopress.&lt;/p&gt;
 </content>
   </entry>
   
