@@ -37,14 +37,7 @@ function testFeatures() {
         Modernizr.addTest(feature,function(){
            Modernizr.testAllProps(feature)
         });
-    });
-    
-   if ("placeholder" in document.createElement("input")) {
-    $('html').addClass('placeholder');
-  } else {
-    $('html').addClass('no-placeholder');
-  } 
-    
+    });    
 }
 
 function addCodeLineNumbers(){
