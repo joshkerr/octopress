@@ -30,22 +30,21 @@ function addSidebarToggler() {
   }
   if(sections.length >= 3){ $('aside[role=sidebar]').addClass('thirds') }
 }
-function testFeatures() {
 
-  var features = ['maskImage'];
-  $(features).map(function(feature){
-    if (Modernizr.testAllProps(feature)) {
-      $('html').addClass(feature);
-    } else {
-      $('html').addClass('no-'+feature);
-    }
-  });
-  
-  if ("placeholder" in document.createElement("input")) {
+function testFeatures() {   
+    var features = ['maskImage'];   
+    $(features).map(function(i,feature){     
+        Modernizr.addTest(feature,function(){
+           Modernizr.testAllProps(feature)
+        });
+    });
+    
+   if ("placeholder" in document.createElement("input")) {
     $('html').addClass('placeholder');
   } else {
     $('html').addClass('no-placeholder');
-  }
+  } 
+    
 }
 
 function addCodeLineNumbers(){
