@@ -1,0 +1,14 @@
+---
+layout: post
+title: "HP Board"
+date: 2011-09-22 10:41
+comments: true
+categories: rant
+---
+![HP](http://f.cl.ly/items/2q3G1u1H1Y0A2n361S2d/Screen%20Shot%202011-09-22%20at%2010.47.29%20AM.png)
+
+HP's board could be the worst ever according to a Wall Street Journal [article].  They've made some pretty bad decisions starting with Carly Fiorina and going all the way to today's leak that they plan to fire current CEO Leo Apotheker.  I've got a soft spot in my heart for HP ever since my first job out of college at Compaq.  (HP acquired Compaq in 2002.)
+
+HP's recent history has more the makings of a bad movie than it does a public corporation.  I get the feeling that my grandmother would make a better board member than any of the current board.
+
+[article]:http://blogs.wsj.com/deals/2011/09/21/hewlett-packard-worst-board-ever/?mod=e2tw
