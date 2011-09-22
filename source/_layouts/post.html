@@ -4,7 +4,7 @@ single: true
 ---
 
 <div>
-<article class="hentry">
+<article class="hentry" role="article">
   {% include article.html %}
   <footer>
     <p class="meta">
@@ -15,27 +15,17 @@ single: true
     {% unless page.sharing == false %}
       {% include post/sharing.html %}
     {% endunless %}
-
-      <h2> Related posts</h2>
-      <ul>
-      {% for post in site.related_posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-      </ul>
-
-
-
   </footer>
 </article>
-{% if site.disqus_short_name and page.comments != false %}
+{% if site.disqus_short_name and page.comments == true %}
   <section>
     <h1>Comments</h1>
-    <div id="disqus_thread">{% include post/disqus_thread.html %}</div>
+    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
   </section>
 {% endif %}
 </div>
 {% unless page.sidebar == false %}
-<aside role=sidebar>
+<aside class="sidebar">
   {% if site.post_asides.size %}
     {% include_array post_asides %}
   {% else %}

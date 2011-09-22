@@ -4,7 +4,7 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-09-22T10:11:03-05:00</updated>
+  <updated>2011-09-22T10:23:52-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
@@ -220,37 +220,37 @@
     <id>http://joshkerr.com/2011/09/create-mac-app-from-shell-script</id>
     <content type="html">&lt;blockquote&gt;&lt;p&gt;Great article showing how to convert a shell script into a Mac app.&lt;/p&gt;&lt;/blockquote&gt;
 
-&lt;figure role=code&gt;&lt;figcaption&gt;&lt;span&gt;Convert script into app &lt;/span&gt;&lt;a href=&#8217;http://mathiasbynens.be/notes/shell-script-mac-apps&#8217;&gt;Matias Bynens Website &lt;/a&gt;&lt;/figcaption&gt; &lt;div class=&quot;highlight&quot;&gt;&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line&#8217;&gt;1&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;2&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;3&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;4&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;5&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;6&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;7&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;8&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;9&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;10&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;11&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;12&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;13&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;14&lt;/span&gt;
-&lt;span class=&#8217;line&#8217;&gt;15&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217; width=&#8217;100%&#8217;&gt;&lt;pre&gt;&lt;code class=&#8217;bash&#8217;&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;nv&quot;&gt;APPNAME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:-$(&lt;/span&gt;basename &lt;span class=&quot;s2&quot;&gt;&amp;quot;$1&amp;quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;.sh&amp;quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)}&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;nv&quot;&gt;DIR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;$APPNAME.app/Contents/MacOS&amp;quot;&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[[&lt;/span&gt; -a &lt;span class=&quot;s2&quot;&gt;&amp;quot;$APPNAME.app&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;k&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$PWD/$APPNAME.app already exists :(&amp;quot;&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;  &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;1
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;mkdir -p &lt;span class=&quot;s2&quot;&gt;&amp;quot;$DIR&amp;quot;&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;cp &lt;span class=&quot;s2&quot;&gt;&amp;quot;$1&amp;quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$DIR/$APPNAME&amp;quot;&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;chmod +x &lt;span class=&quot;s2&quot;&gt;&amp;quot;$DIR/$APPNAME&amp;quot;&lt;/span&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;
-&lt;/div&gt;&lt;div class=&#8217;line&#8217;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$PWD/$APPNAME.app&amp;quot;&lt;/span&gt;
-&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;figure class=&#8217;code&#8217;&gt;&lt;figcaption&gt;&lt;span&gt;Convert script into app &lt;/span&gt;&lt;a href=&#8217;http://mathiasbynens.be/notes/shell-script-mac-apps&#8217;&gt;Matias Bynens Website &lt;/a&gt;&lt;/figcaption&gt; &lt;div class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre class=&quot;line-numbers&quot;&gt;&lt;span class=&#8217;line-number&#8217;&gt;1&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;2&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;3&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;4&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;5&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;6&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;7&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;8&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;9&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;10&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;11&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;12&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;13&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;14&lt;/span&gt;
+&lt;span class=&#8217;line-number&#8217;&gt;15&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#8217;code&#8217;&gt;&lt;pre&gt;&lt;code class=&#8217;bash&#8217;&gt;&lt;span class=&#8217;line&#8217;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;&lt;span class=&quot;nv&quot;&gt;APPNAME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;:-$(&lt;/span&gt;basename &lt;span class=&quot;s2&quot;&gt;&amp;quot;$1&amp;quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;.sh&amp;quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)}&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;&lt;span class=&quot;nv&quot;&gt;DIR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;$APPNAME.app/Contents/MacOS&amp;quot;&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[[&lt;/span&gt; -a &lt;span class=&quot;s2&quot;&gt;&amp;quot;$APPNAME.app&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;&lt;span class=&quot;k&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$PWD/$APPNAME.app already exists :(&amp;quot;&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;  &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;1
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;&lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;mkdir -p &lt;span class=&quot;s2&quot;&gt;&amp;quot;$DIR&amp;quot;&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;cp &lt;span class=&quot;s2&quot;&gt;&amp;quot;$1&amp;quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$DIR/$APPNAME&amp;quot;&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;chmod +x &lt;span class=&quot;s2&quot;&gt;&amp;quot;$DIR/$APPNAME&amp;quot;&lt;/span&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;
+&lt;/span&gt;&lt;span class=&#8217;line&#8217;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;$PWD/$APPNAME.app&amp;quot;&lt;/span&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
 
 
 &lt;p&gt;&lt;a href=&quot;http://mathiasbynens.be/notes/shell-script-mac-apps&quot;&gt;Mathias Bynens on converting script into App&lt;/a&gt;&lt;/p&gt;

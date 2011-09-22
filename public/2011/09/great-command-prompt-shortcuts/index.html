@@ -7,6 +7,9 @@
   <meta charset="utf-8">
   <title>Great command prompt shortcuts - Josh Kerr</title>
   <meta name="author" content="Josh Kerr">
+
+  
+  <meta name="description" content="I came across these outstanding command prompt shortcuts on Skorks and had to post them.  I originally bookmarked them via Delicious, but they are ...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -15,15 +18,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-
-  <link rel="canonical" href="http://joshkerr.com/2011/09/great-command-prompt-shortcuts/"/>
-  <link href="/favicon.png" rel="shortcut icon" />
+  <link rel="canonical" href="http://joshkerr.com/2011/09/great-command-prompt-shortcuts/">
+  <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.0.6-development-only.js"></script>
+  <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="http://s3.amazonaws.com/ender-js/jeesh.min.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Josh Kerr" type="application/atom+xml"/>
-    <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
+  <link href="/atom.xml" rel="alternate" title="Josh Kerr" type="application/atom+xml">
+  <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
 <link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script> 
@@ -79,7 +81,7 @@
 </head>
 
 <body  >
-  <header><hgroup>
+  <header role="banner"><hgroup>
   <h1><a href="/">Josh Kerr</a></h1>
   
     <h2>Startups + Gadgets + Geekery</h2>
@@ -87,12 +89,13 @@
 </hgroup>
 
 </header>
-  <nav role=navigation><ul role=subscription data-subscription="rss">
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
   <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   
 </ul>
 <form action="http://joshkerr.com/search/" method="get">
-  <fieldset role="site-search">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:joshkerr.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -108,7 +111,7 @@
   <div id="main">
     <div id="content">
       <div>
-<article class="hentry">
+<article class="hentry" role="article">
   
     
 	  <header>
@@ -132,99 +135,99 @@
 
 
 
-<figure role=code><figcaption><span>Convert script into app  </span></figcaption>
-<div class="highlight"><table cellpadding="0" cellspacing="0"><tr><td class="gutter"><pre class="line-numbers"><span class='line'>1</span>
-<span class='line'>2</span>
-<span class='line'>3</span>
-<span class='line'>4</span>
-<span class='line'>5</span>
-<span class='line'>6</span>
-<span class='line'>7</span>
-<span class='line'>8</span>
-<span class='line'>9</span>
-<span class='line'>10</span>
-<span class='line'>11</span>
-<span class='line'>12</span>
-<span class='line'>13</span>
-<span class='line'>14</span>
-<span class='line'>15</span>
-<span class='line'>16</span>
-<span class='line'>17</span>
-<span class='line'>18</span>
-<span class='line'>19</span>
-<span class='line'>20</span>
-<span class='line'>21</span>
-<span class='line'>22</span>
-<span class='line'>23</span>
-<span class='line'>24</span>
-<span class='line'>25</span>
-<span class='line'>26</span>
-<span class='line'>27</span>
-<span class='line'>28</span>
-<span class='line'>29</span>
-<span class='line'>30</span>
-<span class='line'>31</span>
-<span class='line'>32</span>
-<span class='line'>33</span>
-<span class='line'>34</span>
-<span class='line'>35</span>
-<span class='line'>36</span>
-<span class='line'>37</span>
-<span class='line'>38</span>
-<span class='line'>39</span>
-<span class='line'>40</span>
-<span class='line'>41</span>
-<span class='line'>42</span>
-<span class='line'>43</span>
-<span class='line'>44</span>
-<span class='line'>45</span>
-<span class='line'>46</span>
-</pre></td><td class='code' width='100%'><pre><code class=''><div class='line'>Command Editing Shortcuts
-</div><div class='line'>
-</div><div class='line'>Ctrl + a – go to the start of the command line
-</div><div class='line'>Ctrl + e – go to the end of the command line
-</div><div class='line'>Ctrl + k – delete from cursor to the end of the command line
-</div><div class='line'>Ctrl + u – delete from cursor to the start of the command line
-</div><div class='line'>Ctrl + w – delete from cursor to start of word (i.e. delete backwards one word)
-</div><div class='line'>Ctrl + y – paste word or text that was cut using one of the deletion shortcuts (such as the one above) after the cursor
-</div><div class='line'>Ctrl + xx – move between start of command line and current cursor position (and back again)
-</div><div class='line'>Alt + b – move backward one word (or go to start of word the cursor is currently on)
-</div><div class='line'>Alt + f – move forward one word (or go to end of word the cursor is currently on)
-</div><div class='line'>Alt + d – delete to end of word starting at cursor (whole word if cursor is at the beginning of word)
-</div><div class='line'>Alt + c – capitalize to end of word starting at cursor (whole word if cursor is at the beginning of word)
-</div><div class='line'>Alt + u – make uppercase from cursor to end of word
-</div><div class='line'>Alt + l – make lowercase from cursor to end of word
-</div><div class='line'>Alt + t – swap current word with previous
-</div><div class='line'>Ctrl + f – move forward one character
-</div><div class='line'>Ctrl + b – move backward one character
-</div><div class='line'>Ctrl + d – delete character under the cursor
-</div><div class='line'>Ctrl + h – delete character before the cursor
-</div><div class='line'>Ctrl + t – swap character under cursor with the previous one
-</div><div class='line'>Command Recall Shortcuts
-</div><div class='line'>
-</div><div class='line'>Ctrl + r – search the history backwards
-</div><div class='line'>Ctrl + g – escape from history searching mode
-</div><div class='line'>Ctrl + p – previous command in history (i.e. walk back through the command history)
-</div><div class='line'>Ctrl + n – next command in history (i.e. walk forward through the command history)
-</div><div class='line'>Alt + . – use the last word of the previous command
-</div><div class='line'>Command Control Shortcuts
-</div><div class='line'>
-</div><div class='line'>Ctrl + l – clear the screen
-</div><div class='line'>Ctrl + s – stops the output to the screen (for long running verbose command)
-</div><div class='line'>Ctrl + q – allow output to the screen (if previously stopped using command above)
-</div><div class='line'>Ctrl + c – terminate the command
-</div><div class='line'>Ctrl + z – suspend/stop the command
-</div><div class='line'>Bash Bang (!) Commands
-</div><div class='line'>
-</div><div class='line'>Bash also has some handy features that use the ! (bang) to allow you to do some funky stuff with bash commands.
-</div><div class='line'>
-</div><div class='line'>!! - run last command
-</div><div class='line'>!blah – run the most recent command that starts with ‘blah’ (e.g. !ls)
-</div><div class='line'>!blah:p – print out the command that !blah would run (also adds it as the latest command in the command history)
-</div><div class='line'>!$ – the last word of the previous command (same as Alt + .)
-</div><div class='line'>!$:p – print out the word that !$ would substitute
-</div><div class='line'>!* – the previous command except for the last word (e.g. if you type ‘find some_file.txt /‘, then !* would give you ‘find some_file.txt‘)
-</div><div class='line'>!*:p – print out what !* would substitute</div></code></pre></td></tr></table></div></figure>
+<figure class='code'><figcaption><span>Convert script into app  </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Command Editing Shortcuts
+</span><span class='line'>
+</span><span class='line'>Ctrl + a – go to the start of the command line
+</span><span class='line'>Ctrl + e – go to the end of the command line
+</span><span class='line'>Ctrl + k – delete from cursor to the end of the command line
+</span><span class='line'>Ctrl + u – delete from cursor to the start of the command line
+</span><span class='line'>Ctrl + w – delete from cursor to start of word (i.e. delete backwards one word)
+</span><span class='line'>Ctrl + y – paste word or text that was cut using one of the deletion shortcuts (such as the one above) after the cursor
+</span><span class='line'>Ctrl + xx – move between start of command line and current cursor position (and back again)
+</span><span class='line'>Alt + b – move backward one word (or go to start of word the cursor is currently on)
+</span><span class='line'>Alt + f – move forward one word (or go to end of word the cursor is currently on)
+</span><span class='line'>Alt + d – delete to end of word starting at cursor (whole word if cursor is at the beginning of word)
+</span><span class='line'>Alt + c – capitalize to end of word starting at cursor (whole word if cursor is at the beginning of word)
+</span><span class='line'>Alt + u – make uppercase from cursor to end of word
+</span><span class='line'>Alt + l – make lowercase from cursor to end of word
+</span><span class='line'>Alt + t – swap current word with previous
+</span><span class='line'>Ctrl + f – move forward one character
+</span><span class='line'>Ctrl + b – move backward one character
+</span><span class='line'>Ctrl + d – delete character under the cursor
+</span><span class='line'>Ctrl + h – delete character before the cursor
+</span><span class='line'>Ctrl + t – swap character under cursor with the previous one
+</span><span class='line'>Command Recall Shortcuts
+</span><span class='line'>
+</span><span class='line'>Ctrl + r – search the history backwards
+</span><span class='line'>Ctrl + g – escape from history searching mode
+</span><span class='line'>Ctrl + p – previous command in history (i.e. walk back through the command history)
+</span><span class='line'>Ctrl + n – next command in history (i.e. walk forward through the command history)
+</span><span class='line'>Alt + . – use the last word of the previous command
+</span><span class='line'>Command Control Shortcuts
+</span><span class='line'>
+</span><span class='line'>Ctrl + l – clear the screen
+</span><span class='line'>Ctrl + s – stops the output to the screen (for long running verbose command)
+</span><span class='line'>Ctrl + q – allow output to the screen (if previously stopped using command above)
+</span><span class='line'>Ctrl + c – terminate the command
+</span><span class='line'>Ctrl + z – suspend/stop the command
+</span><span class='line'>Bash Bang (!) Commands
+</span><span class='line'>
+</span><span class='line'>Bash also has some handy features that use the ! (bang) to allow you to do some funky stuff with bash commands.
+</span><span class='line'>
+</span><span class='line'>!! - run last command
+</span><span class='line'>!blah – run the most recent command that starts with ‘blah’ (e.g. !ls)
+</span><span class='line'>!blah:p – print out the command that !blah would run (also adds it as the latest command in the command history)
+</span><span class='line'>!$ – the last word of the previous command (same as Alt + .)
+</span><span class='line'>!$:p – print out the word that !$ would substitute
+</span><span class='line'>!* – the previous command except for the last word (e.g. if you type ‘find some_file.txt /‘, then !* would give you ‘find some_file.txt‘)
+</span><span class='line'>!*:p – print out what !* would substitute</span></code></pre></td></tr></table></div></figure>
 
 
 <p>Courtesy of <a href="http://www.skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/">Skorks</a>.</p>
@@ -271,64 +274,12 @@
 </div>
 
     
-
-      <h2> Related posts</h2>
-      <ul>
-      
-        <li><a href="/2011/09/some-great-osx-hacks-via-the-command-line/">Some Great OSX Hacks via the Command Line</a></li>
-      
-        <li><a href="/2011/09/site2pic-creates-website-screenshots/">Site2Pic Creates Website Screenshots</a></li>
-      
-        <li><a href="/2011/09/create-mac-app-from-shell-script/">Create Mac App From Shell Script</a></li>
-      
-        <li><a href="/2011/09/octopress-is-a-great-jekyll-blogging-system/">Octopress Is a Great Jekyll Blogging System</a></li>
-      
-        <li><a href="/2011/09/ruby-mine-as-a-jekyll-front-end/">Ruby Mine as a Jekyll front end</a></li>
-      
-        <li><a href="/2011/09/easily-add-search-to-static-blog/">Easily add search to a static blog</a></li>
-      
-        <li><a href="/2011/09/using-ia-writer-with-jekyll/">Using iA Writer with Jekyll</a></li>
-      
-        <li><a href="/2011/08/change-the-launchpad-folder-background-image/">Change the Launchpad Folder Background Image</a></li>
-      
-        <li><a href="/2011/05/tech-tool-pro-now-allows-bootable-partition/">Tech Tool Pro now allows bootable partition</a></li>
-      
-        <li><a href="/2011/02/a-bash-prompt-full-of-color-makes-a-happy-terminal/">a bash prompt full of color makes a happy terminal</a></li>
-      
-        <li><a href="/2011/02/securely-erasing-files-on-your-mac/">securely erasing files on your mac</a></li>
-      
-        <li><a href="/2011/01/Your-Exchange-server-doesnt-have-imap-no-problem/">Your Exchange server doesn't have imap?  No problem.</a></li>
-      
-        <li><a href="/2010/09/how-to-pitch-your-startup-to-the-press/">How to pitch your startup to the press</a></li>
-      
-      </ul>
-
-
-
   </footer>
 </article>
 
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread"><div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_shortname = 'joshkerr';
-  var disqus_identifier = 'http://joshkerr.com/2011/09/great-command-prompt-shortcuts/';
-  var disqus_url = 'http://joshkerr.com/2011/09/great-command-prompt-shortcuts/';
-  //var disqus_developer = 1;
-  (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-  </section>
-
 </div>
 
-<aside role=sidebar>
+<aside class="sidebar">
   
     <section>
   <h1>Josh Kerr</h1>
@@ -396,6 +347,12 @@
   <ul id="tweets">
     <li class="loading">Status updating...</li>
   </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("joshkerr", 3, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
   
     <a href="http://twitter.com/joshkerr" class="twitter-follow-button" data-width="208px" data-show-count="false">Follow @joshkerr</a>
   
@@ -415,13 +372,16 @@
 
     </div>
   </div>
-  <footer><p>
+  <footer role="contentinfo"><p>
   Copyright &copy; 2011 - Josh Kerr -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
   <span class="credit"> | Additional <a href="/attributions/">Attributions</a></span>
 </p>
 
 </footer>
+  
+
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
