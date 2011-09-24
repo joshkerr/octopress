@@ -109,8 +109,9 @@ task :new_post, :title do |t, args|
 
   #open in iAWriter & Marked
   #open_iAWriter(filename)
-  open_bbedit(filename)
-  open_Marked(filename)
+  #open_bbedit(filename)
+  #open_Marked(filename)
+  open_byword(filename)
 end
 
 # usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")
@@ -404,4 +405,8 @@ end
 
 def open_Marked(path)
 	sh 'open $1 -a /Applications/Marked.app ' + path
+end
+
+def open_byword(path)
+	sh 'open $1 -a /Applications/Byword.app ' + path
 end
