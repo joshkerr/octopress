@@ -96,7 +96,7 @@ embedly:
     api_key: 73f5a094accd11e0b7c34040d3dc5c07
 
     vimeo:
-        width: 640
+        width: 600
 
     youtube:
-        width: 640
+        width: 600
