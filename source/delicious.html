@@ -4,13 +4,14 @@ title: Delicious Bookmarks
 permalink: /delicious/
 ---
 
-<p>I track interesting content through Delicious a bookmarking service.  I acquire these links mostly through my RSS reader (Reeder.)  A lot of these links end up becoming articles on my blog.</p>
+<p>I track interesting content through Delicious a bookmarking service.  I acquire these links mostly through my RSS reader (Reeder.)</p>
 
 {% if site.delicious_user %}
 <section>
-	<h1>On Delicious</h1>
+<ul>
 {% delicious username:joshkerr count:40 %}
   <li><a href="{{ item.link }}" title="{{ item.description }}" rel="external">{{ item.title }}</a></li>
   {% enddelicious %}
+</ul>
 </section>
 {% endif %}
