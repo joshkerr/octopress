@@ -17,6 +17,7 @@ group :development do
   gem 'nokogiri'
   gem 'ruby-aaws'
   gem 's3sync'
+  gem 'hpricot'
 end
 
 gem 'sinatra', '1.2.6'

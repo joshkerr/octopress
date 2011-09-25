@@ -27,6 +27,7 @@ GEM
     ffi (1.0.9-x86-mingw32)
     fssm (0.2.7)
     haml (3.1.2)
+    hpricot (0.8.4)
     indextank (1.0.12)
       faraday-stack
       yajl-ruby (>= 0.7.7)
@@ -74,6 +75,7 @@ DEPENDENCIES
   compass (>= 0.11)
   domainatrix
   haml (>= 3.1)
+  hpricot
   indextank
   jekyll
   nokogiri
