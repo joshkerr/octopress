@@ -104,4 +104,16 @@ aside.sidebar.thirds section
 float: left;
 padding-right: 10px;	
 }
+#related-posts {
+	list-style: square;
+	color: #ccc;
+}
 
+#content div article.hentry footer h3 {
+	padding-top: 30px;
+}
+
+#related-posts li{
+	padding: 1px;
+
+}

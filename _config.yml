@@ -25,7 +25,7 @@ source: source
 destination: public
 plugins: plugins
 code_dir: downloads/code
-category_dir: categories
+category_dir: blog/category
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
 
@@ -85,7 +85,6 @@ delicious_archive_count: 25
 
 # Disqus Comments
 disqus_short_name: joshkerr
-disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
