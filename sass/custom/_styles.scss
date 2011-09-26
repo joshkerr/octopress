@@ -76,3 +76,32 @@ p#search-credit {
 
 aside.sidebar.thirds section
 {width:90%;}
+
+#bookmarks {
+	list-style: square;
+	color: #ccc;
+}
+#bookmarks li{
+	padding: 10px;
+	border-bottom: 1px dashed ;
+}
+
+#content div article ul.archive {
+	list-style: none;
+	color: #ccc;
+}
+#content div article ul.archive li {
+	padding: 10px;
+	border-bottom: 1px dashed ;
+
+}
+
+#content div article ul.archive li a{
+	white-space: nowrap;
+}
+	
+#content div article ul.archive li div.archive-date {
+float: left;
+padding-right: 10px;	
+}
+

@@ -6,12 +6,8 @@ permalink: /delicious/
 
 <p>I track interesting content through Delicious a bookmarking service.  I acquire these links mostly through my RSS reader (Reeder.)</p>
 
-{% if site.delicious_user %}
-<section>
-<ul>
-{% delicious username:joshkerr count:40 %}
+<ul id="bookmarks">
+{% delicious username:joshkerr count:20 ttl=3600 %}
   <li><a href="{{ item.link }}" title="{{ item.description }}" rel="external">{{ item.title }}</a></li>
-  {% enddelicious %}
+{% enddelicious %}
 </ul>
-</section>
-{% endif %}

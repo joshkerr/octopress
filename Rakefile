@@ -110,7 +110,7 @@ task :new_post, :title do |t, args|
   #open in iAWriter & Marked
   #open_iAWriter(filename)
   open_bbedit(filename)
-  open_Marked(filename)
+  #open_Marked(filename)
   #open_byword(filename)
 end
 

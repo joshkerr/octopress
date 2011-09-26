@@ -1,7 +1,7 @@
 {% if site.delicious_user %}
 <section>
 	<h1>On Delicious</h1>
-{% delicious username:joshkerr count:5 %}
+{% delicious username:joshkerr count:5 ttl=3600 %}
   <li><a href="{{ item.link }}" title="{{ item.description }}" rel="external">{{ item.title }}</a></li>
   {% enddelicious %}
 </section>
