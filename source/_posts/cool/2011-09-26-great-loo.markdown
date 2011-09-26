@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Great Loo & Placido mashup"
+date: 2011-09-26 16:30
+comments: true
+categories: cool
+---
+{% embedly http://soundcloud.com/rock_mashups/loo-placido-kanye-west-mashup %}
+
+This is a great Loo & Placido mashup called Betty got Jacked.  (Ram Jam, Herve, C&C, etc..)  I love these guys.
