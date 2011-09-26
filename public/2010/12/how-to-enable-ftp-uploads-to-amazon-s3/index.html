@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>how to enable ftp uploads to amazon s3 - Josh Kerr</title>
+  <title>How to enable FTP uploads to Amazon S3 - Josh Kerr</title>
   <meta name="author" content="Josh Kerr">
 
   
@@ -115,7 +115,7 @@
   
     
 	  <header>
-      <h3 class="entry-title">How to Enable Ftp Uploads to Amazon S3</h3>
+      <h3 class="entry-title">How to Enable FTP Uploads to Amazon S3</h3>
       <p class="meta">
 
 
@@ -128,45 +128,61 @@
 
 <time datetime="2010-12-17T00:00:00-06:00" pubdate  data-updated="true" >Dec 17<span>th</span>, 2010</time></p>
 	</header>
-	<div class="entry-content"><p>There are many apps which allow you to upload an image to a server which can then be inserted into content.  I keep my images on Amazon S3 storage because of the cost/space benefits.  Many of these apps support ftp but not Amazon S3 leaving me with the added burden of manually copying my images to their destination.
-I recently started using myTumblr to create my Tumblr content and wanted to use it with Amazon S3, but it only supports ftp.  No problem, I&#8217;ll improvise.</p>
+	<div class="entry-content"><p>There are many apps which allow you to upload an image to a server which can then be inserted into content.  I keep my images on Amazon S3 storage because of the cost/space benefits.  Many of these apps support ftp but not Amazon S3 leaving me with the added burden of manually copying my images to their destination.</p>
 
-<p>I&#8217;m a Mac user so I know that I&#8217;ve got built in ftp support.  Great, I&#8217;ll enable that:</p>
 
-<p><a href="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260590.jpg"><img src="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260590.jpg" alt="TurnOnFTP" /></a></p>
+<p>I recently started using myTumblr to create my Tumblr content and wanted to use it with Amazon S3, but it only supports ftp.  No problem, I&#8217;ll improvise.</p>
+
+
+
+
+<p>I&#8217;m a Mac user so I know that I&#8217;ve got built in ftp support.  Great, I&#8217;ll enable that</p>
+
+
+<p><img alt="myTumblr Image" src="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260590.jpg"/></p>
+
 
 <p>I go into my System Preferences, Sharing and then choose File Sharing and options.  I check the FTP option.  Make sure ftp is enabled.  Now create a folder to host those images on your local machine.  I chose something under:</p>
 
-<div>
-  <pre>
-    <code class='bash'>~/Sites/joshkerr.com/images/</code>
-  </pre>
-</div>
+
+<p><code>~/Sites/joshkerr.com/images/</code></p>
 
 
 <p>You cold also enable SSH and then use SFTP (which is what I did,) but that is entirely up to you.</p>
 
+
 <p>Next, I need a way to sync those files up to Amazon S3.  For more advanced users, you can just write a shell script and use FolderActions to trigger it.  For less advanced users, I recommend using Transmit by Panic.  It has an Automator action that is very easy to setup.</p>
+
 
 <p>Load up Automator and choose a new folder action.  Then set it up like so:</p>
 
-<p><a href="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260825.jpg"><img src="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260825.jpg" alt="AutomatorAction" /></a></p>
+
+<p><img alt="myTumblr Image" src="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292260825.jpg"/></p>
+
 
 <p>Make sure to choose the folder you created in the previous step to execute the folder action on.  Also be sure to choose the right Amazon S3 folder.  At the end, when you copy a new image into this folder, you want to trigger it to launch Transmit and sync the folder.</p>
 
+
 <p>Next you will need to make sure you have cloud font support enabled on Amazon S3.  This will give you a public URL that you can use that will be consistent for each image you upload to S3.</p>
+
 
 <p>If you are a bit more sophisticated, you can use a shell script to sync the files.  This has the added benefit of being a background operation.  I would still use Automator and folder actions to set it up, but this time around, do something like this:</p>
 
-<p><a href="http://joshkerr.s3.amazonaws.com/images/Automator%20with%20shell%20script.png"><img src="http://joshkerr.s3.amazonaws.com/images/Automator%20with%20shell%20script.png" alt="AutomatorScript" /></a></p>
+
+<p><a href="http://joshkerr.s3.amazonaws.com/images/Automator%20with%20shell%20script.png"><img alt="Automator with shell script" src="http://joshkerr.s3.amazonaws.com/images/Automator%20with%20shell%20script.png"/></a></p>
+
 
 <p>I used a ruby script called s3sync to handle the actual syncing.  I am not going to cover the installation of that utility in this article.</p>
 
+
 <p>The last step is to configure your app to support the new ftp site.  For me, I&#8217;m using myTumblr so I configure it like so:</p>
 
-<p><a href="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292261061.jpg"><img src="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292261061.jpg" alt="ConfigureApp" /></a></p>
+
+<p><img alt="myTumblr Image" src="http://joshkerr.s3.amazonaws.com/images/myTumblr_Image_1292261061.jpg"/></p>
+
 
 <p>Make sure to enter your cloud front URL instead of mine.  If everything is configured correctly, when a new image is added to the images folder it should launch a sync on Transmit.  The side effect of this unfortunately is that Transmit will open a new window in the foreground interrupting your workflow.  Still, it saves a bunch of steps that would otherwise complicate something that should be simple.</p>
+
 </div>
 	  
 
@@ -190,12 +206,6 @@ I recently started using myTumblr to create my Tumblr content and wanted to use 
 <time datetime="2010-12-17T00:00:00-06:00" pubdate  data-updated="true" >Dec 17<span>th</span>, 2010</time>
       
 
-<span class="categories">
-  
-    <a href="/blog/category/featured/">featured</a>
-  
-</span>
-
 
     </p>
     
@@ -214,34 +224,6 @@ I recently started using myTumblr to create my Tumblr content and wanted to use 
     <h3>Related Posts</h3>
     <ul id="related-posts">
     
-  	<li><a href="/2011/09/i-was-looking-for-a-delicious-app-for-mac/">I Was Looking for a Delicious App for Mac</a></li>
-	
-  	<li><a href="/2011/09/the-details-of-the-greatest-online-game-scam/">The details of the greatest online game scam</a></li>
-	
-  	<li><a href="/2011/09/capital-factory-demo-day-2011/">Capital Factory Demo Day 2011</a></li>
-	
-  	<li><a href="/2011/09/how-do-win-a-demogod-award-at-demo/">How to win a DEMOgod Award at DEMO</a></li>
-	
-  	<li><a href="/2011/08/monster-cable-goes-after-the-wrong-guy-lawsuit-gone-wrong/">Monster Cable goes after the wrong guy</a></li>
-	
-  	<li><a href="/2011/06/using-file-vault-2-with-multiple-drives/">Using File Vault 2 with multiple drives</a></li>
-	
-  	<li><a href="/2011/02/automatic-tv-show-downloading-via-sickbeard/">automatic tv show downloading via sickbeard on a mac</a></li>
-	
-  	<li><a href="/2011/02/automating-the-creation-of-posts-in-jekyll/">automating the creation of posts in jekyll</a></li>
-	
-  	<li><a href="/2010/12/repairing-your-disk-with-pgp-whole-disk-encryption-mac/">repairing your disk with pgp whole disk encryption mac</a></li>
-	
-  	<li><a href="/2010/11/quickly-encode-mkv-to-mv4-compatible-with-ipad/">quickly encode mkv to mv4 compatible with ipad</a></li>
-	
-  	<li><a href="/2010/10/using-duplicity-to-backup-your-server-to-amazon-s3/">using duplicity to backup your server to amazon s3</a></li>
-	
-  	<li><a href="/2010/10/christina-symanski-a-paralyzed-woman/">paralyzed woman does a video review of my app</a></li>
-	
-  	<li><a href="/2010/10/02/testflightapp-beta-test-iphone-apps-without-using-adhoc/">testflightapp beta test iphone apps without using adhoc</a></li>
-	
-  	<li><a href="/2010/04/i-almost-invented-napster/">I almost invented Napster.</a></li>
-	
 	</ul>
   </footer>
 </article>
@@ -275,15 +257,15 @@ I recently started using myTumblr to create my Tumblr content and wanted to use 
 <section>
 	<h1>On Delicious</h1>
 
+  <li><a href="http://feedproxy.google.com/~r/TheAwesomer/~3/-dzW6_gMAoo/" title="" rel="external">Marquese Scott Dubsteppin’</a></li>
+  
+  <li><a href="http://uncrate.com/stuff/rolex-hillary-tenzing-edition-watches/" title="" rel="external">Rolex Hillary Tenzing Edition Watches</a></li>
+  
+  <li><a href="http://www.tuaw.com/2011/09/26/textmate-2-alpha-before-christmas/" title="" rel="external">TextMate 2 alpha before Christmas?</a></li>
+  
   <li><a href="http://feedproxy.google.com/~r/boingboing/iBag/~3/0XBrTurq6Q0/what-makes-us-worth-defending.html" title="Amazing quote.  I can&#39;t believe this guy came up with this during questioning by congress." rel="external">What makes us worth defending</a></li>
   
   <li><a href="http://www.engadget.com/2011/09/23/scientists-reconstruct-images-from-our-brains-plan-to-do-the-sa/" title="" rel="external">Scientists reconstruct images from our brains, plan to do the same for dreams (video)</a></li>
-  
-  <li><a href="http://feeds.arstechnica.com/~r/arstechnica/index/~3/Tyr3Ry7RntE/hands-on-splashtop-remote-desktop-for-mac-beats-vnc.ars" title="" rel="external">Hands-on: Splashtop Remote Desktop for Mac beats VNC</a></li>
-  
-  <li><a href="http://feedproxy.google.com/~r/TheAwesomer/~3/lXBTpYAVHvM/" title="" rel="external">Adidas AdiPure Trainer</a></li>
-  
-  <li><a href="http://www.tuaw.com/2011/09/21/why-aapl-cant-just-hop-into-the-djia/" title="" rel="external">Why AAPL can&#39;t just hop into the DJIA</a></li>
   
 </section>
 
