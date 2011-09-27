@@ -4,13 +4,30 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-09-26T16:31:32-05:00</updated>
+  <updated>2011-09-27T15:23:04-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>Amazon Route 53 to Host Your DNS</title>
+    <link href="http://joshkerr.com/2011/09/amazon-route-53-to-host-your-dns/"/>
+    <updated>2011-09-27T13:15:00-05:00</updated>
+    <id>http://joshkerr.com/2011/09/amazon-route-53-to-host-your-dns</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/0F022n1Y1h322b3O0m0V/Screen%20Shot%202011-09-27%20at%201.14.40%20PM.png&quot; alt=&quot;Interstate 53&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hosting your DNS is a straight forward task for most web administrators.  Use your hosts NS servers and then forget about it.  If you care about the performance and availablity of your website, you might want to think twice about where you host it.&lt;/p&gt;
+
+&lt;p&gt;If you are the type of person who is running a high performanced memory cached website, then your site probably screams with performance.  DNS Resolution might be a factor that can completely slow down the performance for most of your users.  So all that horsepower means nothing.&lt;/p&gt;
+
+&lt;p&gt;I prefer to host my stuff at either &lt;a href=&quot;http://mediatemple.net/&quot;&gt;Media Temple&lt;/a&gt;, Amazon or Heroku.  All three of those services provide DNS hosting, but Amazon&amp;#8217;s Route 53 in my opinion is the most capable.  The bad news is that Amazon&amp;#8217;s interface is crypting using a &lt;a href=&quot;http://aws.amazon.com/developertools/Amazon-Route-53/9706686376855511&quot;&gt;perl script&lt;/a&gt; and command line to configure your zones.&lt;/p&gt;
+
+&lt;p&gt;Now enter &lt;a href=&quot;http://interstate53.com&quot;&gt;Interstate 53&lt;/a&gt;, a website that places a front end web interface to Amazons Route 53 service.  Interstate 53 is a free service that lets you batch your DNS changes over to Amazon&amp;#8217;s Route 53 service.  So you configure your Zones, click a button and then those changes are transmitted to Amazon.  It worked well for me as I migrated my domain from another DNS provider to Amazon.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Great Loo & Placido mashup</title>
@@ -107,7 +124,7 @@
     <link href="http://joshkerr.com/2011/09/i-think-this-fan-impressed-his-date/"/>
     <updated>2011-09-24T10:09:00-05:00</updated>
     <id>http://joshkerr.com/2011/09/i-think-this-fan-impressed-his-date</id>
-    <content type="html">&lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;600&quot; height=&quot;337&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/HUfZDSb9moY?version=3&amp;start=72&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/HUfZDSb9moY?version=3&amp;start=72&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;600&quot; height=&quot;337&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
+    <content type="html">&lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;600&quot; height=&quot;337&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/HUfZDSb9moY?version=3&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/HUfZDSb9moY?version=3&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;600&quot; height=&quot;337&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
 
 
 &lt;p&gt;The action starts at 1:17.   Eddie is on a date and won&amp;#8217;t get off his mobile phone before trying to dunk in front of an arena full of people.  Hilarity ensues.&lt;/p&gt;
@@ -285,23 +302,6 @@
 &lt;p&gt;Are you looking to upgrade the way you fly? Probably not.  It is doubtful that the sort of people who could afford this type of cabin on a plane would be reading this blog.  So instead, let me introduce you to the way that you won&amp;#8217;t be flying.  Private cabin.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://elitechoice.org/2011/09/17/airbus-showcases-worlds-largest-corporate-jet-cabin-on-airbus-acj-318/&quot;&gt;More on Elite Choice&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Jedi Kittens. Enough Said.</title>
-    <link href="http://joshkerr.com/2011/09/jedi-kittens-enough-said/"/>
-    <updated>2011-09-16T22:29:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/jedi-kittens-enough-said</id>
-    <content type="html">&lt;blockquote&gt;&lt;p&gt;Not really sure what to say.  Kittens in Starwars?  The production quality is high, so someone obviously had too much free time on their hands.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;!&#8211; more &#8211;&gt;
-
-
-
-
-&lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;600&quot; height=&quot;337&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/4Z3r9X8OahA?version=3&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/4Z3r9X8OahA?version=3&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;600&quot; height=&quot;337&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
-
 </content>
   </entry>
   

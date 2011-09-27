@@ -122,6 +122,10 @@
 
 <ul id="bookmarks">
 
+  <li><a href="http://coding.smashingmagazine.com/2011/09/27/searchable-dynamic-content-with-ajax-crawling/" title="" rel="external">Searchable Dynamic Content With AJAX Crawling - Smashing Coding</a></li>
+
+  <li><a href="http://store.nike.com/us/en_us/?l=shop,pdp,ctr-inline/cid-1/pid-445802/pgid-445803" title="" rel="external">NikeStore. Shop the Official Nike Store for Shoes, Clothing &amp; Gear</a></li>
+
   <li><a href="http://uncrate.com/stuff/nike-talaria-boot/" title="" rel="external">Nike Talaria Boot</a></li>
 
   <li><a href="http://feedproxy.google.com/~r/TheAwesomer/~3/-dzW6_gMAoo/" title="" rel="external">Marquese Scott Dubsteppin’</a></li>
@@ -157,10 +161,6 @@
   <li><a href="http://blog.heroku.com/archives/2011/9/15/facebook/" title="Sick integration between Heroku and Facebook." rel="external">Heroku | Facebook and Heroku</a></li>
 
   <li><a href="http://mjtsai.com/blog/2011/09/15/metro/" title="great write up on Metro by Gruber" rel="external">Metro</a></li>
-
-  <li><a href="http://www.engadget.com/2011/09/16/corsair-vengeance-gaming-keyboards-mice-and-headsets-hands-on/" title="Really cool gaming keyboard." rel="external">Corsair Vengeance gaming keyboards, mice, and headsets hands-on (video) &#8211; Engadget</a></li>
-
-  <li><a href="https://github.com/ryankee/concrete" title="" rel="external">Simple continuous integration server written with NodeJS and CoffeeScript</a></li>
 
 </ul>
 
@@ -210,19 +210,23 @@
 
 
 <section>
-	<h1>On Delicious</h1>
-
-  <li><a href="http://uncrate.com/stuff/nike-talaria-boot/" title="" rel="external">Nike Talaria Boot</a></li>
-  
-  <li><a href="http://feedproxy.google.com/~r/TheAwesomer/~3/-dzW6_gMAoo/" title="" rel="external">Marquese Scott Dubsteppin’</a></li>
-  
-  <li><a href="http://uncrate.com/stuff/rolex-hillary-tenzing-edition-watches/" title="" rel="external">Rolex Hillary Tenzing Edition Watches</a></li>
-  
-  <li><a href="http://www.tuaw.com/2011/09/26/textmate-2-alpha-before-christmas/" title="" rel="external">TextMate 2 alpha before Christmas?</a></li>
-  
-  <li><a href="http://feedproxy.google.com/~r/boingboing/iBag/~3/0XBrTurq6Q0/what-makes-us-worth-defending.html" title="Amazing quote.  I can&#39;t believe this guy came up with this during questioning by congress." rel="external">What makes us worth defending</a></li>
-  
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:joshkerr">My Pinboard Bookmarks &raquo;</a></p>
 </section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "joshkerr"; //id target for pinboard list
+  var pinboard_count = 5; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
+
 
   
 </aside>
