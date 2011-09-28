@@ -4,13 +4,24 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-09-28T11:38:15-05:00</updated>
+  <updated>2011-09-28T11:44:33-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>Bell & Ross Harley Is Amazing</title>
+    <link href="http://joshkerr.com/2011/09/bell-and-ross-harley-is-amazing/"/>
+    <updated>2011-09-28T11:38:00-05:00</updated>
+    <id>http://joshkerr.com/2011/09/bell-and-ross-harley-is-amazing</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/9Afnx.jpg&quot; alt=&quot;Bell &amp;amp; Ross Harley&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I love this Bell &amp;amp; Ross designed Harley Davidson.  The blue tones are sick.  This is probably a limited run bike and something that will probably cost upward of $100k.  Its a beauty.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Amazon Route 53 to Host Your DNS</title>
@@ -289,19 +300,6 @@
 
 &lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;600&quot; height=&quot;337&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/XFnGhrC_3Gs?version=3&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/XFnGhrC_3Gs?version=3&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;600&quot; height=&quot;337&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
 
-</content>
-  </entry>
-  
-  <entry>
-    <title>Now This Is How You Fly</title>
-    <link href="http://joshkerr.com/2011/09/now-this-is-how-you-fly/"/>
-    <updated>2011-09-17T08:41:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/now-this-is-how-you-fly</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/413B2W1L382a0c2o3A1G/Screen%20Shot%202011-09-17%20at%208.41.02%20AM.png&quot; alt=&quot;Sick cabin&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Are you looking to upgrade the way you fly? Probably not.  It is doubtful that the sort of people who could afford this type of cabin on a plane would be reading this blog.  So instead, let me introduce you to the way that you won&amp;#8217;t be flying.  Private cabin.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://elitechoice.org/2011/09/17/airbus-showcases-worlds-largest-corporate-jet-cabin-on-airbus-acj-318/&quot;&gt;More on Elite Choice&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   
