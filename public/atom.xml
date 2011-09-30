@@ -4,13 +4,68 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-09-28T11:44:33-05:00</updated>
+  <updated>2011-09-30T15:40:52-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>First Looks: JH Audio JH16 Pro Custom In-Ear Monitor</title>
+    <link href="http://joshkerr.com/2011/09/3952245570/"/>
+    <updated>2011-09-30T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/09/3952245570</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.ilounge.com/index.php/ipod/review/jh-audio-jh16-pro-custom-in-ear-monitor/&quot;&gt;First Looks: JH Audio JH16 Pro Custom In-Ear Monitor&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://assets.ilounge.com/images/reviews_jhaudio/jh16pro/cache/6-240x175.jpg&quot; border=&quot;0&quot; alt=&quot;&quot; width=&quot;240&quot; height=&quot;175&quot; /&gt;&lt;br /&gt; If JH Audio&amp;#8217;s JH16 Pro ($1,149) looks familiar, that&amp;#8217;s because this pair of ultra high-end earphones was developed by former Ultimate Ears founder Jerry Harvey as a direct competitor to UE&amp;#8217;s top-of-line custom monitors &amp;#8211; at a lower price. JH16 Pro features eight different miniature speakers per ear: four low-end drivers, two midrange drivers, and two high-end drivers with a three-way crossover inside. Bundled with an Otter hard carrying case, a velvet…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://www.iLounge.com&quot;&gt;iLounge | All Things iPod, iPhone, iTunes and beyond&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Using Octopress & Jekyll with MarsEdit</title>
+    <link href="http://joshkerr.com/2011/09/3952242774/"/>
+    <updated>2011-09-30T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/09/3952242774</id>
+    <content type="html">&lt;p&gt;&lt;img title=&quot;ijFeu.png&quot; src=&quot;http://i.imgur.com/ijFeu.png&quot; border=&quot;0&quot; alt=&quot;ijFeu.png&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;I&amp;#8217;m a big fan of Octopress, the static blogging package based on Ruby and &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, but because it generates static content, how can you use a blog editor like &lt;a href=&quot;http://www.red-sweater.com/marsedit/&quot;&gt;Mars Edit&lt;/a&gt; with what is essentially a static blog?  Introducing &lt;a href=&quot;http://movieos.org/code/jekyll-metaweblog/&quot;&gt;Jekyll-Metaweblog&lt;/a&gt; a server that runs locally and opens up an interface to Octopress so that you can use Mars Edit to write blog entries.&lt;/p&gt;
+
+
+&lt;p&gt;Setting up Jekyll-Metaweblog wasn&amp;#8217;t straight forward, but once I got it going, it worked just fine.  I&amp;#8217;m not a Ruby guru, so my issues could be based on my inexperience with the platform.&lt;/p&gt;
+
+
+&lt;p&gt;Jekyll keeps posts in the _posts directory where Octopress puts posts in the sources/_posts directory, so you need to make sure to start the server using the Octopress directory.   Other than that, you should be good to go.&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Infographic: Top iPhone 5 Rumors</title>
+    <link href="http://joshkerr.com/2011/09/3952229415/"/>
+    <updated>2011-09-30T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/09/3952229415</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.raywj.com/2011/09/28/infographic-top-iphone-5-rumors/&quot;&gt;Infographic: Top iPhone 5 Rumors&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img title=&quot;iPhone-5-Rumors-Infographic&quot; src=&quot;http://www.raywj.com/wp-content/uploads/2011/09/iPhone-5-Rumors-Infographic_thumb.jpg&quot; alt=&quot;&quot; width=&quot;584&quot; height=&quot;2841&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://www.raywj.com&quot;&gt;Ray William Johnson&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Bell & Ross Harley Is Amazing</title>
@@ -253,53 +308,6 @@
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/BpT9k.png&quot; alt=&quot;Screenshot of joshkerr.com&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;More at the source: &lt;a href=&quot;http://www.site2pic.com&quot;&gt;Site2Pic&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Container Ship Delivering Cranes</title>
-    <link href="http://joshkerr.com/2011/09/container-ship-delivering-craines/"/>
-    <updated>2011-09-18T11:03:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/container-ship-delivering-craines</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/dKOBh.jpg&quot; alt=&quot;How does this thing stay up?&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;So I&amp;#8217;m looking at this photo wondering how does this ship not fall over?  Can it even traverse an ocean?&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Really Cool New Keyboard From Corsair</title>
-    <link href="http://joshkerr.com/2011/09/really-cool-new-keyboard-from-corsair/"/>
-    <updated>2011-09-17T15:53:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/really-cool-new-keyboard-from-corsair</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/000l08123I1R1R3F3T2V/Screen%20Shot%202011-09-17%20at%203.52.34%20PM.png&quot; alt=&quot;Corsair Vengence keyboard&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Corsair just came out with a new gaming keyboard for FPS gamers that aims to help you dominate Call of Duty with these interchangeable keys that angle to make your hands sit more comfortably.   It also has a wrist rest for your left hand which looks comfortable too.&lt;/p&gt;
-
-&lt;p&gt;The keyboard looks great.  I love the contrast of red and black keys wtih the steel keyboard bottom.&lt;/p&gt;
-
-&lt;p&gt;Its about $120 and available now.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/133m2F1J0G1w0U1C3q2R/Screen%20Shot%202011-09-17%20at%203.55.11%20PM.png&quot; alt=&quot;Cool keys&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hat tip:&lt;a href=&quot;http://www.engadget.com/2011/09/16/corsair-vengeance-gaming-keyboards-mice-and-headsets-hands-on/&quot;&gt;Engadget&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>David Blaine Explains How He Holds His Breath for 17 Minutes</title>
-    <link href="http://joshkerr.com/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes/"/>
-    <updated>2011-09-17T09:01:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/david-blaine-explains-how-he-holds-his-breath-for-17-minutes</id>
-    <content type="html">&lt;p&gt;This is a great video from TED showing David Blaine&amp;#8217;s personal account of his most recent stunts.  Amazing.&lt;/p&gt;
-
-&lt;!&#8211; more &#8211;&gt;
-
-
-
-
-&lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;600&quot; height=&quot;337&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/XFnGhrC_3Gs?version=3&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/XFnGhrC_3Gs?version=3&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;600&quot; height=&quot;337&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
-
 </content>
   </entry>
   

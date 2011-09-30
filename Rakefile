@@ -45,6 +45,13 @@ end
 # Working with Jekyll #
 #######################
 
+desc "Start the metaweblog interface"
+task :metaweb do
+	puts "Starting metaweblog API"
+  	open_metaweb()
+end
+
+
 desc "Generate jekyll site"
 task :generate do
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
@@ -414,4 +421,8 @@ end
 
 def open_espresso(path)
 	sh 'open $1 -a /Applications/Espresso.app ' + path
+end
+
+def open_metaweb()
+	sh 'ruby /Users/joshkerr/Documents/jekyll-metaweblog/jm_server.rb --port 4040 --root /Users/joshkerr/Documents/octopress/source/'
 end
