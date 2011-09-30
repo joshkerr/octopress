@@ -1,7 +1,8 @@
---- 
+---
 layout: post
-title: "Infographic: Top iPhone 5 Rumors"
+title: ! 'Infographic: Top iPhone 5 Rumors'
 link: http://www.raywj.com/2011/09/28/infographic-top-iphone-5-rumors/
+category: cool
 ---
 
 <p><a href="http://www.raywj.com/2011/09/28/infographic-top-iphone-5-rumors/">Infographic: Top iPhone 5 Rumors</a>:</p>
