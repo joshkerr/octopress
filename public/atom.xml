@@ -4,13 +4,82 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-10-01T18:37:33-05:00</updated>
+  <updated>2011-10-02T09:41:54-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>Overview of Text Editors for Programming on the Mac</title>
+    <link href="http://joshkerr.com/2011/10/3952699410/"/>
+    <updated>2011-10-02T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/3952699410</id>
+    <content type="html">&lt;p&gt;Not a bad overview of the different programming editors on the Mac:&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://smyck.net/2011/10/02/text-editors-for-programmers-on-the-mac/&quot;&gt;Overview of Text Editors for Programming on the Mac&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;h3&gt;Preface&lt;/h3&gt;
+&lt;p&gt;In the last 10 years many new text editors became available for Mac OS X. Since I have tried most of them I wanted to give an overview and a brief description about each one of them. This is for developers that are looking for decent editors on the mac to get their job done.&lt;/p&gt;
+&lt;p&gt;Lets get straight to it then.&lt;/p&gt;
+&lt;h3&gt;The Editors&lt;/h3&gt;
+&lt;h4&gt;Emacs / Vim&lt;/h4&gt;
+&lt;p&gt;Emacs and Vim are really the dinosaurs of text editors for programmers. Both have a immensely rich feature set and can be extended to a degree where you can forget about the OS they are running on. Although there &lt;a href=&quot;http://xkcd.com/378/&quot;&gt;is and always was a strong debate&lt;/a&gt; about which one of the two is superior, it is mostly a matter of personal taste in the end. Both have a steep learning curve and both are probably not something you want to give your web development intern on the first day at the office. However they are really powerful and they have one big advantage in common which is that they are available on a lot of operating systems and are installed by default on most of them. Whenever you log into a linux, bsd, osx or other unix machine you can be sure that vi or emacs or both are already there. On some shared web hosts you can’t even install your own packages so you are stuck with one of them. The cool thing is that you have to learn only one editor and all its specialities and you can work with it on almost any platform and on any remote machine. Since they are both really old they are known to work. They can handle big text files without crashing and for every problem you encounter there is already an extension to solve it. This is why many experienced programmers which started with more modern editors come back to them.&lt;/p&gt;
+&lt;p&gt;Some of the features that very few other editors offer are: horizontal and vertical split views, whole project tab completion ( most other editors only complete words from the same file ), fundamental customization of almost every behavior of the editor.&lt;/p&gt;
+&lt;p&gt;Besides the features related to programming they are also powerful text editors.&lt;/p&gt;
+&lt;p&gt;Both editors have OS X versions with a nice GUI wrapper to make them better integrated citizens, &lt;a href=&quot;http://aquamacs.org/&quot;&gt;AquaEmacs&lt;/a&gt; and &lt;a href=&quot;http://code.google.com/p/macvim/&quot;&gt;MacVim&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I really recommend reading the &lt;a href=&quot;http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/&quot;&gt;blog post by Yehuda Katz&lt;/a&gt; about switching to MacVim.&lt;/p&gt;
+&lt;p&gt;Both of them are open source and free of charge.&lt;/p&gt;
+&lt;h4&gt;BBEdit / TextWrangler&lt;/h4&gt;
+&lt;p&gt;Speaking of dinosaurs of course &lt;a href=&quot;http://www.barebones.com/products/bbedit/&quot;&gt;BBEdit&lt;/a&gt; and the light weight version called TextWrangler come to mind. They are not as old as Emacs and Vim but BBEdit is around for 20 years! It claims to be the editor »that doesn’t suck« and it is a strong contender. However it is really focussed on text rather than programming. It has a lot of features dealing with plain text manipulation, search and replace etc. but lacks some of the features I need in my daily programming job. It has syntax highlighting, auto completion, syntax checking for a few languages and much more but in the end it always feels a little dusty compared to other editors. For example it supports SVN, CVS and Perforce but not Git in its most recent version.&lt;/p&gt;
+&lt;p&gt;I’d recommend BBEdit more to markup authors than to programmers but its worth checking out the website and the trial version.&lt;/p&gt;
+&lt;h4&gt;SubEthaEdit&lt;/h4&gt;
+&lt;p&gt;I’m not sure how log &lt;a href=&quot;http://www.subethaedit.de/index.html&quot;&gt;SubEthaEdit&lt;/a&gt; exists but its at least 6 or 7 years I’d say. The wikipedia page does not say anything about it so if one of the readers has a more accurate number let me know.&lt;/p&gt;
+&lt;p&gt;SubEthaEdit shines in collaborative editing and most of the time that also applies more to plain text than to programming but still, its a cool feature which allows you to edit text documents via internet or local &lt;a href=&quot;http://en.wikipedia.org/wiki/Bonjour_(software)&quot;&gt;bonjour&lt;/a&gt; connection. Other than that it is also a decent editor for programming with support for a lot of different programming languages. It is simple and does not take a whole lot of time to learn. In the end though it is also limited compared to the other more powerful editors. Non the less I think it belongs on this list.&lt;/p&gt;
+&lt;h4&gt;Smultron&lt;/h4&gt;
+&lt;p&gt;When it comes to simple and basic text editors for programming activities you have to take a look at &lt;a href=&quot;http://www.peterborgapps.com/smultron/&quot;&gt;Smultron&lt;/a&gt;. It used to be free but now its around 5$ in the Mac App Store. Still quite cheap and it features an icon you can’t miss in your dock! But seriously – its probably one of the most straight forward and simple text editors for the mac. Possibly a good entry point when you are just starting with programming and only need syntax highlighting and other basic editing features.&lt;/p&gt;
+&lt;h4&gt;Textmate&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://macromates.com/&quot;&gt;Textmate&lt;/a&gt; was and probably still is the default text editor for many ruby developers. When the web framework Ruby on Rails first came out, the screencasts that came with it demonstrated the editing powers of Textmate so that everybody else started to use it as well. Compared to the other editors that were available at the time it was superior in almost every discipline. It was a lot better integrated into the mac environment compared to emacs or vim, offering standard shortcuts, preferences and native text controls. It supported a lot of languages and so called bundles which are a mixture of snippets, macros and other useful language specific functions like syntax validation or build system integration. It offered more comfort and flexibility than SubEthaEdit or BBEdit. It felt more productive and faster and it was easy to learn.&lt;/p&gt;
+&lt;p&gt;Why am I using the past tense here? Most of this still applies but Textmate did not receive a major update in years. Textmate2 became what Duke Nukem Forever was already famous for: &lt;a href=&quot;http://en.wikipedia.org/wiki/Vaporware&quot;&gt;Vaporware&lt;/a&gt;. Just recently some Textmate developer &lt;a href=&quot;http://blog.macromates.com/2011/whats-next/&quot;&gt;claimed&lt;/a&gt; that there would be an alpha release by the end of the year but I won’t believe it until a download link shows up on their website.&lt;/p&gt;
+&lt;p&gt;The problem with Textmate is mostly its lack of performance with big files, the instability of some really useful extensions and the lack of some features I have learned to love in other text editors like split views for example.&lt;/p&gt;
+&lt;p&gt;I quit using Textmate because I used some extensions which made it crash to often and because it crashed and locked up when working with big files. Other than that it is still a great editor and its principles were copied to a lot of other editors on other platforms.&lt;/p&gt;
+&lt;p&gt;Even today I use it for html, xml and other markup languages because its just the fasted editor to work with in that regard.&lt;/p&gt;
+&lt;p&gt;I highly recommend trying it. There is a 30-day trial version.&lt;/p&gt;
+&lt;h4&gt;Kod&lt;/h4&gt;
+&lt;p&gt;When the people realized that TextMate2 was vaporware and no new version to fix the issues described above was in sight, alternative editors slowly began to appear. One of them is &lt;a href=&quot;http://kodapp.com/&quot;&gt;Kod&lt;/a&gt;, although it is really pretty new it is a very decent and simple to use editor for programming. Its not offering a lot of features, not like Textmate or the other more powerful editors, but still quite useful. If you don’t want to spend a few dollars for Smultron, this might be just the right editor for you. I mentioned Smultron before because it is more mature while Kod is at version 0.0.3. For additional hipness it is worth knowing that its build upon Googles V8 JS engine.&lt;/p&gt;
+&lt;h4&gt;Sublime Text 2&lt;/h4&gt;
+&lt;p&gt;Like Kod, &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; appeared as well received alternative to Textmate but compared to Kod it has the same kind of feature set as Textmate and more. It even supports Textmates color themes and language definitions which makes a migration to it quite easy.&lt;/p&gt;
+&lt;p&gt;It even has split views and its lighting fast. It has vertical / column selection (like Vim/Emacs/Textmate), multiple line / word select and different ways to expand the current scope of selection. Really, when I tried it the first time I was amazed how snappy it is. Like Textmate it features snippets, macros and build system integration. On the other side its highly configurable though you have to use simple config files instead of the standard OS X preference panes. I’d say its a perfect mixture of Vims configurability and Textmates editing comfort and speed. I highly recommend giving it a try if you are looking for a powerful, feature rich text editor for programming.&lt;/p&gt;
+&lt;p&gt;Its price tag is a bit higher than others, currently 59$, but I did not have to hesitate long to support the development of this editor after using it for a couple of days in trial mode.&lt;/p&gt;
+&lt;h4&gt;Vico&lt;/h4&gt;
+&lt;p&gt;If you like the concepts of Vim but MacVim is not wrapping enough of Vims “awkwardness” for you then &lt;a href=&quot;http://www.vicoapp.com/&quot;&gt;Vico&lt;/a&gt; might be the right editor for you. Basically it uses the vim key bindings and therefore you hardly ever need a mouse to use it and it shows all the shortcuts in a native OS X menu bar. Other than split view support it is a very basic text editor for programming and features a custom scripting language to customize it.&lt;/p&gt;
+&lt;h4&gt;Chocolat&lt;/h4&gt;
+&lt;p&gt;This is yet another Textmate contender but it is currently in private beta phase and its too early to really judge it as many many features are missing in it. I have to say it has the most intuitive split view implementation of all the editors mentioned here but elementary things like vertical / column selection or parenthesis / scope highlighting are still missing.&lt;/p&gt;
+&lt;p&gt;If you want to give it a try nonetheless go to &lt;a href=&quot;http://chocolatapp.com/&quot;&gt;http://chocolatapp.com/&lt;/a&gt; and sign up for the beta or go to their irc channel on the freenode network and ask for an invite. Took me 5 minutes to get one.&lt;/p&gt;
+&lt;h4&gt;Coda/Espresso&lt;/h4&gt;
+&lt;p&gt;These tools, although from different vendors, focus on the same group of people: web developers. They try to bring the entire development tool set together by bundling the functionality together that is otherwise only found in separate tools like file transfers, version control etc.&lt;/p&gt;
+&lt;p&gt;I tried them both but although they bundle together lots of features they are very limited at the same time to a certain flavor of web development.&lt;/p&gt;
+&lt;p&gt;Still on the list as I think they will appeal to some people.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.panic.com/coda/&quot;&gt;Code&lt;/a&gt; • &lt;a href=&quot;http://macrabbit.com/espresso/&quot;&gt;Espresso&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;skEdit&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.beforedawnsolutions.com/applications/skedit&quot;&gt;skEdit&lt;/a&gt; is the only editor I haven’t used personally yet so I can’t say much about it other that a colleague of mine is using it as his primary editor for quite some time now so I wanted to mention it for completeness sake. Like Coda and Espresso it is focussed on web development but its not as limited to it.&lt;/p&gt;
+&lt;h3&gt;Final words&lt;/h3&gt;
+&lt;p&gt;My first editor was emacs although I only used it in a very basic way. After that I have used Textmate for a couple of years and switched briefly to MacVim for about half a year. Currently I’m using Sublime Text 2 on a daily basis for my programming work.&lt;/p&gt;
+&lt;p&gt;Personally, I don’t like IDE’s. There are programming languages or environments where an IDE is necessary and really superiour to text editors for programmers but I just don’t like these languages or environments either. So please don’t start a “but $IDE does all of that and more” discussion here. This is about text editors only and yes, I know … some text editors are almost like an IDE.&lt;/p&gt;
+&lt;p&gt;If I forgot to mention your favorite editor please let me know!&lt;/p&gt;
+&lt;p&gt;For a more elaborate list checkout &lt;a href=&quot;http://en.wikipedia.org/wiki/Comparison_of_text_editors&quot;&gt;wikipedias comparison of text editors&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Statistics Prove Women are Worse at Parking</title>
@@ -324,18 +393,6 @@
 
 &lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;600&quot; height=&quot;337&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/d84r8gMGxFQ?version=3&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/d84r8gMGxFQ?version=3&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;600&quot; height=&quot;337&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
 
-</content>
-  </entry>
-  
-  <entry>
-    <title>I Think This Fan Impressed His Date</title>
-    <link href="http://joshkerr.com/2011/09/i-think-this-fan-impressed-his-date/"/>
-    <updated>2011-09-24T10:09:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/i-think-this-fan-impressed-his-date</id>
-    <content type="html">&lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;600&quot; height=&quot;337&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/HUfZDSb9moY?version=3&amp;start=72&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/HUfZDSb9moY?version=3&amp;start=72&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;600&quot; height=&quot;337&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
-
-
-&lt;p&gt;The action starts at 1:17.   Eddie is on a date and won&amp;#8217;t get off his mobile phone before trying to dunk in front of an arena full of people.  Hilarity ensues.&lt;/p&gt;
 </content>
   </entry>
   
