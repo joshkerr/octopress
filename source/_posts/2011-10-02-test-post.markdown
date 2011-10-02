@@ -1,9 +1,0 @@
----
-layout: post
-title: Test Post
-link: !!null 
-tags: []
-category: tips
----
-
-<p>No permalinks please.</p>

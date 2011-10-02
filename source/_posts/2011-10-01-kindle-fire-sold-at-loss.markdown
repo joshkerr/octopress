@@ -3,8 +3,6 @@ layout: post
 title: ! 'Estimate: Amazon Kindle Fire sold at $10 loss to build share'
 link: http://feeds.electronista.com/click.phdo?i=d85c086bd58644c0e62e3caf277cd422
 category: opinion
-permalink: /_posts/2011-10-01-3952530045.markdown
-tags: []
 ---
 
 <p>This is a smart move on Amazon's part.  The iPad is on fire, the only way to break in is to undercut with price and provide compelling content.  Amazon is doing both.</p>

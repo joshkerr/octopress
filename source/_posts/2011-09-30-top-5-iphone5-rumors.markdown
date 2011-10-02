@@ -3,8 +3,6 @@ layout: post
 title: ! 'Infographic: Top iPhone 5 Rumors'
 link: http://www.raywj.com/2011/09/28/infographic-top-iphone-5-rumors/
 category: cool
-permalink: /_posts/2011-09-30-3952229415.markdown
-tags: []
 ---
 
 <p><a href="http://www.raywj.com/2011/09/28/infographic-top-iphone-5-rumors/">Infographic: Top iPhone 5 Rumors</a>:</p>

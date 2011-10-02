@@ -3,7 +3,6 @@ layout: post
 title: Using Octopress & Jekyll with MarsEdit
 link: http://movieos.org/code/jekyll-metaweblog/
 category: tips
-permalink: /_posts/2011-09-30-3952242774.markdown
 tags: []
 ---
 

@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Statistics Prove Women are Worse at Parking
-link: http://digg.com/news/lifestyle/statistics_prove_women_are_worse_at_parking?utm_campaign=Feed%3A+http%3A%2F%2Fservices.digg.com%2F2.0%2Fstory.getTopNews%3Ftype%3Drss&utm_medium=feed&utm_source=diggapi
-category: rant
-permalink: /_posts/2011-10-01-3952530453.markdown
-tags: []
 ---
 
 <p>From the bin of stats that can in no way be accurate or based on anything scientific:</p>

@@ -3,8 +3,6 @@ layout: post
 title: ! 'First Looks: JH Audio JH16 Pro Custom In-Ear Monitor'
 link: http://www.ilounge.com/index.php/ipod/review/jh-audio-jh16-pro-custom-in-ear-monitor/
 category: cool
-permalink: /_posts/2011-09-30-3952245570.markdown
-tags: []
 ---
 
 <p><a href="http://www.ilounge.com/index.php/ipod/review/jh-audio-jh16-pro-custom-in-ear-monitor/">First Looks: JH Audio JH16 Pro Custom In-Ear Monitor</a>:</p>

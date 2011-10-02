@@ -3,8 +3,6 @@ layout: post
 title: Mou - new markdown editor for the Mac
 link: http://mouapp.com/
 category: software
-permalink: /_posts/2011-10-02-3952713300.markdown
-tags: []
 ---
 
 <p><img title="Screen Shot 2011-10-02 at 10.50.59 AM.png" src="http://f.cl.ly/items/3j2o2E0V2W1T0X0q1711/Screen%20Shot%202011-10-02%20at%2010.50.59%20AM.png" border="0" alt="Screen Shot 2011-10-02 at 10.50.59 AM.png" /></p>

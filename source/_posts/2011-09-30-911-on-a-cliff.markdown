@@ -3,7 +3,6 @@ layout: post
 title: Gorgeous 911 on a cliff
 link: http://that911.tumblr.com/post/10847560887
 category: automobile
-permalink: /_posts/2011-09-30-3952310970.markdown
 tags: []
 ---
 

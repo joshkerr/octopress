@@ -3,8 +3,6 @@ layout: post
 title: ! 'Video: A Look At The Fastest Chronograph Watch Ever Made'
 link: http://feedproxy.google.com/~r/Techcrunch/~3/zBfTac9gozc/
 category: cool
-permalink: /_posts/2011-10-01-3952460871.markdown
-tags: []
 ---
 
 <p><a href="http://feedproxy.google.com/~r/Techcrunch/~3/zBfTac9gozc/">Video: A Look At The Fastest Chronograph Watch Ever Made</a>:</p>

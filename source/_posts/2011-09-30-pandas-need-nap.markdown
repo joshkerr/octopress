@@ -3,8 +3,6 @@ layout: post
 title: Baby pandas need a nap (photo)
 link: http://feedproxy.google.com/~r/boingboing/iBag/~3/3XgK0C5-mIQ/baby-pandas-need-a-nap-photo.html
 category: humor
-permalink: /_posts/2011-09-30-3952255740.markdown
-tags: []
 ---
 
 <p><a href="http://feedproxy.google.com/~r/boingboing/iBag/~3/3XgK0C5-mIQ/baby-pandas-need-a-nap-photo.html">Baby pandas need a nap (photo)</a>:</p>
