@@ -197,10 +197,6 @@
         <lastmod>2011-09-25T21:42:57-05:00</lastmod>
     </url>
     <url>
-        <loc>http://joshkerr.com/2010/05/chum-buddy-sleeping-bag/</loc>
-        <lastmod>2011-09-25T21:42:57-05:00</lastmod>
-    </url>
-    <url>
         <loc>
             http://joshkerr.com/2010/06/blank-canvas-is-a-greasemonkey-script-manager-for-chrome-downloads/
         </loc>
@@ -791,6 +787,10 @@
         <lastmod>2011-09-25T21:42:57-05:00</lastmod>
     </url>
     <url>
+        <loc>http://joshkerr.com/_posts/cool/2010-05-12-chum-buddy-sleeping-bag.markdown</loc>
+        <lastmod>2011-10-02T11:20:13-05:00</lastmod>
+    </url>
+    <url>
         <loc>
             http://joshkerr.com/2011/05/i-saw-this-on-reddit-with-the-title-this-kind-of-ice-makes-me-really-happy-i-so-agree/
         </loc>
@@ -1177,52 +1177,56 @@
         <lastmod>2011-09-28T11:39:54-05:00</lastmod>
     </url>
     <url>
-        <loc>http://joshkerr.com/2011/09/3952229415/</loc>
-        <lastmod>2011-09-30T15:28:05-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://joshkerr.com/2011/09/3952242774/</loc>
-        <lastmod>2011-10-01T17:50:26-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://joshkerr.com/2011/09/3952245570/</loc>
-        <lastmod>2011-09-30T15:39:50-05:00</lastmod>
-    </url>
-    <url>
         <loc>http://joshkerr.com/2011/09/3952255152/</loc>
         <lastmod>2011-09-30T20:18:48-05:00</lastmod>
     </url>
     <url>
-        <loc>http://joshkerr.com/2011/09/3952255740/</loc>
-        <lastmod>2011-09-30T16:36:20-05:00</lastmod>
+        <loc>http://joshkerr.com/_posts/2011-09-30-3952310970.markdown</loc>
+        <lastmod>2011-10-02T16:56:26-05:00</lastmod>
     </url>
     <url>
-        <loc>http://joshkerr.com/2011/09/3952310970/</loc>
-        <lastmod>2011-09-30T21:48:06-05:00</lastmod>
+        <loc>http://joshkerr.com/_posts/2011-09-30-3952242774.markdown</loc>
+        <lastmod>2011-10-02T16:57:48-05:00</lastmod>
     </url>
     <url>
-        <loc>http://joshkerr.com/2011/09/3952311873/</loc>
-        <lastmod>2011-09-30T21:48:11-05:00</lastmod>
+        <loc>http://joshkerr.com/_posts/2011-09-30-3952255740.markdown</loc>
+        <lastmod>2011-10-02T16:57:32-05:00</lastmod>
     </url>
     <url>
-        <loc>http://joshkerr.com/2011/10/3952460871/</loc>
-        <lastmod>2011-10-01T11:35:57-05:00</lastmod>
+        <loc>http://joshkerr.com/_posts/2011-09-30-3952245570.markdown</loc>
+        <lastmod>2011-10-02T16:57:19-05:00</lastmod>
     </url>
     <url>
-        <loc>http://joshkerr.com/2011/10/3952530045/</loc>
-        <lastmod>2011-10-01T18:16:18-05:00</lastmod>
+        <loc>http://joshkerr.com/_posts/2011-09-30-3952311873.markdown</loc>
+        <lastmod>2011-10-02T16:57:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://joshkerr.com/2011/10/3952530453/</loc>
-        <lastmod>2011-10-01T18:02:31-05:00</lastmod>
+        <loc>http://joshkerr.com/_posts/2011-09-30-3952229415.markdown</loc>
+        <lastmod>2011-10-02T16:58:05-05:00</lastmod>
     </url>
     <url>
-        <loc>http://joshkerr.com/2011/10/3952699410/</loc>
-        <lastmod>2011-10-02T09:41:10-05:00</lastmod>
+        <loc>http://joshkerr.com/_posts/2011-10-01-3952530045.markdown</loc>
+        <lastmod>2011-10-02T11:17:44-05:00</lastmod>
     </url>
     <url>
-        <loc>http://joshkerr.com/2011/10/3952713300/</loc>
-        <lastmod>2011-10-02T10:58:20-05:00</lastmod>
+        <loc>http://joshkerr.com/_posts/2011-10-01-3952530453.markdown</loc>
+        <lastmod>2011-10-02T11:15:23-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://joshkerr.com/_posts/2011-10-01-3952460871.markdown</loc>
+        <lastmod>2011-10-02T11:15:00-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://joshkerr.com/2011/10/jobs-livid-over-native-facebook-on-hp/</loc>
+        <lastmod>2011-10-02T16:11:57-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://joshkerr.com/_posts/2011-10-02-3952713300.markdown</loc>
+        <lastmod>2011-10-02T11:14:25-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://joshkerr.com/_posts/2011-10-02-3952699410.markdown</loc>
+        <lastmod>2011-10-02T11:14:11-05:00</lastmod>
     </url>
     <url>
         <loc>http://joshkerr.com/about/</loc>
@@ -1234,7 +1238,7 @@
     </url>
     <url>
         <loc>http://joshkerr.com/blog/archives/</loc>
-        <lastmod>2011-10-02T10:58:20-05:00</lastmod>
+        <lastmod>2011-10-02T16:58:05-05:00</lastmod>
     </url>
     <url>
         <loc>http://joshkerr.com/currentlyusing/</loc>
@@ -1246,7 +1250,7 @@
     </url>
     <url>
         <loc>http://joshkerr.com/</loc>
-        <lastmod>2011-10-02T10:58:20-05:00</lastmod>
+        <lastmod>2011-10-02T16:58:05-05:00</lastmod>
     </url>
     <url>
         <loc>http://joshkerr.com/search/</loc>

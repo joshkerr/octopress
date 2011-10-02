@@ -18,6 +18,7 @@ group :development do
   gem 'ruby-aaws'
   gem 's3sync'
   gem 'hpricot'
+  gem 'aws-s3'
 end
 
 gem 'sinatra', '1.2.6'

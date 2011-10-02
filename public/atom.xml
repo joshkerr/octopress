@@ -4,7 +4,7 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-10-02T11:03:33-05:00</updated>
+  <updated>2011-10-02T16:59:13-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
@@ -13,41 +13,10 @@
 
   
   <entry>
-    <title>Mou - new markdown editor for the Mac</title>
-    <link href="http://joshkerr.com/2011/10/3952713300/"/>
-    <updated>2011-10-02T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/10/3952713300</id>
-    <content type="html">&lt;p&gt;&lt;img title=&quot;Screen Shot 2011-10-02 at 10.50.59 AM.png&quot; src=&quot;http://f.cl.ly/items/3j2o2E0V2W1T0X0q1711/Screen%20Shot%202011-10-02%20at%2010.50.59%20AM.png&quot; border=&quot;0&quot; alt=&quot;Screen Shot 2011-10-02 at 10.50.59 AM.png&quot; /&gt;&lt;/p&gt;
-
-
-&lt;p&gt;&lt;a href=&quot;http://mouapp.com/&quot;&gt;Mou&lt;/a&gt; is described as a Markdown editor for web developers.  I displays stylized markdown code on a left pane and then the preview formatted version on the right pane.  As you write on the left, the preview is updated in realtime on the right.&lt;/p&gt;
-
-
-&lt;p&gt;I&amp;#8217;ve seen several editors work like this with the code on the left and preview on the right and for the most part it works.  Its nice to see your final formatted document as you write the underlying technical code.  There are however times when this doesn&amp;#8217;t work so well.  If your document has a lot of images in it, the refresh on the preview pane can be distracting as images reload from minor changes you made to the code.&lt;/p&gt;
-
-
-&lt;p&gt;&lt;a href=&quot;http://mouapp.com/&quot;&gt;Mou&lt;/a&gt; supports syntax coloring themes which is a bonus so that you don&amp;#8217;t need to write with a white background and black text (it kills my eyes) and instead choose from a variety of sample included themes or provide your own.&lt;/p&gt;
-
-
-&lt;p&gt;The editor also supports auto-completion, incremental search and the ability to change the layout of the editor to support languages other than english.  (For example, you can transform into a vertical layout to support traditional Chinese.)&lt;/p&gt;
-
-
-&lt;p&gt;I&amp;#8217;d love to see the ability to integrate with my build system, i.e.: be able to run rake tasks or shell commands from the editor.  That way I can write an article, commit it via git and then push it to Heroku to publish live.&lt;/p&gt;
-
-
-&lt;p&gt;Mou is in beta and there are a lot of great features in the pipe, so I&amp;#8217;m keeping tabs on this one.&lt;/p&gt;
-
-
-&lt;p&gt;&lt;a href=&quot;http://mouapp.com/&quot;&gt;Download Mou&lt;/a&gt;&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
     <title>Overview of Text Editors for Programming on the Mac</title>
-    <link href="http://joshkerr.com/2011/10/3952699410/"/>
+    <link href="http://joshkerr.com/_posts/2011-10-02-3952699410.markdown"/>
     <updated>2011-10-02T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/10/3952699410</id>
+    <id>http://joshkerr.com/_posts/overview-of-text-editors-mac</id>
     <content type="html">&lt;p&gt;Not a bad overview of the different programming editors on the Mac:&lt;/p&gt;
 
 
@@ -113,52 +82,65 @@
   </entry>
   
   <entry>
-    <title>Statistics Prove Women are Worse at Parking</title>
-    <link href="http://joshkerr.com/2011/10/3952530453/"/>
-    <updated>2011-10-01T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/10/3952530453</id>
-    <content type="html">&lt;p&gt;From the bin of stats that can in no way be accurate or based on anything scientific:&lt;/p&gt;
+    <title>Mou - new markdown editor for the Mac</title>
+    <link href="http://joshkerr.com/_posts/2011-10-02-3952713300.markdown"/>
+    <updated>2011-10-02T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/_posts/mou-markdown-editor-mac</id>
+    <content type="html">&lt;p&gt;&lt;img title=&quot;Screen Shot 2011-10-02 at 10.50.59 AM.png&quot; src=&quot;http://f.cl.ly/items/3j2o2E0V2W1T0X0q1711/Screen%20Shot%202011-10-02%20at%2010.50.59%20AM.png&quot; border=&quot;0&quot; alt=&quot;Screen Shot 2011-10-02 at 10.50.59 AM.png&quot; /&gt;&lt;/p&gt;
 
 
-&lt;p&gt;&lt;a href=&quot;http://digg.com/news/lifestyle/statistics_prove_women_are_worse_at_parking?utm_campaign=Feed%3A+http%3A%2F%2Fservices.digg.com%2F2.0%2Fstory.getTopNews%3Ftype%3Drss&amp;amp;utm_medium=feed&amp;amp;utm_source=diggapi&quot;&gt;Statistics Prove Women are Worse at Parking&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://mouapp.com/&quot;&gt;Mou&lt;/a&gt; is described as a Markdown editor for web developers.  I displays stylized markdown code on a left pane and then the preview formatted version on the right pane.  As you write on the left, the preview is updated in realtime on the right.&lt;/p&gt;
 
 
-&lt;blockquote&gt;
-&lt;p&gt;Almost a third of all women who failed their driving test last year came unstuck due to parallel parking.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;I&amp;#8217;ve seen several editors work like this with the code on the left and preview on the right and for the most part it works.  Its nice to see your final formatted document as you write the underlying technical code.  There are however times when this doesn&amp;#8217;t work so well.  If your document has a lot of images in it, the refresh on the preview pane can be distracting as images reload from minor changes you made to the code.&lt;/p&gt;
 
 
-&lt;p&gt;(Via &lt;a href=&quot;http://digg.com/&quot;&gt;digg&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://mouapp.com/&quot;&gt;Mou&lt;/a&gt; supports syntax coloring themes which is a bonus so that you don&amp;#8217;t need to write with a white background and black text (it kills my eyes) and instead choose from a variety of sample included themes or provide your own.&lt;/p&gt;
+
+
+&lt;p&gt;The editor also supports auto-completion, incremental search and the ability to change the layout of the editor to support languages other than english.  (For example, you can transform into a vertical layout to support traditional Chinese.)&lt;/p&gt;
+
+
+&lt;p&gt;I&amp;#8217;d love to see the ability to integrate with my build system, i.e.: be able to run rake tasks or shell commands from the editor.  That way I can write an article, commit it via git and then push it to Heroku to publish live.&lt;/p&gt;
+
+
+&lt;p&gt;Mou is in beta and there are a lot of great features in the pipe, so I&amp;#8217;m keeping tabs on this one.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://mouapp.com/&quot;&gt;Download Mou&lt;/a&gt;&lt;/p&gt;
 
 </content>
   </entry>
   
   <entry>
-    <title>Estimate: Amazon Kindle Fire sold at $10 loss to build share</title>
-    <link href="http://joshkerr.com/2011/10/3952530045/"/>
-    <updated>2011-10-01T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/10/3952530045</id>
-    <content type="html">&lt;p&gt;This is a smart move on Amazon&amp;#8217;s part.  The iPad is on fire, the only way to break in is to undercut with price and provide compelling content.  Amazon is doing both.&lt;/p&gt;
-
-
-&lt;p&gt;&lt;a href=&quot;http://feeds.electronista.com/click.phdo?i=d85c086bd58644c0e62e3caf277cd422&quot;&gt;Estimate: Amazon Kindle Fire sold at $10 loss to build share&lt;/a&gt;:&lt;/p&gt;
+    <title>Jobs was livid over native Facebook on HP</title>
+    <link href="http://joshkerr.com/2011/10/jobs-livid-over-native-facebook-on-hp/"/>
+    <updated>2011-10-02T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/jobs-livid-over-native-facebook-on-hp</id>
+    <content type="html">&lt;p&gt;Yesterday Mashable had an &lt;a href=&quot;http://news.ycombinator.com/&quot;&gt;article&lt;/a&gt; on how Steve Jobs was furious with Facebook over building a client app for WebOS.   It went on to describe some of the earlier failures to work together:&lt;/p&gt;
 
 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://photos.macnn.com/news/1109/amazonkindlefire-2.jpg&quot; border=&quot;0&quot; alt=&quot;&quot; width=&quot;176&quot; height=&quot;120&quot; align=&quot;left&quot; /&gt;Amazon&amp;#8217;s Kindle Fire is being sold at a loss to heat up competition with Barnes &amp;amp; Noble and Apple, IHS iSuppli estimated Friday.  Based on a list of known and expected components, it believes the seven-inch mini tablet costs $209.63 in raw parts and manufacturing, or about $10 less than its $$199 asking price.  A high-quality IPS-based LCD at $87 is a large part of that cost,  while adding the dual-core TI OMAP processor and other mainboard components pushes it up by another $70.40&lt;img src=&quot;http://amch.questionmarket.com/adsc/d887846/17/909940/adscout.php&quot; border=&quot;0&quot; alt=&quot;&quot; width=&quot;0&quot; height=&quot;0&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;Apple had fully integrated Facebook into the iPhone and iPad’s operating system, and was ready to launch the mobile-social fusion when API negotiations broke down. Apple, lacking confidence in Facebook’s ability to build a great application, asked to build its own Facebook for iPhone app. Facebook responded with a firm no. Negotiations came to halt.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
 &lt;/blockquote&gt;
 
 
-&lt;p&gt;(Via &lt;a href=&quot;http://www.Electronista.com/&quot;&gt;Electronista | Gadgets for Geeks&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Soon after, Facebook killed Apple’s access to the company’s API.   But why wouldn&amp;#8217;t Facebook let Apple build their API into the OS?  Seems like a win/win scenario for both companies.&lt;/p&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt;)&lt;/p&gt;
 
 </content>
   </entry>
   
   <entry>
     <title>Video: A Look At The Fastest Chronograph Watch Ever Made</title>
-    <link href="http://joshkerr.com/2011/10/3952460871/"/>
+    <link href="http://joshkerr.com/_posts/2011-10-01-3952460871.markdown"/>
     <updated>2011-10-01T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/10/3952460871</id>
+    <id>http://joshkerr.com/_posts/tag-mikrotimer-flying-concept</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/Techcrunch/~3/zBfTac9gozc/&quot;&gt;Video: A Look At The Fastest Chronograph Watch Ever Made&lt;/a&gt;:&lt;/p&gt;
 
 
@@ -177,16 +159,74 @@
   </entry>
   
   <entry>
-    <title>I need one of these</title>
-    <link href="http://joshkerr.com/2011/09/3952311873/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/3952311873</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://that911.tumblr.com/post/10522600285&quot;&gt;Photo&lt;/a&gt;:&lt;/p&gt;
+    <title>Statistics Prove Women are Worse at Parking</title>
+    <link href="http://joshkerr.com/_posts/2011-10-01-3952530453.markdown"/>
+    <updated>2011-10-01T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/_posts/stats-prove-women-bad-at-parking</id>
+    <content type="html">&lt;p&gt;From the bin of stats that can in no way be accurate or based on anything scientific:&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://digg.com/news/lifestyle/statistics_prove_women_are_worse_at_parking?utm_campaign=Feed%3A+http%3A%2F%2Fservices.digg.com%2F2.0%2Fstory.getTopNews%3Ftype%3Drss&amp;amp;utm_medium=feed&amp;amp;utm_source=diggapi&quot;&gt;Statistics Prove Women are Worse at Parking&lt;/a&gt;:&lt;/p&gt;
 
 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://25.media.tumblr.com/tumblr_lrxol8Ru9s1qbcma7o1_500.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Almost a third of all women who failed their driving test last year came unstuck due to parallel parking.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://digg.com/&quot;&gt;digg&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Estimate: Amazon Kindle Fire sold at $10 loss to build share</title>
+    <link href="http://joshkerr.com/_posts/2011-10-01-3952530045.markdown"/>
+    <updated>2011-10-01T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/_posts/kindle-fire-sold-at-loss</id>
+    <content type="html">&lt;p&gt;This is a smart move on Amazon&amp;#8217;s part.  The iPad is on fire, the only way to break in is to undercut with price and provide compelling content.  Amazon is doing both.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://feeds.electronista.com/click.phdo?i=d85c086bd58644c0e62e3caf277cd422&quot;&gt;Estimate: Amazon Kindle Fire sold at $10 loss to build share&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://photos.macnn.com/news/1109/amazonkindlefire-2.jpg&quot; border=&quot;0&quot; alt=&quot;&quot; width=&quot;176&quot; height=&quot;120&quot; align=&quot;left&quot; /&gt;Amazon&amp;#8217;s Kindle Fire is being sold at a loss to heat up competition with Barnes &amp;amp; Noble and Apple, IHS iSuppli estimated Friday.  Based on a list of known and expected components, it believes the seven-inch mini tablet costs $209.63 in raw parts and manufacturing, or about $10 less than its $$199 asking price.  A high-quality IPS-based LCD at $87 is a large part of that cost,  while adding the dual-core TI OMAP processor and other mainboard components pushes it up by another $70.40&lt;img src=&quot;http://amch.questionmarket.com/adsc/d887846/17/909940/adscout.php&quot; border=&quot;0&quot; alt=&quot;&quot; width=&quot;0&quot; height=&quot;0&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://www.Electronista.com/&quot;&gt;Electronista | Gadgets for Geeks&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Infographic: Top iPhone 5 Rumors</title>
+    <link href="http://joshkerr.com/_posts/2011-09-30-3952229415.markdown"/>
+    <updated>2011-09-30T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/_posts/top-5-iphone5-rumors</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.raywj.com/2011/09/28/infographic-top-iphone-5-rumors/&quot;&gt;Infographic: Top iPhone 5 Rumors&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img title=&quot;iPhone-5-Rumors-Infographic&quot; src=&quot;http://www.raywj.com/wp-content/uploads/2011/09/iPhone-5-Rumors-Infographic_thumb.jpg&quot; alt=&quot;&quot; width=&quot;584&quot; height=&quot;2841&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://www.raywj.com&quot;&gt;Ray William Johnson&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>I need one of these</title>
+    <link href="http://joshkerr.com/_posts/2011-09-30-3952311873.markdown"/>
+    <updated>2011-09-30T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/_posts/sick-white-911</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://25.media.tumblr.com/tumblr_lrxol8Ru9s1qbcma7o1_500.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+
+&lt;blockquote&gt;&lt;/blockquote&gt;
 
 
 &lt;p&gt;(Via &lt;a href=&quot;http://that911.tumblr.com/&quot;&gt;That 911&lt;/a&gt;)&lt;/p&gt;
@@ -195,28 +235,28 @@
   </entry>
   
   <entry>
-    <title>Gorgeous 911 on a cliff</title>
-    <link href="http://joshkerr.com/2011/09/3952310970/"/>
+    <title>First Looks: JH Audio JH16 Pro Custom In-Ear Monitor</title>
+    <link href="http://joshkerr.com/_posts/2011-09-30-3952245570.markdown"/>
     <updated>2011-09-30T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/3952310970</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://that911.tumblr.com/post/10847560887&quot;&gt;Photo&lt;/a&gt;:&lt;/p&gt;
+    <id>http://joshkerr.com/_posts/pro-custom-in-ear-monitors</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.ilounge.com/index.php/ipod/review/jh-audio-jh16-pro-custom-in-ear-monitor/&quot;&gt;First Looks: JH Audio JH16 Pro Custom In-Ear Monitor&lt;/a&gt;:&lt;/p&gt;
 
 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://30.media.tumblr.com/tumblr_lsbkglWvH51qfzs7zo1_500.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://assets.ilounge.com/images/reviews_jhaudio/jh16pro/cache/6-240x175.jpg&quot; border=&quot;0&quot; alt=&quot;&quot; width=&quot;240&quot; height=&quot;175&quot; /&gt;&lt;br /&gt; If JH Audio&amp;#8217;s JH16 Pro ($1,149) looks familiar, that&amp;#8217;s because this pair of ultra high-end earphones was developed by former Ultimate Ears founder Jerry Harvey as a direct competitor to UE&amp;#8217;s top-of-line custom monitors &amp;#8211; at a lower price. JH16 Pro features eight different miniature speakers per ear: four low-end drivers, two midrange drivers, and two high-end drivers with a three-way crossover inside. Bundled with an Otter hard carrying case, a velvet…&lt;/p&gt;
 &lt;/blockquote&gt;
 
 
-&lt;p&gt;(Via &lt;a href=&quot;http://that911.tumblr.com/&quot;&gt;That 911&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;(Via &lt;a href=&quot;http://www.iLounge.com&quot;&gt;iLounge | All Things iPod, iPhone, iTunes and beyond&lt;/a&gt;)&lt;/p&gt;
 
 </content>
   </entry>
   
   <entry>
     <title>Baby pandas need a nap (photo)</title>
-    <link href="http://joshkerr.com/2011/09/3952255740/"/>
+    <link href="http://joshkerr.com/_posts/2011-09-30-3952255740.markdown"/>
     <updated>2011-09-30T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/3952255740</id>
+    <id>http://joshkerr.com/_posts/pandas-need-nap</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/boingboing/iBag/~3/3XgK0C5-mIQ/baby-pandas-need-a-nap-photo.html&quot;&gt;Baby pandas need a nap (photo)&lt;/a&gt;:&lt;/p&gt;
 
 
@@ -227,6 +267,41 @@
 
 
 &lt;p&gt;(Via &lt;a href=&quot;http://boingboing.net&quot;&gt;Boing Boing&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Using Octopress & Jekyll with MarsEdit</title>
+    <link href="http://joshkerr.com/_posts/2011-09-30-3952242774.markdown"/>
+    <updated>2011-09-30T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/_posts/octopress-jekyll-marsedit-together</id>
+    <content type="html">&lt;p&gt;&lt;img title=&quot;ijFeu.png&quot; src=&quot;http://i.imgur.com/ijFeu.png&quot; border=&quot;0&quot; alt=&quot;ijFeu.png&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;I&amp;#8217;m a big fan of Octopress, the static blogging package based on Ruby and &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, but because it generates static content, how can you use a blog editor like &lt;a href=&quot;http://www.red-sweater.com/marsedit/&quot;&gt;Mars Edit&lt;/a&gt; with what is essentially a static blog?  Introducing &lt;a href=&quot;http://movieos.org/code/jekyll-metaweblog/&quot;&gt;Jekyll-Metaweblog&lt;/a&gt; a server that runs locally and opens up an interface to Octopress so that you can use Mars Edit to write blog entries.&lt;/p&gt;
+
+
+&lt;p&gt;Setting up Jekyll-Metaweblog wasn&amp;#8217;t straight forward, but once I got it going, it worked just fine.  I&amp;#8217;m not a Ruby guru, so my issues could be based on my inexperience with the platform.&lt;/p&gt;
+
+
+&lt;p&gt;Jekyll keeps posts in the _posts directory where Octopress puts posts in the sources/_posts directory, so you need to make sure to start the server using the correct Octopress directory.   Other than that, you should be good to go.&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Gorgeous 911 on a cliff</title>
+    <link href="http://joshkerr.com/_posts/2011-09-30-3952310970.markdown"/>
+    <updated>2011-09-30T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/_posts/911-on-a-cliff</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://30.media.tumblr.com/tumblr_lsbkglWvH51qfzs7zo1_500.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt; &lt;/p&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://that911.tumblr.com/&quot;&gt;That 911&lt;/a&gt;)&lt;/p&gt;
 
 </content>
   </entry>
@@ -250,61 +325,6 @@
 
 
 &lt;p&gt;(Via &lt;a href=&quot;http://boingboing.net&quot;&gt;Boing Boing&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>First Looks: JH Audio JH16 Pro Custom In-Ear Monitor</title>
-    <link href="http://joshkerr.com/2011/09/3952245570/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/3952245570</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.ilounge.com/index.php/ipod/review/jh-audio-jh16-pro-custom-in-ear-monitor/&quot;&gt;First Looks: JH Audio JH16 Pro Custom In-Ear Monitor&lt;/a&gt;:&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://assets.ilounge.com/images/reviews_jhaudio/jh16pro/cache/6-240x175.jpg&quot; border=&quot;0&quot; alt=&quot;&quot; width=&quot;240&quot; height=&quot;175&quot; /&gt;&lt;br /&gt; If JH Audio&amp;#8217;s JH16 Pro ($1,149) looks familiar, that&amp;#8217;s because this pair of ultra high-end earphones was developed by former Ultimate Ears founder Jerry Harvey as a direct competitor to UE&amp;#8217;s top-of-line custom monitors &amp;#8211; at a lower price. JH16 Pro features eight different miniature speakers per ear: four low-end drivers, two midrange drivers, and two high-end drivers with a three-way crossover inside. Bundled with an Otter hard carrying case, a velvet…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;(Via &lt;a href=&quot;http://www.iLounge.com&quot;&gt;iLounge | All Things iPod, iPhone, iTunes and beyond&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Using Octopress & Jekyll with MarsEdit</title>
-    <link href="http://joshkerr.com/2011/09/3952242774/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/3952242774</id>
-    <content type="html">&lt;p&gt;&lt;img title=&quot;ijFeu.png&quot; src=&quot;http://i.imgur.com/ijFeu.png&quot; border=&quot;0&quot; alt=&quot;ijFeu.png&quot; /&gt;&lt;/p&gt;
-
-
-&lt;p&gt;I&amp;#8217;m a big fan of Octopress, the static blogging package based on Ruby and &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, but because it generates static content, how can you use a blog editor like &lt;a href=&quot;http://www.red-sweater.com/marsedit/&quot;&gt;Mars Edit&lt;/a&gt; with what is essentially a static blog?  Introducing &lt;a href=&quot;http://movieos.org/code/jekyll-metaweblog/&quot;&gt;Jekyll-Metaweblog&lt;/a&gt; a server that runs locally and opens up an interface to Octopress so that you can use Mars Edit to write blog entries.&lt;/p&gt;
-
-
-&lt;p&gt;Setting up Jekyll-Metaweblog wasn&amp;#8217;t straight forward, but once I got it going, it worked just fine.  I&amp;#8217;m not a Ruby guru, so my issues could be based on my inexperience with the platform.&lt;/p&gt;
-
-
-&lt;p&gt;Jekyll keeps posts in the _posts directory where Octopress puts posts in the sources/_posts directory, so you need to make sure to start the server using the correct Octopress directory.   Other than that, you should be good to go.&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Infographic: Top iPhone 5 Rumors</title>
-    <link href="http://joshkerr.com/2011/09/3952229415/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/3952229415</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.raywj.com/2011/09/28/infographic-top-iphone-5-rumors/&quot;&gt;Infographic: Top iPhone 5 Rumors&lt;/a&gt;:&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;img title=&quot;iPhone-5-Rumors-Infographic&quot; src=&quot;http://www.raywj.com/wp-content/uploads/2011/09/iPhone-5-Rumors-Infographic_thumb.jpg&quot; alt=&quot;&quot; width=&quot;584&quot; height=&quot;2841&quot; /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;(Via &lt;a href=&quot;http://www.raywj.com&quot;&gt;Ray William Johnson&lt;/a&gt;)&lt;/p&gt;
 
 </content>
   </entry>
@@ -399,16 +419,6 @@
     <updated>2011-09-25T00:57:00-05:00</updated>
     <id>http://joshkerr.com/2011/09/puberty</id>
     <content type="html">&lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;600&quot; height=&quot;337&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/zCxxLY73nBE?version=3&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/zCxxLY73nBE?version=3&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;600&quot; height=&quot;337&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Tig Notaro Is My New Favorite Comedian</title>
-    <link href="http://joshkerr.com/2011/09/tig-notaro-is-my-new-favorite-comedian/"/>
-    <updated>2011-09-24T17:15:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/tig-notaro-is-my-new-favorite-comedian</id>
-    <content type="html">&lt;object width=&quot;640&quot; height=&quot;441&quot; classid=&quot;clsid:D27CDB6E-AE6D-11cf-96B8-444553540000&quot; id=&quot;ep&quot;&gt;&lt;param name=&quot;allowfullscreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;movie&quot; value=&quot;http://i.cdn.turner.com/v5cache/TBS/cvp/teamcoco_drupal_embed.swf?context=teamcoco_embed_offsite&amp;videoId=16951&quot; /&gt;&lt;param name=&quot;bgcolor&quot; value=&quot;#000000&quot; /&gt;&lt;embed src=&quot;http://i.cdn.turner.com/v5cache/TBS/cvp/teamcoco_drupal_embed.swf?context=teamcoco_embed_offsite&amp;videoId=16951&quot; type=&quot;application/x-shockwave-flash&quot; bgcolor=&quot;#000000&quot; allowfullscreen=&quot;true&quot; allowscriptaccess=&quot;always&quot; width=&quot;640&quot; height=&quot;441&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
 
 </content>
   </entry>
