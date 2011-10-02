@@ -3,7 +3,6 @@ layout: post
 title: Overview of Text Editors for Programming on the Mac
 link: http://smyck.net/2011/10/02/text-editors-for-programmers-on-the-mac/
 category: tips
-permalink: /_posts/2011-10-02-3952699410.markdown
 tags: []
 ---
 
