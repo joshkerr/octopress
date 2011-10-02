@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jobs was livid over native Facebook app for TouchPad, Zuckerberg cowered
+title: Jobs was livid over native Facebook on HP
 link: http://appadvice.com/appnn/2011/10/why-facebook-almost-unfriended-apple-and-vice-versa
 tags: []
 category: opinion
@@ -26,5 +26,7 @@ category: opinion
 </blockquote>
 <p>With HP now feeling Facebook’s wrath, the freeze between it and Apple seems to be thawing. First, the Facebook for iPad app is likely to debut sometime next week. In addition, the two companies are said to be working closely on Facebook’s HTML 5 mobile app platform, Project Spartan.</p>
 <p>The reason for the renewed friendship isn’t just because Facebook picked Apple over HP concerning the former’s app. Rather, Apple and Facebook recognized their real enemy was (still) Google.</p>
+<p> </p>
 </blockquote>
+<p> </p>
 <p>(Via <a href="http://news.ycombinator.com/">Hacker News</a>)</p>
