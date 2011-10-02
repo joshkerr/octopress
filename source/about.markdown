@@ -11,9 +11,11 @@ I'm a technology enthusiast and entrepreneur living in Austin, TX with my girlfr
 
 ### Current Work
 
-I have been building technologies to help empower consumers for over a decade. I'm a software developer turned entrepreneur and am currently working at Macheen as their Director of Product Management.  Over the past five years I've specialized in developing mobile products with much of my work on Apple's iOS platform.
+I have been building technologies to help empower consumers for over a decade. I'm a software developer turned entrepreneur and founded 3 companies with one of them being acquired by a larger corporation.  Over the past five years I've specialized in developing mobile products with much of my work on Apple's iOS platform.
 
-I am also a mentor at [Capital Factory][] an early stage startup accelerator in Austin.
+I am Director of Product Management for [Macheen][].
+
+I am also a mentor at [Capital Factory][] an early stage startup accelerator in Austin like TechStars or Y-Combinator.
 
 ### Earlier Work
 
@@ -77,6 +79,7 @@ I've been able to accelerate my site using [Cloud Flare][] a really cool service
 
 Powered by [Octopress] a static blogging package built around [Jekyll] and running on [Heroku].
 
+[Macheen]: http://www.macheen.com
 [Octopress]: http://www.octopress.org
 [Cloud Flare]: http://www.cloudflare.com
 [Stefania]: http://www.stefaniagentile.com

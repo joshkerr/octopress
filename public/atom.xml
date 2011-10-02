@@ -4,13 +4,44 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-10-02T09:41:54-05:00</updated>
+  <updated>2011-10-02T11:03:33-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>Mou - new markdown editor for the Mac</title>
+    <link href="http://joshkerr.com/2011/10/3952713300/"/>
+    <updated>2011-10-02T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/3952713300</id>
+    <content type="html">&lt;p&gt;&lt;img title=&quot;Screen Shot 2011-10-02 at 10.50.59 AM.png&quot; src=&quot;http://f.cl.ly/items/3j2o2E0V2W1T0X0q1711/Screen%20Shot%202011-10-02%20at%2010.50.59%20AM.png&quot; border=&quot;0&quot; alt=&quot;Screen Shot 2011-10-02 at 10.50.59 AM.png&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://mouapp.com/&quot;&gt;Mou&lt;/a&gt; is described as a Markdown editor for web developers.  I displays stylized markdown code on a left pane and then the preview formatted version on the right pane.  As you write on the left, the preview is updated in realtime on the right.&lt;/p&gt;
+
+
+&lt;p&gt;I&amp;#8217;ve seen several editors work like this with the code on the left and preview on the right and for the most part it works.  Its nice to see your final formatted document as you write the underlying technical code.  There are however times when this doesn&amp;#8217;t work so well.  If your document has a lot of images in it, the refresh on the preview pane can be distracting as images reload from minor changes you made to the code.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://mouapp.com/&quot;&gt;Mou&lt;/a&gt; supports syntax coloring themes which is a bonus so that you don&amp;#8217;t need to write with a white background and black text (it kills my eyes) and instead choose from a variety of sample included themes or provide your own.&lt;/p&gt;
+
+
+&lt;p&gt;The editor also supports auto-completion, incremental search and the ability to change the layout of the editor to support languages other than english.  (For example, you can transform into a vertical layout to support traditional Chinese.)&lt;/p&gt;
+
+
+&lt;p&gt;I&amp;#8217;d love to see the ability to integrate with my build system, i.e.: be able to run rake tasks or shell commands from the editor.  That way I can write an article, commit it via git and then push it to Heroku to publish live.&lt;/p&gt;
+
+
+&lt;p&gt;Mou is in beta and there are a lot of great features in the pipe, so I&amp;#8217;m keeping tabs on this one.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://mouapp.com/&quot;&gt;Download Mou&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Overview of Text Editors for Programming on the Mac</title>
@@ -378,20 +409,6 @@
     <updated>2011-09-24T17:15:00-05:00</updated>
     <id>http://joshkerr.com/2011/09/tig-notaro-is-my-new-favorite-comedian</id>
     <content type="html">&lt;object width=&quot;640&quot; height=&quot;441&quot; classid=&quot;clsid:D27CDB6E-AE6D-11cf-96B8-444553540000&quot; id=&quot;ep&quot;&gt;&lt;param name=&quot;allowfullscreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;movie&quot; value=&quot;http://i.cdn.turner.com/v5cache/TBS/cvp/teamcoco_drupal_embed.swf?context=teamcoco_embed_offsite&amp;videoId=16951&quot; /&gt;&lt;param name=&quot;bgcolor&quot; value=&quot;#000000&quot; /&gt;&lt;embed src=&quot;http://i.cdn.turner.com/v5cache/TBS/cvp/teamcoco_drupal_embed.swf?context=teamcoco_embed_offsite&amp;videoId=16951&quot; type=&quot;application/x-shockwave-flash&quot; bgcolor=&quot;#000000&quot; allowfullscreen=&quot;true&quot; allowscriptaccess=&quot;always&quot; width=&quot;640&quot; height=&quot;441&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Crazy Russian Firing Minigun</title>
-    <link href="http://joshkerr.com/2011/09/crazy-russian-firing-minigun/"/>
-    <updated>2011-09-24T16:46:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/crazy-russian-firing-minigun</id>
-    <content type="html">&lt;p&gt;I don&amp;#8217;t really know what to make of this.  Apparently this Russian guy is famous for shooting crazy guns.  This video received well over 1 million views so apparently he has quite a following.&lt;/p&gt;
-
-&lt;p&gt;So the dude just shoots this crazy gun that fires 4000 rounds per second.  The barrels of the gun get so hot that they turn red.  Not much else to see really except for his kid like attitude toward a weapon designed to take lives.  A lot of lives.&lt;/p&gt;
-
-&lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;600&quot; height=&quot;337&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/d84r8gMGxFQ?version=3&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/d84r8gMGxFQ?version=3&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;600&quot; height=&quot;337&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
 
 </content>
   </entry>
