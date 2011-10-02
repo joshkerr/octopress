@@ -6,6 +6,7 @@ tags: []
 category: opinion
 ---
 
+<p>I wonder why Apple wanted to build a Facebook app themselves.  Maybe closer integration of the service with their iOS?  Why wouldn't Facebook want that?</p>
 <p><a href="http://appadvice.com/appnn/2011/10/why-facebook-almost-unfriended-apple-and-vice-versa">Jobs was livid over native Facebook app for TouchPad, Zuckerberg cowered</a>:</p>
 <blockquote>
 <p><span style="font-size: 32px; font-weight: bold;">Why Facebook Almost Unfriended Apple (And Vice Versa)</span></p>
@@ -26,7 +27,5 @@ category: opinion
 </blockquote>
 <p>With HP now feeling Facebook’s wrath, the freeze between it and Apple seems to be thawing. First, the Facebook for iPad app is likely to debut sometime next week. In addition, the two companies are said to be working closely on Facebook’s HTML 5 mobile app platform, Project Spartan.</p>
 <p>The reason for the renewed friendship isn’t just because Facebook picked Apple over HP concerning the former’s app. Rather, Apple and Facebook recognized their real enemy was (still) Google.</p>
-<p> </p>
 </blockquote>
-<p> </p>
 <p>(Via <a href="http://news.ycombinator.com/">Hacker News</a>)</p>
