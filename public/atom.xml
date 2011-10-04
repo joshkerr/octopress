@@ -4,7 +4,7 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-10-02T18:54:37-05:00</updated>
+  <updated>2011-10-04T05:07:12-04:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
@@ -13,9 +13,31 @@
 
   
   <entry>
+    <title>Growl 1.3 now available on the Mac App Store</title>
+    <link href="http://joshkerr.com/2011/10/growl-available-in-itunes-store/"/>
+    <updated>2011-10-03T00:00:00-04:00</updated>
+    <id>http://joshkerr.com/2011/10/growl-available-in-itunes-store</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.tuaw.com/2011/10/03/growl-1-3-now-available-on-the-mac-app-store/&quot;&gt;Growl 1.3 now available on the Mac App Store&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.blogcdn.com//media/2011/10/growl13.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://growl.info/&quot;&gt;Growl&lt;/a&gt;, perhaps the most well-known and popular notification system for OS X, has just released version 1.3 as a Mac App Store exclusive. The previously free notification system has become a paid app with Growl 1.3. As Macstories &lt;a href=&quot;http://www.macstories.net/news/growl-1-3-now-on-the-mac-app-store-1-99-completely-rewritten/&quot;&gt;points out&lt;/a&gt;, the reason the Growl team decided to make what was previously a free System Preferences pane into a US$1.99 app was so users would be provided with an up-to-date app utilizing the latest Apple technologies.&lt;/p&gt;
+&lt;p&gt;So what&amp;#8217;s new with Growl 1.3? Almost everything. Growl has been rewritten from the ground up using a new architecture, sporting a new UI, and adding lots of features previous iterations of Growl never had. But not to worry, Growl 1.3 still retains everything you loved about Growl 1.2, they&amp;#8217;ve just added a lot of cool new features to it.&lt;/p&gt;
+&lt;p&gt;Among the coolest new features is a Notification Center-like Rollup window. The window, which is accessed from the Finder&amp;#8217;s menu bar (where you find Growl now), keeps a history of all your notifications that you&amp;#8217;ve received from various apps that use Growl. This is especially handy when you&amp;#8217;re away from your computer and want to see what notifications you missed.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://itunes.apple.com/us/app/growl/id467939042?mt=12&quot;&gt;Growl 1.3&lt;/a&gt; is $1.99 in the Mac App Store. Users also can still download the free System Preference pane version &lt;a href=&quot;http://growl.info/downloads&quot;&gt;1.2.2 here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://www.tuaw.com&quot;&gt;The Unofficial Apple Weblog (TUAW)&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
     <title>Overview of Text Editors for Programming on the Mac</title>
     <link href="http://joshkerr.com/2011/10/overview-of-text-editors-mac/"/>
-    <updated>2011-10-02T00:00:00-05:00</updated>
+    <updated>2011-10-02T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/10/overview-of-text-editors-mac</id>
     <content type="html">&lt;p&gt;Not a bad overview of the different programming editors on the Mac:&lt;/p&gt;
 
@@ -84,7 +106,7 @@
   <entry>
     <title>My rating for the movie Drive</title>
     <link href="http://joshkerr.com/2011/10/my-rating-for-drive/"/>
-    <updated>2011-10-02T00:00:00-05:00</updated>
+    <updated>2011-10-02T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/10/my-rating-for-drive</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://29.media.tumblr.com/tumblr_lsf5h1ZLRa1qz52aeo1_500.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -97,7 +119,7 @@
   <entry>
     <title>Mou - new markdown editor for the Mac</title>
     <link href="http://joshkerr.com/2011/10/mou-markdown-editor-mac/"/>
-    <updated>2011-10-02T00:00:00-05:00</updated>
+    <updated>2011-10-02T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/10/mou-markdown-editor-mac</id>
     <content type="html">&lt;p&gt;&lt;img title=&quot;Screen Shot 2011-10-02 at 10.50.59 AM.png&quot; src=&quot;http://f.cl.ly/items/3j2o2E0V2W1T0X0q1711/Screen%20Shot%202011-10-02%20at%2010.50.59%20AM.png&quot; border=&quot;0&quot; alt=&quot;Screen Shot 2011-10-02 at 10.50.59 AM.png&quot; /&gt;&lt;/p&gt;
 
@@ -128,7 +150,7 @@
   <entry>
     <title>Jobs was livid over native Facebook on HP</title>
     <link href="http://joshkerr.com/2011/10/jobs-livid-over-native-facebook-on-hp/"/>
-    <updated>2011-10-02T00:00:00-05:00</updated>
+    <updated>2011-10-02T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/10/jobs-livid-over-native-facebook-on-hp</id>
     <content type="html">&lt;p&gt;Yesterday Mashable had an &lt;a href=&quot;http://news.ycombinator.com/&quot;&gt;article&lt;/a&gt; on how Steve Jobs was furious with Facebook over building a client app for WebOS.   It went on to describe some of the earlier failures to work together:&lt;/p&gt;
 
@@ -149,7 +171,7 @@
   <entry>
     <title>Video: A Look At The Fastest Chronograph Watch Ever Made</title>
     <link href="http://joshkerr.com/2011/10/tag-mikrotimer-flying-concept/"/>
-    <updated>2011-10-01T00:00:00-05:00</updated>
+    <updated>2011-10-01T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/10/tag-mikrotimer-flying-concept</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/Techcrunch/~3/zBfTac9gozc/&quot;&gt;Video: A Look At The Fastest Chronograph Watch Ever Made&lt;/a&gt;:&lt;/p&gt;
 
@@ -171,7 +193,7 @@
   <entry>
     <title>Statistics Prove Women are Worse at Parking</title>
     <link href="http://joshkerr.com/2011/10/stats-prove-women-bad-at-parking/"/>
-    <updated>2011-10-01T00:00:00-05:00</updated>
+    <updated>2011-10-01T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/10/stats-prove-women-bad-at-parking</id>
     <content type="html">&lt;p&gt;From the bin of stats that can in no way be accurate or based on anything scientific:&lt;/p&gt;
 
@@ -192,7 +214,7 @@
   <entry>
     <title>Estimate: Amazon Kindle Fire sold at $10 loss to build share</title>
     <link href="http://joshkerr.com/2011/10/kindle-fire-sold-at-loss/"/>
-    <updated>2011-10-01T00:00:00-05:00</updated>
+    <updated>2011-10-01T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/10/kindle-fire-sold-at-loss</id>
     <content type="html">&lt;p&gt;This is a smart move on Amazon&amp;#8217;s part.  The iPad is on fire, the only way to break in is to undercut with price and provide compelling content.  Amazon is doing both.&lt;/p&gt;
 
@@ -213,7 +235,7 @@
   <entry>
     <title>Infographic: Top iPhone 5 Rumors</title>
     <link href="http://joshkerr.com/2011/09/top-5-iphone5-rumors/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
+    <updated>2011-09-30T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/09/top-5-iphone5-rumors</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.raywj.com/2011/09/28/infographic-top-iphone-5-rumors/&quot;&gt;Infographic: Top iPhone 5 Rumors&lt;/a&gt;:&lt;/p&gt;
 
@@ -231,7 +253,7 @@
   <entry>
     <title>I need one of these</title>
     <link href="http://joshkerr.com/2011/09/sick-white-911/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
+    <updated>2011-09-30T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/09/sick-white-911</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://25.media.tumblr.com/tumblr_lrxol8Ru9s1qbcma7o1_500.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -247,7 +269,7 @@
   <entry>
     <title>First Looks: JH Audio JH16 Pro Custom In-Ear Monitor</title>
     <link href="http://joshkerr.com/2011/09/pro-custom-in-ear-monitors/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
+    <updated>2011-09-30T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/09/pro-custom-in-ear-monitors</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.ilounge.com/index.php/ipod/review/jh-audio-jh16-pro-custom-in-ear-monitor/&quot;&gt;First Looks: JH Audio JH16 Pro Custom In-Ear Monitor&lt;/a&gt;:&lt;/p&gt;
 
@@ -265,7 +287,7 @@
   <entry>
     <title>Baby pandas need a nap (photo)</title>
     <link href="http://joshkerr.com/2011/09/pandas-need-nap/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
+    <updated>2011-09-30T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/09/pandas-need-nap</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/boingboing/iBag/~3/3XgK0C5-mIQ/baby-pandas-need-a-nap-photo.html&quot;&gt;Baby pandas need a nap (photo)&lt;/a&gt;:&lt;/p&gt;
 
@@ -284,7 +306,7 @@
   <entry>
     <title>Using Octopress & Jekyll with MarsEdit</title>
     <link href="http://joshkerr.com/2011/09/octopress-jekyll-marsedit-together/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
+    <updated>2011-09-30T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/09/octopress-jekyll-marsedit-together</id>
     <content type="html">&lt;p&gt;&lt;img title=&quot;ijFeu.png&quot; src=&quot;http://i.imgur.com/ijFeu.png&quot; border=&quot;0&quot; alt=&quot;ijFeu.png&quot; /&gt;&lt;/p&gt;
 
@@ -303,7 +325,7 @@
   <entry>
     <title>Gorgeous 911 on a cliff</title>
     <link href="http://joshkerr.com/2011/09/911-on-a-cliff/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
+    <updated>2011-09-30T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/09/911-on-a-cliff</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://30.media.tumblr.com/tumblr_lsbkglWvH51qfzs7zo1_500.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -319,7 +341,7 @@
   <entry>
     <title>PBS reporter jailed while covering protests in NYC</title>
     <link href="http://joshkerr.com/2011/09/3952255152/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
+    <updated>2011-09-30T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/09/3952255152</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/boingboing/iBag/~3/WcP4b_DPDCk/pbs-reporter-jailed-while-covering-occupy-wall-street-protests-in-nyc.html&quot;&gt;PBS reporter jailed while covering &amp;#8220;Occupy Wall Street&amp;#8221; protests in NYC&lt;/a&gt;:&lt;/p&gt;
 
@@ -342,7 +364,7 @@
   <entry>
     <title>Bell & Ross Harley Is Amazing</title>
     <link href="http://joshkerr.com/2011/09/bell-and-ross-harley-is-amazing/"/>
-    <updated>2011-09-28T11:38:00-05:00</updated>
+    <updated>2011-09-28T11:38:00-04:00</updated>
     <id>http://joshkerr.com/2011/09/bell-and-ross-harley-is-amazing</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/9Afnx.jpg&quot; alt=&quot;Bell &amp;amp; Ross Harley&quot; /&gt;&lt;/p&gt;
 
@@ -353,7 +375,7 @@
   <entry>
     <title>Amazon Route 53 to Host Your DNS</title>
     <link href="http://joshkerr.com/2011/09/amazon-route-53-to-host-your-dns/"/>
-    <updated>2011-09-27T13:15:00-05:00</updated>
+    <updated>2011-09-27T13:15:00-04:00</updated>
     <id>http://joshkerr.com/2011/09/amazon-route-53-to-host-your-dns</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/0F022n1Y1h322b3O0m0V/Screen%20Shot%202011-09-27%20at%201.14.40%20PM.png&quot; alt=&quot;Interstate 53&quot; /&gt;&lt;/p&gt;
 
@@ -370,7 +392,7 @@
   <entry>
     <title>Great Loo & Placido mashup</title>
     <link href="http://joshkerr.com/2011/09/great-loo/"/>
-    <updated>2011-09-26T16:30:00-05:00</updated>
+    <updated>2011-09-26T16:30:00-04:00</updated>
     <id>http://joshkerr.com/2011/09/great-loo</id>
     <content type="html">&lt;div class=&quot;embed rich soundcloud&quot;&gt;&lt;object height=&quot;81&quot; width=&quot;900&quot;&gt;
 &lt;param name=&quot;movie&quot; value=&quot;http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F19922313&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed allowscriptaccess=&quot;always&quot; height=&quot;81&quot; src=&quot;http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F19922313&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;900&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
@@ -383,7 +405,7 @@
   <entry>
     <title>A Fantastic Dubstep Dance Routine</title>
     <link href="http://joshkerr.com/2011/09/a-fantastic-dubstep-dance-routine/"/>
-    <updated>2011-09-26T14:50:00-05:00</updated>
+    <updated>2011-09-26T14:50:00-04:00</updated>
     <id>http://joshkerr.com/2011/09/a-fantastic-dubstep-dance-routine</id>
     <content type="html">&lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;600&quot; height=&quot;337&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/LXO-jKksQkM?version=3&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/LXO-jKksQkM?version=3&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;600&quot; height=&quot;337&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
 
@@ -395,31 +417,12 @@
   <entry>
     <title>Dubstep in a Cereal Commercial</title>
     <link href="http://joshkerr.com/2011/09/dubstep-in-a-cereal-commercial/"/>
-    <updated>2011-09-25T14:00:00-05:00</updated>
+    <updated>2011-09-25T14:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/09/dubstep-in-a-cereal-commercial</id>
     <content type="html">&lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;600&quot; height=&quot;337&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/2YpOw8o34BM?version=3&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/2YpOw8o34BM?version=3&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;600&quot; height=&quot;337&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
 
 
 &lt;p&gt;I&amp;#8217;m compelled to buy this cereal.&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Porn Stars and Google Plus</title>
-    <link href="http://joshkerr.com/2011/09/porn-stars-and-google-plus/"/>
-    <updated>2011-09-25T10:42:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/porn-stars-and-google-plus</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/090o1y460O0i0u1J4308/Screen%20Shot%202011-09-25%20at%2010.54.50%20AM.png&quot; alt=&quot;Bree Olson&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I received an email notification last night from Google Plus that a person named Bree Olson had added me to one of her circles.  I don&amp;#8217;t know a person named Bree, the but woman in the profile picture was attractive.  I didn&amp;#8217;t think about it again until later that night when I browsed her profile and only then did I learn that she is a professional adult film star.&lt;/p&gt;
-
-&lt;p&gt;My first reaction was bemusement, why would she add me to her profile?  I&amp;#8217;ve never met her before, I don&amp;#8217;t work in her industry, and it is doubtful that we follow the same people.  Then I got curious.  Who is she following?&lt;/p&gt;
-
-&lt;p&gt;The list of people that Bree follows is full of people strikingly similar to me.  Regular joes who seem to be entrepreneurs and love technology.  Why is Bree adding people like me to her Google Plus circles?  Thinking about this led me to realization that here I am writing a blog post about her.&lt;/p&gt;
-
-&lt;p&gt;Bree might be leveraging Google Plus to get the word out in a very modern social sort of way.  I was so curious about the fact that she added me that I inadvertently spread word about her.  She could be a marketing genius.  Leveraging the curiosity of strangers who follow you and the fact that she is an attractive woman, she&amp;#8217;s created a very inexpensive and powerful tool to get the word out about herself.&lt;/p&gt;
-
-&lt;p&gt;Porn star with marketing prowess.&lt;/p&gt;
 </content>
   </entry>
   
