@@ -4,7 +4,7 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-10-04T05:52:33-04:00</updated>
+  <updated>2011-10-04T05:55:19-04:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
@@ -17,7 +17,10 @@
     <link href="http://joshkerr.com/2011/10/dropbox-is-my-publish-button/"/>
     <updated>2011-10-04T00:00:00-04:00</updated>
     <id>http://joshkerr.com/2011/10/dropbox-is-my-publish-button</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://joehewitt.com/2011/10/03/dropbox-is-my-publish-button&quot;&gt;Dropbox is my publish button&lt;/a&gt;:&lt;/p&gt;
+    <content type="html">&lt;p&gt;I found this article from Joe Hewitt discussing his blog setup.  He puts all of his posts in a single file which is then parsed and rendered on his server using custom written node.js server code.  He says keeping the single file of posts removes friction from creating new entries.  Not sure I believe that, but ok.  More:&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://joehewitt.com/2011/10/03/dropbox-is-my-publish-button&quot;&gt;Dropbox is my publish button&lt;/a&gt;:&lt;/p&gt;
 
 
 &lt;blockquote&gt;
