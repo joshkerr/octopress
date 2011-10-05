@@ -4,7 +4,7 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-10-04T05:55:19-04:00</updated>
+  <updated>2011-10-05T07:19:18-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
@@ -13,9 +13,51 @@
 
   
   <entry>
+    <title>Italy&#8217;s insane Internet law prompts removal of Italian Wikipedia</title>
+    <link href="http://joshkerr.com/2011/10/italy-insane-law-prevents-wikis/"/>
+    <updated>2011-10-05T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/italy-insane-law-prevents-wikis</id>
+    <content type="html">&lt;p&gt;It is pretty insane that all one has to do to get a website to remove content is complain that the content is hurting their image.  Whether true or not and without any sort of third party discussion, the website has 48 hours to remove the offending content.&lt;/p&gt;
+
+
+&lt;p&gt;This law is going to seriously limit free speech in Italy.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/boingboing/iBag/~3/_pqODwqxMcI/italys-insane-internet-law-prompts-removal-of-italian-wikipedia.html&quot;&gt;Italy&amp;#8217;s insane Internet law prompts removal of Italian Wikipedia&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;This proposal, which the Italian Parliament is currently debating, provides, among other things, a requirement to all websites to publish, within 48 hours of the request and without any comment, a correction of any content that the applicant deems detrimental to his/her image.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://boingboing.net&quot;&gt;Boing Boing&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>A Fried Slice Of Heaven: Americas Favorite Bacon Dishes</title>
+    <link href="http://joshkerr.com/2011/10/favorite-bacon-dishes/"/>
+    <updated>2011-10-05T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/favorite-bacon-dishes</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://digg.com/news/lifestyle/a_fried_slice_of_heaven_americas_favorite_bacon_dishes?utm_campaign=Feed%3A+http%3A%2F%2Fservices.digg.com%2F2.0%2Fstory.getTopNews%3Ftype%3Drss&amp;amp;utm_medium=feed&amp;amp;utm_source=diggapi&quot;&gt;A Fried Slice Of Heaven: Americas Favorite Bacon Dishes&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;The smell of fried swine in the air always get your appetite going. Bet you didn&amp;#8217;t know what the most famous bacon dishes in America are?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://digg.com/&quot;&gt;digg&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
     <title>Dropbox is my publish button</title>
     <link href="http://joshkerr.com/2011/10/dropbox-is-my-publish-button/"/>
-    <updated>2011-10-04T00:00:00-04:00</updated>
+    <updated>2011-10-04T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/10/dropbox-is-my-publish-button</id>
     <content type="html">&lt;p&gt;I found this article from Joe Hewitt discussing his blog setup.  He puts all of his posts in a single file which is then parsed and rendered on his server using custom written node.js server code.  He says keeping the single file of posts removes friction from creating new entries.  Not sure I believe that, but ok.  More:&lt;/p&gt;
 
@@ -59,7 +101,7 @@ Blah blah blah.
   <entry>
     <title>Growl 1.3 now available on the Mac App Store</title>
     <link href="http://joshkerr.com/2011/10/growl-available-in-itunes-store/"/>
-    <updated>2011-10-03T00:00:00-04:00</updated>
+    <updated>2011-10-03T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/10/growl-available-in-itunes-store</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.tuaw.com/2011/10/03/growl-1-3-now-available-on-the-mac-app-store/&quot;&gt;Growl 1.3 now available on the Mac App Store&lt;/a&gt;:&lt;/p&gt;
 
@@ -81,7 +123,7 @@ Blah blah blah.
   <entry>
     <title>Overview of Text Editors for Programming on the Mac</title>
     <link href="http://joshkerr.com/2011/10/overview-of-text-editors-mac/"/>
-    <updated>2011-10-02T00:00:00-04:00</updated>
+    <updated>2011-10-02T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/10/overview-of-text-editors-mac</id>
     <content type="html">&lt;p&gt;Not a bad overview of the different programming editors on the Mac:&lt;/p&gt;
 
@@ -150,7 +192,7 @@ Blah blah blah.
   <entry>
     <title>My rating for the movie Drive</title>
     <link href="http://joshkerr.com/2011/10/my-rating-for-drive/"/>
-    <updated>2011-10-02T00:00:00-04:00</updated>
+    <updated>2011-10-02T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/10/my-rating-for-drive</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://29.media.tumblr.com/tumblr_lsf5h1ZLRa1qz52aeo1_500.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -163,7 +205,7 @@ Blah blah blah.
   <entry>
     <title>Mou - new markdown editor for the Mac</title>
     <link href="http://joshkerr.com/2011/10/mou-markdown-editor-mac/"/>
-    <updated>2011-10-02T00:00:00-04:00</updated>
+    <updated>2011-10-02T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/10/mou-markdown-editor-mac</id>
     <content type="html">&lt;p&gt;&lt;img title=&quot;Screen Shot 2011-10-02 at 10.50.59 AM.png&quot; src=&quot;http://f.cl.ly/items/3j2o2E0V2W1T0X0q1711/Screen%20Shot%202011-10-02%20at%2010.50.59%20AM.png&quot; border=&quot;0&quot; alt=&quot;Screen Shot 2011-10-02 at 10.50.59 AM.png&quot; /&gt;&lt;/p&gt;
 
@@ -194,7 +236,7 @@ Blah blah blah.
   <entry>
     <title>Jobs was livid over native Facebook on HP</title>
     <link href="http://joshkerr.com/2011/10/jobs-livid-over-native-facebook-on-hp/"/>
-    <updated>2011-10-02T00:00:00-04:00</updated>
+    <updated>2011-10-02T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/10/jobs-livid-over-native-facebook-on-hp</id>
     <content type="html">&lt;p&gt;Yesterday Mashable had an &lt;a href=&quot;http://news.ycombinator.com/&quot;&gt;article&lt;/a&gt; on how Steve Jobs was furious with Facebook over building a client app for WebOS.   It went on to describe some of the earlier failures to work together:&lt;/p&gt;
 
@@ -215,7 +257,7 @@ Blah blah blah.
   <entry>
     <title>Video: A Look At The Fastest Chronograph Watch Ever Made</title>
     <link href="http://joshkerr.com/2011/10/tag-mikrotimer-flying-concept/"/>
-    <updated>2011-10-01T00:00:00-04:00</updated>
+    <updated>2011-10-01T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/10/tag-mikrotimer-flying-concept</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/Techcrunch/~3/zBfTac9gozc/&quot;&gt;Video: A Look At The Fastest Chronograph Watch Ever Made&lt;/a&gt;:&lt;/p&gt;
 
@@ -237,7 +279,7 @@ Blah blah blah.
   <entry>
     <title>Statistics Prove Women are Worse at Parking</title>
     <link href="http://joshkerr.com/2011/10/stats-prove-women-bad-at-parking/"/>
-    <updated>2011-10-01T00:00:00-04:00</updated>
+    <updated>2011-10-01T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/10/stats-prove-women-bad-at-parking</id>
     <content type="html">&lt;p&gt;From the bin of stats that can in no way be accurate or based on anything scientific:&lt;/p&gt;
 
@@ -258,7 +300,7 @@ Blah blah blah.
   <entry>
     <title>Estimate: Amazon Kindle Fire sold at $10 loss to build share</title>
     <link href="http://joshkerr.com/2011/10/kindle-fire-sold-at-loss/"/>
-    <updated>2011-10-01T00:00:00-04:00</updated>
+    <updated>2011-10-01T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/10/kindle-fire-sold-at-loss</id>
     <content type="html">&lt;p&gt;This is a smart move on Amazon&amp;#8217;s part.  The iPad is on fire, the only way to break in is to undercut with price and provide compelling content.  Amazon is doing both.&lt;/p&gt;
 
@@ -279,7 +321,7 @@ Blah blah blah.
   <entry>
     <title>Infographic: Top iPhone 5 Rumors</title>
     <link href="http://joshkerr.com/2011/09/top-5-iphone5-rumors/"/>
-    <updated>2011-09-30T00:00:00-04:00</updated>
+    <updated>2011-09-30T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/09/top-5-iphone5-rumors</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.raywj.com/2011/09/28/infographic-top-iphone-5-rumors/&quot;&gt;Infographic: Top iPhone 5 Rumors&lt;/a&gt;:&lt;/p&gt;
 
@@ -297,7 +339,7 @@ Blah blah blah.
   <entry>
     <title>I need one of these</title>
     <link href="http://joshkerr.com/2011/09/sick-white-911/"/>
-    <updated>2011-09-30T00:00:00-04:00</updated>
+    <updated>2011-09-30T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/09/sick-white-911</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://25.media.tumblr.com/tumblr_lrxol8Ru9s1qbcma7o1_500.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -313,7 +355,7 @@ Blah blah blah.
   <entry>
     <title>First Looks: JH Audio JH16 Pro Custom In-Ear Monitor</title>
     <link href="http://joshkerr.com/2011/09/pro-custom-in-ear-monitors/"/>
-    <updated>2011-09-30T00:00:00-04:00</updated>
+    <updated>2011-09-30T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/09/pro-custom-in-ear-monitors</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.ilounge.com/index.php/ipod/review/jh-audio-jh16-pro-custom-in-ear-monitor/&quot;&gt;First Looks: JH Audio JH16 Pro Custom In-Ear Monitor&lt;/a&gt;:&lt;/p&gt;
 
@@ -331,7 +373,7 @@ Blah blah blah.
   <entry>
     <title>Baby pandas need a nap (photo)</title>
     <link href="http://joshkerr.com/2011/09/pandas-need-nap/"/>
-    <updated>2011-09-30T00:00:00-04:00</updated>
+    <updated>2011-09-30T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/09/pandas-need-nap</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/boingboing/iBag/~3/3XgK0C5-mIQ/baby-pandas-need-a-nap-photo.html&quot;&gt;Baby pandas need a nap (photo)&lt;/a&gt;:&lt;/p&gt;
 
@@ -350,7 +392,7 @@ Blah blah blah.
   <entry>
     <title>Using Octopress & Jekyll with MarsEdit</title>
     <link href="http://joshkerr.com/2011/09/octopress-jekyll-marsedit-together/"/>
-    <updated>2011-09-30T00:00:00-04:00</updated>
+    <updated>2011-09-30T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/09/octopress-jekyll-marsedit-together</id>
     <content type="html">&lt;p&gt;&lt;img title=&quot;ijFeu.png&quot; src=&quot;http://i.imgur.com/ijFeu.png&quot; border=&quot;0&quot; alt=&quot;ijFeu.png&quot; /&gt;&lt;/p&gt;
 
@@ -369,7 +411,7 @@ Blah blah blah.
   <entry>
     <title>Gorgeous 911 on a cliff</title>
     <link href="http://joshkerr.com/2011/09/911-on-a-cliff/"/>
-    <updated>2011-09-30T00:00:00-04:00</updated>
+    <updated>2011-09-30T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/09/911-on-a-cliff</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://30.media.tumblr.com/tumblr_lsbkglWvH51qfzs7zo1_500.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -385,7 +427,7 @@ Blah blah blah.
   <entry>
     <title>PBS reporter jailed while covering protests in NYC</title>
     <link href="http://joshkerr.com/2011/09/3952255152/"/>
-    <updated>2011-09-30T00:00:00-04:00</updated>
+    <updated>2011-09-30T00:00:00-05:00</updated>
     <id>http://joshkerr.com/2011/09/3952255152</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/boingboing/iBag/~3/WcP4b_DPDCk/pbs-reporter-jailed-while-covering-occupy-wall-street-protests-in-nyc.html&quot;&gt;PBS reporter jailed while covering &amp;#8220;Occupy Wall Street&amp;#8221; protests in NYC&lt;/a&gt;:&lt;/p&gt;
 
@@ -408,7 +450,7 @@ Blah blah blah.
   <entry>
     <title>Bell & Ross Harley Is Amazing</title>
     <link href="http://joshkerr.com/2011/09/bell-and-ross-harley-is-amazing/"/>
-    <updated>2011-09-28T11:38:00-04:00</updated>
+    <updated>2011-09-28T11:38:00-05:00</updated>
     <id>http://joshkerr.com/2011/09/bell-and-ross-harley-is-amazing</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/9Afnx.jpg&quot; alt=&quot;Bell &amp;amp; Ross Harley&quot; /&gt;&lt;/p&gt;
 
@@ -419,7 +461,7 @@ Blah blah blah.
   <entry>
     <title>Amazon Route 53 to Host Your DNS</title>
     <link href="http://joshkerr.com/2011/09/amazon-route-53-to-host-your-dns/"/>
-    <updated>2011-09-27T13:15:00-04:00</updated>
+    <updated>2011-09-27T13:15:00-05:00</updated>
     <id>http://joshkerr.com/2011/09/amazon-route-53-to-host-your-dns</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/0F022n1Y1h322b3O0m0V/Screen%20Shot%202011-09-27%20at%201.14.40%20PM.png&quot; alt=&quot;Interstate 53&quot; /&gt;&lt;/p&gt;
 
@@ -430,31 +472,6 @@ Blah blah blah.
 &lt;p&gt;I prefer to host my stuff at either &lt;a href=&quot;http://mediatemple.net/&quot;&gt;Media Temple&lt;/a&gt;, Amazon or Heroku.  All three of those services provide DNS hosting, but Amazon&amp;#8217;s Route 53 in my opinion is the most capable.  The bad news is that Amazon&amp;#8217;s interface is crypting using a &lt;a href=&quot;http://aws.amazon.com/developertools/Amazon-Route-53/9706686376855511&quot;&gt;perl script&lt;/a&gt; and command line to configure your zones.&lt;/p&gt;
 
 &lt;p&gt;Now enter &lt;a href=&quot;http://interstate53.com&quot;&gt;Interstate 53&lt;/a&gt;, a website that places a front end web interface to Amazons Route 53 service.  Interstate 53 is a free service that lets you batch your DNS changes over to Amazon&amp;#8217;s Route 53 service.  So you configure your Zones, click a button and then those changes are transmitted to Amazon.  It worked well for me as I migrated my domain from another DNS provider to Amazon.&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Great Loo & Placido mashup</title>
-    <link href="http://joshkerr.com/2011/09/great-loo/"/>
-    <updated>2011-09-26T16:30:00-04:00</updated>
-    <id>http://joshkerr.com/2011/09/great-loo</id>
-    <content type="html">&lt;div class=&quot;embed rich soundcloud&quot;&gt;&lt;object height=&quot;81&quot; width=&quot;900&quot;&gt;
-&lt;param name=&quot;movie&quot; value=&quot;http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F19922313&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed allowscriptaccess=&quot;always&quot; height=&quot;81&quot; src=&quot;http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F19922313&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;900&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
-
-
-&lt;p&gt;This is a great Loo &amp;amp; Placido mashup called Betty got Jacked.  (Ram Jam, Herve, C&amp;amp;C, etc..)  I love these guys.&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>A Fantastic Dubstep Dance Routine</title>
-    <link href="http://joshkerr.com/2011/09/a-fantastic-dubstep-dance-routine/"/>
-    <updated>2011-09-26T14:50:00-04:00</updated>
-    <id>http://joshkerr.com/2011/09/a-fantastic-dubstep-dance-routine</id>
-    <content type="html">&lt;div class=&quot;embed video youtube&quot;&gt;&lt;object width=&quot;600&quot; height=&quot;337&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/LXO-jKksQkM?version=3&quot;&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;embed src=&quot;http://www.youtube.com/v/LXO-jKksQkM?version=3&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;600&quot; height=&quot;337&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
-
-
-&lt;p&gt;I&amp;#8217;m not sure where this came from, but this guy is incredible.&lt;/p&gt;
 </content>
   </entry>
   
