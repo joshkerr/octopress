@@ -4,13 +4,55 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-10-05T08:49:55-05:00</updated>
+  <updated>2011-10-06T13:07:07-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>Steve Jobs Succumbs to Alternative Medicine</title>
+    <link href="http://joshkerr.com/2011/10/jobs-succumbs-to-alt-medicine/"/>
+    <updated>2011-10-06T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/jobs-succumbs-to-alt-medicine</id>
+    <content type="html">&lt;p&gt;I&amp;#8217;m not sure if I believe this story, but if it is true, it is sad.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://www.skepticblog.org/2011/10/06/steve-jobs-succumbs-to-alternative-medicine/&quot;&gt;Steve Jobs Succumbs to Alternative Medicine&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;Most pancreatic cancers are aggressive and always terminal, but Steve was lucky (if you can call it that) and had a rare form called an islet cell neuroendocrine tumor, which is actually quite treatable with excellent survival rates — if caught soon enough. The median survival is about a decade, but it depends on how soon it’s removed surgically. Steve caught his very early, and should have expected to survive much longer than a decade. Unfortunately Steve relied on a naturopathic diet instead of early surgery. There is no evidence that diet has any effect on islet cell carcinoma. &lt;a href=&quot;http://tech.fortune.cnn.com/2008/06/13/steve-jobs-life-after-the-whipple/&quot;&gt;As he dieted for nine months&lt;/a&gt;, the tumor progressed, and took him from the high end to the low end of the survival rate.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Transfer Cutting Board</title>
+    <link href="http://joshkerr.com/2011/10/transfer-cutting-board/"/>
+    <updated>2011-10-05T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/transfer-cutting-board</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/design-milk/~3/S4aKXnrmnJ4/&quot;&gt;Transfer Cutting Board&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img title=&quot;Transfer Cutting Board&quot; src=&quot;http://design-milk.com/images/2011/10/transfer-cutting-board-veggies.jpg&quot; alt=&quot;Transfer Cutting Board&quot; width=&quot;500&quot; height=&quot;324&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;http://www.designspray.de/produkt.php?id=425&quot;&gt;Transfer Cutting Board&lt;/a&gt; by &lt;a href=&quot;http://www.chris-ruby.de/&quot;&gt;chris&amp;amp;ruby&lt;/a&gt; makes transferring your food to plate pretty foolproof.&lt;/p&gt;
+&lt;p&gt;&lt;span&gt; &lt;/span&gt;&lt;img title=&quot;Transfer Cutting Board&quot; src=&quot;http://design-milk.com/images/2011/10/transfer-cutting-board-plate.jpg&quot; alt=&quot;Transfer Cutting Board&quot; width=&quot;500&quot; height=&quot;276&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img title=&quot;Transfer Cutting Board&quot; src=&quot;http://design-milk.com/images/2011/10/transfer-cutting-board-solo.jpg&quot; alt=&quot;Transfer Cutting Board&quot; width=&quot;500&quot; height=&quot;258&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://design-milk.com&quot;&gt;Design Milk&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Italy&#8217;s insane Internet law prompts removal of Italian Wikipedia</title>
@@ -50,6 +92,25 @@
 
 
 &lt;p&gt;(Via &lt;a href=&quot;http://digg.com/&quot;&gt;digg&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Amazon adds server-side encryption to S3 data service</title>
+    <link href="http://joshkerr.com/2011/10/amazon-adds-server-side-encryption-to-s3/"/>
+    <updated>2011-10-05T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/amazon-adds-server-side-encryption-to-s3</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://feeds.arstechnica.com/~r/arstechnica/index/~3/CCtM-_dOMk4/amazon-adds-server-side-encryption-to-s3-data-service.ars&quot;&gt;Amazon adds server-side encryption to S3 data service&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;Up until now, Amazon Web Services customers had three choices when it came to protecting data sitting in Amazon Simple Storage Service &amp;#8220;buckets&amp;#8221;: implementing &lt;a href=&quot;http://docs.amazonwebservices.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/s3/AmazonS3EncryptionClient.html&quot;&gt;AWS&amp;#8217;s S3 Encryption Client&lt;/a&gt; or their own encryption in  application code; encrypting it locally with another application before uploading; or counting on AWS authentication to keep bad people out of their data. The first two ways can create bottlenecks when it comes to getting data in and out of applications to users, and the third is just plain stupid.&lt;/p&gt;
+&lt;p&gt;Now there&amp;#8217;s another choice. Amazon has implemented &lt;a href=&quot;http://docs.amazonwebservices.com/AmazonS3/latest/dev/index.html?UsingEncryption.html&quot;&gt;server-side encryption &lt;/a&gt;of data using 256-bit AES crypto as part of the AWS REST, Java, and .NET APIs for S3, and as an option for data uploaded through the AWS management console.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://arstechnica.com/index.php&quot;&gt;Ars Technica&lt;/a&gt;)&lt;/p&gt;
 
 </content>
   </entry>
@@ -421,57 +482,6 @@ Blah blah blah.
 
 &lt;p&gt;(Via &lt;a href=&quot;http://that911.tumblr.com/&quot;&gt;That 911&lt;/a&gt;)&lt;/p&gt;
 
-</content>
-  </entry>
-  
-  <entry>
-    <title>PBS reporter jailed while covering protests in NYC</title>
-    <link href="http://joshkerr.com/2011/09/3952255152/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/3952255152</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/boingboing/iBag/~3/WcP4b_DPDCk/pbs-reporter-jailed-while-covering-occupy-wall-street-protests-in-nyc.html&quot;&gt;PBS reporter jailed while covering &amp;#8220;Occupy Wall Street&amp;#8221; protests in NYC&lt;/a&gt;:&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;img title=&quot;John-cropped-590x472&quot; src=&quot;http://boingboing.net/wp-content/uploads/2011/09/John-cropped-590x472.jpg&quot; alt=&quot;&quot; width=&quot;590&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;While working on a story about citizen journalism at the &lt;a href=&quot;http://occupywallstreet.org&quot;&gt;Occupy Wall Street&lt;/a&gt; protests in New York for  PBS affiliate &lt;a href=&quot;http://www.thirteen.org/&quot;&gt;WNET Thirteen&lt;/a&gt;, reporter John Farley was arrested, along with the demonstrators whose stories he was covering.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;My arrest gave me a unique vantage point on the risks and rewards of citizen journalists, those non-professionals who capture stories (usually without pay) using videos and images via portable technology like a cell phone camera. Anyone, even a passerby or a police officer can be a citizen journalist. That’s its power.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;More: &lt;a href=&quot;http://www.thirteen.org/metrofocus/news/2011/09/observations-of-a-jailed-journalist/&quot;&gt;Observations of a Jailed Journalist&lt;/a&gt;.&lt;/p&gt;
-&lt;em&gt;Above: John Farley, kneeling, arrested while reporting on the Occupy Wall Street protest.  MetroFocus/Sam Lewis.&lt;/em&gt;&lt;br /&gt;&lt;/blockquote&gt;
-
-
-&lt;p&gt;(Via &lt;a href=&quot;http://boingboing.net&quot;&gt;Boing Boing&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Bell & Ross Harley Is Amazing</title>
-    <link href="http://joshkerr.com/2011/09/bell-and-ross-harley-is-amazing/"/>
-    <updated>2011-09-28T11:38:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/bell-and-ross-harley-is-amazing</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/9Afnx.jpg&quot; alt=&quot;Bell &amp;amp; Ross Harley&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I love this Bell &amp;amp; Ross designed Harley Davidson.  The blue tones are sick.  This is probably a limited run bike and something that will probably cost upward of $100k.  Its a beauty.&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Amazon Route 53 to Host Your DNS</title>
-    <link href="http://joshkerr.com/2011/09/amazon-route-53-to-host-your-dns/"/>
-    <updated>2011-09-27T13:15:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/amazon-route-53-to-host-your-dns</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/0F022n1Y1h322b3O0m0V/Screen%20Shot%202011-09-27%20at%201.14.40%20PM.png&quot; alt=&quot;Interstate 53&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hosting your DNS is a straight forward task for most web administrators.  Use your hosts NS servers and then forget about it.  If you care about the performance and availablity of your website, you might want to think twice about where you host it.&lt;/p&gt;
-
-&lt;p&gt;If you are the type of person who is running a high performanced memory cached website, then your site probably screams with performance.  DNS Resolution might be a factor that can completely slow down the performance for most of your users.  So all that horsepower means nothing.&lt;/p&gt;
-
-&lt;p&gt;I prefer to host my stuff at either &lt;a href=&quot;http://mediatemple.net/&quot;&gt;Media Temple&lt;/a&gt;, Amazon or Heroku.  All three of those services provide DNS hosting, but Amazon&amp;#8217;s Route 53 in my opinion is the most capable.  The bad news is that Amazon&amp;#8217;s interface is crypting using a &lt;a href=&quot;http://aws.amazon.com/developertools/Amazon-Route-53/9706686376855511&quot;&gt;perl script&lt;/a&gt; and command line to configure your zones.&lt;/p&gt;
-
-&lt;p&gt;Now enter &lt;a href=&quot;http://interstate53.com&quot;&gt;Interstate 53&lt;/a&gt;, a website that places a front end web interface to Amazons Route 53 service.  Interstate 53 is a free service that lets you batch your DNS changes over to Amazon&amp;#8217;s Route 53 service.  So you configure your Zones, click a button and then those changes are transmitted to Amazon.  It worked well for me as I migrated my domain from another DNS provider to Amazon.&lt;/p&gt;
 </content>
   </entry>
   
