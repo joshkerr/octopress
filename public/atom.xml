@@ -4,13 +4,34 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-10-07T21:18:03-05:00</updated>
+  <updated>2011-10-08T11:41:39-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>Doggy AT-AT</title>
+    <link href="http://joshkerr.com/2011/10/doggy-atat/"/>
+    <updated>2011-10-08T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/doggy-atat</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/boingboing/iBag/~3/WNt3ZxJsiKI/doggy-at-at.html&quot;&gt;Doggy AT-AT&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;http://craphound.com/images/307674_245628275488785_162077150510565_748142_359200534_n.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;Laika the dog is &lt;em&gt;seriously&lt;/em&gt; styling in this AT-AT costume, created by Katie Mello.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://boingboing.net&quot;&gt;Boing Boing&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Steve Jobs Succumbs to Alternative Medicine</title>
@@ -459,25 +480,6 @@ Blah blah blah.
 
 
 &lt;p&gt;(Via &lt;a href=&quot;http://boingboing.net&quot;&gt;Boing Boing&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Using Octopress & Jekyll with MarsEdit</title>
-    <link href="http://joshkerr.com/2011/09/octopress-jekyll-marsedit-together/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/octopress-jekyll-marsedit-together</id>
-    <content type="html">&lt;p&gt;&lt;img title=&quot;ijFeu.png&quot; src=&quot;http://i.imgur.com/ijFeu.png&quot; border=&quot;0&quot; alt=&quot;ijFeu.png&quot; /&gt;&lt;/p&gt;
-
-
-&lt;p&gt;I&amp;#8217;m a big fan of Octopress, the static blogging package based on Ruby and &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, but because it generates static content, how can you use a blog editor like &lt;a href=&quot;http://www.red-sweater.com/marsedit/&quot;&gt;Mars Edit&lt;/a&gt; with what is essentially a static blog?  Introducing &lt;a href=&quot;http://movieos.org/code/jekyll-metaweblog/&quot;&gt;Jekyll-Metaweblog&lt;/a&gt; a server that runs locally and opens up an interface to Octopress so that you can use Mars Edit to write blog entries.&lt;/p&gt;
-
-
-&lt;p&gt;Setting up Jekyll-Metaweblog wasn&amp;#8217;t straight forward, but once I got it going, it worked just fine.  I&amp;#8217;m not a Ruby guru, so my issues could be based on my inexperience with the platform.&lt;/p&gt;
-
-
-&lt;p&gt;Jekyll keeps posts in the _posts directory where Octopress puts posts in the sources/_posts directory, so you need to make sure to start the server using the correct Octopress directory.   Other than that, you should be good to go.&lt;/p&gt;
 
 </content>
   </entry>
