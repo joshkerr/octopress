@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Using File Vault 2 with multiple drives - Josh Kerr</title>
+  <title>Ahhh, iPhone OS programming.  Been a while sir. - Josh Kerr</title>
   <meta name="author" content="Josh Kerr">
 
   
-  <meta name="description" content="File Vault 2 is Mac OS X Lion’s new whole disk encryption system. It is baked into the OS and uses whole disk encryption to protect your entire d...">
+  <meta name="description" content="It has been too long since I&#8217;ve launched Xcode and with the new 4.0 version, I feel like I&#8217;m learning to program all over again.  I don...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://joshkerr.com/2011/06/using-file-vault-2-with-multiple-drives/">
+  <link rel="canonical" href="http://joshkerr.com/2011/02/ahhh%2C-iphone-os-programming.--been-a-while-sir./">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -115,7 +115,7 @@
   
     
 	  <header>
-      <h3 class="entry-title">Using File Vault 2 With Multiple Drives</h3>
+      <h3 class="entry-title">Ahhh, iPhone OS Programming. Been a While Sir.</h3>
       <p class="meta">
 
 
@@ -126,36 +126,19 @@
 
 
 
-<time datetime="2011-06-10T00:00:00-05:00" pubdate  data-updated="true" >Jun 10<span>th</span>, 2011</time></p>
+<time datetime="2011-02-23T00:00:00-06:00" pubdate  data-updated="true" >Feb 23<span>rd</span>, 2011</time></p>
 	</header>
-	<div class="entry-content"><p><img title="Encrypted second volume" src="http://i.imgur.com/l2Qwp.png" /></p>
+	<div class="entry-content"><p>It has been too long since I&#8217;ve launched Xcode and with the new 4.0 version, I feel like I&#8217;m learning to program all over again.  I don&#8217;t need to use 4.0, I could continue to use 3.x as Apple will still accept App Store submissions with the older version, but I want to stay current and the new debugger is too good to pass up.</p>
 
+<p><img src="http://joshkerr.s3.amazonaws.com/images/new_single_window20100721.jpeg" alt="XcodeScreenShot" /></p>
 
-<p>File Vault 2 is Mac OS X Lion’s new whole disk encryption system. It is baked into the OS and uses whole disk encryption to protect your entire disk, not just your home folder. This is easy to enable from the Security preferences panel which lets you encrypt your boot volume, but what if your home directory resides on a second disk?</p>
+<p>Xcode 4 is a significant upgrade for developers, offering a new IDE with a single view, a mechanism to automatically fix syntax mistakes, and a logic analyzer (not the hardware kind) that will find issues with your code logic.</p>
 
-<p>This is the setup I use with my OS on an internal SSD drive and my home folder on a second normal drive. This configuration offers me higher performance and is easier to backup and upgrade. I&#8217;d like to be able to use File Vault, but there is no option to encrypt a second disk.</p>
+<p><img src="http://joshkerr.s3.amazonaws.com/images/new_drag20100721.jpeg" alt="XcodeScreenShot2" /></p>
 
-<p>Command line to the rescue. Apple offers powerful tools to manage the encrypted disks via diskutil. The disks are actually CoreStorage units and you can manage them via:</p>
+<p>Since it has been a while since I&#8217;ve written any iOS code, the new version of Xcode feels about as alien as the previous version.  Most of my coding work of late has been in the web or not at all.  I&#8217;m not a full time developer by trade, but I do enjoying writing code when I get the chance.</p>
 
-<div>
-  <pre>
-    <code class='bash'>diskutil cs</code>
-  </pre>
-</div>
-
-
-<p>To convert a volume into a CoreStorage unit with encryption:</p>
-
-<div>
-  <pre>
-    <code class='bash'>diskutil cs convert [device] -passphrase [password]</code>
-  </pre>
-</div>
-
-
-<p>Replace device with the disk and password with the requested password. If it can convert the disk in place encryption will begin immediately.</p>
-
-<p>When you are done, you can confirm that the process worked by checking your disk in Disk Utility.</p>
+<p>The one thing that Apple does well that they don&#8217;t quite get enough praise for is their software.  iOS, the dev tools, Final Cut Pro, all of it is really pretty amazing.  Some of the best software available from a commercial source.  Okay, enough praise, back to work.</p>
 </div>
 	  
 
@@ -176,21 +159,15 @@
 
 
 
-<time datetime="2011-06-10T00:00:00-05:00" pubdate  data-updated="true" >Jun 10<span>th</span>, 2011</time>
+<time datetime="2011-02-23T00:00:00-06:00" pubdate  data-updated="true" >Feb 23<span>rd</span>, 2011</time>
       
-
-<span class="categories">
-  
-    <a href="/blog/category/featured/">featured</a>
-  
-</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://joshkerr.com/2011/06/using-file-vault-2-with-multiple-drives/" data-via="joshkerr" data-counturl="http://joshkerr.com/2011/06/using-file-vault-2-with-multiple-drives/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://joshkerr.com/2011/02/ahhh%2C-iphone-os-programming.--been-a-while-sir./" data-via="joshkerr" data-counturl="http://joshkerr.com/2011/02/ahhh%2C-iphone-os-programming.--been-a-while-sir./" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -203,34 +180,6 @@
     <h3>Related Posts</h3>
     <ul id="related-posts">
     
-  	<li><a href="/2011/09/i-was-looking-for-a-delicious-app-for-mac/">I Was Looking for a Delicious App for Mac</a></li>
-	
-  	<li><a href="/2011/09/the-details-of-the-greatest-online-game-scam/">The details of the greatest online game scam</a></li>
-	
-  	<li><a href="/2011/09/capital-factory-demo-day-2011/">Capital Factory Demo Day 2011</a></li>
-	
-  	<li><a href="/2011/09/how-do-win-a-demogod-award-at-demo/">How to win a DEMOgod Award at DEMO</a></li>
-	
-  	<li><a href="/2011/08/monster-cable-goes-after-the-wrong-guy-lawsuit-gone-wrong/">Monster Cable goes after the wrong guy</a></li>
-	
-  	<li><a href="/2011/02/automatic-tv-show-downloading-via-sickbeard/">automatic tv show downloading via sickbeard on a mac</a></li>
-	
-  	<li><a href="/2011/02/automating-the-creation-of-posts-in-jekyll/">automating the creation of posts in jekyll</a></li>
-	
-  	<li><a href="/2010/12/repairing-your-disk-with-pgp-whole-disk-encryption-mac/">repairing your disk with pgp whole disk encryption mac</a></li>
-	
-  	<li><a href="/2010/12/how-to-enable-ftp-uploads-to-amazon-s3/">how to enable ftp uploads to amazon s3</a></li>
-	
-  	<li><a href="/2010/11/quickly-encode-mkv-to-mv4-compatible-with-ipad/">quickly encode mkv to mv4 compatible with ipad</a></li>
-	
-  	<li><a href="/2010/10/using-duplicity-to-backup-your-server-to-amazon-s3/">using duplicity to backup your server to amazon s3</a></li>
-	
-  	<li><a href="/2010/10/christina-symanski-a-paralyzed-woman/">paralyzed woman does a video review of my app</a></li>
-	
-  	<li><a href="/2010/10/02/testflightapp-beta-test-iphone-apps-without-using-adhoc/">testflightapp beta test iphone apps without using adhoc</a></li>
-	
-  	<li><a href="/2010/04/i-almost-invented-napster/">I almost invented Napster.</a></li>
-	
 	</ul>
   </footer>
 </article>

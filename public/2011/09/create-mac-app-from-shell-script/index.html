@@ -9,7 +9,7 @@
   <meta name="author" content="Josh Kerr">
 
   
-  <meta name="description" content="Great article showing how to convert a shell script into a Mac app.Convert script into app Matias Bynens Website  123456789101112131415#!/bin/bashA...">
+  <meta name="description" content="Great article showing how to convert a shell script into a Mac app.Liquid error: No such file or directory - python -c &#8220;import sys; print sys...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -130,38 +130,7 @@
 	</header>
 	<div class="entry-content"><blockquote><p>Great article showing how to convert a shell script into a Mac app.</p></blockquote>
 
-<figure class='code'><figcaption><span>Convert script into app </span><a href='http://mathiasbynens.be/notes/shell-script-mac-apps'>Matias Bynens Website </a></figcaption> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
-</span><span class='line'>
-</span><span class='line'><span class="nv">APPNAME</span><span class="o">=</span><span class="k">${</span><span class="nv">2</span><span class="k">:-$(</span>basename <span class="s2">&quot;$1&quot;</span> <span class="s2">&quot;.sh&quot;</span><span class="k">)}</span>
-</span><span class='line'><span class="nv">DIR</span><span class="o">=</span><span class="s2">&quot;$APPNAME.app/Contents/MacOS&quot;</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">if</span> <span class="o">[[</span> -a <span class="s2">&quot;$APPNAME.app&quot;</span> <span class="o">]]</span>; <span class="k">then</span>
-</span><span class='line'><span class="k">  </span><span class="nb">echo</span> <span class="s2">&quot;$PWD/$APPNAME.app already exists :(&quot;</span>
-</span><span class='line'>  <span class="nb">exit </span>1
-</span><span class='line'><span class="k">fi</span>
-</span><span class='line'>
-</span><span class='line'>mkdir -p <span class="s2">&quot;$DIR&quot;</span>
-</span><span class='line'>cp <span class="s2">&quot;$1&quot;</span> <span class="s2">&quot;$DIR/$APPNAME&quot;</span>
-</span><span class='line'>chmod +x <span class="s2">&quot;$DIR/$APPNAME&quot;</span>
-</span><span class='line'>
-</span><span class='line'><span class="nb">echo</span> <span class="s2">&quot;$PWD/$APPNAME.app&quot;</span>
-</span></code></pre></td></tr></table></div></figure>
-
+<p>Liquid error: No such file or directory - python -c &#8220;import sys; print sys.executable&#8221;</p>
 
 <p><a href="http://mathiasbynens.be/notes/shell-script-mac-apps">Mathias Bynens on converting script into App</a></p>
 </div>

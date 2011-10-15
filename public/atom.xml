@@ -4,13 +4,25 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-10-08T14:06:40-05:00</updated>
+  <updated>2011-10-15T17:33:47-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>First thoughts on Siri</title>
+    <link href="http://joshkerr.com/2011/10/3956150718/"/>
+    <updated>2011-10-15T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/3956150718</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://joshkerr.s3.amazonaws.com/images/siri.png&quot;&gt;&lt;img style=&quot;background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px&quot; title=&quot;siri&quot; border=&quot;0&quot; alt=&quot;siri&quot; src=&quot;http://joshkerr.s3.amazonaws.com/images/siri_thumb.png&quot; width=&quot;500&quot; height=&quot;289&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;p&gt; &lt;p&gt;The iPhone 4S is super fast, runs iOS 5 which is chock full of goodness and comes with Siri which is arguably the best thing about it.&amp;nbsp; It is marketed as a personal assistant in your pocket.&amp;nbsp; For me, Siri is the Austin startup that was purchased last year and had an app in the App Store that had some potential but did not live up to its billing.&amp;nbsp; After spending a day with Siri on the iPhone 4S I’m walking away with a completely different view.&amp;nbsp; Siri really is a personal assistant in your pocket.&amp;nbsp; You talk to it as if you were dictating instructions to a person.&amp;nbsp; It amazingly has the ability to recognize keywords and translate them into actual tasks.&amp;nbsp; It works great and opens the door to a whole new category of computing driven by voice.&amp;nbsp; Apple has integrated Siri into its own apps, but it remains unclear if they plan to enable an API to allow third party developers to tap into its power.&amp;nbsp; If they know what is good for them, they will.&lt;/p&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Faceshift</title>
@@ -40,6 +52,18 @@
 
 &lt;p&gt;(Via &lt;a href=&quot;http://boingboing.net&quot;&gt;Boing Boing&lt;/a&gt;)&lt;/p&gt;
 
+</content>
+  </entry>
+  
+  <entry>
+    <title>This is a test post.</title>
+    <link href="http://joshkerr.com/2011/10/3954323694/"/>
+    <updated>2011-10-08T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/3954323694</id>
+    <content type="html">&lt;p&gt;I am writing a test post to see if it works with the Jekyll blogging system.&amp;nbsp; Hopefully yes.&lt;/p&gt;
+
+
+&lt;p&gt; &lt;p&gt;&lt;a href=&quot;http://joshkerr.s3.amazonaws.com/images/Koala.jpg&quot;&gt;&lt;img style=&quot;background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px&quot; title=&quot;Koala&quot; border=&quot;0&quot; alt=&quot;Koala&quot; src=&quot;http://joshkerr.s3.amazonaws.com/images/Koala_thumb.jpg&quot; width=&quot;244&quot; height=&quot;184&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
 </content>
   </entry>
   
@@ -437,40 +461,6 @@ Blah blah blah.
 
 
 &lt;p&gt;(Via &lt;a href=&quot;http://www.raywj.com&quot;&gt;Ray William Johnson&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>I need one of these</title>
-    <link href="http://joshkerr.com/2011/09/sick-white-911/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/sick-white-911</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://25.media.tumblr.com/tumblr_lrxol8Ru9s1qbcma7o1_500.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-
-&lt;blockquote&gt;&lt;/blockquote&gt;
-
-
-&lt;p&gt;(Via &lt;a href=&quot;http://that911.tumblr.com/&quot;&gt;That 911&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>First Looks: JH Audio JH16 Pro Custom In-Ear Monitor</title>
-    <link href="http://joshkerr.com/2011/09/pro-custom-in-ear-monitors/"/>
-    <updated>2011-09-30T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/09/pro-custom-in-ear-monitors</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.ilounge.com/index.php/ipod/review/jh-audio-jh16-pro-custom-in-ear-monitor/&quot;&gt;First Looks: JH Audio JH16 Pro Custom In-Ear Monitor&lt;/a&gt;:&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://assets.ilounge.com/images/reviews_jhaudio/jh16pro/cache/6-240x175.jpg&quot; border=&quot;0&quot; alt=&quot;&quot; width=&quot;240&quot; height=&quot;175&quot; /&gt;&lt;br /&gt; If JH Audio&amp;#8217;s JH16 Pro ($1,149) looks familiar, that&amp;#8217;s because this pair of ultra high-end earphones was developed by former Ultimate Ears founder Jerry Harvey as a direct competitor to UE&amp;#8217;s top-of-line custom monitors &amp;#8211; at a lower price. JH16 Pro features eight different miniature speakers per ear: four low-end drivers, two midrange drivers, and two high-end drivers with a three-way crossover inside. Bundled with an Otter hard carrying case, a velvet…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;(Via &lt;a href=&quot;http://www.iLounge.com&quot;&gt;iLounge | All Things iPod, iPhone, iTunes and beyond&lt;/a&gt;)&lt;/p&gt;
 
 </content>
   </entry>
