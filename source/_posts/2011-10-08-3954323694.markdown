@@ -1,9 +1,0 @@
---- 
-layout: post
-title: This is a test post.
-link: 
-tags: []
-
----
-
-<p>I am writing a test post to see if it works with the Jekyll blogging system.&nbsp; Hopefully yes.</p> <p><a href="http://joshkerr.s3.amazonaws.com/images/Koala.jpg"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="Koala" border="0" alt="Koala" src="http://joshkerr.s3.amazonaws.com/images/Koala_thumb.jpg" width="244" height="184"></a></p>
