@@ -4,7 +4,7 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-10-16T07:51:09-05:00</updated>
+  <updated>2011-10-16T10:54:40-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
@@ -239,9 +239,9 @@ m_foregroundLayer = CreateTileStrip&lt;span&gt;(&lt;/span&gt; bottomLeft, Foregr
   
   <entry>
     <title>First thoughts on Siri</title>
-    <link href="http://joshkerr.com/_posts/2011-10-15-3956150718.markdown"/>
+    <link href="http://joshkerr.com/2011/10/first-thoughts-on-siri/"/>
     <updated>2011-10-15T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/_posts/first-thoughts-on-siri</id>
+    <id>http://joshkerr.com/2011/10/first-thoughts-on-siri</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://joshkerr.s3.amazonaws.com/images/siri.png&quot;&gt;&lt;img style=&quot;background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;&quot; title=&quot;siri&quot; src=&quot;http://joshkerr.s3.amazonaws.com/images/siri_thumb.png&quot; border=&quot;0&quot; alt=&quot;siri&quot; width=&quot;500&quot; height=&quot;289&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 

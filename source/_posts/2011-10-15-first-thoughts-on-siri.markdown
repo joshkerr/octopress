@@ -3,8 +3,6 @@ layout: post
 title: First thoughts on Siri
 link: 
 tags: []
-
-permalink: /_posts/2011-10-15-3956150718.markdown
 category: rant
 ---
 
