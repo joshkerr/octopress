@@ -5,7 +5,7 @@ link:
 tags: []
 
 permalink: /_posts/2011-10-15-3956150718.markdown
-category: cool
+category: rant
 ---
 
 <p><a href="http://joshkerr.s3.amazonaws.com/images/siri.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="siri" src="http://joshkerr.s3.amazonaws.com/images/siri_thumb.png" border="0" alt="siri" width="500" height="289" /></a></p>
