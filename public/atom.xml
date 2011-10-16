@@ -4,7 +4,7 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-10-16T07:43:27-05:00</updated>
+  <updated>2011-10-16T07:51:09-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
@@ -239,13 +239,17 @@ m_foregroundLayer = CreateTileStrip&lt;span&gt;(&lt;/span&gt; bottomLeft, Foregr
   
   <entry>
     <title>First thoughts on Siri</title>
-    <link href="http://joshkerr.com/2011/10/3956150718/"/>
+    <link href="http://joshkerr.com/_posts/2011-10-15-3956150718.markdown"/>
     <updated>2011-10-15T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/10/3956150718</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://joshkerr.s3.amazonaws.com/images/siri.png&quot;&gt;&lt;img style=&quot;background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px&quot; title=&quot;siri&quot; border=&quot;0&quot; alt=&quot;siri&quot; src=&quot;http://joshkerr.s3.amazonaws.com/images/siri_thumb.png&quot; width=&quot;500&quot; height=&quot;289&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+    <id>http://joshkerr.com/_posts/first-thoughts-on-siri</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://joshkerr.s3.amazonaws.com/images/siri.png&quot;&gt;&lt;img style=&quot;background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;&quot; title=&quot;siri&quot; src=&quot;http://joshkerr.s3.amazonaws.com/images/siri_thumb.png&quot; border=&quot;0&quot; alt=&quot;siri&quot; width=&quot;500&quot; height=&quot;289&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 
-&lt;p&gt; &lt;p&gt;The iPhone 4S is super fast, runs iOS 5 which is chock full of goodness and comes with Siri which is arguably the best thing about it.&amp;nbsp; It is marketed as a personal assistant in your pocket.&amp;nbsp; For me, Siri is the Austin startup that was purchased last year and had an app in the App Store that had some potential but did not live up to its billing.&amp;nbsp; After spending a day with Siri on the iPhone 4S I’m walking away with a completely different view.&amp;nbsp; Siri really is a personal assistant in your pocket.&amp;nbsp; You talk to it as if you were dictating instructions to a person.&amp;nbsp; It amazingly has the ability to recognize keywords and translate them into actual tasks.&amp;nbsp; It works great and opens the door to a whole new category of computing driven by voice.&amp;nbsp; Apple has integrated Siri into its own apps, but it remains unclear if they plan to enable an API to allow third party developers to tap into its power.&amp;nbsp; If they know what is good for them, they will.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;The iPhone 4S is super fast, runs iOS 5 which is chock full of goodness and comes with Siri which is arguably the best thing about it.  It is marketed as a personal assistant in your pocket.  For me, Siri is the Austin startup that was purchased last year and had an app in the App Store that had some potential but did not live up to its billing.&lt;/p&gt;
+
+
+&lt;p&gt;After spending a day with Siri on the iPhone 4S I’m walking away with a completely different view.  Siri really is a personal assistant in your pocket.  You talk to it as if you were dictating instructions to a person.  It amazingly has the ability to recognize keywords and translate them into actual tasks.  It works great and opens the door to a whole new category of computing driven by voice.  Apple has integrated Siri into its own apps, but it remains unclear if they plan to enable an API to allow third party developers to tap into its power.  If they know what is good for them, they will.&lt;/p&gt;
+
 </content>
   </entry>
   
