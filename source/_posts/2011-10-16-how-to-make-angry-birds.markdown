@@ -1,0 +1,221 @@
+--- 
+layout: post
+title: Learn How to make Angry Birds (co.uk)
+link: http://www.wildbunny.co.uk/blog/2011/05/12/how-to-make-angry-birds-part-1/
+tags: []
+
+category: random
+---
+
+<p>This is really cool:</p>
+<blockquote>
+<h2>Angry Birds</h2>
+<p>So, the game I’m going to be making is to be based on the extremely popular Angry Birds by Rovio, a AAA title <a href="http://www.develop-online.net/news/37242/Angry-Birds-cost-Rovio-100k-has-made-50m">which cost some $140k USD to make</a>.</p>
+<div><a href="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/screenShot.jpg"><img title="screenShot" src="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/screenShot.jpg" alt="" width="500" height="375" /></a>
+<p>Angry Birds</p>
+</div>
+<p>Obviously, since its just me making this I will have to take a few short-cuts and will be concentrating on the core part of the game.</p>
+<h2>Cloning</h2>
+<p>Before I start I should mention that I do not condone the cloning of games in any way; what I’m doing in these tutorials is purely for educational purposes and I have no plans to release the game at the end of this.</p>
+<h2>Analysis</h2>
+<p>Ok, lets have a look at the requirements for a bare-bones version of the game:</p>
+<h3>Graphics</h3>
+<ul>
+<li>Background, mid-ground and foreground layers</li>
+<li>Bird characters,</li>
+<li>Pig characters,</li>
+<li>Slingshot,</li>
+<li>Rigid body pieces – materials: wood, stone, glass in rectangle, square and triangle shapes</li>
+</ul>
+<h3>Code</h3>
+<p><strong>Camera</strong></p>
+<ul>
+<li>Panning</li>
+<li>Parallax</li>
+<li>Zoom</li>
+<li>Object tracking</li>
+</ul>
+<p><strong>Collision detection</strong></p>
+<ul>
+<li>Possible requirement for advanced broad-phase</li>
+<li>Various static and dynamic shapes – rectangles, triangles, circles</li>
+<li>Object colliding call-back system</li>
+</ul>
+<p><strong>Physics</strong></p>
+<ul>
+<li>Very stable physics engine</li>
+<li>Integrated object sleeping system</li>
+</ul>
+<h3>Editor</h3>
+<ul>
+<li>Some kind of editor to allow layout of levels and creation of graphics. I’m using Flash CS4 for all this.</li>
+</ul>
+<h2>The Beginning</h2>
+<p>The first thing I’m going to tackle from that list is to get the world set up so that there is a nice looking environment and to root the project in something solid looking.</p>
+<p>I started with the podium that the birds gets launched from; its going to be a static object in the physics system and to keep things simple I’m going to compose all objects from primitive parts, so collision wise at least the podium will be made from some squares and triangles.</p>
+<div><a href="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/podium.png"><img title="podium" src="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/podium.png" alt="" width="224" height="64" /></a>
+<p>Podium</p>
+</div>
+<p>As you can see, it’s covered with a repeating earth texture, so the first thing is to make this. Its actually quite easy to do:</p>
+<div><a href="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/repeatingEarth.png"><img title="repeatingEarth" src="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/repeatingEarth.png" alt="" width="600" /></a>
+<p>Process</p>
+</div>
+<p>The first part is easy, just pick two vaguely earthy colours and paint one half of the texture in each colour, with a nice rough overlap in the midddle.</p>
+<p>Then, offset the image by half the width and height (I used photoshop’s offset filter) to get the image in the middle. Then you can rough up the middle edge as you did in the first image. Once you’re done you’ll have a nice infinitely repeatable texture.</p>
+<p>In order to actually apply this texture to an arbitrary object in Flash, you import the image onto the stage, then right click and and choose ‘Break apart’. Then you can use the eye-dropper tool to pick that texture as a fill texture which you can then apply to any shape with the paint bucket.</p>
+<div><a href="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/repeatDemo.png"><img title="repeatDemo" src="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/repeatDemo.png" alt="" width="153" height="120" /></a>
+<p>Infinite repeats</p>
+</div>
+<p>Because we’re making all collision objects from primitive shapes, we need to decide what basic shapes we’re going to be using. I chose these for the podium:</p>
+<div><a href="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/podiumShapes.png"><img title="podiumShapes" src="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/podiumShapes.png" alt="" width="179" height="68" /></a>
+<p>Podium shapes</p>
+</div>
+<p>These can be rotated, duplicated and placed to form the podium shape:</p>
+<div><a href="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/podiumShapesComposed.png"><img title="podiumShapesComposed" src="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/podiumShapesComposed.png" alt="" width="242" height="71" /></a>
+<p>Podium composed</p>
+</div>
+<p>So, when actually creating the shape for the visible part of the podium, its important to follow the exact same shape that you could compose only using the primitive collision shapes in various different configurations.</p>
+<p>This will start to become very useful later when we try to integrate the physics system with the graphics.</p>
+<h2>Foreground</h2>
+<p>The foreground consists of another tiling shape; the soil. This was made from a rectangle, and lots of ovals in Flash, just repeated and placed. Its important to make sure it tiles so pay attention at the edges and use grid snap.</p>
+<div><a href="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/foreground.png"><img title="foreground" src="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/foreground.png" alt="" width="224" height="50" /></a>
+<p>Foreground</p>
+</div>
+<h2>Mid-ground</h2>
+<p>Yet another tiling shape, this time rolling hills with a few far off plants; nothing out of the ordinary here, just make sure it tiles. You’ll want to make this one wider than the screen – I made mine roughly twice as wide:</p>
+<div><a href="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/midground.png"><img title="midground" src="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/midground-300x50.png" alt="" width="300" height="50" /></a>
+<p>Mid-ground</p>
+</div>
+<h2>Background</h2>
+<p>Yes, you guessed it, tiling shapes again – this one is roughly one screen in size:</p>
+<div><a href="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/background.png"><img title="background" src="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/background-300x217.png" alt="" width="300" height="217" /></a>
+<p>Background</p>
+</div>
+<h2>Exporting</h2>
+<p>All these layers have been set to export for action-script in the Flash IDE; I’ve appended every name with <em>Fla </em>so that I can tell in code which classes are from Flash and which are my own.</p>
+<p>Everything should now be exported as a .swc which you can enable in File-&gt;Publish Settings-&gt;Flash-&gt;Export SWC.</p>
+<p>Then you can import this SWC into your project in your favourite flash code compiler; I’m using <a href="http://www.sapphiresteel.com/Products/amethyst-ide/article/amethyst-product-page">Amythyst</a> because I cannot live without Visual Studio.</p>
+<h2>Putting it together</h2>
+<p>Of course, the idea with all these separate layers is that the code will place and animate them separately to give a parallax effect as the camera pans/zooms around the world.</p>
+<p><strong>Dimensions</strong></p>
+<p>I picked a screen size of 640×360 (wide-screen), and a world size of 2560×720 (four screens wide by two screens high). And I’ve centred the world at 0,0.</p>
+<h2>The Camera</h2>
+<p>Having a good camera class is fundamental to any game, particularly this one which requires lots of smooth pans and zooms.</p>
+<p>At the very least it should provide functions for converting coordinates between world space and screen space and visa versa.</p>
+<p>Because there are three layers of parallax at work, the camera needs to be able to position each one as it pans around the scene, so its constructor takes them as parameters:</p>
+<div>
+<div>
+<pre><span>public</span> <span>function</span> <span>Camera</span><span>(</span><span>background</span>:<span>MovieClip</span>, midground:<span>MovieClip</span>, foreground:<span>MovieClip</span>, bird:Bird<span>)</span>
+<span>{</span>
+...
+<span>}</span></pre>
+</div>
+</div>
+<p>The bird parameter is just a dummy at the moment which represents the focal point for the camera – it contains accessors for position so the camera can know where in the world it is.</p>
+<p>In order to get the camera to centre on the bird no matter where the bird is on screen we need to do a little bit of maths; forming what is known as the <em>world to screen</em> matrix, so called because it transforms points in world space into screen space.</p>
+<div>
+<div>
+<pre><span>public</span> <span>function</span> Update<span>(</span> dt:<span>Number</span> <span>)</span> : <span>void</span>
+<span>{</span>
+	m_worldToScreen = <span>new</span> Matrix<span>(</span><span>)</span>;
+ 
+	m_worldToScreen.<span>translate</span><span>(</span> -m_bird.<span>m_Pos</span>.<span>x</span>, -m_bird.<span>m_Pos</span>.<span>m_y</span> <span>)</span>;
+	m_worldToScreen.<span>scale</span><span>(</span> m_scale.<span>m_x</span>, m_scale.<span>m_y</span> <span>)</span>;
+	m_worldToScreen.<span>translate</span><span>(</span> Constants.<span>kScreenDimensions</span>.<span>m_x</span><span>/</span><span>2</span>, Constants.<span>kScreenDimensions</span>.<span>m_y</span><span>/</span><span>2</span> <span>)</span>;
+ 
+	m_foreground.<span>transform</span>.<span>matrix</span> = m_worldToScreen;
+ 
+	<span>// for screen-&gt;world matrix</span>
+	m_screenToWorld = m_worldToScreen.<span>clone</span><span>(</span><span>)</span>;
+	m_screenToWorld.<span>invert</span><span>(</span><span>)</span>;
+<span>}</span></pre>
+</div>
+</div>
+<p>What’s going on in the above function is: first the camera is centred on the bird, then any zoom is applied and finally we add on the centre of the screen to make sure the bird is in the centre (remember, 0,0 is the top left of the screen, not the centre).</p>
+<p>We then take this matrix and apply it as the transform for the foreground geometry, so in actual fact <strong>the geometry moves around the camera</strong>, not the other way around – which is a bit difficult to get your head around at first.</p>
+<p>The first translate in the above snippet is easier to understand with this in mind – 0,0 is the destination for the world geometry, coming from the position of the bird and <em>0-m_bird.m_Pos</em> is the vector which achieves that.</p>
+<p>Then I take a copy of this matrix and invert it so that I can do the opposite transform whenever I need to convert a point in screen-space to world-space.</p>
+<p>To get the parallax effect on the back and mid-ground layers, I do a similar piece of maths for each layer (each layer getting its own world-&gt;screen matrix), the only change is that I divide the x translation by the layer’s z-depth, which causes them to move at different speeds.</p>
+<p>All this will work fine, but it won’t prevent the camera from leaving the bounds of the world. In order to do that we need to understand the camera’s relationship with the world.</p>
+<p>So, lets take a look at the world, the camera and their relationship:</p>
+<div><a href="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/figure1.png"><img title="figure1" src="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/figure1.png" alt="" width="585" height="201" /></a>
+<p>Figure 1</p>
+</div>
+<p><em>Figure 1</em> shows the entire extents of the world and also one possible location for the camera. Note that the camera has the dimensions of the screen.</p>
+<p>In this configuration, the camera is actually showing a view which is partially outside the world, which should not be allowed to happen. In order to fix this problem we need to know exactly how far outside the camera is.</p>
+<div><a href="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/figure2.png"><img title="figure2" src="http://www.wildbunny.co.uk/blog/wp-content/uploads/2011/05/figure2.png" alt="" width="586" height="200" /></a>
+<p>Figure 2</p>
+</div>
+<p>Figure 2 shows the measurements we need to correct this problem (the red arrows) and also shows in green, the camera’s position after it has been corrected.</p>
+<div>
+<div>
+<pre><span>public</span> <span>function</span> Update<span>(</span> dt:<span>Number</span> <span>)</span> : <span>void</span>
+<span>{</span>
+	<span>//</span>
+	<span>// clamp camera to only show map</span>
+	<span>//</span>
+ 
+	<span>var</span> translate:Vector2 = m_bird.<span>m_Pos</span>.<span>m_Neg</span>;
+ 
+	<span>var</span> screenHalfExtents:Vector2 = <span>new</span> Vector2<span>(</span>Constants.<span>kScreenDimensions</span>.<span>m_x</span><span>/</span><span>2</span>, Constants.<span>kScreenDimensions</span>.<span>m_y</span><span>/</span><span>2</span><span>)</span>.<span>Div</span><span>(</span><span>new</span> Vector2<span>(</span>m_scale.<span>m_x</span>, m_scale.<span>m_y</span><span>)</span><span>)</span>;
+	<span>var</span> mapExtents:Vector2 = Constants.<span>kWorldAabb</span>.<span>m_HalfExtents</span>.<span>MulScalar</span><span>(</span> <span>2</span> <span>)</span>;
+ 
+	<span>var</span> topLeft:Vector2 = m_bird.<span>m_Pos</span>.<span>Sub</span><span>(</span>screenHalfExtents<span>)</span>;
+	<span>var</span> bottomRight:Vector2 = m_bird.<span>m_Pos</span>.<span>Add</span><span>(</span>screenHalfExtents<span>)</span>;
+ 
+	<span>var</span> correctLeft:<span>Number</span> = <span>Math</span>.<span>min</span><span>(</span>topLeft.<span>m_x</span>+Constants.<span>kWorldAabb</span>.<span>m_HalfExtents</span>.<span>m_x</span>, <span>0</span><span>)</span>;
+	<span>var</span> correctTop:<span>Number</span> = <span>Math</span>.<span>min</span><span>(</span>topLeft.<span>m_y</span>+Constants.<span>kWorldAabb</span>.<span>m_HalfExtents</span>.<span>m_y</span>, <span>0</span><span>)</span>;
+ 
+	<span>var</span> correctRight:<span>Number</span> = <span>Math</span>.<span>min</span><span>(</span>Constants.<span>kWorldAabb</span>.<span>m_HalfExtents</span>.<span>m_x</span>-bottomRight.<span>m_x</span>, <span>0</span><span>)</span>;
+	<span>var</span> correctBottom:<span>Number</span> = <span>Math</span>.<span>min</span><span>(</span>Constants.<span>kWorldAabb</span>.<span>m_HalfExtents</span>.<span>m_y</span>-bottomRight.<span>m_y</span>, <span>0</span><span>)</span>;
+ 
+	translate.<span>m_x</span> += correctLeft - correctRight;
+	translate.<span>m_y</span> += correctTop - correctBottom;
+ 
+        ...
+<span>}</span></pre>
+</div>
+</div>
+<p>The above is the code which calculates the red arrowed regions shown in Figure 2, and applies any corrections needed to the initial translation of the camera.</p>
+<p>There is one caveat to watch out for: the foreground layer is a child of the main MovieClip which makes up the game – this is essential because otherwise the camera would only be translating the foreground shape and not everything in the world, which would be all bad. However, because the camera is translating the main MovieClip, the mid and background layers cannot be children of it. Instead, they must be children of the <strong>stage</strong>; this allows them to be translated independently to give the correct effect.</p>
+<h2>Create a tile strip</h2>
+<p>This is relatively simple, you just divide the width of the world by the width of a tile to get the number of repetitions, set the starting point and then just instance the correct MovieClip:</p>
+<div>
+<div>
+<pre><span>private</span> <span>function</span> CreateTileStrip<span>(</span> <span>start</span>:Vector2, <span>type</span>:<span>Class</span> <span>)</span>:<span>MovieClip</span>
+<span>{</span>
+	<span>var</span> obj:<span>*</span> = <span>new</span> <span>type</span><span>(</span><span>)</span>;
+	<span>var</span> mc:<span>MovieClip</span> = <span>MovieClip</span><span>(</span> obj <span>)</span>;
+	<span>var</span> tileRoot:<span>MovieClip</span> = <span>new</span> <span>MovieClip</span><span>(</span> <span>)</span>;
+ 
+	<span>var</span> worldWidth:<span>Number</span> = Constants.<span>kWorldAabb</span>.<span>m_HalfExtents</span>.<span>m_x</span><span>*</span><span>2</span>;
+	<span>var</span> numTiles:<span>int</span> = <span>(</span>worldWidth<span>/</span>mc.<span>width</span><span>)</span> + <span>1</span>;
+ 
+	<span>for</span> <span>(</span> <span>var</span> i:<span>int</span> = <span>0</span>; i<span>&lt;</span>numTiles; i++<span>)</span>
+	<span>{</span>
+		<span>var</span> x:<span>Number</span> = i<span>*</span><span>(</span>mc.<span>width</span>-<span>1</span><span>)</span>;
+ 
+		mc.<span>x</span> = x + <span>start</span>.<span>m_x</span>;
+		mc.<span>y</span> = <span>start</span>.<span>m_y</span>-mc.<span>height</span>;
+ 
+		tileRoot.<span>addChild</span><span>(</span> mc <span>)</span>;
+ 
+		obj = <span>new</span> <span>type</span><span>(</span><span>)</span>;
+		mc = <span>MovieClip</span><span>(</span> obj <span>)</span>;
+	<span>}</span>
+ 
+	<span>return</span> tileRoot;
+<span>}</span></pre>
+</div>
+</div>
+<p>And you call it like this:</p>
+<div>
+<div>
+<pre>m_backgroundLayer = CreateTileStrip<span>(</span> bottomLeft, BackgroundTileFla <span>)</span>;
+m_midgroundLayer = CreateTileStrip<span>(</span> bottomLeft, MidgroundTileFla <span>)</span>;
+m_foregroundLayer = CreateTileStrip<span>(</span> bottomLeft, ForegroundTileFla <span>)</span>;</pre>
+</div>
+</div>
+<p>I was actually pleasantly surprised how easy it was to pass a class as a type in actionscript, much easier than in c# or c++ and it really makes it simple to tile any shape that you export from the Flash IDE.</p>
+</blockquote>
+<p>(Via <a href="http://news.ycombinator.com/">Hacker News</a>)</p>

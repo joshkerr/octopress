@@ -1,0 +1,9 @@
+--- 
+layout: post
+title: Jekyll bootstrap
+link: 
+tags: []
+
+---
+
+<p><a href="http://joshkerr.s3.amazonaws.com/images/image.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://joshkerr.s3.amazonaws.com/images/image_thumb.png" width="504" height="64"></a></p> <p>A great GUI toolkit for bootstrapping your website designed by the guys who built Twitter.&nbsp; It has almost every possible GUI element that you could want and formatted to support a wide variety of browser types.&nbsp;&nbsp;&nbsp; This github project is for the Jekyll version of that toolkit.</p> <p><a href="http://nhoss2.github.com/jekyll-bootstrap">Jekyll bootstrap</a></p>
