@@ -2,6 +2,7 @@
 layout: post
 title: Jekyll bootstrap
 link: 
+category: tips
 tags: []
 
 ---

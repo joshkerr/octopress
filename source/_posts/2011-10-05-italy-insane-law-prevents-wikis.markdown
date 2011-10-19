@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Italy's insane Internet law prompts removal of Italian Wikipedia
+title: Removal of Italian Wikipedia
 link: http://feedproxy.google.com/~r/boingboing/iBag/~3/_pqODwqxMcI/italys-insane-internet-law-prompts-removal-of-italian-wikipedia.html
 tags: []
 

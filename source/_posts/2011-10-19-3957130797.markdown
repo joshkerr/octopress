@@ -2,6 +2,7 @@
 layout: post
 title: Android Face Login
 link: 
+category: rant
 tags: []
 
 ---
