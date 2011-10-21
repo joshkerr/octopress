@@ -1,0 +1,9 @@
+--- 
+layout: post
+title: MarkdownPad editor for Windows
+link: 
+tags: []
+
+---
+
+<p>Finally there is a decent Markdown editor for Windows.&nbsp; Called MarkdownPad it has a dual pane view with source on the left and preview on the right.</p> <p><img src="http://i.imgur.com/yOAkB.png"></p> <p>You can download it <a href="http://markdownpad.com/">here</a>.</p>
