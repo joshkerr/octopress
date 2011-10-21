@@ -3,8 +3,7 @@ layout: post
 title: Android Face Login
 link: 
 category: rant
-tags: []
-
+tags:
 ---
 
 <p><a href="http://joshkerr.s3.amazonaws.com/images/image.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://joshkerr.s3.amazonaws.com/images/image_thumb.png" width="500" height="272"></a></p> <p>What were the developers at Google thinking when they came up with a Face login feature?&nbsp; Not only didn’t this feature work properly when Google demoed it at their big reveal for Ice Cream Sandwich the new Android OS, but it doesn’t solve a customer pain.&nbsp; Why would you devote time on stage to showing off something like this?&nbsp; </p> <p>There are so many problems with this technology.&nbsp; First, the phones don’t have a fast enough processor to make the recognition even remotely useful.&nbsp; It takes several seconds to properly align and then a few more to do the actual recognition.&nbsp; By then I’d already have typed my password and been well into doing something productive on my phone.&nbsp; This feature is simply a party gag, something to show off to those who have more useful iPhones.</p> <p>Google is trying so hard to differentiate their product from the iOS products that they are forcing innovations that aren’t at all appealing.</p>
