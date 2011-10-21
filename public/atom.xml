@@ -4,13 +4,25 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-10-21T11:03:40-05:00</updated>
+  <updated>2011-10-21T11:11:24-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>MarkdownPad editor for Windows</title>
+    <link href="http://joshkerr.com/2011/10/3957640176/"/>
+    <updated>2011-10-21T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/3957640176</id>
+    <content type="html">&lt;p&gt;Finally there is a decent Markdown editor for Windows.&amp;nbsp; Called MarkdownPad it has a dual pane view with source on the left and preview on the right.&lt;/p&gt;
+
+
+&lt;p&gt; &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/yOAkB.png&quot;&gt;&lt;/p&gt; &lt;p&gt;You can download it &lt;a href=&quot;http://markdownpad.com/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Android Face Login</title>
@@ -642,27 +654,6 @@ Blah blah blah.
 
 
 &lt;p&gt;(Via &lt;a href=&quot;http://techcrunch.com&quot;&gt;TechCrunch&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Statistics Prove Women are Worse at Parking</title>
-    <link href="http://joshkerr.com/2011/10/stats-prove-women-bad-at-parking/"/>
-    <updated>2011-10-01T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/10/stats-prove-women-bad-at-parking</id>
-    <content type="html">&lt;p&gt;From the bin of stats that can in no way be accurate or based on anything scientific:&lt;/p&gt;
-
-
-&lt;p&gt;&lt;a href=&quot;http://digg.com/news/lifestyle/statistics_prove_women_are_worse_at_parking?utm_campaign=Feed%3A+http%3A%2F%2Fservices.digg.com%2F2.0%2Fstory.getTopNews%3Ftype%3Drss&amp;amp;utm_medium=feed&amp;amp;utm_source=diggapi&quot;&gt;Statistics Prove Women are Worse at Parking&lt;/a&gt;:&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;Almost a third of all women who failed their driving test last year came unstuck due to parallel parking.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;(Via &lt;a href=&quot;http://digg.com/&quot;&gt;digg&lt;/a&gt;)&lt;/p&gt;
 
 </content>
   </entry>
