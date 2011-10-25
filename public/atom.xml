@@ -4,13 +4,86 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-10-22T11:00:09-05:00</updated>
+  <updated>2011-10-25T08:17:07-05:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
     
   </author>
 
+  
+  <entry>
+    <title>Google Reader and Mac/iOS RSS readers that sync</title>
+    <link href="http://joshkerr.com/2011/10/greader-sync/"/>
+    <updated>2011-10-25T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/greader-sync</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://inessential.com/2011/10/24/google_reader_and_mac_ios_rss_readers_th&quot;&gt;Google Reader and Mac/iOS RSS readers that sync&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;The recent &lt;a href=&quot;http://googlereader.blogspot.com/2011/10/upcoming-changes-to-reader-new-look-new.html&quot;&gt;announcement of changes coming for Google Reader&lt;/a&gt; worries me some. Though I don’t use Google Reader directly, I — like many iPhone, iPad, and Mac users — use RSS readers that sync via Google Reader.&lt;/p&gt;
+&lt;p&gt;This announcement isn’t just a reminder of the fragility of the system: it removes some features that people use. Google Reader’s social and sharing features are going away in favor of integration with Google+.&lt;/p&gt;
+&lt;p&gt;This makes sense from Google’s point of view — a single, Google-wide social network should be better than a separate network for each Google app.&lt;/p&gt;
+&lt;p&gt;Nevertheless, there are users who will miss the current, about-to-disappear features. (See &lt;a href=&quot;http://nick.typepad.com/blog/2011/10/what-the-upcoming-google-reader-changes-mean-for-feeddemon.html&quot;&gt;What the Upcoming Google Reader Changes Mean for FeedDemon&lt;/a&gt; for an example of how one RSS reader will have to change.)&lt;/p&gt;
+&lt;p&gt;When I say that the system is fragile, I don’t mean that Google Reader itself is fragile. I mean that using it as a syncing system for other apps is fragile. There are a couple things that RSS reader developers know, that the average RSS reader user probably doesn’t know, which will make this more apparent:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The Google Reader API is undocumented, unsupported, and unofficial. This is unlike &lt;a href=&quot;http://code.google.com/apis/maps/&quot;&gt;Google Maps&lt;/a&gt; and others which do have documented and official APIs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Because the API is not official, there is no commitment to keeping it working.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Though RSS reader developers have received much-appreciated unofficial support from Google, that’s not the same as building a feature on solid ground. Smart developers are rightly uncomfortable relying on undocumented, unofficial, unsupported APIs.&lt;/p&gt;
+&lt;p&gt;But, because syncing is so important for so many RSS reader users, developers have had to gamble. With syncing part of the definition of a minimum viable RSS reader, and with Google Reader the only option for syncing, the choice to use Google Reader is more necessity than choice.&lt;/p&gt;
+&lt;h4&gt;Questions about the future&lt;/h4&gt;
+&lt;p&gt;The gamble has paid off so far, with the exception of the features about to be replaced. It’s been an especially good thing for RSS reader users, who can mix-and-match clients on different platforms, who can move with relative ease between one client and another. (The situation is similar to Twitter clients: users are not stuck with one client from one particular developer.)&lt;/p&gt;
+&lt;p&gt;While I remain optimistic about the future of Google Reader and apps that sync via Google Reader, there are a few reasons for concern:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Though Google Reader is a mature app, its lack of an official, documented, supported API sends a message, intended or not, about its importance to Google. And Google has cut apps before, even high-profile apps like &lt;a href=&quot;http://googlewave.blogspot.com/&quot;&gt;Google Wave&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;FeedDemon author &lt;a href=&quot;http://groups.google.com/group/fougrapi/browse_thread/thread/b0eb7f67939c627&quot;&gt;Nick Bradbury asked&lt;/a&gt; on the unofficial API support list if Google Reader is being retired. At this writing, a couple days after the recent announcement, the question remains unanswered.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Despite all the &lt;a href=&quot;http://twitter.com/#!/search/googlereader&quot;&gt;#googlereader&lt;/a&gt; and @googlereader traffic on Twitter since the announcement, the &lt;a href=&quot;http://twitter.com/#!/googlereader&quot;&gt;@googlereader&lt;/a&gt; Twitter account has been silent. (At this writing.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The wording of the recent Google Reader announcement emphasized how users could export their data. While that’s a good thing — being able to move one’s data is important — the emphasis made it seem like a request or a warning. That characterization is mine, yes, but it’s shared by other developers (not just RSS reader developers) that have read that announcement. This may not have been the author’s intention: it’s possible the author was being careful and doing the right thing by mentioning data exporting. But it didn’t read that way, at least to some developers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We don’t know what the value of Google Reader is to Google. It doesn’t appear to have ads a la search or Gmail, though ads do appear in feeds via Google’s AdSense for feeds, and that presumably makes money. Does Google Reader feed the search engine ranking system? Does it exist to help ensure the goodwill of influential writers who use Google Reader? I can speculate, but I don’t know, which is my point.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;At any rate, I remain optimistic, because I don’t have any solid reason to expect things to change.&lt;/p&gt;
+&lt;p&gt;But Google Reader &lt;em&gt;has&lt;/em&gt; just changed, and some syncing RSS readers will lose some features, and I take that as a reminder that it could change in a way that breaks syncing, and Google would not have broken any official APIs.&lt;/p&gt;
+&lt;p&gt;I’m not an RSS reader developer any more. But if I were, I’d start looking for an alternative syncing system right now.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://inessential.com/&quot;&gt;inessential.com&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Canon EOS-1D X first hands-on (video)</title>
+    <link href="http://joshkerr.com/2011/10/eos-1dx-handson/"/>
+    <updated>2011-10-25T00:00:00-05:00</updated>
+    <id>http://joshkerr.com/2011/10/eos-1dx-handson</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.engadget.com/2011/10/25/canon-eos-1d-x-hands-on-video/&quot;&gt;Canon EOS-1D X first hands-on (video)&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;div&gt;&lt;a href=&quot;http://www.engadget.com/2011/10/25/canon-eos-1d-x-hands-on-video/&quot;&gt;&lt;img src=&quot;http://www.blogcdn.com/www.engadget.com/media/2011/10/2011-10-25-img1503.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+Professional photographers know the drill: every few years, &lt;a href=&quot;http://www.engadget.com/tag/Canon/&quot;&gt;Canon&lt;/a&gt; or &lt;a href=&quot;http://www.engadget.com/tag/Nikon/&quot;&gt;Nikon&lt;/a&gt; announces a game-changing DSLR, often prompting top photogs to unload their complete kits and switch to another system in a never-ending attempt to shoot with the best. This time, Canon is first out of the gate, with its flagship EOS-1D X &amp;#8211; the latest in a series that dates back to 2001 with the EOS-1D. As you&amp;#8217;ve probably noticed, the company&amp;#8217;s new top model looks virtually identical to its decade-old ancestor, but is otherwise a far cry from that four megapixel CCD sensor-sporting dinosaur. We&amp;#8217;ve been anxiously awaiting an opportunity to check out Canon&amp;#8217;s new $6,800 18.1 megapixel full-frame model since first getting word of the beastly camera &lt;a href=&quot;http://www.engadget.com/2011/10/18/canon-announces-eos-1d-x-full-frame-18mp-sensor-14-fps-204-80/&quot;&gt;last week&lt;/a&gt;, and just had a chance to go hands-on during the company&amp;#8217;s Pro Solutions event in London. Jump past the break for our impressions and a video walkthrough.&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://www.engadget.com&quot;&gt;Engadget&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Trick shot basketball frisbee competition</title>
@@ -518,97 +591,6 @@ Blah blah blah.
 &lt;p&gt;A previous version of Nerve required creating a separate file for each post and giving it a name that contained the timestamp.  I tested this system out on &lt;a href=&quot;http://uponahill.com&quot;&gt;Laura&amp;#8217;s blog&lt;/a&gt; and found that the chore of creating new files was just enough friction to discourage her from starting new posts.  One day I was talking to my friend, &lt;a href=&quot;http://scripting.com&quot;&gt;Dave Winer&lt;/a&gt;, and he told me that his entire blog is contained in a single OPML outline file.  This was a big aha-moment for me, and I rewrote Nerve so that all posts could be within the same file.  This was a big hit with Laura, and I&amp;#8217;ve found her posting volume has gone up significantly ever since.&lt;/p&gt;
 &lt;h2&gt;Caveats&lt;/h2&gt;
 &lt;p&gt;The Dropbox Linux client works pretty well, but on a couple occasions I&amp;#8217;ve found it has stopped syncing for no apparent reason.  It&amp;#8217;s not the end of the world.  The web server keeps running, but new posts won&amp;#8217;t get published until I SSH into my EC2 instance and restart the Dropbox daemon.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;(Via &lt;a href=&quot;http://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Growl 1.3 now available on the Mac App Store</title>
-    <link href="http://joshkerr.com/2011/10/growl-available-in-itunes-store/"/>
-    <updated>2011-10-03T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/10/growl-available-in-itunes-store</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.tuaw.com/2011/10/03/growl-1-3-now-available-on-the-mac-app-store/&quot;&gt;Growl 1.3 now available on the Mac App Store&lt;/a&gt;:&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://www.blogcdn.com//media/2011/10/growl13.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://growl.info/&quot;&gt;Growl&lt;/a&gt;, perhaps the most well-known and popular notification system for OS X, has just released version 1.3 as a Mac App Store exclusive. The previously free notification system has become a paid app with Growl 1.3. As Macstories &lt;a href=&quot;http://www.macstories.net/news/growl-1-3-now-on-the-mac-app-store-1-99-completely-rewritten/&quot;&gt;points out&lt;/a&gt;, the reason the Growl team decided to make what was previously a free System Preferences pane into a US$1.99 app was so users would be provided with an up-to-date app utilizing the latest Apple technologies.&lt;/p&gt;
-&lt;p&gt;So what&amp;#8217;s new with Growl 1.3? Almost everything. Growl has been rewritten from the ground up using a new architecture, sporting a new UI, and adding lots of features previous iterations of Growl never had. But not to worry, Growl 1.3 still retains everything you loved about Growl 1.2, they&amp;#8217;ve just added a lot of cool new features to it.&lt;/p&gt;
-&lt;p&gt;Among the coolest new features is a Notification Center-like Rollup window. The window, which is accessed from the Finder&amp;#8217;s menu bar (where you find Growl now), keeps a history of all your notifications that you&amp;#8217;ve received from various apps that use Growl. This is especially handy when you&amp;#8217;re away from your computer and want to see what notifications you missed.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://itunes.apple.com/us/app/growl/id467939042?mt=12&quot;&gt;Growl 1.3&lt;/a&gt; is $1.99 in the Mac App Store. Users also can still download the free System Preference pane version &lt;a href=&quot;http://growl.info/downloads&quot;&gt;1.2.2 here&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;(Via &lt;a href=&quot;http://www.tuaw.com&quot;&gt;The Unofficial Apple Weblog (TUAW)&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Overview of Text Editors for Programming on the Mac</title>
-    <link href="http://joshkerr.com/2011/10/overview-of-text-editors-mac/"/>
-    <updated>2011-10-02T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/10/overview-of-text-editors-mac</id>
-    <content type="html">&lt;p&gt;Not a bad overview of the different programming editors on the Mac:&lt;/p&gt;
-
-
-&lt;p&gt;&lt;a href=&quot;http://smyck.net/2011/10/02/text-editors-for-programmers-on-the-mac/&quot;&gt;Overview of Text Editors for Programming on the Mac&lt;/a&gt;:&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;h3&gt;Preface&lt;/h3&gt;
-&lt;p&gt;In the last 10 years many new text editors became available for Mac OS X. Since I have tried most of them I wanted to give an overview and a brief description about each one of them. This is for developers that are looking for decent editors on the mac to get their job done.&lt;/p&gt;
-&lt;p&gt;Lets get straight to it then.&lt;/p&gt;
-&lt;h3&gt;The Editors&lt;/h3&gt;
-&lt;h4&gt;Emacs / Vim&lt;/h4&gt;
-&lt;p&gt;Emacs and Vim are really the dinosaurs of text editors for programmers. Both have a immensely rich feature set and can be extended to a degree where you can forget about the OS they are running on. Although there &lt;a href=&quot;http://xkcd.com/378/&quot;&gt;is and always was a strong debate&lt;/a&gt; about which one of the two is superior, it is mostly a matter of personal taste in the end. Both have a steep learning curve and both are probably not something you want to give your web development intern on the first day at the office. However they are really powerful and they have one big advantage in common which is that they are available on a lot of operating systems and are installed by default on most of them. Whenever you log into a linux, bsd, osx or other unix machine you can be sure that vi or emacs or both are already there. On some shared web hosts you can’t even install your own packages so you are stuck with one of them. The cool thing is that you have to learn only one editor and all its specialities and you can work with it on almost any platform and on any remote machine. Since they are both really old they are known to work. They can handle big text files without crashing and for every problem you encounter there is already an extension to solve it. This is why many experienced programmers which started with more modern editors come back to them.&lt;/p&gt;
-&lt;p&gt;Some of the features that very few other editors offer are: horizontal and vertical split views, whole project tab completion ( most other editors only complete words from the same file ), fundamental customization of almost every behavior of the editor.&lt;/p&gt;
-&lt;p&gt;Besides the features related to programming they are also powerful text editors.&lt;/p&gt;
-&lt;p&gt;Both editors have OS X versions with a nice GUI wrapper to make them better integrated citizens, &lt;a href=&quot;http://aquamacs.org/&quot;&gt;AquaEmacs&lt;/a&gt; and &lt;a href=&quot;http://code.google.com/p/macvim/&quot;&gt;MacVim&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I really recommend reading the &lt;a href=&quot;http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/&quot;&gt;blog post by Yehuda Katz&lt;/a&gt; about switching to MacVim.&lt;/p&gt;
-&lt;p&gt;Both of them are open source and free of charge.&lt;/p&gt;
-&lt;h4&gt;BBEdit / TextWrangler&lt;/h4&gt;
-&lt;p&gt;Speaking of dinosaurs of course &lt;a href=&quot;http://www.barebones.com/products/bbedit/&quot;&gt;BBEdit&lt;/a&gt; and the light weight version called TextWrangler come to mind. They are not as old as Emacs and Vim but BBEdit is around for 20 years! It claims to be the editor »that doesn’t suck« and it is a strong contender. However it is really focussed on text rather than programming. It has a lot of features dealing with plain text manipulation, search and replace etc. but lacks some of the features I need in my daily programming job. It has syntax highlighting, auto completion, syntax checking for a few languages and much more but in the end it always feels a little dusty compared to other editors. For example it supports SVN, CVS and Perforce but not Git in its most recent version.&lt;/p&gt;
-&lt;p&gt;I’d recommend BBEdit more to markup authors than to programmers but its worth checking out the website and the trial version.&lt;/p&gt;
-&lt;h4&gt;SubEthaEdit&lt;/h4&gt;
-&lt;p&gt;I’m not sure how log &lt;a href=&quot;http://www.subethaedit.de/index.html&quot;&gt;SubEthaEdit&lt;/a&gt; exists but its at least 6 or 7 years I’d say. The wikipedia page does not say anything about it so if one of the readers has a more accurate number let me know.&lt;/p&gt;
-&lt;p&gt;SubEthaEdit shines in collaborative editing and most of the time that also applies more to plain text than to programming but still, its a cool feature which allows you to edit text documents via internet or local &lt;a href=&quot;http://en.wikipedia.org/wiki/Bonjour_(software)&quot;&gt;bonjour&lt;/a&gt; connection. Other than that it is also a decent editor for programming with support for a lot of different programming languages. It is simple and does not take a whole lot of time to learn. In the end though it is also limited compared to the other more powerful editors. Non the less I think it belongs on this list.&lt;/p&gt;
-&lt;h4&gt;Smultron&lt;/h4&gt;
-&lt;p&gt;When it comes to simple and basic text editors for programming activities you have to take a look at &lt;a href=&quot;http://www.peterborgapps.com/smultron/&quot;&gt;Smultron&lt;/a&gt;. It used to be free but now its around 5$ in the Mac App Store. Still quite cheap and it features an icon you can’t miss in your dock! But seriously – its probably one of the most straight forward and simple text editors for the mac. Possibly a good entry point when you are just starting with programming and only need syntax highlighting and other basic editing features.&lt;/p&gt;
-&lt;h4&gt;Textmate&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;http://macromates.com/&quot;&gt;Textmate&lt;/a&gt; was and probably still is the default text editor for many ruby developers. When the web framework Ruby on Rails first came out, the screencasts that came with it demonstrated the editing powers of Textmate so that everybody else started to use it as well. Compared to the other editors that were available at the time it was superior in almost every discipline. It was a lot better integrated into the mac environment compared to emacs or vim, offering standard shortcuts, preferences and native text controls. It supported a lot of languages and so called bundles which are a mixture of snippets, macros and other useful language specific functions like syntax validation or build system integration. It offered more comfort and flexibility than SubEthaEdit or BBEdit. It felt more productive and faster and it was easy to learn.&lt;/p&gt;
-&lt;p&gt;Why am I using the past tense here? Most of this still applies but Textmate did not receive a major update in years. Textmate2 became what Duke Nukem Forever was already famous for: &lt;a href=&quot;http://en.wikipedia.org/wiki/Vaporware&quot;&gt;Vaporware&lt;/a&gt;. Just recently some Textmate developer &lt;a href=&quot;http://blog.macromates.com/2011/whats-next/&quot;&gt;claimed&lt;/a&gt; that there would be an alpha release by the end of the year but I won’t believe it until a download link shows up on their website.&lt;/p&gt;
-&lt;p&gt;The problem with Textmate is mostly its lack of performance with big files, the instability of some really useful extensions and the lack of some features I have learned to love in other text editors like split views for example.&lt;/p&gt;
-&lt;p&gt;I quit using Textmate because I used some extensions which made it crash to often and because it crashed and locked up when working with big files. Other than that it is still a great editor and its principles were copied to a lot of other editors on other platforms.&lt;/p&gt;
-&lt;p&gt;Even today I use it for html, xml and other markup languages because its just the fasted editor to work with in that regard.&lt;/p&gt;
-&lt;p&gt;I highly recommend trying it. There is a 30-day trial version.&lt;/p&gt;
-&lt;h4&gt;Kod&lt;/h4&gt;
-&lt;p&gt;When the people realized that TextMate2 was vaporware and no new version to fix the issues described above was in sight, alternative editors slowly began to appear. One of them is &lt;a href=&quot;http://kodapp.com/&quot;&gt;Kod&lt;/a&gt;, although it is really pretty new it is a very decent and simple to use editor for programming. Its not offering a lot of features, not like Textmate or the other more powerful editors, but still quite useful. If you don’t want to spend a few dollars for Smultron, this might be just the right editor for you. I mentioned Smultron before because it is more mature while Kod is at version 0.0.3. For additional hipness it is worth knowing that its build upon Googles V8 JS engine.&lt;/p&gt;
-&lt;h4&gt;Sublime Text 2&lt;/h4&gt;
-&lt;p&gt;Like Kod, &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; appeared as well received alternative to Textmate but compared to Kod it has the same kind of feature set as Textmate and more. It even supports Textmates color themes and language definitions which makes a migration to it quite easy.&lt;/p&gt;
-&lt;p&gt;It even has split views and its lighting fast. It has vertical / column selection (like Vim/Emacs/Textmate), multiple line / word select and different ways to expand the current scope of selection. Really, when I tried it the first time I was amazed how snappy it is. Like Textmate it features snippets, macros and build system integration. On the other side its highly configurable though you have to use simple config files instead of the standard OS X preference panes. I’d say its a perfect mixture of Vims configurability and Textmates editing comfort and speed. I highly recommend giving it a try if you are looking for a powerful, feature rich text editor for programming.&lt;/p&gt;
-&lt;p&gt;Its price tag is a bit higher than others, currently 59$, but I did not have to hesitate long to support the development of this editor after using it for a couple of days in trial mode.&lt;/p&gt;
-&lt;h4&gt;Vico&lt;/h4&gt;
-&lt;p&gt;If you like the concepts of Vim but MacVim is not wrapping enough of Vims “awkwardness” for you then &lt;a href=&quot;http://www.vicoapp.com/&quot;&gt;Vico&lt;/a&gt; might be the right editor for you. Basically it uses the vim key bindings and therefore you hardly ever need a mouse to use it and it shows all the shortcuts in a native OS X menu bar. Other than split view support it is a very basic text editor for programming and features a custom scripting language to customize it.&lt;/p&gt;
-&lt;h4&gt;Chocolat&lt;/h4&gt;
-&lt;p&gt;This is yet another Textmate contender but it is currently in private beta phase and its too early to really judge it as many many features are missing in it. I have to say it has the most intuitive split view implementation of all the editors mentioned here but elementary things like vertical / column selection or parenthesis / scope highlighting are still missing.&lt;/p&gt;
-&lt;p&gt;If you want to give it a try nonetheless go to &lt;a href=&quot;http://chocolatapp.com/&quot;&gt;http://chocolatapp.com/&lt;/a&gt; and sign up for the beta or go to their irc channel on the freenode network and ask for an invite. Took me 5 minutes to get one.&lt;/p&gt;
-&lt;h4&gt;Coda/Espresso&lt;/h4&gt;
-&lt;p&gt;These tools, although from different vendors, focus on the same group of people: web developers. They try to bring the entire development tool set together by bundling the functionality together that is otherwise only found in separate tools like file transfers, version control etc.&lt;/p&gt;
-&lt;p&gt;I tried them both but although they bundle together lots of features they are very limited at the same time to a certain flavor of web development.&lt;/p&gt;
-&lt;p&gt;Still on the list as I think they will appeal to some people.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.panic.com/coda/&quot;&gt;Code&lt;/a&gt; • &lt;a href=&quot;http://macrabbit.com/espresso/&quot;&gt;Espresso&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;skEdit&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.beforedawnsolutions.com/applications/skedit&quot;&gt;skEdit&lt;/a&gt; is the only editor I haven’t used personally yet so I can’t say much about it other that a colleague of mine is using it as his primary editor for quite some time now so I wanted to mention it for completeness sake. Like Coda and Espresso it is focussed on web development but its not as limited to it.&lt;/p&gt;
-&lt;h3&gt;Final words&lt;/h3&gt;
-&lt;p&gt;My first editor was emacs although I only used it in a very basic way. After that I have used Textmate for a couple of years and switched briefly to MacVim for about half a year. Currently I’m using Sublime Text 2 on a daily basis for my programming work.&lt;/p&gt;
-&lt;p&gt;Personally, I don’t like IDE’s. There are programming languages or environments where an IDE is necessary and really superiour to text editors for programmers but I just don’t like these languages or environments either. So please don’t start a “but $IDE does all of that and more” discussion here. This is about text editors only and yes, I know … some text editors are almost like an IDE.&lt;/p&gt;
-&lt;p&gt;If I forgot to mention your favorite editor please let me know!&lt;/p&gt;
-&lt;p&gt;For a more elaborate list checkout &lt;a href=&quot;http://en.wikipedia.org/wiki/Comparison_of_text_editors&quot;&gt;wikipedias comparison of text editors&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 
