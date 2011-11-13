@@ -1,0 +1,9 @@
+--- 
+layout: post
+title: Sweet photo of a sleeping dog
+link: 
+tags: []
+
+---
+
+<p><img src="http://i.imgur.com/bXdn9.jpg" width="640" height="400"></p>
