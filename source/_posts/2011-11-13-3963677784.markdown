@@ -1,9 +1,0 @@
---- 
-layout: post
-title: Test Post
-link: 
-tags: []
-
----
-
-<p><a href="http://localhost:4040/uploads/Win7-LtBlue-1920x1200.jpg"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="Win7 LtBlue 1920x1200" border="0" alt="Win7 LtBlue 1920x1200" src="http://localhost:4040/uploads/Win7-LtBlue-1920x1200_thumb.jpg" width="244" height="154"></a></p>
