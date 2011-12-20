@@ -2,9 +2,7 @@
 layout: post
 title: Star Wars meets Pulp Fiction
 link: 
-tags: []
-
-category: videos
+category: video
 ---
 
-{% embedly http://www.youtube.com/watch?v=rajCyWb9BFA %}
+{% oembed http://www.youtube.com/watch?v=rajCyWb9BFA %}

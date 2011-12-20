@@ -2,8 +2,6 @@
 layout: post
 title: Chum Buddy Sleeping Bag
 category: cool
-permalink: /_posts/cool/2010-05-12-chum-buddy-sleeping-bag.markdown
-link: !!null 
 tags: []
 ---
 

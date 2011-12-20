@@ -4,7 +4,7 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-12-20T07:33:55-06:00</updated>
+  <updated>2011-12-20T09:32:06-06:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
@@ -13,10 +13,89 @@
 
   
   <entry>
+    <title>My TV spot on PBS</title>
+    <link href="http://joshkerr.com/2011/12/20/my-tv-spot-on-pbs/"/>
+    <updated>2011-12-20T08:23:00-06:00</updated>
+    <id>http://joshkerr.com/2011/12/20/my-tv-spot-on-pbs</id>
+    <content type="html">&lt;div class=&quot;embed video YouTube&quot;&gt;&lt;iframe width=&quot;480&quot; height=&quot;270&quot; src=&quot;http://www.youtube.com/embed/1nR_TZDeIGs?fs=1&amp;feature=oembed&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I was featured in a new TV show on PBS about entreprenuers in Austin.  The show filmed this past summer and just aired in November.  Hopefully PBS will pick up the series, it would be a great platform to highlight the wonderful companies people are starting here.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Textmate 2 Alpha is great</title>
+    <link href="http://joshkerr.com/2011/12/20/textmate-2-alpha-is-great/"/>
+    <updated>2011-12-20T07:45:00-06:00</updated>
+    <id>http://joshkerr.com/2011/12/20/textmate-2-alpha-is-great</id>
+    <content type="html">&lt;p&gt;I&amp;#8217;m a big fan of Textmate, I&amp;#8217;ve been using it as my goto Mac code/text editor for more than a few years.  Over that time, the app has remained exactly the same.  The developer would fix bugs every now and then, but the app itself did not progress.&lt;/p&gt;
+
+&lt;p&gt;New editors would popup every now and then, but Textmate continued to be the best of breed.  This was partly because it was extensible and the developer community was thriving.  So I continued to use it.&lt;/p&gt;
+
+&lt;p&gt;A few years ago the developer blogged about working on a version 2 of the app.  No details on when or what the version 2 would be and for another year we saw no major release.  Then a few months ago the developer posted a teaser screenshot.  This month we received our first version 2 Alpha copy.  Finally, after years of waiting there is a significatly new version of Textmate.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://joshkerr.s3.amazonaws.com/photos/_config.yml.png&quot; alt=&quot;Textmate 2 Alpha&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The new version feels modern.  It has a modern clean interface, very similar to the 1.0 version, but with polish and UI tweaks that make it feel pretty slick.  It doesn&amp;#8217;t get in the way of what makes Textmate so great, the ability to edit.&lt;/p&gt;
+
+&lt;p&gt;As an editor, version 2 is just plain awesome.  Multiple carets, the ability to create multiple selections in a single view is really useful.  Its basically a discontinuous selection.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://joshkerr.s3.amazonaws.com/photos/2011-12-20-textmate-2-alpha-is-great.markdown.png&quot; alt=&quot;Multiple carets&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another really cool feature is the project drawer which is found on most editors, but for some reason wasn&amp;#8217;t included in 1.0.  With 2.0, the drawer now only shows files and folders, but updates status on SCM, can execute commands, supports smart folders and much more.&lt;/p&gt;
+
+&lt;p&gt;A full list of &lt;a href=&quot;http://macromates.com/changes&quot;&gt;changes&lt;/a&gt; can be found on the Textmate site.  You can &lt;a href=&quot;http://blog.macromates.com/2011/textmate-2-0-alpha/&quot;&gt;Download&lt;/a&gt; Textmate 2.0 alpha from the Macromates website.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Clear water in Northwest Montana</title>
+    <link href="http://joshkerr.com/2011/12/20/clear-water-in-northwest-montana/"/>
+    <updated>2011-12-20T07:35:00-06:00</updated>
+    <id>http://joshkerr.com/2011/12/20/clear-water-in-northwest-montana</id>
+    <content type="html">&lt;p&gt;&lt;img title=&quot;2QOJX.jpg&quot; src=&quot;http://i.imgur.com/2QOJX.jpg&quot; alt=&quot;2QOJX.jpg&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can tell it is deep by the shadow.  That is some clear water you got there.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>YouTube hits 1,000,000,000,000 playbacks in 2011</title>
+    <link href="http://joshkerr.com/2011/12/20/youtube-hits-1-trillion-views/"/>
+    <updated>2011-12-20T00:00:00-06:00</updated>
+    <id>http://joshkerr.com/2011/12/20/youtube-hits-1-trillion-views</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/neowin-main/~3/7vxboQ7f8hM/youtube-hits-1000000000000-playbacks-in-2011&quot;&gt;YouTube hits 1,000,000,000,000 playbacks in 2011&lt;/a&gt;:&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;div&gt;&lt;img src=&quot;http://www.neowin.net/images/news/logos/1569810845yt_small.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+That big number you see above is 1 trillion and YouTube just crossed that number in total playbacks for 2011. The site also posted up the top videos for 2011 based on views. &lt;a href=&quot;http://www.neowin.net/news/youtube-hits-1000000000000-playbacks-in-2011&quot;&gt;Read more&amp;#8230;&lt;/a&gt;&lt;/blockquote&gt;
+
+
+&lt;p&gt;(Via &lt;a href=&quot;http://www.neowin.net/&quot;&gt;Neowin.net&lt;/a&gt;)&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Very cool Facebook timelines</title>
+    <link href="http://joshkerr.com/2011/12/20/people-customized-cool-facebook-timelines/"/>
+    <updated>2011-12-20T00:00:00-06:00</updated>
+    <id>http://joshkerr.com/2011/12/20/people-customized-cool-facebook-timelines</id>
+    <content type="html">&lt;p&gt;&lt;img title=&quot;5wAJo.jpg&quot; src=&quot;http://i.imgur.com/5wAJo.jpg&quot; border=&quot;0&quot; alt=&quot;5wAJo.jpg&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Some people are pretty creative with their Facebook timelines.  Here are some great &lt;a href=&quot;http://savedelete.com/get-started-most-innovative-facebook-timeline-cover.html&quot;&gt;examples&lt;/a&gt; of what you can do with yours.&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
     <title>Google Reader and Mac/iOS RSS readers that sync</title>
-    <link href="http://joshkerr.com/blog/2011/10/25/greader-sync/"/>
+    <link href="http://joshkerr.com/2011/10/25/greader-sync/"/>
     <updated>2011-10-25T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/25/greader-sync</id>
+    <id>http://joshkerr.com/2011/10/25/greader-sync</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://inessential.com/2011/10/24/google_reader_and_mac_ios_rss_readers_th&quot;&gt;Google Reader and Mac/iOS RSS readers that sync&lt;/a&gt;:&lt;/p&gt;
 
 
@@ -69,9 +148,9 @@
   
   <entry>
     <title>Canon EOS-1D X first hands-on (video)</title>
-    <link href="http://joshkerr.com/blog/2011/10/25/eos-1dx-handson/"/>
+    <link href="http://joshkerr.com/2011/10/25/eos-1dx-handson/"/>
     <updated>2011-10-25T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/25/eos-1dx-handson</id>
+    <id>http://joshkerr.com/2011/10/25/eos-1dx-handson</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.engadget.com/2011/10/25/canon-eos-1d-x-hands-on-video/&quot;&gt;Canon EOS-1D X first hands-on (video)&lt;/a&gt;:&lt;/p&gt;
 
 
@@ -87,10 +166,11 @@ Professional photographers know the drill: every few years, &lt;a href=&quot;htt
   
   <entry>
     <title>Trick shot basketball frisbee competition</title>
-    <link href="http://joshkerr.com/blog/2011/10/22/trick-shot/"/>
+    <link href="http://joshkerr.com/2011/10/22/trick-shot/"/>
     <updated>2011-10-22T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/22/trick-shot</id>
-    <content type="html">&lt;p&gt;Liquid error: undefined method `[]&amp;#8217; for nil:NilClass&lt;/p&gt;
+    <id>http://joshkerr.com/2011/10/22/trick-shot</id>
+    <content type="html">&lt;div class=&quot;embed video YouTube&quot;&gt;&lt;iframe width=&quot;480&quot; height=&quot;270&quot; src=&quot;http://www.youtube.com/embed/W_2eU1ykV3k?fs=1&amp;feature=oembed&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
 
 &lt;p&gt;Great trick shot competition.  Is there computer generated effects going on here or are these guys really that good?&lt;/p&gt;
 </content>
@@ -98,19 +178,21 @@ Professional photographers know the drill: every few years, &lt;a href=&quot;htt
   
   <entry>
     <title>Star Wars meets Pulp Fiction</title>
-    <link href="http://joshkerr.com/blog/2011/10/22/star-wars-meets-pulp-fiction/"/>
+    <link href="http://joshkerr.com/2011/10/22/star-wars-meets-pulp-fiction/"/>
     <updated>2011-10-22T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/22/star-wars-meets-pulp-fiction</id>
-    <content type="html">&lt;p&gt;Liquid error: undefined method `[]&amp;#8217; for nil:NilClass&lt;/p&gt;
+    <id>http://joshkerr.com/2011/10/22/star-wars-meets-pulp-fiction</id>
+    <content type="html">&lt;div class=&quot;embed video YouTube&quot;&gt;&lt;iframe width=&quot;480&quot; height=&quot;270&quot; src=&quot;http://www.youtube.com/embed/rajCyWb9BFA?fs=1&amp;feature=oembed&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
 </content>
   </entry>
   
   <entry>
     <title>Sick rendition of Zeppelin by Michael Winslow</title>
-    <link href="http://joshkerr.com/blog/2011/10/22/sick-zeppelin-rendition/"/>
+    <link href="http://joshkerr.com/2011/10/22/sick-zeppelin-rendition/"/>
     <updated>2011-10-22T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/22/sick-zeppelin-rendition</id>
-    <content type="html">&lt;p&gt;Liquid error: undefined method `[]&amp;#8217; for nil:NilClass&lt;/p&gt;
+    <id>http://joshkerr.com/2011/10/22/sick-zeppelin-rendition</id>
+    <content type="html">&lt;div class=&quot;embed video YouTube&quot;&gt;&lt;iframe width=&quot;480&quot; height=&quot;270&quot; src=&quot;http://www.youtube.com/embed/QxcCC2g1Ke0?fs=1&amp;feature=oembed&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
 
 &lt;p&gt;This is an amazing rendition of Whole Lotta Love by Michael Winslow on a talk show from Norway.&lt;/p&gt;
 </content>
@@ -118,10 +200,11 @@ Professional photographers know the drill: every few years, &lt;a href=&quot;htt
   
   <entry>
     <title>Japanese girl explains Star Wars</title>
-    <link href="http://joshkerr.com/blog/2011/10/22/japanese-girl-explains-starwars/"/>
+    <link href="http://joshkerr.com/2011/10/22/japanese-girl-explains-starwars/"/>
     <updated>2011-10-22T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/22/japanese-girl-explains-starwars</id>
-    <content type="html">&lt;p&gt;Liquid error: undefined method `[]&amp;#8217; for nil:NilClass&lt;/p&gt;
+    <id>http://joshkerr.com/2011/10/22/japanese-girl-explains-starwars</id>
+    <content type="html">&lt;div class=&quot;embed video YouTube&quot;&gt;&lt;iframe width=&quot;480&quot; height=&quot;270&quot; src=&quot;http://www.youtube.com/embed/-eCSHJINqCo?fs=1&amp;feature=oembed&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
 
 &lt;p&gt;Hilarious.&lt;/p&gt;
 </content>
@@ -129,9 +212,9 @@ Professional photographers know the drill: every few years, &lt;a href=&quot;htt
   
   <entry>
     <title>MarkdownPad editor for Windows</title>
-    <link href="http://joshkerr.com/blog/2011/10/21/3957640176/"/>
+    <link href="http://joshkerr.com/2011/10/21/3957640176/"/>
     <updated>2011-10-21T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/21/3957640176</id>
+    <id>http://joshkerr.com/2011/10/21/3957640176</id>
     <content type="html">&lt;p&gt;Finally there is a decent Markdown editor for Windows.&amp;nbsp; Called MarkdownPad it has a dual pane view with source on the left and preview on the right.&lt;/p&gt;
 
 
@@ -141,9 +224,9 @@ Professional photographers know the drill: every few years, &lt;a href=&quot;htt
   
   <entry>
     <title>Android Face Login</title>
-    <link href="http://joshkerr.com/blog/2011/10/19/3957130797/"/>
+    <link href="http://joshkerr.com/2011/10/19/3957130797/"/>
     <updated>2011-10-19T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/19/3957130797</id>
+    <id>http://joshkerr.com/2011/10/19/3957130797</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://joshkerr.s3.amazonaws.com/images/image.png&quot;&gt;&lt;img style=&quot;background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px&quot; title=&quot;image&quot; border=&quot;0&quot; alt=&quot;image&quot; src=&quot;http://joshkerr.s3.amazonaws.com/images/image_thumb.png&quot; width=&quot;500&quot; height=&quot;272&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
 
@@ -153,9 +236,9 @@ Professional photographers know the drill: every few years, &lt;a href=&quot;htt
   
   <entry>
     <title>Jekyll bootstrap</title>
-    <link href="http://joshkerr.com/blog/2011/10/17/3956638173/"/>
+    <link href="http://joshkerr.com/2011/10/17/3956638173/"/>
     <updated>2011-10-17T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/17/3956638173</id>
+    <id>http://joshkerr.com/2011/10/17/3956638173</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://joshkerr.s3.amazonaws.com/images/image.png&quot;&gt;&lt;img style=&quot;background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px&quot; title=&quot;image&quot; border=&quot;0&quot; alt=&quot;image&quot; src=&quot;http://joshkerr.s3.amazonaws.com/images/image_thumb.png&quot; width=&quot;504&quot; height=&quot;64&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
 
@@ -165,9 +248,9 @@ Professional photographers know the drill: every few years, &lt;a href=&quot;htt
   
   <entry>
     <title>Learn How to make Angry Birds (co.uk)</title>
-    <link href="http://joshkerr.com/blog/2011/10/16/how-to-make-angry-birds/"/>
+    <link href="http://joshkerr.com/2011/10/16/how-to-make-angry-birds/"/>
     <updated>2011-10-16T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/16/how-to-make-angry-birds</id>
+    <id>http://joshkerr.com/2011/10/16/how-to-make-angry-birds</id>
     <content type="html">&lt;p&gt;This is really cool:&lt;/p&gt;
 
 
@@ -390,9 +473,9 @@ m_foregroundLayer = CreateTileStrip&lt;span&gt;(&lt;/span&gt; bottomLeft, Foregr
   
   <entry>
     <title>First thoughts on Siri</title>
-    <link href="http://joshkerr.com/blog/2011/10/15/first-thoughts-on-siri/"/>
+    <link href="http://joshkerr.com/2011/10/15/first-thoughts-on-siri/"/>
     <updated>2011-10-15T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/15/first-thoughts-on-siri</id>
+    <id>http://joshkerr.com/2011/10/15/first-thoughts-on-siri</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://joshkerr.s3.amazonaws.com/images/siri.png&quot;&gt;&lt;img style=&quot;background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;&quot; title=&quot;siri&quot; src=&quot;http://joshkerr.s3.amazonaws.com/images/siri_thumb.png&quot; border=&quot;0&quot; alt=&quot;siri&quot; width=&quot;500&quot; height=&quot;289&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 
@@ -406,9 +489,9 @@ m_foregroundLayer = CreateTileStrip&lt;span&gt;(&lt;/span&gt; bottomLeft, Foregr
   
   <entry>
     <title>Faceshift</title>
-    <link href="http://joshkerr.com/blog/2011/10/08/faceshift/"/>
+    <link href="http://joshkerr.com/2011/10/08/faceshift/"/>
     <updated>2011-10-08T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/08/faceshift</id>
+    <id>http://joshkerr.com/2011/10/08/faceshift</id>
     <content type="html">&lt;p&gt;&lt;img title=&quot;IWjTF.gif&quot; src=&quot;http://i.imgur.com/IWjTF.gif&quot; border=&quot;0&quot; alt=&quot;IWjTF.gif&quot; /&gt;&lt;/p&gt;
 
 </content>
@@ -416,9 +499,9 @@ m_foregroundLayer = CreateTileStrip&lt;span&gt;(&lt;/span&gt; bottomLeft, Foregr
   
   <entry>
     <title>Doggy AT-AT</title>
-    <link href="http://joshkerr.com/blog/2011/10/08/doggy-atat/"/>
+    <link href="http://joshkerr.com/2011/10/08/doggy-atat/"/>
     <updated>2011-10-08T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/08/doggy-atat</id>
+    <id>http://joshkerr.com/2011/10/08/doggy-atat</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/boingboing/iBag/~3/WNt3ZxJsiKI/doggy-at-at.html&quot;&gt;Doggy AT-AT&lt;/a&gt;:&lt;/p&gt;
 
 
@@ -437,9 +520,9 @@ m_foregroundLayer = CreateTileStrip&lt;span&gt;(&lt;/span&gt; bottomLeft, Foregr
   
   <entry>
     <title>Steve Jobs Succumbs to Alternative Medicine</title>
-    <link href="http://joshkerr.com/blog/2011/10/06/jobs-succumbs-to-alt-medicine/"/>
+    <link href="http://joshkerr.com/2011/10/06/jobs-succumbs-to-alt-medicine/"/>
     <updated>2011-10-06T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/06/jobs-succumbs-to-alt-medicine</id>
+    <id>http://joshkerr.com/2011/10/06/jobs-succumbs-to-alt-medicine</id>
     <content type="html">&lt;p&gt;I&amp;#8217;m not sure if I believe this story, but if it is true, it is sad.&lt;/p&gt;
 
 
@@ -458,139 +541,13 @@ m_foregroundLayer = CreateTileStrip&lt;span&gt;(&lt;/span&gt; bottomLeft, Foregr
   
   <entry>
     <title>Bell & Ross shuts down its website in honor of Jobs</title>
-    <link href="http://joshkerr.com/blog/2011/10/06/bell-ross-closes-website-steve-jobs/"/>
+    <link href="http://joshkerr.com/2011/10/06/bell-ross-closes-website-steve-jobs/"/>
     <updated>2011-10-06T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/06/bell-ross-closes-website-steve-jobs</id>
+    <id>http://joshkerr.com/2011/10/06/bell-ross-closes-website-steve-jobs</id>
     <content type="html">&lt;p&gt;&lt;img title=&quot;Screen Shot 2011-10-06 at 1.20.36 PM.png&quot; src=&quot;http://joshkerr.s3.amazonaws.com/images/Screen Shot 2011-10-06 at 1.20.36 PM.png&quot; border=&quot;0&quot; alt=&quot;Screen Shot 2011 10 06 at 1 20 36 PM&quot; width=&quot;600&quot; height=&quot;350&quot; /&gt;&lt;/p&gt;
 
 
 &lt;p&gt;In honor of Steve Jobs passing, the Bell &amp;amp; Ross &lt;a href=&quot;http://www.bellross.com/&quot;&gt;website&lt;/a&gt; shutdown for a day.  That is pretty classy.&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Transfer Cutting Board</title>
-    <link href="http://joshkerr.com/blog/2011/10/05/transfer-cutting-board/"/>
-    <updated>2011-10-05T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/05/transfer-cutting-board</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/design-milk/~3/S4aKXnrmnJ4/&quot;&gt;Transfer Cutting Board&lt;/a&gt;:&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;img title=&quot;Transfer Cutting Board&quot; src=&quot;http://design-milk.com/images/2011/10/transfer-cutting-board-veggies.jpg&quot; alt=&quot;Transfer Cutting Board&quot; width=&quot;500&quot; height=&quot;324&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&quot;http://www.designspray.de/produkt.php?id=425&quot;&gt;Transfer Cutting Board&lt;/a&gt; by &lt;a href=&quot;http://www.chris-ruby.de/&quot;&gt;chris&amp;amp;ruby&lt;/a&gt; makes transferring your food to plate pretty foolproof.&lt;/p&gt;
-&lt;p&gt;&lt;span&gt; &lt;/span&gt;&lt;img title=&quot;Transfer Cutting Board&quot; src=&quot;http://design-milk.com/images/2011/10/transfer-cutting-board-plate.jpg&quot; alt=&quot;Transfer Cutting Board&quot; width=&quot;500&quot; height=&quot;276&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img title=&quot;Transfer Cutting Board&quot; src=&quot;http://design-milk.com/images/2011/10/transfer-cutting-board-solo.jpg&quot; alt=&quot;Transfer Cutting Board&quot; width=&quot;500&quot; height=&quot;258&quot; /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;(Via &lt;a href=&quot;http://design-milk.com&quot;&gt;Design Milk&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Removal of Italian Wikipedia</title>
-    <link href="http://joshkerr.com/blog/2011/10/05/italy-insane-law-prevents-wikis/"/>
-    <updated>2011-10-05T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/05/italy-insane-law-prevents-wikis</id>
-    <content type="html">&lt;p&gt;It is pretty insane that all one has to do to get a website to remove content is complain that the content is hurting their image.  Whether true or not and without any sort of third party discussion, the website has 48 hours to remove the offending content.&lt;/p&gt;
-
-
-&lt;p&gt;This law is going to seriously limit free speech in Italy.&lt;/p&gt;
-
-
-&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/boingboing/iBag/~3/_pqODwqxMcI/italys-insane-internet-law-prompts-removal-of-italian-wikipedia.html&quot;&gt;Italy&amp;#8217;s insane Internet law prompts removal of Italian Wikipedia&lt;/a&gt;:&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;This proposal, which the Italian Parliament is currently debating, provides, among other things, a requirement to all websites to publish, within 48 hours of the request and without any comment, a correction of any content that the applicant deems detrimental to his/her image.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;(Via &lt;a href=&quot;http://boingboing.net&quot;&gt;Boing Boing&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>A Fried Slice Of Heaven: Americas Favorite Bacon Dishes</title>
-    <link href="http://joshkerr.com/blog/2011/10/05/favorite-bacon-dishes/"/>
-    <updated>2011-10-05T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/05/favorite-bacon-dishes</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://digg.com/news/lifestyle/a_fried_slice_of_heaven_americas_favorite_bacon_dishes?utm_campaign=Feed%3A+http%3A%2F%2Fservices.digg.com%2F2.0%2Fstory.getTopNews%3Ftype%3Drss&amp;amp;utm_medium=feed&amp;amp;utm_source=diggapi&quot;&gt;A Fried Slice Of Heaven: Americas Favorite Bacon Dishes&lt;/a&gt;:&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;The smell of fried swine in the air always get your appetite going. Bet you didn&amp;#8217;t know what the most famous bacon dishes in America are?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;(Via &lt;a href=&quot;http://digg.com/&quot;&gt;digg&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Amazon adds server-side encryption to S3 data service</title>
-    <link href="http://joshkerr.com/blog/2011/10/05/amazon-adds-server-side-encryption-to-s3/"/>
-    <updated>2011-10-05T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/05/amazon-adds-server-side-encryption-to-s3</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://feeds.arstechnica.com/~r/arstechnica/index/~3/CCtM-_dOMk4/amazon-adds-server-side-encryption-to-s3-data-service.ars&quot;&gt;Amazon adds server-side encryption to S3 data service&lt;/a&gt;:&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;Up until now, Amazon Web Services customers had three choices when it came to protecting data sitting in Amazon Simple Storage Service &amp;#8220;buckets&amp;#8221;: implementing &lt;a href=&quot;http://docs.amazonwebservices.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/s3/AmazonS3EncryptionClient.html&quot;&gt;AWS&amp;#8217;s S3 Encryption Client&lt;/a&gt; or their own encryption in  application code; encrypting it locally with another application before uploading; or counting on AWS authentication to keep bad people out of their data. The first two ways can create bottlenecks when it comes to getting data in and out of applications to users, and the third is just plain stupid.&lt;/p&gt;
-&lt;p&gt;Now there&amp;#8217;s another choice. Amazon has implemented &lt;a href=&quot;http://docs.amazonwebservices.com/AmazonS3/latest/dev/index.html?UsingEncryption.html&quot;&gt;server-side encryption &lt;/a&gt;of data using 256-bit AES crypto as part of the AWS REST, Java, and .NET APIs for S3, and as an option for data uploaded through the AWS management console.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;(Via &lt;a href=&quot;http://arstechnica.com/index.php&quot;&gt;Ars Technica&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Dropbox is my publish button</title>
-    <link href="http://joshkerr.com/blog/2011/10/04/dropbox-is-my-publish-button/"/>
-    <updated>2011-10-04T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/blog/2011/10/04/dropbox-is-my-publish-button</id>
-    <content type="html">&lt;p&gt;I found this article from Joe Hewitt discussing his blog setup.  He puts all of his posts in a single file which is then parsed and rendered on his server using custom written node.js server code.  He says keeping the single file of posts removes friction from creating new entries.  Not sure I believe that, but ok.  More:&lt;/p&gt;
-
-
-&lt;p&gt;&lt;a href=&quot;http://joehewitt.com/2011/10/03/dropbox-is-my-publish-button&quot;&gt;Dropbox is my publish button&lt;/a&gt;:&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;I flipped the switch on my new blog last night. If you&amp;#8217;ve been here before, you might not notice anything different. The design hasn&amp;#8217;t changed, but behind the scenes everything is new.  I&amp;#8217;ve written a CMS for the blog in &lt;a href=&quot;http://nodejs.org&quot;&gt;Node.js&lt;/a&gt; and &lt;a href=&quot;http://expressjs.com&quot;&gt;Express&lt;/a&gt;. It&amp;#8217;s hosted on &lt;a href=&quot;http://aws.amazon.com/ec2/&quot;&gt;EC2&lt;/a&gt;, &lt;a href=&quot;http://aws.amazon.com/s3/&quot;&gt;S3&lt;/a&gt;, and &lt;a href=&quot;http://aws.amazon.com/cloudfront/&quot;&gt;Cloudfront&lt;/a&gt;. All the content is written in &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; and pushed to my server using &lt;a href=&quot;http://dropbox.com&quot;&gt;Dropbox&lt;/a&gt;.  All the code is pulled from repositories on &lt;a href=&quot;http://github.com&quot;&gt;Github&lt;/a&gt; and &lt;a href=&quot;http://npmjs.org&quot;&gt;NPM&lt;/a&gt;.  I use &lt;a href=&quot;http://www.alistapart.com/articles/responsive-web-design/&quot;&gt;responsive design&lt;/a&gt; to adapt nicely to all screen sizes, and use feature testing with &lt;a href=&quot;https://github.com/phiggins42/has.js/&quot;&gt;has.js&lt;/a&gt; and &lt;a href=&quot;https://github.com/joehewitt/hascan/&quot;&gt;hascan&lt;/a&gt; to adapt nicely to all browsers.&lt;/p&gt;
-&lt;p&gt;Like many nerd-minded bloggers, I prefer writing in Markdown in my programming text editor instead of writing in a browser.  Many such systems like &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt; are growing in popularity, but these usually require you to use Git to push your Markdown files to the server.  Call me lazy, but I don&amp;#8217;t want to have to go down to the command-line.  I just want to save the file to publish it.  This is where Dropbox comes in.&lt;/p&gt;
-&lt;p&gt;All of my blog posts are now in Markdown files, and those files are synchronized to my Linux EC2 servers with Dropbox. My previous blog used Markdown also, but I had to FTP the files to my former Dreamhost server.  I used &lt;a href=&quot;http://www.expandrive.com/&quot;&gt;ExpanDrive&lt;/a&gt;, which made the FTP process relatively painless, but FTP is still flaky, and ExpanDrive doesn&amp;#8217;t deal well with flaky connections.  With Dropbox, the synchronization is effortless. A second or two after I save the Markdown file, the post is up on the blog, and I never have to think about it.&lt;/p&gt;
-&lt;h2&gt;Setting up Dropbox&lt;/h2&gt;
-&lt;p&gt;I run the Dropbox Linux client on my EC2 server using the default Linux AMI, but this should work on most Linux distros.&lt;/p&gt;
-&lt;p&gt;Start by installing the &lt;a href=&quot;http://wiki.dropbox.com/TipsAndTricks/TextBasedLinuxInstall&quot;&gt;Dropbox Linux command line client&lt;/a&gt;.  At the end of the install script, it will ask you to link your Dropbox account by copying and pasting a URL into your browser. &lt;strong&gt;Do not do this yet.&lt;/strong&gt; If you do, it will link your personal Dropbox account to the server, downloading the hundreds of megabytes of files you may have on Dropbox, and exposing potentially sensitive files to any intrepid hacker who breaks into your server.&lt;/p&gt;
-&lt;p&gt;You only want to synchronize the files needed by your CMS, so you need to create a new Dropbox account that is dedicated to this purpose. Of course, the Dropbox client only works with one account at a time, and your personal computer is going to be logged into your personal account.  Luckily, Dropbox folder sharing solves this problem nicely.  Once you have your new account, go to your personal account and share the folder containing your CMS files with the new account.  Then you can link the new account to your server.  Be sure you are logged into the new account in your browser, and then load that URL the installer gave you. Done.&lt;/p&gt;
-&lt;h2&gt;About that CMS&lt;/h2&gt;
-&lt;p&gt;Dropbox alone does not a blog make.  My new CMS, called &lt;a href=&quot;http://github.com/joehewitt/nerve/&quot;&gt;Nerve&lt;/a&gt;, processes those magically synchronized files and spits out a website.  It&amp;#8217;s Apache-licensed and hosted on Github, but I&amp;#8217;m not recommending that anyone other than me use it at this time.  You can learn from it, though.&lt;/p&gt;
-&lt;p&gt;Nerve takes advantage of Node.js&amp;#8217;s &lt;a href=&quot;http://nodejs.org/docs/v0.3.1/api/fs.html#fs.watchFile&quot;&gt;built-in file watching&lt;/a&gt; abilities to monitor changes made by Dropbox and then regenerate pages on the fly.  It asks you for a path to your Markdown file, but this can include asterisk wildcards so you can use as many files as the pattern matches.  My entire blog is two Markdown files. One contains all posts from 2002 to 2010 and the other contains all posts from this year.  The files look something like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;This is a new post
-==================
-
-Blah blah blah.
-
-This is another post [9/30/2011]
-================================
-
-Blah blah blah.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Nerve uses Markdown&amp;#8217;s level-one header to demarcate the posts.  It then looks for a bracketed timestamp in the header to distinguish posts that are public from ones that are still drafts.  A password-protected drafts page allows me to preview drafts before publishing.  Once they are done, I add the timestamp, save the file, and it&amp;#8217;s published.&lt;/p&gt;
-&lt;p&gt;A previous version of Nerve required creating a separate file for each post and giving it a name that contained the timestamp.  I tested this system out on &lt;a href=&quot;http://uponahill.com&quot;&gt;Laura&amp;#8217;s blog&lt;/a&gt; and found that the chore of creating new files was just enough friction to discourage her from starting new posts.  One day I was talking to my friend, &lt;a href=&quot;http://scripting.com&quot;&gt;Dave Winer&lt;/a&gt;, and he told me that his entire blog is contained in a single OPML outline file.  This was a big aha-moment for me, and I rewrote Nerve so that all posts could be within the same file.  This was a big hit with Laura, and I&amp;#8217;ve found her posting volume has gone up significantly ever since.&lt;/p&gt;
-&lt;h2&gt;Caveats&lt;/h2&gt;
-&lt;p&gt;The Dropbox Linux client works pretty well, but on a couple occasions I&amp;#8217;ve found it has stopped syncing for no apparent reason.  It&amp;#8217;s not the end of the world.  The web server keeps running, but new posts won&amp;#8217;t get published until I SSH into my EC2 instance and restart the Dropbox daemon.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-
-&lt;p&gt;(Via &lt;a href=&quot;http://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt;)&lt;/p&gt;
 
 </content>
   </entry>
