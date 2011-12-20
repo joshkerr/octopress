@@ -4,7 +4,7 @@
   <title>Josh Kerr</title>
   <link href="http://joshkerr.com/atom.xml" rel="self"/>
   <link href="http://joshkerr.com/"/>
-  <updated>2011-12-20T09:32:06-06:00</updated>
+  <updated>2011-12-20T09:38:33-06:00</updated>
   <id>http://joshkerr.com/</id>
   <author>
     <name>Josh Kerr</name>
@@ -87,6 +87,16 @@ That big number you see above is 1 trillion and YouTube just crossed that number
 
 
 &lt;p&gt;Some people are pretty creative with their Facebook timelines.  Here are some great &lt;a href=&quot;http://savedelete.com/get-started-most-innovative-facebook-timeline-cover.html&quot;&gt;examples&lt;/a&gt; of what you can do with yours.&lt;/p&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Sweet photo of a sleeping dog</title>
+    <link href="http://joshkerr.com/2011/11/13/3963682950/"/>
+    <updated>2011-11-13T00:00:00-06:00</updated>
+    <id>http://joshkerr.com/2011/11/13/3963682950</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/bXdn9.jpg&quot; width=&quot;640&quot; height=&quot;400&quot;&gt;&lt;/p&gt;
 
 </content>
   </entry>
@@ -535,19 +545,6 @@ m_foregroundLayer = CreateTileStrip&lt;span&gt;(&lt;/span&gt; bottomLeft, Foregr
 
 
 &lt;p&gt;(Via &lt;a href=&quot;http://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt;)&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>Bell & Ross shuts down its website in honor of Jobs</title>
-    <link href="http://joshkerr.com/2011/10/06/bell-ross-closes-website-steve-jobs/"/>
-    <updated>2011-10-06T00:00:00-05:00</updated>
-    <id>http://joshkerr.com/2011/10/06/bell-ross-closes-website-steve-jobs</id>
-    <content type="html">&lt;p&gt;&lt;img title=&quot;Screen Shot 2011-10-06 at 1.20.36 PM.png&quot; src=&quot;http://joshkerr.s3.amazonaws.com/images/Screen Shot 2011-10-06 at 1.20.36 PM.png&quot; border=&quot;0&quot; alt=&quot;Screen Shot 2011 10 06 at 1 20 36 PM&quot; width=&quot;600&quot; height=&quot;350&quot; /&gt;&lt;/p&gt;
-
-
-&lt;p&gt;In honor of Steve Jobs passing, the Bell &amp;amp; Ross &lt;a href=&quot;http://www.bellross.com/&quot;&gt;website&lt;/a&gt; shutdown for a day.  That is pretty classy.&lt;/p&gt;
 
 </content>
   </entry>
