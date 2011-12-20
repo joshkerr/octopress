@@ -13,6 +13,9 @@ group :development do
   gem 'rb-fsevent'
   gem 'stringex'
   gem 'liquid', '2.2.2'
+  gem 'hpricot'
+  gem 'domainatrix'
+  gem 'ruby-oembed'
 end
 
 gem 'sinatra', '1.2.6'
