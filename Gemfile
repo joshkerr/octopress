@@ -12,13 +12,7 @@ group :development do
   gem 'rubypants'
   gem 'rb-fsevent'
   gem 'stringex'
-  gem 'domainatrix'
-  gem 'indextank'
-  gem 'nokogiri'
-  gem 'ruby-aaws'
-  gem 's3sync'
-  gem 'hpricot'
-  gem 'aws-s3'
+  gem 'liquid', '2.2.2'
 end
 
 gem 'sinatra', '1.2.6'
